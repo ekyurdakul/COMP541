@@ -82,14 +82,15 @@ end
 end
 model=compile(:Model)
 
+#Save trained model weights to file
+function saveTrainedModel(model, filename)
+	JLD.save(filename, "model", clean(model))
+end
 
-
-
-
-
-
-
-
+#Load trained model
+function loadTrainedModel(filename)
+	return JLD.load(filename, "model")
+end
 
 
 
@@ -114,4 +115,3 @@ function printModel()
 	println("Class: $(size(get(model, :pClass)))")
 	println("Box:   $(size(get(model, :pBox)))")
 end
-
