@@ -25,3 +25,4 @@ Not clear if they trained on SUN or NYU or if SUN includes NYU as well
 data files are .list and .mat How to import into julia ?  
 How to import VGGnet weights into julia? (.caffemodel)  
 [3x30x30x30] input in weird .list files or not computed at all  
+Data written in binary. What to do ?  (dss.hpp)  
