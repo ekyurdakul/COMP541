@@ -1,9 +1,4 @@
-using Knet
-
-#Dropout layer
-@knet function dropout(x; pdrop=0.5)
-	return x .* rnd(init=Bernoulli(1-pdrop, 1/(1-pdrop)))
-end
+include("Basics.jl")
 
 #Produces the top 4096 dimensional vector
 @knet function Layer3D(x)
@@ -77,20 +72,10 @@ end
 	v=dropout(v)
 	
 	#Feed v into 2 different layers, class and box prediction
+	#pBox=FCBox(v)
 	pClass=FCClass(v)
-	pBox=FCBox(v)
 end
 model=compile(:Model)
-
-#Save trained model weights to file
-function saveTrainedModel(model, filename)
-	JLD.save(filename, "model", clean(model))
-end
-
-#Load trained model
-function loadTrainedModel(filename)
-	return JLD.load(filename, "model")
-end
 
 
 
