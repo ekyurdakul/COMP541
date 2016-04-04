@@ -1,4 +1,5 @@
 include("Basics.jl")
+include("VGGNet.jl")
 
 #Produces the top 4096 dimensional vector
 @knet function Layer3D(x)
@@ -28,11 +29,6 @@ include("Basics.jl")
 	return y
 end
 
-#TBD: ImageNet Produces the bottom 4096 dimensional vector
-@knet function Layer2D(x)
-	return x
-end
-
 #Class prediction
 @knet function FCClass(x)
 	w=par(init=Gaussian(0.0, 0.01), dims=(20,0))
@@ -41,6 +37,21 @@ end
 	y=soft(y)
 	return y
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #TBD: Box prediction
 @knet function FCBox(x)
@@ -55,7 +66,7 @@ end
 @knet function Model(x2d, x3d)
 	#Each produce 4096 dimensional vector
 	v1=Layer3D(x3d)
-	v2=Layer2D(x2d)
+	v2=VGGNet(x2d)
 
 	#Reduce 8192 dimensions to 1000
 	w1=par(init=Gaussian(0.0, 0.01), dims=(1000, 0))

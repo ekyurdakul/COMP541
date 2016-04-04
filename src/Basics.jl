@@ -1,7 +1,7 @@
 using Knet
 
 #Dropout layer
-@knet function dropout(x; pdrop=0.5)
+@knet function dropout(x)
 	return x .* rnd(init=Bernoulli(1-pdrop, 1/(1-pdrop)))
 end
 
