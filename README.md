@@ -9,12 +9,11 @@
 1.Unzip all 7zip files in the "data" folder  
 
 
-**TODO**
-Convert data into Julia compatible format
-*Test data
-*Trained weights
+**TODO**  
 
-
+Convert data into Julia compatible format  
+*Test data  
+*Trained weights  
 
 **QUESTIONS**  
 
