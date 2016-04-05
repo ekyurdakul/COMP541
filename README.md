@@ -1,10 +1,10 @@
 **HOW TO INSTALL**  
-*Requirements*  
+*Requirements*:  
 *Knet  
 *HDF5  
 *7zip  
 
-*Prepare the data*  
+*Prepare the data*:  
 1.Unzip all 7zip files in the "data" folder  
 
 
