@@ -11,22 +11,18 @@ include("VGGNet.jl")
 	w=par(init=Gaussian(0.0, 0.01), dims=(3,3,3,96,192))
 	y=conv(w,y; window=3, stride=1)
 	b=par(init=Constant(0.0), dims=(1,1,1,192,1))
-	y=y.+b
-	y=relu(y)
+	y=relu(y.+b)
 	y=pool(y; window=2, stride=2)
 
 	w=par(init=Gaussian(0.0, 0.01), dims=(3,3,3,192,384))
 	y=conv(w,y; window=3, stride=1)
 	b=par(init=Constant(0.0), dims=(1,1,1,384,1))
-	y=y.+b
-	y=relu(y)
+	y=relu(y.+b)
 
 	w=par(init=Gaussian(0.0, 0.01), dims=(4096,0))
 	b=par(init=Constant(0.0), dims=(4096,1))
-	y=w*y.+b
-	y=relu(y)
-	y=dropout(y)
-	return y
+	y=relu(w*y.+b)
+	return dropout(y)
 end
 
 #Entire model
@@ -44,9 +40,7 @@ end
 	#Simulate concatenation
 	y1=w1*v1.+b1
 	y2=w2*v2.+b2
-	v=y1+y2
-
-	v=relu(v)
+	v=relu(y1+y2)
 	v=dropout(v)
 	
 	#Feed v into 2 different layers, class and box prediction

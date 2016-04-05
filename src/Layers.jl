@@ -6,30 +6,26 @@ using Knet
 end
 
 #VGGNet Conv Layer
-@knet function VGGNetConv(x; inc=64, outc=64)
-	w=par(init=Gaussian(0.0, 0.01), dims=(3,3,inc,outc))
-	y=conv(w,x; window=3, padding=1)
-	y=relu(y)
-	return y
+@knet function VGGNetConv(x; inc=64, outc=64, winit=Gaussian(0.0, 0.01), binit=Constant(0.0), pad=1, wnd=3)
+	w=par(init=winit, dims=(wnd,wnd,inc,outc))
+	b=par(init=binit, dims=(1,1,outc,1))
+	y=conv(w,x; window=wnd, padding=pad)
+	return relu(y.+b)
 end
 
-#VGGNet FC Layer
-@knet function VGGNetFC(x; num=2)
-	w=par(init=Gaussian(0.0, 0.01), dims=(num, 0))
-	b=par(init=Constant(0.0), dims=(num, 1))
-	y=w*x.+b
-	y=relu(y)
-	y=dropout(y)
-	return y
+#VGGNet Softmax
+@knet function VGGNetSoftmax(x; winit=Gaussian(0.0, 0.01), binit=Constant(0.0))
+	w=par(init=winit, dims=(1,1,4096,1000))
+	b=par(init=binit, dims=(1,1,1000,1))
+	y=conv(w,x; window=1)
+	return soft(y.+b)
 end
 
-#Softmax Layer
-@knet function softmax(x; num=2)
-	w=par(init=Gaussian(0.0, 0.01), dims=(num, 0))
-	b=par(init=Constant(0.0), dims=(num, 1))
-	y=w*x.+b
-	y=soft(y)
-	return y
+#Normal Softmax Layer
+@knet function softmax(x; num=2, winit=Gaussian(0.0, 0.01), binit=Constant(0.0))
+	w=par(init=winit, dims=(num, 0))
+	b=par(init=binit, dims=(num, 1))
+	return soft(w*x.+b)
 end
 
 

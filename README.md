@@ -1,7 +1,17 @@
+**HOW TO INSTALL**
+*Requirements*
+*Knet
+*HDF5
+*7zip
+
+*Prepare the data*
+1.Unzip all 7zip files in the "data" folder
+
+
 **TODO**
 Convert data into Julia compatible format
-*VGGNet weights
 *Test data
+*Trained weights
 
 
 
@@ -12,13 +22,6 @@ L2 regularizer
 Momentum  
 Weight decay  
 Reduce learning rate every 5k iterations  
-
-**Layers**  
-L1 Smooth
-
-**Backprop**  
-Multiple outputs? Not entirely feed forward  
-Are gradients calculated correctly ?  
 
 **Training**  
 17 hours on K40 GPU  
