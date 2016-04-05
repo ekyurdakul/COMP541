@@ -1,11 +1,11 @@
-**HOW TO INSTALL**
-*Requirements*
-*Knet
-*HDF5
-*7zip
+**HOW TO INSTALL**  
+*Requirements*  
+*Knet  
+*HDF5  
+*7zip  
 
-*Prepare the data*
-1.Unzip all 7zip files in the "data" folder
+*Prepare the data*  
+1.Unzip all 7zip files in the "data" folder  
 
 
 **TODO**
