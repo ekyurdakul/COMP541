@@ -1,3 +1,10 @@
+**TODO**
+Convert data into Julia compatible format
+*VGGNet weights
+*Test data
+
+
+
 **QUESTIONS**  
 
 **Training options**  
