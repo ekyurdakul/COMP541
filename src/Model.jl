@@ -38,30 +38,6 @@ end
 	return y
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#TBD: Box prediction
-@knet function FCBox(x)
-	w=par(init=Gaussian(0.0, 0.01), dims=(120,0))
-	b=par(init=Constant(0.0), dims=(120,1))
-	y=w*x.+b
-	#TBD:L1Smooth
-	return y
-end
-
 #Entire model
 @knet function Model(x2d, x3d)
 	#Each produce 4096 dimensional vector
@@ -85,8 +61,9 @@ end
 	#Feed v into 2 different layers, class and box prediction
 	#pBox=FCBox(v)
 	pClass=FCClass(v)
+
+	return pClass
 end
-model=compile(:Model)
 
 
 
@@ -95,19 +72,23 @@ model=compile(:Model)
 
 
 
-#Debug function
-function printModel()
-	batchsize=7;
-	x3d=zeros(30,30,30,3,batchsize);
-	x2d=zeros(4096,batchsize);
 
-	forw(model, x2d, x3d)
 
-	println("Model structure:")
-	Knet.netprint(model)
-	println()
 
-	println("Output sizes: (Batchsize=$batchsize)")
-	println("Class: $(size(get(model, :pClass)))")
-	println("Box:   $(size(get(model, :pBox)))")
+
+
+
+
+
+
+
+#TBD: Box prediction
+#=
+@knet function FCBox(x)
+	w=par(init=Gaussian(0.0, 0.01), dims=(120,0))
+	b=par(init=Constant(0.0), dims=(120,1))
+	y=w*x.+b
+	#TBD:L1Smooth
+	return y
 end
+=#
