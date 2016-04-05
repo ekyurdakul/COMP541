@@ -1,4 +1,4 @@
-**TODO**  
+**QUESTIONS**  
 
 **Training options**  
 L2 regularizer  
