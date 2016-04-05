@@ -6,7 +6,7 @@ using Knet
 end
 
 #VGGNet Conv Layer
-@knet function VGGNetConv(x, inc, outc)
+@knet function VGGNetConv(x; inc=64, outc=64)
 	w=par(init=Gaussian(0.0, 0.01), dims=(3,3,inc,outc))
 	y=conv(w,x; window=3, padding=1)
 	y=relu(y)
@@ -14,7 +14,7 @@ end
 end
 
 #VGGNet FC Layer
-@knet function VGGNetFC(x, num)
+@knet function VGGNetFC(x; num=2)
 	w=par(init=Gaussian(0.0, 0.01), dims=(num, 0))
 	b=par(init=Constant(0.0), dims=(num, 1))
 	y=w*x.+b
@@ -24,7 +24,7 @@ end
 end
 
 #Softmax Layer
-@knet function softmax(x, num)
+@knet function softmax(x; num=2)
 	w=par(init=Gaussian(0.0, 0.01), dims=(num, 0))
 	b=par(init=Constant(0.0), dims=(num, 1))
 	y=w*x.+b

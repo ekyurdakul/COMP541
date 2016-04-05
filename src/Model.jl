@@ -29,15 +29,6 @@ include("VGGNet.jl")
 	return y
 end
 
-#Class prediction
-@knet function FCClass(x)
-	w=par(init=Gaussian(0.0, 0.01), dims=(20,0))
-	b=par(init=Constant(0.0), dims=(20,1))
-	y=w*x.+b
-	y=soft(y)
-	return y
-end
-
 #Entire model
 @knet function Model(x2d, x3d)
 	#Each produce 4096 dimensional vector
@@ -60,7 +51,7 @@ end
 	
 	#Feed v into 2 different layers, class and box prediction
 	#pBox=FCBox(v)
-	pClass=FCClass(v)
+	pClass=softmax(v; num=20)
 
 	return pClass
 end
