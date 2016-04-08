@@ -1,13 +1,12 @@
 include("Model.jl")
 
-#model=compile(:Model);
+x=zeros(224,224,3,1);
+x=convert(Array{Float32,4}, x);
+
 model=compile(:VGGNet);
+y=forw(model, x)
 
-batchsize=1;
-x3d=zeros(30,30,30,3,batchsize);
-x2d=zeros(224,224,3,batchsize);
-
-#y=forw(model, x2d, x3d);
-y=forw(model, x2d)
 Knet.netprint(model)
 println("$(size(y))")
+
+#x3d=zeros(30,30,30,3,batchsize);

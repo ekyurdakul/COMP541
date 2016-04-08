@@ -19,7 +19,7 @@ function loadWeights(filename)
 	b=b["value"]
 	tempb=zeros(1,1,size(b,1), size(b,2))
 	tempb[1,1,:,:]=b
-	w=convert(Array{Float64,4}, w)
-	b=convert(Array{Float64,4}, tempb)
+	w=convert(Array{Float32,4}, w)
+	b=convert(Array{Float32,4}, tempb)
 	return w,b
 end
