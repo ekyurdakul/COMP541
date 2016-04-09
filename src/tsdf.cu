@@ -33,192 +33,196 @@
 }
 */
 
-void compute_TSDF(string binfile, Box3D box, StorageT* datamem, vector<int> grid_size, int encode_type, float scale) {
-	//compute_TSDF(box, dataGPUmem, grid_size,encode_type,scale);
+
+void compute_TSDF(std::vector<Scene3D*> *chosen_scenes_ptr, std::vector<int> *chosen_box_id, StorageT* datamem, std::vector<int> grid_size, int encode_type, float scale) {
+/*
+    // for each scene 
+    int totalcounter = 0;
     float tsdf_size = grid_size[1];
     if (grid_size[1]!=grid_size[2]||grid_size[1]!=grid_size[3]){
-        cerr << "grid_size[1]!=grid_size[2]||grid_size[1]!=grid_size[3]" << endl;
+        std::cerr << "grid_size[1]!=grid_size[2]||grid_size[1]!=grid_size[3]" <<std::endl;
         exit(EXIT_FAILURE);
     }
+
+    int numeltsdf = grid_size[0]*tsdf_size*tsdf_size*tsdf_size;
     int THREADS_NUM = 1024;
     int BLOCK_NUM = int((tsdf_size*tsdf_size*tsdf_size + size_t(THREADS_NUM) - 1) / THREADS_NUM);
     float* bb3d_data;
-    cudaMalloc(&bb3d_data,  sizeof(float)*15);
+
+    //int tmpD; cudaGetDevice(&tmpD); std::cout<<"GPU at LINE "<<__LINE__<<" = "<<tmpD<<std::endl;
+    //checkCUDA(__LINE__,cudaDeviceSynchronize());
+    checkCUDA(__LINE__, cudaMalloc(&bb3d_data,  sizeof(float)*15));
     
+    //unsigned long long transformtime =0;
+    //unsigned long long loadtime =0;
+    //unsigned long long copygputime =0;
+    //unsigned int sz = 0;
+    Scene3D* scene_prev = NULL;
+    for (int sceneId = 0;sceneId<(*chosen_scenes_ptr).size();sceneId++){
+        // caculate in CPU mode
+        //compute_TSDFCPUbox(tsdf_data,&((*chosen_scenes_ptr)[sceneId]),boxId,grid_size,encode_type,scale);
+        // caculate in GPU mode
+        
+        //unsigned long long  time0,time1,time2,time3,time4;
+        Scene3D* scene = (*chosen_scenes_ptr)[sceneId];
+        //int tmpD; cudaGetDevice(&tmpD); std::cout<<"GPU at LINE "<<__LINE__<<" = "<<tmpD<<std::endl;
+        // perpare scene
+        if (scene!=scene_prev){
+            if (scene_prev!=NULL){
+               scene_prev -> free();
+            }
+            scene->loadData2XYZimage(); 
+        }
+        
+        int boxId = (*chosen_box_id)[sceneId];
+        checkCUDA(__LINE__, cudaMemcpy(bb3d_data, scene->objects[boxId].base, sizeof(float)*15, cudaMemcpyHostToDevice));
 
-//Scene
+        unsigned int * grid_range = scene->grid_range;
+        float* R_data = scene->R_GPU;
+        float* K_data = scene->K_GPU;
+        float* range  = scene->begin_range;
+        
+        RGBDpixel* RGBDimage = scene->RGBDimage;
+        unsigned int* star_end_indx_data = scene->beIndex;
+        unsigned int* pc_lin_indx_data = scene->pcIndex;
+        float* XYZimage  = scene->XYZimage;
+        
+        // output
+        StorageT * tsdf_data = &datamem[totalcounter*numeltsdf];
 
+        //time3 = get_timestamp_dss();   
+        //checkCUDA(__LINE__,cudaDeviceSynchronize());
+         if (encode_type > 99){
+            compute_TSDFGPUbox<<<BLOCK_NUM,THREADS_NUM>>>(tsdf_data, R_data, K_data, range, scene->grid_delta, grid_range, RGBDimage, 
+                           star_end_indx_data, pc_lin_indx_data, XYZimage, bb3d_data, grid_size[1],grid_size[2],grid_size[3], grid_size[0], 
+                           scene->width, scene->height, encode_type, scale);
 
-    int filesize =0;
-	string filename=binfile;
-      std::cout<< "loading image "<< filename<<std::endl;
-/*
+        }
+        else{
+          //std::cout<<"compute_TSDFGPUbox_proj"<<std::endl;
+          compute_TSDFGPUbox_proj<<<BLOCK_NUM,THREADS_NUM>>>(tsdf_data, R_data, K_data, RGBDimage, XYZimage,
+                                                             bb3d_data, grid_size[1],grid_size[2],grid_size[3], grid_size[0], 
+                                                             scene->width, scene->height, encode_type, scale);
+        }
+        
+        checkCUDA(__LINE__,cudaDeviceSynchronize());
+        checkCUDA(__LINE__,cudaGetLastError());
+        //time4 = get_timestamp_dss();
 
-      FILE* fp = fopen(filename.c_str(),"rb");
-      if (fp==NULL) { std::cout<<"in load() :fail to open file: "<<filename<<std::endl; exit(EXIT_FAILURE); }
-      grid_range = new unsigned int[3];
-      filesize += fread((void*)(grid_range), sizeof(unsigned int), 3, fp);
-      
-      begin_range = new float[3];
-      filesize += fread((void*)(begin_range), sizeof(float), 3, fp);
-      filesize += fread((void*)(&grid_delta), sizeof(float), 1, fp);
+        //
 
-      RGBDimage = new RGBDpixel[width*height];
-      filesize += fread((void*)(RGBDimage), sizeof(RGBDpixel), width*height, fp);
+        ++totalcounter;
 
-      filesize +=  fread((void*)(&len_beIndex), sizeof(unsigned int), 1, fp);
-      beIndex   = new unsigned int [len_beIndex];
-      filesize += fread((void*)(beIndex), sizeof(unsigned int), len_beIndex, fp);
-
-      filesize +=  fread((void*)(&len_beLinIdx), sizeof(unsigned int), 1, fp);
-      beLinIdx  = new unsigned int [len_beLinIdx];
-      filesize += fread((void*)(beLinIdx), sizeof(unsigned int), len_beLinIdx, fp);
-
-      filesize += fread((void*)(&len_pcIndex), sizeof(unsigned int), 1, fp);
-      pcIndex   = new unsigned int [len_pcIndex];
-      filesize += fread((void*)(pcIndex), sizeof(unsigned int), len_pcIndex, fp);
-      fclose(fp);
-
-      GPUdata = false;
-/*
-    if (!GPUdata){
-       if (beIndex!=NULL){
-           unsigned int* beIndexCPU = beIndex;
-           //checkCUDA(__LINE__,cudaDeviceSynchronize());
-           checkCUDA(__LINE__, cudaMalloc(&beIndex, sizeof(unsigned int)*len_beIndex));
-           //checkCUDA(__LINE__,cudaDeviceSynchronize());
-           checkCUDA(__LINE__, cudaMemcpy(beIndex, beIndexCPU,sizeof(unsigned int)*len_beIndex, cudaMemcpyHostToDevice));
-           delete [] beIndexCPU;
-       }
-       else{
-           std::cout << "beIndex is NULL"<<std::endl;
-       }
-
-       if (beLinIdx!=NULL){
-           unsigned int* beLinIdxCPU = beLinIdx;
-           //checkCUDA(__LINE__,cudaDeviceSynchronize());
-           checkCUDA(__LINE__, cudaMalloc(&beLinIdx, sizeof(unsigned int)*len_beLinIdx));
-           //checkCUDA(__LINE__,cudaDeviceSynchronize());
-           checkCUDA(__LINE__, cudaMemcpy(beLinIdx, beLinIdxCPU,sizeof(unsigned int)*len_beLinIdx, cudaMemcpyHostToDevice));
-           delete [] beLinIdxCPU;
-       }
-       else{
-           std::cout << "beLinIdx is NULL"<<std::endl;
-       }
-
-       // make it to full matrix to skip searching 
-       unsigned int * beIndexFull;
-       unsigned int sz = 2*sizeof(unsigned int)*(grid_range[0]+1)*(grid_range[1]+1)*(grid_range[2]+1);
-       checkCUDA(__LINE__, cudaMalloc(&beIndexFull, sz));
-       checkCUDA(__LINE__, cudaMemset(beIndexFull, 0, sz));
-       int THREADS_NUM = 1024;
-       int BLOCK_NUM = int((len_beLinIdx + size_t(THREADS_NUM) - 1) / THREADS_NUM);
-       fillInBeIndexFull<<<BLOCK_NUM,THREADS_NUM>>>(beIndexFull,beIndex,beLinIdx,len_beLinIdx);
-       checkCUDA(__LINE__,cudaGetLastError());
-       checkCUDA(__LINE__, cudaFree(beIndex));      beIndex = NULL;
-       checkCUDA(__LINE__, cudaFree(beLinIdx));     beLinIdx = NULL;
-       beIndex = beIndexFull;
-
-       if (pcIndex!=NULL){
-          unsigned int* pcIndexCPU = pcIndex;
-          checkCUDA(__LINE__, cudaMalloc(&pcIndex, sizeof(unsigned int)*len_pcIndex));
-          checkCUDA(__LINE__, cudaMemcpy(pcIndex, pcIndexCPU,sizeof(unsigned int)*len_pcIndex, cudaMemcpyHostToDevice));
-          delete [] pcIndexCPU;
-       }
-       else{
-           std::cout << "pcIndexCPU is NULL"<<std::endl;
-       }
-       
-
-       if (RGBDimage!=NULL){
-         RGBDpixel* RGBDimageCPU = RGBDimage;
-         checkCUDA(__LINE__, cudaMalloc(&RGBDimage, sizeof(RGBDpixel)*width*height));
-         checkCUDA(__LINE__, cudaMemcpy( RGBDimage, RGBDimageCPU, sizeof(RGBDpixel)*width*height, cudaMemcpyHostToDevice));
-         delete [] RGBDimageCPU;
-       }
-       else{
-           std::cout << "RGBDimage is NULL"<<std::endl;
-       }
-
-       if (grid_range!=NULL){ 
-          unsigned int * grid_rangeCPU = grid_range;
-          checkCUDA(__LINE__, cudaMalloc(&grid_range, sizeof(unsigned int)*3));
-          checkCUDA(__LINE__, cudaMemcpy(grid_range, grid_rangeCPU, 3*sizeof(unsigned int), cudaMemcpyHostToDevice));
-          delete [] grid_rangeCPU;
-       }
-       else{
-          std::cout << "grid_range is NULL"<<std::endl;
-       }
-
-       if (begin_range!=NULL){ 
-          float * begin_rangeCPU = begin_range;
-          checkCUDA(__LINE__, cudaMalloc(&begin_range, sizeof(float)*3));
-          checkCUDA(__LINE__, cudaMemcpy(begin_range, begin_rangeCPU, sizeof(float)*3, cudaMemcpyHostToDevice));
-          delete [] begin_rangeCPU;
-       }
-       else{
-          std::cout << "grid_range is NULL"<<std::endl;
-       }
-
-
-       checkCUDA(__LINE__, cudaMalloc(&K_GPU, sizeof(float)*9));
-       checkCUDA(__LINE__, cudaMemcpy(K_GPU, (float*)K, sizeof(float)*9, cudaMemcpyHostToDevice));
-
-      
-       checkCUDA(__LINE__, cudaMalloc(&R_GPU, sizeof(float)*9));
-       checkCUDA(__LINE__, cudaMemcpy(R_GPU, (float*)R, sizeof(float)*9, cudaMemcpyHostToDevice)); 
-
-       GPUdata = true;
-
+        scene_prev = scene;
+        //loadtime += time1-time0;
+        //copygputime += time2-time1;
+        //transformtime += time4-time3;
     }
-
-
-
-if (!GPUdata){
-         std::cout<< "Data is not at GPU cannot compute_xyz at GPU"<<std::endl;
-         FatalError(__LINE__);
-      }
-      if (XYZimage!=NULL){
-         std::cout<< "XYZimage!=NULL"<<std::endl;
-         FatalError(__LINE__);
-      }
-      checkCUDA(__LINE__, cudaMalloc(&XYZimage, sizeof(float)*width*height*3));
-      compute_xyzkernel<<<width,height>>>(XYZimage,RGBDimage,K_GPU,R_GPU);
+    checkCUDA(__LINE__, cudaFree(bb3d_data));
+    
+    // free the loaded images
+    for (int sceneId = 0;sceneId<(*chosen_scenes_ptr).size();sceneId++){
+        (*chosen_scenes_ptr)[sceneId]->free();
+    }
+    
+    
+    //std::cout << "compute_TSDF: read disk " << loadtime/1000 << " ms, " << "copygputime " 
+    //<< copygputime/1000 << "transform " << transformtime/1000 << " ms" <<std::endl;  
 */
-	cudaMemcpy(bb3d_data, box.base, sizeof(float)*15, cudaMemcpyHostToDevice);
-
-/*
-	unsigned int * grid_range = scene->grid_range;
-	float* R_data = scene->R_GPU;
-	float* K_data = scene->K_GPU;
-	float* range  = scene->begin_range;
-
-	RGBDpixel* RGBDimage = scene->RGBDimage;
-	unsigned int* star_end_indx_data = scene->beIndex;
-	unsigned int* pc_lin_indx_data = scene->pcIndex;
-	float* XYZimage  = scene->XYZimage;
-
-	 if (encode_type > 99){
-	    compute_TSDFGPUbox<<<BLOCK_NUM,THREADS_NUM>>>(datamem, R_data, K_data, range, scene->grid_delta, grid_range, RGBDimage, 
-		           star_end_indx_data, pc_lin_indx_data, XYZimage, bb3d_data, grid_size[1],grid_size[2],grid_size[3], grid_size[0], 
-		           scene->width, scene->height, encode_type, scale);
-
-	}
-	else{
-	  //compute_TSDFGPUbox_proj<<<BLOCK_NUM,THREADS_NUM>>>(datamem, R_data, K_data, RGBDimage, XYZimage, bb3d_data, grid_size[1],grid_size[2],grid_size[3], grid_size[0], scene->width, scene->height, encode_type, scale);
-	}
-*/
-	cudaDeviceSynchronize();
-	cudaGetLastError();
-    cudaFree(bb3d_data);
 }
 
 
 
 int main(){
-	//boxes_NYU_po_test_nb2000_fb.list
-	string file_list = "boxes_SUNrgbd_po_test_nb2000_fb.list";
-    	string data_root =  "";
+/*
+std::string file_list = "DSS/boxfile/boxes_NYU_trainfea_debug.list";
+    //std::string data_root = "DSS/sunrgbd_dss_data/";
+    std::string data_root =  "/n/fs/modelnet/deepDetect/sunrgbd_dss_data/";
+    std::vector<Scene3D*> scenes;
+
+    //int count = 0;
+    int object_count = 0;
+    float scale =100;
+    float context_pad =3;
+    std::vector<int> grid_size {3,30,30,30};
+    int encode_type =100;
+
+    std::cout<<"loading file "<<file_list<<"\n";
+    FILE* fp = fopen(file_list.c_str(),"rb");
+    if (fp==NULL) { std::cout<<"fail to open file: "<<file_list<<std::endl; exit(EXIT_FAILURE); }
+    while (feof(fp)==0) {
+      Scene3D* scene = new Scene3D();
+      unsigned int len = 0;
+      fread((void*)(&len), sizeof(unsigned int), 1, fp);    
+      if (len==0) break;
+      scene->filename.resize(len);
+      if (len>0) fread((void*)(scene->filename.data()), sizeof(char), len, fp);
+      scene->filename = data_root+scene->filename+".bin"; 
+      fread((void*)(scene->R), sizeof(float), 9, fp);
+      fread((void*)(scene->K), sizeof(float), 9, fp);
+      fread((void*)(&scene->height), sizeof(unsigned int), 1, fp);  
+      fread((void*)(&scene->width), sizeof(unsigned int), 1, fp); 
+      
+
+      fread((void*)(&len),    sizeof(unsigned int),   1, fp);
+      scene->objects.resize(len);
+      if (len>0){
+          for (int i=0;i<len;++i){
+              Box3D box;
+              fread((void*)(&(box.category)), sizeof(unsigned int),   1, fp);
+              fread((void*)(box.base),        sizeof(float), 9, fp);
+              fread((void*)(box.center),      sizeof(float), 3, fp);
+              fread((void*)(box.coeff),       sizeof(float), 3, fp);
+              //process box pad contex oreintation 
+              box = processbox (box, context_pad, grid_size[1]);
+              scene->objects[i]=box;
+
+              object_count++;
+              //num_categories = max(num_categories, box.category);
+            
+              //printf("category:%d\n",box.category);
+              //printf("box.base:%f,%f,%f,%f,%f,%f\n",box.base[0],box.base[1],box.base[2],box.base[3],box.base[4],box.base[5]);
+              //printf("box.base:%f,%f,%f,%f,%f,%f\n",box.base[0],box.base[1],box.base[2],box.base[3],box.base[4],box.base[5]);
+              //printf("box.center:%f,%f,%f\n",box.center[0],box.center[1],box.center[2]);
+              //printf("box.coeff:%f,%f,%f\n",box.coeff[0],box.coeff[1],box.coeff[2]);
+             
+          }
+      }
+      scenes.push_back(scene);
+
+    }
+    fclose(fp);
+
+    std::vector<Scene3D*> chosen_scenes;
+    std::vector<int> chosen_box_id;
+    for (int i = 0;i<scenes.size();++i){
+       for (int j =0; j < scenes[i]->objects.size();++j){
+            chosen_scenes.push_back(scenes[i]);
+            chosen_box_id.push_back(j);
+       } 
+    }
+
+    
+    std::cout<<"object_count:" <<object_count <<std::endl;
+    float* dataCPUmem = new float[(object_count)*3*30*30*30];
+    StorageT* dataGPUmem;
+    checkCUDA(__LINE__, cudaMalloc(&dataGPUmem, (object_count)*3*30*30*30*sizeof(float)));
+
+    compute_TSDF(&chosen_scenes, &chosen_box_id, dataGPUmem,grid_size,encode_type,scale);
+    checkCUDA(__LINE__, cudaMemcpy(dataCPUmem, dataGPUmem,(object_count)*3*30*30*30*sizeof(float), cudaMemcpyDeviceToHost) );
+        
+
+    std::string outputfile = "DSS/feature.bin";
+
+    FILE * fid = fopen(outputfile.c_str(),"wb");
+    fwrite(dataCPUmem,sizeof(float),(object_count)*3*30*30*30,fid);
+    fclose(fid);
+    return 1;
+*/
+	//string file_list = "..//data//boxes_NYU_po_test_nb2000_fb.list";
+	string file_list = "..//data//boxes_SUNrgbd_po_test_nb2000_fb.list";
+    	string data_root =  "..//data//";
+	string output_data = "..//data//julia_data//";
 
     	float scale =100;
 	float context_pad =3;
@@ -229,63 +233,75 @@ int main(){
     	FILE* fp = fopen(file_list.c_str(),"rb");
     	if (fp==NULL) { cout<< "failed to open file: "<< file_list << endl; exit(EXIT_FAILURE); }
 
-
 	unsigned int totalScenes = 0;
 	unsigned int totalBoxes = 0;
-    while (feof(fp)==0) {
-	totalScenes++;
-	
-      unsigned int len = 0;
-      fread((void*)(&len), sizeof(unsigned int), 1, fp);    
-      if (len==0) break;
-	string filename = "";
-      	filename.resize(len);
-      if (len>0) fread((void*)(filename.data()), sizeof(char), len, fp);
 
+	//limit to 5 scenes for testing
+	int maxscenes = 5;
 
-	string binfile = data_root+filename+".bin";
-	string tsdffile = data_root+filename+".tsdf";
-	float R[9];
-	float K[9];
-	float height;
-	float width;
-      	fread((void*)(R), sizeof(float), 9, fp);
- 	fread((void*)(K), sizeof(float), 9, fp);
-      	fread((void*)(&height), sizeof(unsigned int), 1, fp);  
-      fread((void*)(&width), sizeof(unsigned int), 1, fp); 
+    	while (feof(fp)==0 && totalScenes < maxscenes) {	
+	      	unsigned int len = 0;
+	      	fread((void*)(&len), sizeof(unsigned int), 1, fp);    
+	      	if (len==0) break;
+		string filename = "";
+	      	filename.resize(len);
+	      	if (len>0) fread((void*)(filename.data()), sizeof(char), len, fp);
+
+		int lastback = filename.find_last_of("/");
+		string outputname = "";
+		if (lastback > 0)
+		{
+			outputname = filename.substr(lastback+1);
+		}
+		else continue;
+		string binfile = data_root+filename+".bin";
+		string tsdffile = output_data+outputname+".tsdf";		
+
+		float R[9];
+		float K[9];
+		float height;
+		float width;
+	      	fread((void*)(R), sizeof(float), 9, fp);
+	 	fread((void*)(K), sizeof(float), 9, fp);
+	      	fread((void*)(&height), sizeof(unsigned int), 1, fp);  
+      		fread((void*)(&width), sizeof(unsigned int), 1, fp); 
       
 
-      fread((void*)(&len),    sizeof(unsigned int),   1, fp);
-      if (len>0){
-	FILE * fid = fopen(tsdffile.c_str(),"wb");
-	cout << binfile << " " << totalScenes << " ";
-          for (int i=0;i<len;++i){
-		totalBoxes++;
+      		fread((void*)(&len),    sizeof(unsigned int),   1, fp);
+     		if (len>0){
 
-              Box3D box;
-              fread((void*)(&(box.category)), sizeof(unsigned int),   1, fp);
-              fread((void*)(box.base),        sizeof(float), 9, fp);
-              fread((void*)(box.center),      sizeof(float), 3, fp);
-              fread((void*)(box.coeff),       sizeof(float), 3, fp);
-              box = processbox (box, context_pad, grid_size[1]);
+			cout << totalScenes+1 << ": Boxes :" << len << " " << "TSDF\t" << tsdffile << "\t" << "Bin\t" << binfile << endl;
 
-		//Compute TSDF for each box
-		StorageT* dataGPUmem;
-		float* dataCPUmem = new float[3*30*30*30];
-		cudaMalloc(&dataGPUmem, 3*30*30*30*sizeof(float));
+			FILE * fid = fopen(tsdffile.c_str(),"wb");
+			for (int i=0;i<len;++i){
+				totalBoxes++;
 
-		compute_TSDF(binfile, box, dataGPUmem, grid_size,encode_type,scale);
+			      	Box3D box;
+			      	fread((void*)(&(box.category)), sizeof(unsigned int),   1, fp);
+			      	fread((void*)(box.base),        sizeof(float), 9, fp);
+			      	fread((void*)(box.center),      sizeof(float), 3, fp);
+			      	fread((void*)(box.coeff),       sizeof(float), 3, fp);
+			      	box = processbox (box, context_pad, grid_size[1]);
 
-		cudaMemcpy(dataCPUmem, dataGPUmem,3*30*30*30*sizeof(float), cudaMemcpyDeviceToHost);
-	    	fwrite(dataCPUmem,sizeof(float),3*30*30*30,fid);
-		cudaFree(dataGPUmem);
-		delete[] dataCPUmem;
+				StorageT* dataGPUmem;
+				float* dataCPUmem = new float[3*30*30*30];
+				cudaMalloc(&dataGPUmem, 3*30*30*30*sizeof(float));
+
+				//Compute TSDF for each box and write it to file
+				compute_TSDF(binfile, box, dataGPUmem, grid_size,encode_type,scale);
+
+				cudaMemcpy(dataCPUmem, dataGPUmem,3*30*30*30*sizeof(float), cudaMemcpyDeviceToHost);
+			    	fwrite(dataCPUmem,sizeof(float),3*30*30*30,fid);
+				cudaFree(dataGPUmem);
+				delete[] dataCPUmem;
              
-          }
-	cout << totalBoxes << endl;
-    	fclose(fid);
-      }
-    }
-    fclose(fp);
+          		}//for boxes
+    			fclose(fid);
+      		}
+
+		totalScenes++;
+    	}//while feof scenes
+
+	fclose(fp);
 	return 1;
 }
