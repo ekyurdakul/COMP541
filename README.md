@@ -20,7 +20,7 @@
 "Comp541-Term-Project-master/data/matlab_code"  
 "Comp541-Term-Project-master/data/SUNRGBD"  
 "Comp541-Term-Project-master/data/SUNRGBDtoolbox"  
-6)Move "Comp541-Term-Project-master/src/downloadData.m" to "Comp541-Term-Project-master/data/matlab_code" and overwrite it  
+6)Move "Comp541-Term-Project-master/octave/downloadData.m" to "Comp541-Term-Project-master/data/matlab_code" and overwrite it  
 7)Launch MATLAB/Octave  
 8)Change working directory to "Comp541-Term-Project-master/data/matlab_code"  
 9)Execute the following two commands  
