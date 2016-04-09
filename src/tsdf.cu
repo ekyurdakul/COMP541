@@ -1,11 +1,24 @@
 #include "tsdf_base.h"
+extern "C"
+{
+	int calculateTSDF(int db, int maxscenes);
+}
 
-int main(){
-	//string file_list = "..//data//boxes_NYU_po_test_nb2000_fb.list";
-	string file_list = "..//data//boxes_SUNrgbd_po_test_nb2000_fb.list";
-    	string data_root =  "..//data//";
+int initTSDFStuff()
+{
+	return 1;
+}
+
+int calculateTSDF(int db, int maxscenes)
+{
+	string file_list = "";
+	if (db == 0)
+		file_list = "..//data//boxes_NYU_po_test_nb2000_fb.list";
+	else
+		file_list = "..//data//boxes_SUNrgbd_po_test_nb2000_fb.list";
+
+	string data_root =  "..//data//";
 	string output_data = "..//data//julia_data//";
-	int maxscenes = 5;
 
 	std::vector<Scene3D*> scenes;
 	std::vector<int> box_id;
@@ -18,7 +31,7 @@ int main(){
 
 	int totalScenes = 0;
 
-	std::cout<<"loading file "<<file_list<<"\n";
+	std::cout<<"loading file "<<file_list<< endl << endl;
 	FILE* fp = fopen(file_list.c_str(),"rb");
 	if (fp==NULL) { std::cout<<"fail to open file: "<<file_list<<std::endl; exit(EXIT_FAILURE); }
 	while (feof(fp)==0 && totalScenes < maxscenes) 
@@ -72,11 +85,26 @@ int main(){
 		scenes.push_back(scene);
 		totalScenes++;
 
+		cout << "Scene: " << totalScenes << " Boxes: " << len << " Bin: " << scene->filename << " TSDF: " << tsdffile << endl << endl;
+
+		unsigned long long  time0,time1;
+
+		time0 = get_timestamp_dss();
 		float* dataCPUmem = new float[(len)*3*30*30*30];
 		StorageT* dataGPUmem;
 		checkCUDA(__LINE__, cudaMalloc(&dataGPUmem, (len)*3*30*30*30*sizeof(float)));
+		time1 = get_timestamp_dss();
+		cout << "cpu->gpu time " << (time1-time0)/1000 << " ms" << endl;
+
+		time0 = get_timestamp_dss();
 		compute_TSDF(&scenes, &box_id, dataGPUmem,grid_size,encode_type,scale);
+		time1 = get_timestamp_dss();
+		cout << "compute time " << (time1-time0)/1000 << " ms" << endl;
+
+		time0 = get_timestamp_dss();
 		checkCUDA(__LINE__, cudaMemcpy(dataCPUmem, dataGPUmem,(len)*3*30*30*30*sizeof(float), cudaMemcpyDeviceToHost) );
+		time1 = get_timestamp_dss();
+		cout << "gpu->cpu time " << (time1-time0)/1000 << " ms" << endl;
 
 		//clear for workaround
 		scenes.clear();
@@ -86,18 +114,21 @@ int main(){
 		//totalScenes
 		//totalObjectCount
 
+		time0 = get_timestamp_dss();
 		FILE * fid = fopen(tsdffile.c_str(),"wb");
 		fwrite(dataCPUmem,sizeof(float),(len)*3*30*30*30,fid);
 		fclose(fid);
-
-		cout << "Scene: " << totalScenes << " Boxes: " << len << " Bin: " << scene->filename << " TSDF: " << tsdffile << endl;
-		
+		time1 = get_timestamp_dss();
+		cout << "cpu->file " << (time1-time0)/1000 << " ms" << endl << endl;
+	
 		//free
 		delete scene;
 		delete[] dataCPUmem;
-		//delete dataGPUmem;
 		cudaFree(dataGPUmem);
 	}
 	fclose(fp);
+	return 42;
+}
+int main(){
 	return 1;
 }

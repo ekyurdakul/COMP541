@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <vector>
 #include <cuda_runtime.h>
+#include <sys/time.h>
 using namespace std;
 
 #define StorageT float
@@ -12,6 +13,12 @@ using namespace std;
 #define CPUCompute2StorageT(x) (x)
 #define GPUStorage2ComputeT(x) (x)
 #define GPUCompute2StorageT(x) (x)
+
+unsigned long long get_timestamp_dss(){
+  struct timeval now;
+  gettimeofday (&now, NULL);
+  return  now.tv_usec + (unsigned long long)now.tv_sec * 1000000;
+};
 
 void FatalError(const int lineNumber=0) {
 	std::cerr << "FatalError";
@@ -819,9 +826,6 @@ void compute_TSDF(std::vector<Scene3D*> *chosen_scenes_ptr, std::vector<int> *ch
     //checkCUDA(__LINE__,cudaDeviceSynchronize());
     checkCUDA(__LINE__, cudaMalloc(&bb3d_data,  sizeof(float)*15));
     
-    //unsigned long long transformtime =0;
-    //unsigned long long loadtime =0;
-    //unsigned long long copygputime =0;
     //unsigned int sz = 0;
     Scene3D* scene_prev = NULL;
     for (int sceneId = 0;sceneId<(*chosen_scenes_ptr).size();sceneId++){
@@ -829,7 +833,6 @@ void compute_TSDF(std::vector<Scene3D*> *chosen_scenes_ptr, std::vector<int> *ch
         //compute_TSDFCPUbox(tsdf_data,&((*chosen_scenes_ptr)[sceneId]),boxId,grid_size,encode_type,scale);
         // caculate in GPU mode
         
-        //unsigned long long  time0,time1,time2,time3,time4;
         Scene3D* scene = (*chosen_scenes_ptr)[sceneId];
         //int tmpD; cudaGetDevice(&tmpD); std::cout<<"GPU at LINE "<<__LINE__<<" = "<<tmpD<<std::endl;
         // perpare scene
@@ -856,7 +859,6 @@ void compute_TSDF(std::vector<Scene3D*> *chosen_scenes_ptr, std::vector<int> *ch
         // output
         StorageT * tsdf_data = &datamem[totalcounter*numeltsdf];
 
-        //time3 = get_timestamp_dss();   
         //checkCUDA(__LINE__,cudaDeviceSynchronize());
          if (encode_type > 99){
             compute_TSDFGPUbox<<<BLOCK_NUM,THREADS_NUM>>>(tsdf_data, R_data, K_data, range, scene->grid_delta, grid_range, RGBDimage, 
@@ -873,16 +875,10 @@ void compute_TSDF(std::vector<Scene3D*> *chosen_scenes_ptr, std::vector<int> *ch
         
         checkCUDA(__LINE__,cudaDeviceSynchronize());
         checkCUDA(__LINE__,cudaGetLastError());
-        //time4 = get_timestamp_dss();
-
-        //
 
         ++totalcounter;
 
         scene_prev = scene;
-        //loadtime += time1-time0;
-        //copygputime += time2-time1;
-        //transformtime += time4-time3;
     }
     checkCUDA(__LINE__, cudaFree(bb3d_data));
     
@@ -890,9 +886,5 @@ void compute_TSDF(std::vector<Scene3D*> *chosen_scenes_ptr, std::vector<int> *ch
     for (int sceneId = 0;sceneId<(*chosen_scenes_ptr).size();sceneId++){
         (*chosen_scenes_ptr)[sceneId]->free();
     }
-    
-    
-    //std::cout << "compute_TSDF: read disk " << loadtime/1000 << " ms, " << "copygputime " 
-    //<< copygputime/1000 << "transform " << transformtime/1000 << " ms" <<std::endl;  
 }
 
