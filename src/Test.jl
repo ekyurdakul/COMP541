@@ -1,8 +1,12 @@
-include("Model.jl")
+include("Network.jl")
 
-#x3d=zeros(30,30,30,3,batchsize);
-x=zeros(224,224,3,1);
-model=compile(:VGGNet);
-y=forw(model, x)
-#Knet.netprint(model)
-println("$(size(y))")
+@startTime("Loading input data...")
+
+x2d=zeros(Float32, 224,224,3,1);
+x3d=zeros(Float32, 30,30,30,3,1);
+
+@stopTime("Loaded input data.")
+
+@startTime("Sending input to the network...")
+Network(x2d, x3d);
+@stopTime("Calculation completed.")

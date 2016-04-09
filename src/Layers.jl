@@ -1,12 +1,29 @@
+#Macros to measure elapsed time
+macro startTime(message)
+	return quote
+		tic()
+		println($message)
+	end
+end
+macro stopTime(message)
+	return quote
+		println($message)
+		toc()
+		println()
+	end
+end
+
+@startTime("Importing packages...")
 using Knet
 using MAT
+@stopTime("Import completed.")
 
-#Read weights
-function loadWeights(filename)
-	#w=convert(Array{Float32,4}, w)
-	#b=convert(Array{Float32,4}, tempb)
-	return matread(filename)
-end
+@startTime("Loading weights...")
+ORNWeights=matread("../data/julia_data/ORN.mat");
+VGGWeights=matread("../data/julia_data/VGG.mat");
+@stopTime("Loading completed.")
+
+@startTime("Loading functions...")
 
 #Dropout layer
 @knet function dropout(x)
@@ -21,15 +38,7 @@ end
 	return relu(y.+b)
 end
 
-#VGGNet Softmax
-@knet function VGGNetSoftmax(x; winit=Gaussian(0.0, 0.01), binit=Constant(0.0))
-	w=par(init=winit, dims=(1,1,4096,1000))
-	b=par(init=binit, dims=(1,1,1000,1))
-	y=conv(w,x; window=1)
-	return soft(y.+b)
-end
-
-#Normal Softmax Layer
+#Softmax Layer
 @knet function softmax(x; num=2, winit=Gaussian(0.0, 0.01), binit=Constant(0.0))
 	w=par(init=winit, dims=(num, 0))
 	b=par(init=binit, dims=(num, 1))
