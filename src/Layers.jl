@@ -1,4 +1,12 @@
 using Knet
+using MAT
+
+#Read weights
+function loadWeights(filename)
+	#w=convert(Array{Float32,4}, w)
+	#b=convert(Array{Float32,4}, tempb)
+	return matread(filename)
+end
 
 #Dropout layer
 @knet function dropout(x)
@@ -8,7 +16,7 @@ end
 #VGGNet Conv Layer
 @knet function VGGNetConv(x; inc=64, outc=64, winit=Gaussian(0.0, 0.01), binit=Constant(0.0), pad=1, wnd=3)
 	w=par(init=winit, dims=(wnd,wnd,inc,outc))
-	b=par(init=binit, dims=(1,1,outc,1))
+	b=par(init=binit, dims=(1,1,outc))
 	y=conv(w,x; window=wnd, padding=pad)
 	return relu(y.+b)
 end
@@ -27,25 +35,3 @@ end
 	b=par(init=binit, dims=(num, 1))
 	return soft(w*x.+b)
 end
-
-
-
-
-
-
-
-
-
-
-
-
-#TBD: L1 Smooth layer
-#=
-@knet function L1Smooth(x)
-	if (abs(x) < 1)
-		y= 0.5*x*x;
-	else
-		y=abs(x)-0.5
-	end
-end
-=#

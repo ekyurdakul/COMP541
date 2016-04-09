@@ -1,4 +1,3 @@
-include("Basics.jl")
 include("VGGNet.jl")
 
 #w1=w[:, 1:4096];
@@ -48,38 +47,6 @@ end
 	y2=w2*v2.+b2
 	v=relu(y1+y2)
 	v=dropout(v)
-	
-	#Feed v into 2 different layers, class and box prediction
-	#pBox=FCBox(v)
-	pClass=softmax(v; num=20)
 
-	return pClass
+	return softmax(v; num=20)
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#TBD: Box prediction
-#=
-@knet function FCBox(x)
-	w=par(init=Gaussian(0.0, 0.01), dims=(120,0))
-	b=par(init=Constant(0.0), dims=(120,1))
-	y=w*x.+b
-	#TBD:L1Smooth
-	return y
-end
-=#
