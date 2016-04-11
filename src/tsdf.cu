@@ -21,12 +21,14 @@ FILE* fp = NULL;
 int main(){
 	cout << "Loaded my custom library." << endl;
 	//New load 2d boxes
-    counter = 0;
+    int counter = 0;
+	string file_list = data_root+"boxes2d_NYU_po_nb2000.list";
 
-    std::cout<<"loading file "<<file_list<<"\n";
+    cout<<"loading file "<<file_list<<"\n";
     FILE* fp = fopen(file_list.c_str(),"rb");
     if (fp==NULL) { std::cout<<"fail to open file: "<<file_list<<std::endl; exit(EXIT_FAILURE); }
 
+/*
     while (feof(fp)==0) {
       Scene3D* scene = new Scene3D();
       unsigned int len = 0;
@@ -69,6 +71,7 @@ int main(){
       scenes.push_back(scene);
     }
     fclose(fp);
+*/
 	return 1;
 }
 
