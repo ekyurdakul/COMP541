@@ -1,13 +1,22 @@
-**Implementation of the paper *Deep Sliding Shapes for Amodal 3D Object Detection in RGB-D Images* by Shuran Song and Jianxiong Xiao at http://dss.cs.princeton.edu/paper.pdf in Julia  
+**Paper Implemantation**  
+*Deep Sliding Shapes for Amodal 3D Object Detection in RGB-D Images* by Shuran Song and Jianxiong Xiao  
+*Link* http://dss.cs.princeton.edu/paper.pdf  
 
-Used some C/C++/CUDA and MATLAB code of said paper's implemenation at https://github.com/shurans/DeepSlidingShape  
+Used some C/C++/CUDA and MATLAB code of said paper's implemenation  
+*Link* https://github.com/shurans/DeepSlidingShape  
+
+**TODO**  
+*x2d = Project 3D bounding box to 2D RGB image  
+*Load actual classes  
+*Recheck Trained weights  
+*Calculate accuracy  
 
 **HOW TO INSTALL**  
 
 *Requirements*:  
 *Knet  
 *HDF5  
-*Julia Package "MAT"  
+*Julia Package "MAT" at https://github.com/simonster/MAT.jl  
 *7zip  
 *MATLAB/Octave  
 
@@ -35,16 +44,12 @@ Total size of the data is around ~25 GB and downloads slowly
 downloadData('Comp541-Term-Project-master/data','dss.cs.princeton.edu/Release/sunrgbd_dss_data/','.bin');  
 downloadData('Comp541-Term-Project-master/data','dss.cs.princeton.edu/Release/image/','.tensor');  
 
-**TODO**  
-Can now predict classes  
-Test sets information  
+**TEST SET**  
+*Each file has maximum of 2000 bounding boxes in it  
 SUNRGBD 5050 files  
 NYU	654  files  
-Convert data into Julia compatible format  
-*x2d = Project to 2D  
-*Load actual classes  
-*Check Trained weights  
-*Calculate loss  
+
+*SUNRGBD contains NYU as well, therefore I chose NYU since it takes much less time to get results*  
 
 
 *RoI Pooling Layer*  
@@ -55,10 +60,10 @@ https://pdfs.semanticscholar.org/8f67/64a59f0d17081f2a2a9d06f4ed1cdea1a0ad.pdf
 https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/include/caffe/fast_rcnn_layers.hpp  
 https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/src/caffe/layers/roi_pooling_layer.cpp  
 https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/src/caffe/layers/roi_pooling_layer.cu  
+http://arxiv.org/pdf/1409.1556.pdf VGGNet  
+http://tutorial.caffe.berkeleyvision.org/caffe-cvpr15-detection.pdf FAST RCNN RoI Pooling Layer  
 roi_pooling_param {  
     pooled_w: 7  
     pooled_h: 7  
     spatial_scale: 0.0625  
   }  
-http://arxiv.org/pdf/1409.1556.pdf VGGNet  
-http://tutorial.caffe.berkeleyvision.org/caffe-cvpr15-detection.pdf FAST RCNN RoI Pooling Layer  
