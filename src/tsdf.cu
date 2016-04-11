@@ -1,5 +1,5 @@
 //Include
-#include "tsdf_base.h"
+#include "tsdf.h"
 
 //Global variables
 std::vector<Scene3D*> scenes;
@@ -21,14 +21,11 @@ FILE* fp = NULL;
 int main(){
 	cout << "Loaded my custom library." << endl;
 	//New load 2d boxes
-    int counter = 0;
 	string file_list = data_root+"boxes2d_NYU_po_nb2000.list";
-
-    cout<<"loading file "<<file_list<<"\n";
+    	cout<<"Loading 2 "<<file_list<<"\n";
     FILE* fp = fopen(file_list.c_str(),"rb");
     if (fp==NULL) { std::cout<<"fail to open file: "<<file_list<<std::endl; exit(EXIT_FAILURE); }
 
-/*
     while (feof(fp)==0) {
       Scene3D* scene = new Scene3D();
       unsigned int len = 0;
@@ -46,9 +43,7 @@ int main(){
       file_size += fread((void*)(&len),    sizeof(unsigned int),   1, fp);
       scene->objects.resize(len);
       
-      //std::cout<<scene->filename <<std::endl; 
-      //std::cout<<len <<std::endl; 
-      //std::cin.ignore();
+      cout<<scene->filename << " \t" << len << endl; 
       for (int bid = 0;bid<len;bid++){
 	 Box2D box;
 	 file_size += fread((void*)(&(box.category)), sizeof(unsigned int),   1, fp);
@@ -68,10 +63,13 @@ int main(){
 	  std::cout<<" sth wrong in line "   << __LINE__ << std::endl;
 	 }
       }
-      scenes.push_back(scene);
+      //scenes.push_back(scene);
     }
     fclose(fp);
-*/
+
+
+
+
 	return 1;
 }
 
