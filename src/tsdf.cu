@@ -17,62 +17,6 @@ int maxscenes = 0;
 //list file
 FILE* fp = NULL;
 
-//Main function
-int main(){
-	cout << "Loaded my custom library." << endl;
-	//New load 2d boxes
-	string file_list = data_root+"boxes2d_NYU_po_nb2000.list";
-    	cout<<"Loading 2 "<<file_list<<"\n";
-    FILE* fp = fopen(file_list.c_str(),"rb");
-    if (fp==NULL) { std::cout<<"fail to open file: "<<file_list<<std::endl; exit(EXIT_FAILURE); }
-
-    while (feof(fp)==0) {
-      Scene3D* scene = new Scene3D();
-      unsigned int len = 0;
-      size_t file_size = 0;
-      file_size += fread((void*)(&len), sizeof(unsigned int), 1, fp);    
-      if (len==0) break;
-      scene->filename.resize(len);
-      if (len>0) file_size += fread((void*)(scene->filename.data()), sizeof(char), len, fp);
-     
-
-      file_size += fread((void*)(scene->R), sizeof(float), 9, fp);
-      file_size += fread((void*)(scene->K), sizeof(float), 9, fp);
-      file_size += fread((void*)(&scene->height), sizeof(unsigned int), 1, fp);
-      file_size += fread((void*)(&scene->width), sizeof(unsigned int), 1, fp); 
-      file_size += fread((void*)(&len),    sizeof(unsigned int),   1, fp);
-      scene->objects.resize(len);
-      
-      cout<<scene->filename << " \t" << len << endl; 
-      for (int bid = 0;bid<len;bid++){
-	 Box2D box;
-	 file_size += fread((void*)(&(box.category)), sizeof(unsigned int),   1, fp);
-	 file_size += fread((void*)(box.tblr),        sizeof(float), 4, fp);
-	 scene->objects_2d_tight.push_back(box);
-	 
-	 uint8_t hasTarget = 0;
-	 file_size += fread((void*)(&hasTarget), sizeof(uint8_t),   1, fp);
-	 if (hasTarget>0){
-	  std::cout<<" sth wrong in line "   << __LINE__ << std::endl;
-	 }
-
-	 file_size += fread((void*)(box.tblr),   sizeof(float), 4, fp);
-	 scene->objects_2d_full.push_back(box);
-	 file_size += fread((void*)(&hasTarget), sizeof(uint8_t),   1, fp);
-	 if (hasTarget>0){
-	  std::cout<<" sth wrong in line "   << __LINE__ << std::endl;
-	 }
-      }
-      //scenes.push_back(scene);
-    }
-    fclose(fp);
-
-
-
-
-	return 1;
-}
-
 //Export functions to be called from Julia
 extern "C"
 {
@@ -181,4 +125,92 @@ extern "C"
 		}
 		return -1;
 	}
+}
+
+
+
+
+void convertBoxesList()
+{
+	string box2d = data_root+"boxes2d_NYU_po_nb2000.list";
+    	cout<<"Loading 2d boxes list file: "<< box2d << endl;
+    	FILE* fp2d = fopen(box2d.c_str(),"rb");
+    	if (fp2d==NULL) { cout << "Failed to open file: "<< box2d<< endl; exit(EXIT_FAILURE); }
+
+
+    	while (feof(fp2d)==0) {
+      		Scene3D* scene = new Scene3D();
+      		unsigned int len = 0;
+      		size_t file_size = 0;
+      		file_size += fread((void*)(&len), sizeof(unsigned int), 1, fp2d);    
+      		if (len==0) break;
+      		scene->filename.resize(len);
+      		if (len>0) file_size += fread((void*)(scene->filename.data()), sizeof(char), len, fp2d);
+     
+		int inx = scene->filename.find_last_of("/");
+		string output="Boxes//"+scene->filename.substr(inx+1)+".txt";
+		FILE* myfile = fopen(output.c_str(), "w");
+	
+
+	      	file_size += fread((void*)(scene->R), sizeof(float), 9, fp2d);
+		file_size += fread((void*)(scene->K), sizeof(float), 9, fp2d);
+		file_size += fread((void*)(&scene->height), sizeof(unsigned int), 1, fp2d);
+		file_size += fread((void*)(&scene->width), sizeof(unsigned int), 1, fp2d); 
+		file_size += fread((void*)(&len),    sizeof(unsigned int),   1, fp2d);
+		scene->objects.resize(len);
+      
+      		//cout<<scene->filename << endl;
+      		for (int bid = 0;bid<len;bid++){
+			/*
+			struct Box2D{
+			  unsigned int category;
+			  float tblr[4];
+			};
+			*/
+			Box2D box;
+			file_size += fread((void*)(&(box.category)), sizeof(unsigned int),   1, fp2d);
+			file_size += fread((void*)(box.tblr),        sizeof(float), 4, fp2d);
+			scene->objects_2d_tight.push_back(box);
+			 
+
+			fprintf(myfile, "%d %f %f %f %f\n", box.category, box.tblr[0], box.tblr[1], box.tblr[2], box.tblr[3]);
+
+
+		 	uint8_t hasTarget = 0;
+			file_size += fread((void*)(&hasTarget), sizeof(uint8_t),   1, fp2d);
+			if (hasTarget>0){ cout<<" sth wrong in line "   << __LINE__ << std::endl; }
+
+			file_size += fread((void*)(box.tblr),   sizeof(float), 4, fp2d);
+			scene->objects_2d_full.push_back(box);
+			file_size += fread((void*)(&hasTarget), sizeof(uint8_t),   1, fp2d);
+			if (hasTarget>0){ cout<<" sth wrong in line "  << __LINE__ << std::endl; }
+      		}
+		delete scene;
+		fclose(myfile);
+    	}
+    	fclose(fp2d);
+}
+
+
+
+
+
+
+
+
+
+
+
+//Main function to test stuff
+int main(){
+/*	
+	initTSDF(0, 10000);
+	int temp=0, r=0;
+	while (r>=0) r=getNextTSDF(temp);
+	freeTSDF();
+*/
+
+	
+
+	return 1;
 }
