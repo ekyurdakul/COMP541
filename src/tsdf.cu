@@ -20,6 +20,55 @@ FILE* fp = NULL;
 //Main function
 int main(){
 	cout << "Loaded my custom library." << endl;
+	//New load 2d boxes
+    counter = 0;
+
+    std::cout<<"loading file "<<file_list<<"\n";
+    FILE* fp = fopen(file_list.c_str(),"rb");
+    if (fp==NULL) { std::cout<<"fail to open file: "<<file_list<<std::endl; exit(EXIT_FAILURE); }
+
+    while (feof(fp)==0) {
+      Scene3D* scene = new Scene3D();
+      unsigned int len = 0;
+      size_t file_size = 0;
+      file_size += fread((void*)(&len), sizeof(unsigned int), 1, fp);    
+      if (len==0) break;
+      scene->filename.resize(len);
+      if (len>0) file_size += fread((void*)(scene->filename.data()), sizeof(char), len, fp);
+     
+
+      file_size += fread((void*)(scene->R), sizeof(float), 9, fp);
+      file_size += fread((void*)(scene->K), sizeof(float), 9, fp);
+      file_size += fread((void*)(&scene->height), sizeof(unsigned int), 1, fp);
+      file_size += fread((void*)(&scene->width), sizeof(unsigned int), 1, fp); 
+      file_size += fread((void*)(&len),    sizeof(unsigned int),   1, fp);
+      scene->objects.resize(len);
+      
+      //std::cout<<scene->filename <<std::endl; 
+      //std::cout<<len <<std::endl; 
+      //std::cin.ignore();
+      for (int bid = 0;bid<len;bid++){
+	 Box2D box;
+	 file_size += fread((void*)(&(box.category)), sizeof(unsigned int),   1, fp);
+	 file_size += fread((void*)(box.tblr),        sizeof(float), 4, fp);
+	 scene->objects_2d_tight.push_back(box);
+	 
+	 uint8_t hasTarget = 0;
+	 file_size += fread((void*)(&hasTarget), sizeof(uint8_t),   1, fp);
+	 if (hasTarget>0){
+	  std::cout<<" sth wrong in line "   << __LINE__ << std::endl;
+	 }
+
+	 file_size += fread((void*)(box.tblr),   sizeof(float), 4, fp);
+	 scene->objects_2d_full.push_back(box);
+	 file_size += fread((void*)(&hasTarget), sizeof(uint8_t),   1, fp);
+	 if (hasTarget>0){
+	  std::cout<<" sth wrong in line "   << __LINE__ << std::endl;
+	 }
+      }
+      scenes.push_back(scene);
+    }
+    fclose(fp);
 	return 1;
 }
 
