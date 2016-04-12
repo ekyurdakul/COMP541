@@ -1,15 +1,11 @@
 include("Models.jl")
 
-@startTime("Compiling models...");
 f2d=compile(:VGGNetFeature)
 f3d=compile(:ORNFeature)
 fClass=compile(:ORNClass)
-@stopTime("Compilation completed.");
 
 
 #Entire network architecture
-@startTime("Loading network...")
-
 function Network(x2d, x3d)
 	#Compute feature vectors
 	v2d=forw(f2d, x2d)
@@ -23,5 +19,3 @@ function Network(x2d, x3d)
 
 	println("Size of the output is: $(size(pClass))");
 end
-
-@stopTime("Loaded network.");

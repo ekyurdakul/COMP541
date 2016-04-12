@@ -23,8 +23,6 @@ ORNWeights=matread("../data/julia_data/ORN.mat");
 VGGWeights=matread("../data/julia_data/VGG.mat");
 @stopTime("Loading completed.")
 
-@startTime("Loading functions...")
-
 #Dropout layer
 @knet function dropout(x)
 	return x .* rnd(init=Bernoulli(0.5, 2))

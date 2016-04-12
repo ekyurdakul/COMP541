@@ -4,14 +4,10 @@ include("Network.jl")
 batchsize=1;
 #number of scenes to process
 maxscenes=5;
-#Call CUDA code for fast computation, initialize C variables first
-ccall((:initTSDF,"tsdf.so"), Void, (Int32, Int32), 0, maxscenes);
 
 for i=1:maxscenes
 	#Compute TSDF using CUDA
-	boxcount=Ref{Int32}(0);
-	status=ccall((:getNextTSDF,"tsdf.so"), Int32, (Ref{Int32},), boxcount);
-	boxcount=boxcount[];
+	run(`./tsdf $i`);
 
 	#Read scene name
 	tempfilename = open("..//data//julia_data//temp.txt");
@@ -20,15 +16,19 @@ for i=1:maxscenes
 	
 	@startTime("Preparing 2D Input Data...");
 	#Execute matlab script
-	run(`octave prepareScene.m $filename`);
-	tempmat=matread("../data/julia_data/temp.mat");
+	#run(`octave prepareScene.m $filename`);
+	#tempmat=matread("../data/julia_data/temp.mat");
 	@stopTime("Preparation completed.");
 	
 	@startTime("Loading input data...")
 	#2D Input
+	#boxcount = size(tempmat["input2d1"], 4);
+	#boxcount += size(tempmat["input2d2"], 4);
+
+	boxcount=2000;
 	x2D=zeros(Float32,224,224,3,boxcount);
-	x2D[:,:,:, 1:500]=tempmat["input2d1"];
-	x2D[:,:,:, 501:boxcount]=tempmat["input2d2"];
+	#x2D[:,:,:, 1:500]=tempmat["input2d1"];
+	#x2D[:,:,:, 501:boxcount]=tempmat["input2d2"];
 	#3D Input
 	TSDFfile=open("../data/julia_data/temp.tdsf", "r");
 	x3D=zeros(Float32, boxcount, 3, 30, 30, 30);
@@ -63,6 +63,3 @@ for i=1:maxscenes
 	end
 	@stopTime("Calculation completed.")
 end
-
-#Free C memory
-ccall((:freeTSDF,"tsdf.so"), Void, ());

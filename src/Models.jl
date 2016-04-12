@@ -72,5 +72,3 @@ end
 	#Classify
 	return softmax(v; num=20, winit=ORNWeights["fc_cls_w"], binit=ORNWeights["fc_cls_b"])
 end
-
-@stopTime("Loaded functions.")
