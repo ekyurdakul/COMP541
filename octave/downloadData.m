@@ -16,9 +16,8 @@ function downloadData(path2save,urlroot,filetype)
              dest_fullpath = [fullfile(path2save,sequenceName) filetype];
              ind = find(dest_fullpath=='/');
              mkdir(dest_fullpath(1:ind(end)-1));
-             %cmd = sprintf('wget -O %s %s', dest_fullpath,src_fullpath);
-             %system(cmd);
-             disp(cmd);
+             cmd = sprintf('wget -O %s %s', dest_fullpath,src_fullpath);
+             system(cmd);
          end
 end
 %downloadData('../proposal','http://dss.cs.princeton.edu/Release/proposal/RPN_NYU','.tensor');
