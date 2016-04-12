@@ -12,10 +12,22 @@ for i=1:maxscenes
 	boxcount=Ref{Int32}(0);
 	status=ccall((:getNextTSDF,"tsdf.so"), Int32, (Ref{Int32},), boxcount);
 	boxcount=boxcount[];
+
+	#Read scene name
+	tempfilename = open("..//data//julia_data//temp.txt");
+	filename = readall(tempfilename);
+	close(tempfilename);
+	
+	@startTime("Preparing 2D Input Data...");
+	#Execute matlab script
+	run(`octave prepareScene.m $filename`);
+	tempmat=matread("../data/julia_data/temp.mat");
+	@stopTime("Preparation completed.");
 	
 	@startTime("Loading input data...")
 	#2D Input
-	x2D=zeros(Float32,224,224,3,boxcount);
+	#x2D=zeros(Float32,224,224,3,boxcount);
+	x2D=tempmat["input2d"];
 	#3D Input
 	TSDFfile=open("../data/julia_data/temp.tdsf", "r");
 	x3D=zeros(Float32, boxcount, 3, 30, 30, 30);

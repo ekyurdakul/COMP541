@@ -53,6 +53,11 @@ extern "C"
 			if (len>0) fread((void*)(scene->filename.data()), sizeof(char), len, fp);
 
 			//TSDF file
+			FILE* tempname = fopen("..//data//julia_data//temp.txt", "w");
+			string s = scene->filename;
+			fprintf(tempname, "%s", s.substr(20).c_str());
+			fclose(tempname);
+
 			string tsdffile = output_data+"temp.tdsf";
 			scene->filename = data_root+scene->filename+".bin";
 
