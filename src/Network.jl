@@ -17,5 +17,5 @@ function Network(x2d, x3d)
 	#Predict class
 	pClass=forw(fClass, v2d, v3d)
 
-	println("Size of the output is: $(size(pClass))");
+	return pClass;
 end

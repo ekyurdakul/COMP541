@@ -59,7 +59,7 @@ for i=1:maxscenes
 		print("Batch $(convert(Int32,j)): ");
 		x2d=x2D[:,:,:, sx:ex];
 		x3d=x3D[:,:,:,:, sx:ex];	
-		Network(x2d, x3d);
+		y_predict = Network(x2d, x3d);
 	end
 	@stopTime("Calculation completed.")
 end
