@@ -42,7 +42,6 @@ clear _h
 clear _w
 clear ans
 clear arg_list
-clear bounding
 clear cropped
 clear filename
 clear h
@@ -51,4 +50,13 @@ clear img
 clear w
 clear x
 clear y
-save('../data/julia_data/temp.mat', '-hdf5');
+
+
+input2d1=input2d(:,:,:, 1:500);
+input2d2=input2d(:,:,:, 501:size(bounding, 2));
+
+clear bounding
+clear input2d
+
+
+save('../data/julia_data/temp.mat', '-v7');

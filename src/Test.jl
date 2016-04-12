@@ -26,8 +26,9 @@ for i=1:maxscenes
 	
 	@startTime("Loading input data...")
 	#2D Input
-	#x2D=zeros(Float32,224,224,3,boxcount);
-	x2D=tempmat["input2d"];
+	x2D=zeros(Float32,224,224,3,boxcount);
+	x2D[:,:,:, 1:500]=tempmat["input2d1"];
+	x2D[:,:,:, 501:boxcount]=tempmat["input2d2"];
 	#3D Input
 	TSDFfile=open("../data/julia_data/temp.tdsf", "r");
 	x3D=zeros(Float32, boxcount, 3, 30, 30, 30);
