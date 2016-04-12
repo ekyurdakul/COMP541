@@ -1,9 +1,21 @@
 include("Network.jl")
 
+#Load actual classes
+#y_real (20x1) vector containing num of classes for each class
+y_real = matread("../data/julia_data/y_real.mat");
+y_real = y_real["result"];
+
+#y_pClass num of classes recognized by the network
+y_pClass = zeros(20,1);
+
 #batchsize=1 uses ~2GB GPU Memory
 batchsize=1;
 #number of scenes to process
 maxscenes=5;
+
+function classAccuracy(predicted, actual)
+	
+end
 
 for i=1:maxscenes
 	#Compute TSDF using CUDA
@@ -56,10 +68,25 @@ for i=1:maxscenes
 		ex=convert(Int32, ex);
 
 		#Feed the network with minibatches
-		print("Batch $(convert(Int32,j)): ");
+		@startTime("Minibatching...");
 		x2d=x2D[:,:,:, sx:ex];
-		x3d=x3D[:,:,:,:, sx:ex];	
+		x3d=x3D[:,:,:,:, sx:ex];
+		@stopTime("Minibatched.");
+
+		@startTime("Sending minibatch to the network...");
 		y_predict = Network(x2d, x3d);
+		@startTime("Prediction completed.");
+
+		for p=1:size(y_predict, 2)
+			temp = zeros(20,1);
+			temp[indmax(y_predict(:, p)), 1] = 1;
+			temp[1,1] = 0; #Non objects are not relevant and arent in the data files so dont know
+			y_pClass += temp;
+		end
+
+		#Print accuracy at the end of each batch
+		acc=classAccuracy(y_pClass,y_real);
+		println("Scene: $i Batch: $(convert(Int32,j)) Accuracy: $acc (%)");
 	end
 	@stopTime("Calculation completed.")
 end

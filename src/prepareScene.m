@@ -6,7 +6,6 @@ filename = arg_list{1};
 %filename = 'NYU0001';
 load(['../data/julia_data/Boxes/' filename '.mat']);
 img=imread(['../data/SUNRGBD/kv1/NYUdata/' filename '/fullres/' filename '.jpg']);
-%imshow(img);
 
 _h = size(img,1);
 _w = size(img,2);
@@ -32,7 +31,6 @@ for i=1:size(bounding, 2)
   %rectangle('Position', [x y w h], 'EdgeColor','r');
   cropped = img(y:h-1, x:w-1, :);
   if size(cropped,1) > 1 && size(cropped, 2) > 1
-    %figure, imshow(cropped);
     cropped=imresize(cropped, [224 224]);
     input2d(:,:,:, i)=cropped;
   end
