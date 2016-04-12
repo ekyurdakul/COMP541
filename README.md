@@ -5,6 +5,10 @@
 Used some C/C++/CUDA and MATLAB code of said paper's implemenation  
 *Link* https://github.com/shurans/DeepSlidingShape  
 
+**W**  
+Implemented 2D BOX -> RBG in MATLAB -> Better to find a Julia package that can  
+read images and process them in Julia because takes too much HDD space  
+
 **TODO**  
 *x2d = Project 3D bounding box to 2D RGB image  
 *Load actual classes  
