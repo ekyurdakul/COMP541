@@ -19,7 +19,7 @@ Octave (Free alternative to MATLAB)
 Octave package "image"   
 
 *Tested on*  
-*Ubuntu 15.10  
+Ubuntu 15.10  
 
 *Warning*  
 Total size of the data is around ~25 GB  
