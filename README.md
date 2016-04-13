@@ -6,26 +6,23 @@ Used some C/C++/CUDA and MATLAB code of said paper's implemenation
 *Link* https://github.com/shurans/DeepSlidingShape  
 
 **DONE**  
-*Load actual classes  
 
 **TODO**  
 *Recheck Trained weights  
-*Calculate accuracy  
+Accuracy should be mean average precision (mAP)  
 
 **HOW TO INSTALL**  
-
 *Requirements*:  
-*Knet  
-*HDF5  
-*Julia Package "MAT" at https://github.com/simonster/MAT.jl  
-*7zip  
-*MATLAB/Octave  
+*Julia Package "MAT" @ https://github.com/simonster/MAT.jl  
+*7zip (For extracting processed data)
+*Octave (Free alternative to MATLAB) 
+*Octave package "image"   
 
 *Tested on*  
 *Ubuntu 15.10  
 
 *Warning*  
-Total size of the data is around ~25 GB and downloads slowly  
+Total size of the data is around ~25 GB  
 
 *Prepare the data*:  
 1)Download and extract this project  
@@ -53,7 +50,11 @@ NYU	654  files
 *SUNRGBD contains NYU as well, therefore I chose NYU since it takes much less time to get results*  
 
 
-*RoI Pooling Layer*  
+**DIFFERENCES**  
+The paper uses the 16 layer version of VGGNet, mine has 19 layers.  
+The paper makes use of 7x7 Region-of-Interest (RoI) pooling, however I crop/resize inputs to 224x224 since Knet does not have RoI pooling.  
+
+*RoI Pooling*  
 http://arxiv.org/pdf/1504.08083.pdf  
 http://mp7.watson.ibm.com/ICCV2015/slides/iccv15_tutorial_training_rbg.pdf  
 http://arxiv.org/pdf/1406.4729.pdf  
@@ -63,8 +64,3 @@ https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/src/caffe/layers/ro
 https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/src/caffe/layers/roi_pooling_layer.cu  
 http://arxiv.org/pdf/1409.1556.pdf VGGNet  
 http://tutorial.caffe.berkeleyvision.org/caffe-cvpr15-detection.pdf FAST RCNN RoI Pooling Layer  
-roi_pooling_param {  
-    pooled_w: 7  
-    pooled_h: 7  
-    spatial_scale: 0.0625  
-  }  
