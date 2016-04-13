@@ -8,15 +8,15 @@ Used some C/C++/CUDA and MATLAB code of said paper's implemenation
 **DONE**  
 
 **TODO**  
-*Recheck Trained weights  
+Recheck Trained weights  
 Accuracy should be mean average precision (mAP)  
 
 **HOW TO INSTALL**  
 *Requirements*:  
-*Julia Package "MAT" @ https://github.com/simonster/MAT.jl  
-*7zip (For extracting processed data)
-*Octave (Free alternative to MATLAB) 
-*Octave package "image"   
+Julia Package "MAT" @ https://github.com/simonster/MAT.jl  
+7zip (For extracting processed data)  
+Octave (Free alternative to MATLAB)   
+Octave package "image"   
 
 *Tested on*  
 *Ubuntu 15.10  
@@ -43,7 +43,7 @@ downloadData('Comp541-Term-Project-master/data','dss.cs.princeton.edu/Release/su
 downloadData('Comp541-Term-Project-master/data','dss.cs.princeton.edu/Release/image/','.tensor');  
 
 **TEST SET**  
-*Each file has maximum of 2000 bounding boxes in it  
+Each file has maximum of 2000 bounding boxes in it  
 SUNRGBD 5050 files  
 NYU	654  files  
 
