@@ -22,7 +22,7 @@ end
 #Test scenes
 maxscenes = 654;
 
-@startTime("***Evaluating test set...***\n");
+@startTime("***Evaluating the test set...***\n");
 
 for i=1:maxscenes
 	@startTime("Preparing 3D Input Data...");
