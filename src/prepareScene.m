@@ -2,6 +2,9 @@
 arg_list = argv();
 filename = arg_list{1};
 
+
+warning('off','all');
+
 %load('y_truth.mat');
 %filename = 'NYU0001';
 load(['../data/julia_data/Boxes/' filename '.mat']);
