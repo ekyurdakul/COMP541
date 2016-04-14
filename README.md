@@ -2,17 +2,19 @@
 [Deep Sliding Shapes for Amodal 3D Object Detection in RGB-D Images by Shuran Song and Jianxiong Xiao](http://dss.cs.princeton.edu/paper.pdf)  
 [Used some C/C++/CUDA and MATLAB code of said paper's implemenation](https://github.com/shurans/DeepSlidingShape)  
 
-**TESTED ON**  
+**Tested on**  
 Ubuntu 15.10  
 
-**HOW TO RUN**  
+**How to run**  
 julia Test.jl 2>&1 | tee test_output.txt  
 
-**HOW TO INSTALL**  
+*This way console output also gets written to a file*  
+
+**How to install**  
 
 *Read the README.md in the "data" folder to download and setup the data*  
 
-*REQUIREMENTS*:  
+*Requirements*:  
 
 [Knet](http://knet.readthedocs.org/en/dev/install.html)  
 [Julia Package "MAT"](https://github.com/simonster/MAT.jl)   
@@ -20,8 +22,7 @@ julia Test.jl 2>&1 | tee test_output.txt
 Octave (Free alternative to MATLAB for preparing images)   
 Octave package "image"   
 
-
-*OCTAVE INSTALLATION*  
+*Octave Installation*  
 
 Execute the following commands in the terminal:  
 *sudo apt-get install octave*  
@@ -34,11 +35,11 @@ Launch Octave
 Execute the following in the Octave command line:  
 *pkg install -forge image*  
 
-**TEST SET**  
-I chose NYU as my test set since it has less scenes compared to SUNRGBD (654 vs 5050), and each scene has a maximum of 2000 bounding boxes in it and this way it takes less time to get results.  
-*SUNRGBD contains NYU as well*  
+**Test set**  
+I chose NYU as my test set since it has less scenes compared to SUNRGBD (654 vs 5050), and each scene has a maximum of 2000 bounding boxes in it, so this way it takes less time to get results.  
+*Note: NYU is a subset of SUNRGBD database*  
 
-**DIFFERENCES**  
+**Differences**  
 The paper uses the 16 layer version of VGGNet, mine has 19 layers.  
 The paper makes use of 7x7 Region-of-Interest (RoI) pooling, however I crop/resize inputs to 224x224 since Knet does not have RoI pooling.  
 

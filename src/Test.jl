@@ -96,7 +96,7 @@ for i=1:maxscenes
 
 		#Print accuracy at the end of each batch
 		acc=meanAvP(y_pClass,y_real);
-		println("Scene: $i Batch: $(convert(Int32,j)) Accuracy: $acc %");
+		println("Scene: $i Batch: $(convert(Int32,j)) Accuracy: $acc % \t# of recognized objects: $(sum(y_pClass))");
 	end
 	@stopTime("Calculation completed.")
 end
