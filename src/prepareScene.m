@@ -2,7 +2,7 @@
 arg_list = argv();
 filename = arg_list{1};
 
-
+pkg load image
 warning('off','all');
 
 %load('y_truth.mat');

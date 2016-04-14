@@ -5,12 +5,7 @@
 Used some C/C++/CUDA and MATLAB code of said paper's implemenation  
 *Link* https://github.com/shurans/DeepSlidingShape  
 
-**DONE**  
-
-Accuracy implemented  
-
 **TODO**  
-Scene iteration "i" incorrect, should be "sceneID"  
 Recheck Trained weights  
 
 **HOW TO INSTALL**  
