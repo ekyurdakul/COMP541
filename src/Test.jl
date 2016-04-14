@@ -5,25 +5,20 @@ using CUDArt;
 y_real = matread("../data/julia_data/y_real.mat");
 y_real = y_real["result"];
 
+#Fits to my 4GB GPU, need ~1GB additionally for TSDF
+batchsize=20;
+
 #y_pClass num of classes recognized by the network
 y_pClass = zeros(20,1);
 
-#batchsize=1 uses ~2GB GPU Memory
-batchsize=1;
 #number of scenes to process
-maxscenes=5;
+maxscenes=654;
 
 #Custom accuracy function
-function classAccuracy(predicted, actual)
-	cacc = zeros(20,1);
-	for i=1:20
-		if actual[i,1] == 0
-			cacc[i,1] = 0;
-		else
-			cacc[i,1] = (actual[i,1]-predicted[i,1])/actual[i,1];
-		end
-	end
-	return cacc*100;
+function meanAvP(predicted, actual)
+	temp = norm(predicted-actual) / norm(actual);
+	temp = abs(temp);
+	return (1-temp)*100;
 end
 
 for i=1:maxscenes
@@ -91,8 +86,8 @@ for i=1:maxscenes
 		end
 
 		#Print accuracy at the end of each batch
-		acc=classAccuracy(y_pClass,y_real);
-		println("Scene: $i Batch: $(convert(Int32,j)) Accuracy: $(acc') (%)");
+		mAP=meanAvP(y_pClass,y_real);
+		println("Scene: $i Batch: $(convert(Int32,j)) Accuracy: $mAP (%)");
 	end
 	@stopTime("Calculation completed.")
 end

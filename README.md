@@ -7,9 +7,11 @@ Used some C/C++/CUDA and MATLAB code of said paper's implemenation
 
 **DONE**  
 
+Accuracy implemented  
+
 **TODO**  
+Scene iteration "i" incorrect, should be "sceneID"  
 Recheck Trained weights  
-Accuracy should be mean average precision (mAP)  
 
 **HOW TO INSTALL**  
 *Requirements*:  
@@ -17,6 +19,21 @@ Julia Package "MAT" @ https://github.com/simonster/MAT.jl
 7zip (For extracting processed data)  
 Octave (Free alternative to MATLAB)   
 Octave package "image"   
+
+
+*OCTAVE INSTALLATION*  
+
+Execute the following commands in the terminal:  
+*sudo apt-get install octave*  
+*sudo apt-get install octave-image*  
+*sudo apt-get install liboctave-dev*  
+
+Launch Octave  
+*sudo octave-cli*  
+
+Execute the following in the Octave command line:  
+*pkg install -forge image*  
+
 
 *Tested on*  
 Ubuntu 15.10  
@@ -41,6 +58,10 @@ Total size of the data is around ~25 GB
 9)Execute the following two commands  
 downloadData('Comp541-Term-Project-master/data','dss.cs.princeton.edu/Release/sunrgbd_dss_data/','.bin');  
 downloadData('Comp541-Term-Project-master/data','dss.cs.princeton.edu/Release/image/','.tensor');  
+
+
+**HOW TO RUN**  
+julia Test.jl 2>&1 | tee test_output.txt  
 
 **TEST SET**  
 Each file has maximum of 2000 bounding boxes in it  
