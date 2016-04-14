@@ -52,11 +52,10 @@ end
 	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_2_w"], binit=VGGWeights["conv5_2_b"])
 	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_3_w"], binit=VGGWeights["conv5_3_b"])
 	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_4_w"], binit=VGGWeights["conv5_4_b"])
-	y=pool(y) #REPLACE WITH Region-of-Interest Pooling Layer 7x7 uniform OR crop/resize picture to 224x224
+	y=pool(y)
 
-	#FC to generate 4096 feature vector, forgot which weight matrices are the correct ones, gonna have to check
+	#FC to generate 4096 feature vector
 	return VGGNetConv(y; inc=512, outc=4096, winit=VGGWeights["fc6_w"], binit=VGGWeights["fc6_b"], wnd=7, pad=0)
-	#return VGGNetConv(y; inc=512, outc=4096, winit=VGGWeights["VGG_FC_w"], binit=VGGWeights["VGG_FC_b"], wnd=7, pad=0)
 end
 
 @knet function ORNClass(v2d, v3d)

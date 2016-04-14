@@ -2,7 +2,7 @@
 [Deep Sliding Shapes for Amodal 3D Object Detection in RGB-D Images by Shuran Song and Jianxiong Xiao](http://dss.cs.princeton.edu/paper.pdf)  
 [Used some C/C++/CUDA and MATLAB code of said paper's implemenation](https://github.com/shurans/DeepSlidingShape)  
 
-**TESTED ON**
+**TESTED ON**  
 Ubuntu 15.10  
 
 **HOW TO RUN**  
@@ -10,12 +10,14 @@ julia Test.jl 2>&1 | tee test_output.txt
 
 **HOW TO INSTALL**  
 
+*Read the README.md in the "data" folder to download and setup the data*  
+
 *REQUIREMENTS*:  
 
 [Knet](http://knet.readthedocs.org/en/dev/install.html)  
 [Julia Package "MAT"](https://github.com/simonster/MAT.jl)   
 7zip (For extracting processed data)  
-Octave (Free alternative to MATLAB to prepare images)   
+Octave (Free alternative to MATLAB for preparing images)   
 Octave package "image"   
 
 
@@ -47,11 +49,3 @@ http://tutorial.caffe.berkeleyvision.org/caffe-cvpr15-detection.pdf Fast R-CNN R
 https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/include/caffe/fast_rcnn_layers.hpp  
 https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/src/caffe/layers/roi_pooling_layer.cpp  
 https://github.com/rbgirshick/caffe-fast-rcnn/blob/fast-rcnn/src/caffe/layers/roi_pooling_layer.cu  
-
-
-
-
-
-
-**TODO**  
-Recheck Trained weights  
