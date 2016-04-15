@@ -8,13 +8,13 @@ Ubuntu 15.10
 **How to run**  
 There are 2 arguments:  
 
-*"sceneCount" limits the number of scenes to be processed  
-*"file" contains the output of the terminal  
+"sceneCount" limits the number of scenes to be processed  
+"file" contains the output of the terminal  
 
 julia Test.jl "sceneCount" 2>&1 | tee "file"  
 
 Example:  
-*julia Test.jl 2 2>&1 | tee ../experiments/test_2_scenes_output.txt*  
+julia Test.jl 2 2>&1 | tee ../experiments/test_2_scenes_output.txt  
 
 **How to install**  
 
