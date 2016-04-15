@@ -8,6 +8,17 @@ Ubuntu 15.10
 **Best Result**  
 Scene: 10 Accuracy: 94.81500000000003% Time: 1563.439785184 seconds ~26 minutes  
 
+**How to install**  
+
+*Requirements*:  
+
+[Knet](http://knet.readthedocs.org/en/dev/install.html)  
+[Julia Package "MAT"](https://github.com/simonster/MAT.jl)   
+[Julia Package "ImageMagick"](https://github.com/JuliaIO/ImageMagick.jl)  
+7zip (For extracting processed data)  
+
+*Read the README.md in the "data" folder to download and setup the data*  
+
 **How to run**  
 There are 2 arguments:  
 
@@ -18,31 +29,6 @@ julia Test.jl "sceneCount" 2>&1 | tee "file"
 
 Example:  
 julia Test.jl 2 2>&1 | tee ../experiments/test_2_scenes_output.txt  
-
-**How to install**  
-
-*Read the README.md in the "data" folder to download and setup the data*  
-
-*Requirements*:  
-
-[Knet](http://knet.readthedocs.org/en/dev/install.html)  
-[Julia Package "MAT"](https://github.com/simonster/MAT.jl)   
-7zip (For extracting processed data)  
-Octave (Free alternative to MATLAB for preparing images)   
-Octave package "image"   
-
-*Octave Installation*  
-
-Execute the following commands in the terminal:  
-*sudo apt-get install octave*  
-*sudo apt-get install octave-image*  
-*sudo apt-get install liboctave-dev*  
-
-Launch Octave  
-*sudo octave-cli*  
-
-Execute the following in the Octave command line:  
-*pkg install -forge image*  
 
 **Test set**  
 I chose NYU as my test set since it has less scenes compared to SUNRGBD (654 vs 5050), and each scene has a maximum of 2000 bounding boxes in it, so this way it takes less time to get results.  

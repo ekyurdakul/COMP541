@@ -1,4 +1,5 @@
 include("Network.jl")
+include("Scene.jl")
 
 #Load actual results from the paper
 #20x2000x654 matrix containing 1 hot vectors for all bounding boxes in all files
@@ -18,9 +19,9 @@ if maxscenes < 1
 elseif maxscenes > 654
 	maxscenes = 654
 end
+
 println("Number of scenes to be processed is: $maxscenes\n");
-
-
+println("***Start time: $(now())***");
 @startTime("***Evaluating the test set...***\n");
 for i=1:maxscenes
 	@startTime("Preparing 3D Input Data...");
@@ -35,28 +36,19 @@ for i=1:maxscenes
 
 
 	@startTime("Preparing 2D Input Data...");
-	#Execute Octave script
-	run(`octave prepareScene.m $filename`);
-	tempmat=matread("../data/julia_data/temp.mat");
+	x2D, boxcount = prepareScene(filename);
 	@stopTime("Preparation completed.");
 
 
 	@startTime("Loading input data...")
 	#2D Input
-	boxcount = size(tempmat["input2d1"], 4);
-	boxcount += size(tempmat["input2d2"], 4);
-
-	x2D=zeros(Float32,224,224,3,boxcount);
-	x2D[:,:,:, 1:500]=convert(Array{Float32,4}, tempmat["input2d1"]);
-	x2D[:,:,:, 501:boxcount]=convert(Array{Float32,4}, tempmat["input2d2"]);
-
+	x2D=convert(Array{Float32,4}, x2D);
 	#3D Input
 	TSDFfile=open("../data/julia_data/temp.tdsf", "r");
 	x3D=zeros(Float32, boxcount, 3, 30, 30, 30);
 	read!(TSDFfile, x3D);
 	close(TSDFfile);
 	x3D=permutedims(x3D, [5 4 3 2 1]);
-
 	#Minibatching
 	batchcount=floor(boxcount/batchsize);
 	if boxcount%batchsize!=0
@@ -94,3 +86,4 @@ for i=1:maxscenes
 	@stopTime("Calculation completed.")
 end
 @stopTime("***Test set evaluated.***");
+println("***End time: $(now())***");
