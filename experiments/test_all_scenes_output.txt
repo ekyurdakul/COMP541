@@ -1,0 +1,2941 @@
+Importing packages...
+Import completed.
+elapsed time: 5.081060029 seconds
+
+Loading weights...
+Loading completed.
+elapsed time: 6.713986424 seconds
+
+Number of scenes to be processed is: 654
+
+***Start time: 2016-04-16T01:25:36***
+***Evaluating the test set...***
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0001.bin
+
+cpu->gpu time 176 ms
+compute time 3 ms
+gpu->cpu time 152 ms
+cpu->file 2019 ms
+
+Preparation completed.
+elapsed time: 2.559674456 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.924247209 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.029853448 seconds
+
+Sending input to the network...
+Scene: 1 Batch: 1 Accuracy: 55.00000000000001%
+Scene: 1 Batch: 2 Accuracy: 57.49999999999999%
+Scene: 1 Batch: 3 Accuracy: 61.66666666666667%
+Scene: 1 Batch: 4 Accuracy: 57.49999999999999%
+Scene: 1 Batch: 5 Accuracy: 60.0%
+Scene: 1 Batch: 6 Accuracy: 59.16666666666666%
+Scene: 1 Batch: 7 Accuracy: 60.71428571428572%
+Scene: 1 Batch: 8 Accuracy: 63.74999999999999%
+Scene: 1 Batch: 9 Accuracy: 65.0%
+Scene: 1 Batch: 10 Accuracy: 64.5%
+Scene: 1 Batch: 11 Accuracy: 65.0%
+Scene: 1 Batch: 12 Accuracy: 65.41666666666669%
+Scene: 1 Batch: 13 Accuracy: 65.76923076923077%
+Scene: 1 Batch: 14 Accuracy: 66.07142857142858%
+Scene: 1 Batch: 15 Accuracy: 66.66666666666667%
+Scene: 1 Batch: 16 Accuracy: 65.9375%
+Scene: 1 Batch: 17 Accuracy: 67.05882352941177%
+Scene: 1 Batch: 18 Accuracy: 67.77777777777779%
+Scene: 1 Batch: 19 Accuracy: 67.89473684210526%
+Scene: 1 Batch: 20 Accuracy: 68.25%
+Scene: 1 Batch: 21 Accuracy: 68.33333333333333%
+Scene: 1 Batch: 22 Accuracy: 68.4090909090909%
+Scene: 1 Batch: 23 Accuracy: 69.34782608695653%
+Scene: 1 Batch: 24 Accuracy: 69.58333333333333%
+Scene: 1 Batch: 25 Accuracy: 69.4%
+Scene: 1 Batch: 26 Accuracy: 69.23076923076924%
+Scene: 1 Batch: 27 Accuracy: 68.88888888888889%
+Scene: 1 Batch: 28 Accuracy: 68.75%
+Scene: 1 Batch: 29 Accuracy: 68.62068965517243%
+Scene: 1 Batch: 30 Accuracy: 69.16666666666667%
+Scene: 1 Batch: 31 Accuracy: 69.19354838709677%
+Scene: 1 Batch: 32 Accuracy: 69.37500000000001%
+Scene: 1 Batch: 33 Accuracy: 69.0909090909091%
+Scene: 1 Batch: 34 Accuracy: 69.26470588235294%
+Scene: 1 Batch: 35 Accuracy: 69.0%
+Scene: 1 Batch: 36 Accuracy: 69.16666666666667%
+Scene: 1 Batch: 37 Accuracy: 69.05405405405405%
+Scene: 1 Batch: 38 Accuracy: 69.07894736842105%
+Scene: 1 Batch: 39 Accuracy: 69.35897435897435%
+Scene: 1 Batch: 40 Accuracy: 69.25%
+Scene: 1 Batch: 41 Accuracy: 69.02439024390243%
+Scene: 1 Batch: 42 Accuracy: 69.4047619047619%
+Scene: 1 Batch: 43 Accuracy: 69.30232558139535%
+Scene: 1 Batch: 44 Accuracy: 68.97727272727273%
+Scene: 1 Batch: 45 Accuracy: 68.88888888888889%
+Scene: 1 Batch: 46 Accuracy: 68.91304347826087%
+Scene: 1 Batch: 47 Accuracy: 68.93617021276596%
+Scene: 1 Batch: 48 Accuracy: 68.85416666666666%
+Scene: 1 Batch: 49 Accuracy: 68.9795918367347%
+Scene: 1 Batch: 50 Accuracy: 68.9%
+Scene: 1 Batch: 51 Accuracy: 69.01960784313725%
+Scene: 1 Batch: 52 Accuracy: 69.03846153846153%
+Scene: 1 Batch: 53 Accuracy: 69.15094339622641%
+Scene: 1 Batch: 54 Accuracy: 69.35185185185186%
+Scene: 1 Batch: 55 Accuracy: 69.36363636363636%
+Scene: 1 Batch: 56 Accuracy: 69.73214285714286%
+Scene: 1 Batch: 57 Accuracy: 70.08771929824562%
+Scene: 1 Batch: 58 Accuracy: 70.3448275862069%
+Scene: 1 Batch: 59 Accuracy: 70.59322033898306%
+Scene: 1 Batch: 60 Accuracy: 70.75%
+Scene: 1 Batch: 61 Accuracy: 70.81967213114754%
+Scene: 1 Batch: 62 Accuracy: 71.12903225806451%
+Scene: 1 Batch: 63 Accuracy: 71.34920634920636%
+Scene: 1 Batch: 64 Accuracy: 71.5625%
+Scene: 1 Batch: 65 Accuracy: 71.76923076923079%
+Scene: 1 Batch: 66 Accuracy: 71.96969696969697%
+Scene: 1 Batch: 67 Accuracy: 72.01492537313435%
+Scene: 1 Batch: 68 Accuracy: 71.83823529411765%
+Scene: 1 Batch: 69 Accuracy: 72.02898550724639%
+Scene: 1 Batch: 70 Accuracy: 72.07142857142858%
+Scene: 1 Batch: 71 Accuracy: 71.90140845070424%
+Scene: 1 Batch: 72 Accuracy: 72.29166666666669%
+Scene: 1 Batch: 73 Accuracy: 72.60273972602741%
+Scene: 1 Batch: 74 Accuracy: 72.70270270270271%
+Scene: 1 Batch: 75 Accuracy: 72.86666666666667%
+Scene: 1 Batch: 76 Accuracy: 73.15789473684212%
+Scene: 1 Batch: 77 Accuracy: 73.24675324675327%
+Scene: 1 Batch: 78 Accuracy: 73.33333333333336%
+Scene: 1 Batch: 79 Accuracy: 73.60759493670888%
+Scene: 1 Batch: 80 Accuracy: 73.68750000000001%
+Scene: 1 Batch: 81 Accuracy: 73.76543209876544%
+Scene: 1 Batch: 82 Accuracy: 73.84146341463416%
+Scene: 1 Batch: 83 Accuracy: 74.03614457831327%
+Scene: 1 Batch: 84 Accuracy: 74.04761904761907%
+Scene: 1 Batch: 85 Accuracy: 74.23529411764707%
+Scene: 1 Batch: 86 Accuracy: 74.36046511627909%
+Scene: 1 Batch: 87 Accuracy: 74.48275862068967%
+Scene: 1 Batch: 88 Accuracy: 74.60227272727275%
+Scene: 1 Batch: 89 Accuracy: 74.66292134831463%
+Scene: 1 Batch: 90 Accuracy: 74.61111111111113%
+Scene: 1 Batch: 91 Accuracy: 74.83516483516486%
+Scene: 1 Batch: 92 Accuracy: 74.94565217391307%
+Scene: 1 Batch: 93 Accuracy: 75.10752688172045%
+Scene: 1 Batch: 94 Accuracy: 75.21276595744682%
+Scene: 1 Batch: 95 Accuracy: 75.42105263157896%
+Scene: 1 Batch: 96 Accuracy: 75.46875000000001%
+Scene: 1 Batch: 97 Accuracy: 75.56701030927837%
+Scene: 1 Batch: 98 Accuracy: 75.76530612244899%
+Scene: 1 Batch: 99 Accuracy: 75.75757575757578%
+Scene: 1 Batch: 100 Accuracy: 75.80000000000003%
+Calculation completed.
+elapsed time: 53.037960732 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0002.bin
+
+cpu->gpu time 194 ms
+compute time 7 ms
+gpu->cpu time 154 ms
+cpu->file 4386 ms
+
+Preparation completed.
+elapsed time: 4.840833748 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.344712437 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.421750354 seconds
+
+Sending input to the network...
+Scene: 2 Batch: 1 Accuracy: 76.03960396039606%
+Scene: 2 Batch: 2 Accuracy: 76.27450980392159%
+Scene: 2 Batch: 3 Accuracy: 76.50485436893206%
+Scene: 2 Batch: 4 Accuracy: 76.68269230769232%
+Scene: 2 Batch: 5 Accuracy: 76.90476190476193%
+Scene: 2 Batch: 6 Accuracy: 77.12264150943398%
+Scene: 2 Batch: 7 Accuracy: 77.33644859813086%
+Scene: 2 Batch: 8 Accuracy: 77.54629629629632%
+Scene: 2 Batch: 9 Accuracy: 77.75229357798167%
+Scene: 2 Batch: 10 Accuracy: 77.95454545454548%
+Scene: 2 Batch: 11 Accuracy: 78.15315315315317%
+Scene: 2 Batch: 12 Accuracy: 78.3482142857143%
+Scene: 2 Batch: 13 Accuracy: 78.53982300884958%
+Scene: 2 Batch: 14 Accuracy: 78.72807017543862%
+Scene: 2 Batch: 15 Accuracy: 78.91304347826089%
+Scene: 2 Batch: 16 Accuracy: 79.09482758620692%
+Scene: 2 Batch: 17 Accuracy: 79.27350427350429%
+Scene: 2 Batch: 18 Accuracy: 79.4491525423729%
+Scene: 2 Batch: 19 Accuracy: 79.62184873949582%
+Scene: 2 Batch: 20 Accuracy: 79.79166666666669%
+Scene: 2 Batch: 21 Accuracy: 79.95867768595043%
+Scene: 2 Batch: 22 Accuracy: 80.12295081967214%
+Scene: 2 Batch: 23 Accuracy: 80.28455284552847%
+Scene: 2 Batch: 24 Accuracy: 80.36290322580646%
+Scene: 2 Batch: 25 Accuracy: 80.52000000000001%
+Scene: 2 Batch: 26 Accuracy: 80.67460317460319%
+Scene: 2 Batch: 27 Accuracy: 80.82677165354332%
+Scene: 2 Batch: 28 Accuracy: 80.97656250000001%
+Scene: 2 Batch: 29 Accuracy: 81.12403100775195%
+Scene: 2 Batch: 30 Accuracy: 81.26923076923079%
+Scene: 2 Batch: 31 Accuracy: 81.41221374045803%
+Scene: 2 Batch: 32 Accuracy: 81.55303030303031%
+Scene: 2 Batch: 33 Accuracy: 81.69172932330828%
+Scene: 2 Batch: 34 Accuracy: 81.82835820895524%
+Scene: 2 Batch: 35 Accuracy: 81.96296296296298%
+Scene: 2 Batch: 36 Accuracy: 82.09558823529413%
+Scene: 2 Batch: 37 Accuracy: 82.22627737226279%
+Scene: 2 Batch: 38 Accuracy: 82.31884057971016%
+Scene: 2 Batch: 39 Accuracy: 82.44604316546764%
+Scene: 2 Batch: 40 Accuracy: 82.53571428571429%
+Scene: 2 Batch: 41 Accuracy: 82.65957446808511%
+Scene: 2 Batch: 42 Accuracy: 82.78169014084509%
+Scene: 2 Batch: 43 Accuracy: 82.90209790209792%
+Scene: 2 Batch: 44 Accuracy: 83.02083333333334%
+Scene: 2 Batch: 45 Accuracy: 83.13793103448278%
+Scene: 2 Batch: 46 Accuracy: 83.25342465753425%
+Scene: 2 Batch: 47 Accuracy: 83.36734693877553%
+Scene: 2 Batch: 48 Accuracy: 83.47972972972974%
+Scene: 2 Batch: 49 Accuracy: 83.59060402684565%
+Scene: 2 Batch: 50 Accuracy: 83.66666666666667%
+Scene: 2 Batch: 51 Accuracy: 83.7748344370861%
+Scene: 2 Batch: 52 Accuracy: 83.88157894736842%
+Scene: 2 Batch: 53 Accuracy: 83.98692810457517%
+Scene: 2 Batch: 54 Accuracy: 84.09090909090911%
+Scene: 2 Batch: 55 Accuracy: 84.19354838709678%
+Scene: 2 Batch: 56 Accuracy: 84.29487179487181%
+Scene: 2 Batch: 57 Accuracy: 84.39490445859875%
+Scene: 2 Batch: 58 Accuracy: 84.49367088607596%
+Scene: 2 Batch: 59 Accuracy: 84.59119496855348%
+Scene: 2 Batch: 60 Accuracy: 84.6875%
+Scene: 2 Batch: 61 Accuracy: 84.78260869565219%
+Scene: 2 Batch: 62 Accuracy: 84.84567901234568%
+Scene: 2 Batch: 63 Accuracy: 84.93865030674847%
+Scene: 2 Batch: 64 Accuracy: 85.03048780487805%
+Scene: 2 Batch: 65 Accuracy: 85.06060606060608%
+Scene: 2 Batch: 66 Accuracy: 85.15060240963857%
+Scene: 2 Batch: 67 Accuracy: 85.23952095808383%
+Scene: 2 Batch: 68 Accuracy: 85.32738095238096%
+Scene: 2 Batch: 69 Accuracy: 85.38461538461539%
+Scene: 2 Batch: 70 Accuracy: 85.47058823529412%
+Scene: 2 Batch: 71 Accuracy: 85.55555555555556%
+Scene: 2 Batch: 72 Accuracy: 85.61046511627907%
+Scene: 2 Batch: 73 Accuracy: 85.69364161849713%
+Scene: 2 Batch: 74 Accuracy: 85.77586206896552%
+Scene: 2 Batch: 75 Accuracy: 85.82857142857144%
+Scene: 2 Batch: 76 Accuracy: 85.9090909090909%
+Scene: 2 Batch: 77 Accuracy: 85.98870056497175%
+Scene: 2 Batch: 78 Accuracy: 86.06741573033709%
+Scene: 2 Batch: 79 Accuracy: 86.14525139664805%
+Scene: 2 Batch: 80 Accuracy: 86.19444444444446%
+Scene: 2 Batch: 81 Accuracy: 86.2707182320442%
+Scene: 2 Batch: 82 Accuracy: 86.34615384615385%
+Scene: 2 Batch: 83 Accuracy: 86.4207650273224%
+Scene: 2 Batch: 84 Accuracy: 86.49456521739131%
+Scene: 2 Batch: 85 Accuracy: 86.54054054054055%
+Scene: 2 Batch: 86 Accuracy: 86.61290322580646%
+Scene: 2 Batch: 87 Accuracy: 86.68449197860963%
+Scene: 2 Batch: 88 Accuracy: 86.75531914893617%
+Scene: 2 Batch: 89 Accuracy: 86.82539682539682%
+Scene: 2 Batch: 90 Accuracy: 86.89473684210527%
+Scene: 2 Batch: 91 Accuracy: 86.96335078534032%
+Scene: 2 Batch: 92 Accuracy: 87.03125%
+Scene: 2 Batch: 93 Accuracy: 87.09844559585493%
+Scene: 2 Batch: 94 Accuracy: 87.16494845360825%
+Scene: 2 Batch: 95 Accuracy: 87.20512820512822%
+Scene: 2 Batch: 96 Accuracy: 87.27040816326532%
+Scene: 2 Batch: 97 Accuracy: 87.30964467005077%
+Scene: 2 Batch: 98 Accuracy: 87.37373737373738%
+Scene: 2 Batch: 99 Accuracy: 87.43718592964824%
+Scene: 2 Batch: 100 Accuracy: 87.5%
+Calculation completed.
+elapsed time: 48.268440832 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 3 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0009.bin
+
+cpu->gpu time 186 ms
+compute time 5 ms
+gpu->cpu time 152 ms
+cpu->file 2692 ms
+
+Preparation completed.
+elapsed time: 3.136633528 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.829785368 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.992661958 seconds
+
+Sending input to the network...
+Scene: 3 Batch: 1 Accuracy: 87.363184079602%
+Scene: 3 Batch: 2 Accuracy: 87.25247524752476%
+Scene: 3 Batch: 3 Accuracy: 87.24137931034484%
+Scene: 3 Batch: 4 Accuracy: 87.1078431372549%
+Scene: 3 Batch: 5 Accuracy: 87.07317073170732%
+Scene: 3 Batch: 6 Accuracy: 87.01456310679612%
+Scene: 3 Batch: 7 Accuracy: 87.0048309178744%
+Scene: 3 Batch: 8 Accuracy: 87.04326923076924%
+Scene: 3 Batch: 9 Accuracy: 87.03349282296651%
+Scene: 3 Batch: 10 Accuracy: 87.04761904761905%
+Scene: 3 Batch: 11 Accuracy: 87.06161137440759%
+Scene: 3 Batch: 12 Accuracy: 87.0754716981132%
+Scene: 3 Batch: 13 Accuracy: 87.06572769953051%
+Scene: 3 Batch: 14 Accuracy: 87.05607476635515%
+Scene: 3 Batch: 15 Accuracy: 87.04651162790698%
+Scene: 3 Batch: 16 Accuracy: 87.08333333333333%
+Scene: 3 Batch: 17 Accuracy: 87.07373271889402%
+Scene: 3 Batch: 18 Accuracy: 87.11009174311928%
+Scene: 3 Batch: 19 Accuracy: 87.12328767123289%
+Scene: 3 Batch: 20 Accuracy: 87.1590909090909%
+Scene: 3 Batch: 21 Accuracy: 87.10407239819004%
+Scene: 3 Batch: 22 Accuracy: 87.11711711711712%
+Scene: 3 Batch: 23 Accuracy: 87.17488789237669%
+Scene: 3 Batch: 24 Accuracy: 87.1875%
+Scene: 3 Batch: 25 Accuracy: 87.22222222222223%
+Scene: 3 Batch: 26 Accuracy: 87.2345132743363%
+Scene: 3 Batch: 27 Accuracy: 87.26872246696036%
+Scene: 3 Batch: 28 Accuracy: 87.32456140350877%
+Scene: 3 Batch: 29 Accuracy: 87.37991266375546%
+Scene: 3 Batch: 30 Accuracy: 87.43478260869566%
+Scene: 3 Batch: 31 Accuracy: 87.46753246753246%
+Scene: 3 Batch: 32 Accuracy: 87.5%
+Scene: 3 Batch: 33 Accuracy: 87.53218884120172%
+Scene: 3 Batch: 34 Accuracy: 87.58547008547009%
+Scene: 3 Batch: 35 Accuracy: 87.63829787234043%
+Scene: 3 Batch: 36 Accuracy: 87.69067796610169%
+Scene: 3 Batch: 37 Accuracy: 87.74261603375527%
+Scene: 3 Batch: 38 Accuracy: 87.77310924369748%
+Scene: 3 Batch: 39 Accuracy: 87.82426778242677%
+Scene: 3 Batch: 40 Accuracy: 87.875%
+Scene: 3 Batch: 41 Accuracy: 87.9253112033195%
+Scene: 3 Batch: 42 Accuracy: 87.91322314049587%
+Scene: 3 Batch: 43 Accuracy: 87.92181069958848%
+Scene: 3 Batch: 44 Accuracy: 87.97131147540983%
+Scene: 3 Batch: 45 Accuracy: 88.0204081632653%
+Scene: 3 Batch: 46 Accuracy: 88.02845528455285%
+Scene: 3 Batch: 47 Accuracy: 88.07692307692308%
+Scene: 3 Batch: 48 Accuracy: 88.125%
+Scene: 3 Batch: 49 Accuracy: 88.15261044176707%
+Scene: 3 Batch: 50 Accuracy: 88.2%
+Scene: 3 Batch: 51 Accuracy: 88.22709163346613%
+Scene: 3 Batch: 52 Accuracy: 88.25396825396825%
+Scene: 3 Batch: 53 Accuracy: 88.28063241106719%
+Scene: 3 Batch: 54 Accuracy: 88.3267716535433%
+Scene: 3 Batch: 55 Accuracy: 88.37254901960783%
+Scene: 3 Batch: 56 Accuracy: 88.3984375%
+Scene: 3 Batch: 57 Accuracy: 88.40466926070039%
+Scene: 3 Batch: 58 Accuracy: 88.44961240310077%
+Scene: 3 Batch: 59 Accuracy: 88.4942084942085%
+Scene: 3 Batch: 60 Accuracy: 88.53846153846153%
+Scene: 3 Batch: 61 Accuracy: 88.5823754789272%
+Scene: 3 Batch: 62 Accuracy: 88.62595419847328%
+Scene: 3 Batch: 63 Accuracy: 88.66920152091254%
+Scene: 3 Batch: 64 Accuracy: 88.69318181818183%
+Scene: 3 Batch: 65 Accuracy: 88.71698113207546%
+Scene: 3 Batch: 66 Accuracy: 88.75939849624059%
+Scene: 3 Batch: 67 Accuracy: 88.80149812734082%
+Scene: 3 Batch: 68 Accuracy: 88.84328358208955%
+Scene: 3 Batch: 69 Accuracy: 88.88475836431226%
+Scene: 3 Batch: 70 Accuracy: 88.92592592592592%
+Scene: 3 Batch: 71 Accuracy: 88.96678966789668%
+Scene: 3 Batch: 72 Accuracy: 89.00735294117646%
+Scene: 3 Batch: 73 Accuracy: 89.04761904761904%
+Scene: 3 Batch: 74 Accuracy: 89.08759124087591%
+Scene: 3 Batch: 75 Accuracy: 89.12727272727273%
+Scene: 3 Batch: 76 Accuracy: 89.16666666666666%
+Scene: 3 Batch: 77 Accuracy: 89.2057761732852%
+Scene: 3 Batch: 78 Accuracy: 89.24460431654676%
+Scene: 3 Batch: 79 Accuracy: 89.28315412186379%
+Scene: 3 Batch: 80 Accuracy: 89.32142857142857%
+Scene: 3 Batch: 81 Accuracy: 89.35943060498221%
+Scene: 3 Batch: 82 Accuracy: 89.39716312056738%
+Scene: 3 Batch: 83 Accuracy: 89.41696113074204%
+Scene: 3 Batch: 84 Accuracy: 89.45422535211267%
+Scene: 3 Batch: 85 Accuracy: 89.49122807017544%
+Scene: 3 Batch: 86 Accuracy: 89.52797202797203%
+Scene: 3 Batch: 87 Accuracy: 89.54703832752612%
+Scene: 3 Batch: 88 Accuracy: 89.58333333333333%
+Scene: 3 Batch: 89 Accuracy: 89.61937716262976%
+Scene: 3 Batch: 90 Accuracy: 89.65517241379311%
+Scene: 3 Batch: 91 Accuracy: 89.69072164948453%
+Scene: 3 Batch: 92 Accuracy: 89.72602739726028%
+Scene: 3 Batch: 93 Accuracy: 89.76109215017065%
+Scene: 3 Batch: 94 Accuracy: 89.79591836734694%
+Scene: 3 Batch: 95 Accuracy: 89.83050847457626%
+Scene: 3 Batch: 96 Accuracy: 89.84797297297297%
+Scene: 3 Batch: 97 Accuracy: 89.88215488215488%
+Scene: 3 Batch: 98 Accuracy: 89.91610738255034%
+Scene: 3 Batch: 99 Accuracy: 89.94983277591973%
+Scene: 3 Batch: 100 Accuracy: 89.98333333333332%
+Calculation completed.
+elapsed time: 48.529599933 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 4 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0014.bin
+
+cpu->gpu time 192 ms
+compute time 3 ms
+gpu->cpu time 164 ms
+cpu->file 3271 ms
+
+Preparation completed.
+elapsed time: 3.732339299 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.775492821 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.466641078 seconds
+
+Sending input to the network...
+Scene: 4 Batch: 1 Accuracy: 90.01661129568106%
+Scene: 4 Batch: 2 Accuracy: 90.04966887417218%
+Scene: 4 Batch: 3 Accuracy: 90.08250825082507%
+Scene: 4 Batch: 4 Accuracy: 90.11513157894737%
+Scene: 4 Batch: 5 Accuracy: 90.14754098360656%
+Scene: 4 Batch: 6 Accuracy: 90.1797385620915%
+Scene: 4 Batch: 7 Accuracy: 90.21172638436482%
+Scene: 4 Batch: 8 Accuracy: 90.22727272727272%
+Scene: 4 Batch: 9 Accuracy: 90.2588996763754%
+Scene: 4 Batch: 10 Accuracy: 90.27419354838709%
+Scene: 4 Batch: 11 Accuracy: 90.2733118971061%
+Scene: 4 Batch: 12 Accuracy: 90.30448717948718%
+Scene: 4 Batch: 13 Accuracy: 90.3035143769968%
+Scene: 4 Batch: 14 Accuracy: 90.31847133757962%
+Scene: 4 Batch: 15 Accuracy: 90.34920634920634%
+Scene: 4 Batch: 16 Accuracy: 90.3639240506329%
+Scene: 4 Batch: 17 Accuracy: 90.36277602523658%
+Scene: 4 Batch: 18 Accuracy: 90.36163522012578%
+Scene: 4 Batch: 19 Accuracy: 90.36050156739812%
+Scene: 4 Batch: 20 Accuracy: 90.375%
+Scene: 4 Batch: 21 Accuracy: 90.37383177570094%
+Scene: 4 Batch: 22 Accuracy: 90.40372670807453%
+Scene: 4 Batch: 23 Accuracy: 90.37151702786377%
+Scene: 4 Batch: 24 Accuracy: 90.35493827160494%
+Scene: 4 Batch: 25 Accuracy: 90.36923076923077%
+Scene: 4 Batch: 26 Accuracy: 90.38343558282207%
+Scene: 4 Batch: 27 Accuracy: 90.39755351681956%
+Scene: 4 Batch: 28 Accuracy: 90.3810975609756%
+Scene: 4 Batch: 29 Accuracy: 90.37993920972643%
+Scene: 4 Batch: 30 Accuracy: 90.37878787878788%
+Scene: 4 Batch: 31 Accuracy: 90.40785498489426%
+Scene: 4 Batch: 32 Accuracy: 90.43674698795179%
+Scene: 4 Batch: 33 Accuracy: 90.45045045045045%
+Scene: 4 Batch: 34 Accuracy: 90.44910179640718%
+Scene: 4 Batch: 35 Accuracy: 90.44776119402984%
+Scene: 4 Batch: 36 Accuracy: 90.44642857142856%
+Scene: 4 Batch: 37 Accuracy: 90.4154302670623%
+Scene: 4 Batch: 38 Accuracy: 90.42899408284023%
+Scene: 4 Batch: 39 Accuracy: 90.42772861356931%
+Scene: 4 Batch: 40 Accuracy: 90.3970588235294%
+Scene: 4 Batch: 41 Accuracy: 90.38123167155425%
+Scene: 4 Batch: 42 Accuracy: 90.36549707602339%
+Scene: 4 Batch: 43 Accuracy: 90.36443148688046%
+Scene: 4 Batch: 44 Accuracy: 90.39244186046511%
+Scene: 4 Batch: 45 Accuracy: 90.39130434782608%
+Scene: 4 Batch: 46 Accuracy: 90.3757225433526%
+Scene: 4 Batch: 47 Accuracy: 90.38904899135446%
+Scene: 4 Batch: 48 Accuracy: 90.38793103448275%
+Scene: 4 Batch: 49 Accuracy: 90.38681948424068%
+Scene: 4 Batch: 50 Accuracy: 90.39999999999999%
+Scene: 4 Batch: 51 Accuracy: 90.39886039886039%
+Scene: 4 Batch: 52 Accuracy: 90.38352272727272%
+Scene: 4 Batch: 53 Accuracy: 90.39660056657223%
+Scene: 4 Batch: 54 Accuracy: 90.39548022598869%
+Scene: 4 Batch: 55 Accuracy: 90.40845070422534%
+Scene: 4 Batch: 56 Accuracy: 90.42134831460673%
+Scene: 4 Batch: 57 Accuracy: 90.43417366946778%
+Scene: 4 Batch: 58 Accuracy: 90.4608938547486%
+Scene: 4 Batch: 59 Accuracy: 90.47353760445682%
+Scene: 4 Batch: 60 Accuracy: 90.47222222222221%
+Scene: 4 Batch: 61 Accuracy: 90.49861495844875%
+Scene: 4 Batch: 62 Accuracy: 90.52486187845304%
+Scene: 4 Batch: 63 Accuracy: 90.55096418732782%
+Scene: 4 Batch: 64 Accuracy: 90.57692307692308%
+Scene: 4 Batch: 65 Accuracy: 90.56164383561644%
+Scene: 4 Batch: 66 Accuracy: 90.57377049180327%
+Scene: 4 Batch: 67 Accuracy: 90.5858310626703%
+Scene: 4 Batch: 68 Accuracy: 90.59782608695653%
+Scene: 4 Batch: 69 Accuracy: 90.60975609756098%
+Scene: 4 Batch: 70 Accuracy: 90.63513513513513%
+Scene: 4 Batch: 71 Accuracy: 90.66037735849056%
+Scene: 4 Batch: 72 Accuracy: 90.68548387096774%
+Scene: 4 Batch: 73 Accuracy: 90.71045576407506%
+Scene: 4 Batch: 74 Accuracy: 90.73529411764706%
+Scene: 4 Batch: 75 Accuracy: 90.75999999999999%
+Scene: 4 Batch: 76 Accuracy: 90.78457446808511%
+Scene: 4 Batch: 77 Accuracy: 90.79575596816977%
+Scene: 4 Batch: 78 Accuracy: 90.82010582010582%
+Scene: 4 Batch: 79 Accuracy: 90.8179419525066%
+Scene: 4 Batch: 80 Accuracy: 90.84210526315789%
+Scene: 4 Batch: 81 Accuracy: 90.86614173228347%
+Scene: 4 Batch: 82 Accuracy: 90.89005235602095%
+Scene: 4 Batch: 83 Accuracy: 90.91383812010444%
+Scene: 4 Batch: 84 Accuracy: 90.9375%
+Scene: 4 Batch: 85 Accuracy: 90.94805194805195%
+Scene: 4 Batch: 86 Accuracy: 90.95854922279794%
+Scene: 4 Batch: 87 Accuracy: 90.96899224806202%
+Scene: 4 Batch: 88 Accuracy: 90.97938144329898%
+Scene: 4 Batch: 89 Accuracy: 91.00257069408741%
+Scene: 4 Batch: 90 Accuracy: 91.02564102564104%
+Scene: 4 Batch: 91 Accuracy: 91.03580562659846%
+Scene: 4 Batch: 92 Accuracy: 91.05867346938777%
+Scene: 4 Batch: 93 Accuracy: 91.06870229007635%
+Scene: 4 Batch: 94 Accuracy: 91.09137055837564%
+Scene: 4 Batch: 95 Accuracy: 91.0886075949367%
+Scene: 4 Batch: 96 Accuracy: 91.11111111111111%
+Scene: 4 Batch: 97 Accuracy: 91.13350125944585%
+Scene: 4 Batch: 98 Accuracy: 91.15577889447238%
+Scene: 4 Batch: 99 Accuracy: 91.17794486215539%
+Scene: 4 Batch: 100 Accuracy: 91.2%
+Calculation completed.
+elapsed time: 48.151696835 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 5 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0015.bin
+
+cpu->gpu time 190 ms
+compute time 4 ms
+gpu->cpu time 152 ms
+cpu->file 3756 ms
+
+Preparation completed.
+elapsed time: 4.204383342 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.281319453 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.080350736 seconds
+
+Sending input to the network...
+Scene: 5 Batch: 1 Accuracy: 91.2219451371571%
+Scene: 5 Batch: 2 Accuracy: 91.24378109452736%
+Scene: 5 Batch: 3 Accuracy: 91.26550868486353%
+Scene: 5 Batch: 4 Accuracy: 91.2871287128713%
+Scene: 5 Batch: 5 Accuracy: 91.30864197530865%
+Scene: 5 Batch: 6 Accuracy: 91.33004926108374%
+Scene: 5 Batch: 7 Accuracy: 91.35135135135135%
+Scene: 5 Batch: 8 Accuracy: 91.37254901960785%
+Scene: 5 Batch: 9 Accuracy: 91.39364303178485%
+Scene: 5 Batch: 10 Accuracy: 91.41463414634147%
+Scene: 5 Batch: 11 Accuracy: 91.43552311435523%
+Scene: 5 Batch: 12 Accuracy: 91.45631067961165%
+Scene: 5 Batch: 13 Accuracy: 91.4769975786925%
+Scene: 5 Batch: 14 Accuracy: 91.4975845410628%
+Scene: 5 Batch: 15 Accuracy: 91.51807228915662%
+Scene: 5 Batch: 16 Accuracy: 91.53846153846155%
+Scene: 5 Batch: 17 Accuracy: 91.55875299760193%
+Scene: 5 Batch: 18 Accuracy: 91.57894736842105%
+Scene: 5 Batch: 19 Accuracy: 91.59904534606206%
+Scene: 5 Batch: 20 Accuracy: 91.61904761904762%
+Scene: 5 Batch: 21 Accuracy: 91.63895486935867%
+Scene: 5 Batch: 22 Accuracy: 91.65876777251185%
+Scene: 5 Batch: 23 Accuracy: 91.67848699763594%
+Scene: 5 Batch: 24 Accuracy: 91.69811320754717%
+Scene: 5 Batch: 25 Accuracy: 91.71764705882353%
+Scene: 5 Batch: 26 Accuracy: 91.73708920187794%
+Scene: 5 Batch: 27 Accuracy: 91.75644028103045%
+Scene: 5 Batch: 28 Accuracy: 91.77570093457945%
+Scene: 5 Batch: 29 Accuracy: 91.7948717948718%
+Scene: 5 Batch: 30 Accuracy: 91.8139534883721%
+Scene: 5 Batch: 31 Accuracy: 91.83294663573086%
+Scene: 5 Batch: 32 Accuracy: 91.85185185185185%
+Scene: 5 Batch: 33 Accuracy: 91.87066974595844%
+Scene: 5 Batch: 34 Accuracy: 91.88940092165899%
+Scene: 5 Batch: 35 Accuracy: 91.89655172413794%
+Scene: 5 Batch: 36 Accuracy: 91.91513761467891%
+Scene: 5 Batch: 37 Accuracy: 91.93363844393593%
+Scene: 5 Batch: 38 Accuracy: 91.95205479452055%
+Scene: 5 Batch: 39 Accuracy: 91.95899772209569%
+Scene: 5 Batch: 40 Accuracy: 91.97727272727273%
+Scene: 5 Batch: 41 Accuracy: 91.99546485260771%
+Scene: 5 Batch: 42 Accuracy: 92.0135746606335%
+Scene: 5 Batch: 43 Accuracy: 92.03160270880362%
+Scene: 5 Batch: 44 Accuracy: 92.04954954954955%
+Scene: 5 Batch: 45 Accuracy: 92.06741573033709%
+Scene: 5 Batch: 46 Accuracy: 92.08520179372198%
+Scene: 5 Batch: 47 Accuracy: 92.10290827740492%
+Scene: 5 Batch: 48 Accuracy: 92.12053571428572%
+Scene: 5 Batch: 49 Accuracy: 92.13808463251671%
+Scene: 5 Batch: 50 Accuracy: 92.15555555555555%
+Scene: 5 Batch: 51 Accuracy: 92.16186252771618%
+Scene: 5 Batch: 52 Accuracy: 92.17920353982302%
+Scene: 5 Batch: 53 Accuracy: 92.19646799116998%
+Scene: 5 Batch: 54 Accuracy: 92.2136563876652%
+Scene: 5 Batch: 55 Accuracy: 92.23076923076924%
+Scene: 5 Batch: 56 Accuracy: 92.24780701754386%
+Scene: 5 Batch: 57 Accuracy: 92.26477024070022%
+Scene: 5 Batch: 58 Accuracy: 92.2816593886463%
+Scene: 5 Batch: 59 Accuracy: 92.29847494553377%
+Scene: 5 Batch: 60 Accuracy: 92.31521739130434%
+Scene: 5 Batch: 61 Accuracy: 92.33188720173537%
+Scene: 5 Batch: 62 Accuracy: 92.34848484848486%
+Scene: 5 Batch: 63 Accuracy: 92.36501079913607%
+Scene: 5 Batch: 64 Accuracy: 92.38146551724138%
+Scene: 5 Batch: 65 Accuracy: 92.3978494623656%
+Scene: 5 Batch: 66 Accuracy: 92.40343347639485%
+Scene: 5 Batch: 67 Accuracy: 92.41970021413277%
+Scene: 5 Batch: 68 Accuracy: 92.43589743589745%
+Scene: 5 Batch: 69 Accuracy: 92.45202558635395%
+Scene: 5 Batch: 70 Accuracy: 92.46808510638299%
+Scene: 5 Batch: 71 Accuracy: 92.48407643312102%
+Scene: 5 Batch: 72 Accuracy: 92.5%
+Scene: 5 Batch: 73 Accuracy: 92.51585623678648%
+Scene: 5 Batch: 74 Accuracy: 92.53164556962025%
+Scene: 5 Batch: 75 Accuracy: 92.54736842105264%
+Scene: 5 Batch: 76 Accuracy: 92.56302521008404%
+Scene: 5 Batch: 77 Accuracy: 92.57861635220127%
+Scene: 5 Batch: 78 Accuracy: 92.59414225941424%
+Scene: 5 Batch: 79 Accuracy: 92.60960334029228%
+Scene: 5 Batch: 80 Accuracy: 92.625%
+Scene: 5 Batch: 81 Accuracy: 92.64033264033264%
+Scene: 5 Batch: 82 Accuracy: 92.65560165975104%
+Scene: 5 Batch: 83 Accuracy: 92.67080745341616%
+Scene: 5 Batch: 84 Accuracy: 92.68595041322315%
+Scene: 5 Batch: 85 Accuracy: 92.70103092783506%
+Scene: 5 Batch: 86 Accuracy: 92.71604938271606%
+Scene: 5 Batch: 87 Accuracy: 92.73100616016427%
+Scene: 5 Batch: 88 Accuracy: 92.74590163934427%
+Scene: 5 Batch: 89 Accuracy: 92.76073619631903%
+Scene: 5 Batch: 90 Accuracy: 92.77551020408164%
+Scene: 5 Batch: 91 Accuracy: 92.79022403258656%
+Scene: 5 Batch: 92 Accuracy: 92.8048780487805%
+Scene: 5 Batch: 93 Accuracy: 92.81947261663286%
+Scene: 5 Batch: 94 Accuracy: 92.83400809716599%
+Scene: 5 Batch: 95 Accuracy: 92.84848484848486%
+Scene: 5 Batch: 96 Accuracy: 92.86290322580646%
+Scene: 5 Batch: 97 Accuracy: 92.8672032193159%
+Scene: 5 Batch: 98 Accuracy: 92.88152610441767%
+Scene: 5 Batch: 99 Accuracy: 92.89579158316634%
+Scene: 5 Batch: 100 Accuracy: 92.91%
+Calculation completed.
+elapsed time: 47.936047288 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 6 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0016.bin
+
+cpu->gpu time 191 ms
+compute time 8 ms
+gpu->cpu time 187 ms
+cpu->file 4342 ms
+
+Preparation completed.
+elapsed time: 4.832777307 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.335181954 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.471942969 seconds
+
+Sending input to the network...
+Scene: 6 Batch: 1 Accuracy: 92.88423153692615%
+Scene: 6 Batch: 2 Accuracy: 92.8386454183267%
+Scene: 6 Batch: 3 Accuracy: 92.83300198807157%
+Scene: 6 Batch: 4 Accuracy: 92.79761904761905%
+Scene: 6 Batch: 5 Accuracy: 92.79207920792079%
+Scene: 6 Batch: 6 Accuracy: 92.80632411067195%
+Scene: 6 Batch: 7 Accuracy: 92.81065088757397%
+Scene: 6 Batch: 8 Accuracy: 92.79527559055119%
+Scene: 6 Batch: 9 Accuracy: 92.78978388998036%
+Scene: 6 Batch: 10 Accuracy: 92.79411764705883%
+Scene: 6 Batch: 11 Accuracy: 92.78864970645793%
+Scene: 6 Batch: 12 Accuracy: 92.79296875%
+Scene: 6 Batch: 13 Accuracy: 92.80701754385966%
+Scene: 6 Batch: 14 Accuracy: 92.82101167315176%
+Scene: 6 Batch: 15 Accuracy: 92.83495145631069%
+Scene: 6 Batch: 16 Accuracy: 92.8294573643411%
+Scene: 6 Batch: 17 Accuracy: 92.84332688588009%
+Scene: 6 Batch: 18 Accuracy: 92.82818532818533%
+Scene: 6 Batch: 19 Accuracy: 92.84200385356456%
+Scene: 6 Batch: 20 Accuracy: 92.84615384615385%
+Scene: 6 Batch: 21 Accuracy: 92.85988483685222%
+Scene: 6 Batch: 22 Accuracy: 92.87356321839081%
+Scene: 6 Batch: 23 Accuracy: 92.88718929254303%
+Scene: 6 Batch: 24 Accuracy: 92.90076335877863%
+Scene: 6 Batch: 25 Accuracy: 92.90476190476191%
+Scene: 6 Batch: 26 Accuracy: 92.91825095057035%
+Scene: 6 Batch: 27 Accuracy: 92.91271347248578%
+Scene: 6 Batch: 28 Accuracy: 92.92613636363637%
+Scene: 6 Batch: 29 Accuracy: 92.93950850661626%
+Scene: 6 Batch: 30 Accuracy: 92.95283018867926%
+Scene: 6 Batch: 31 Accuracy: 92.94726930320152%
+Scene: 6 Batch: 32 Accuracy: 92.96052631578948%
+Scene: 6 Batch: 33 Accuracy: 92.9643527204503%
+Scene: 6 Batch: 34 Accuracy: 92.97752808988766%
+Scene: 6 Batch: 35 Accuracy: 92.99065420560748%
+Scene: 6 Batch: 36 Accuracy: 93.00373134328359%
+Scene: 6 Batch: 37 Accuracy: 93.0074487895717%
+Scene: 6 Batch: 38 Accuracy: 93.0111524163569%
+Scene: 6 Batch: 39 Accuracy: 93.02411873840445%
+Scene: 6 Batch: 40 Accuracy: 93.02777777777779%
+Scene: 6 Batch: 41 Accuracy: 93.04066543438078%
+Scene: 6 Batch: 42 Accuracy: 93.05350553505536%
+Scene: 6 Batch: 43 Accuracy: 93.06629834254144%
+Scene: 6 Batch: 44 Accuracy: 93.07904411764707%
+Scene: 6 Batch: 45 Accuracy: 93.08256880733946%
+Scene: 6 Batch: 46 Accuracy: 93.0952380952381%
+Scene: 6 Batch: 47 Accuracy: 93.10786106032907%
+Scene: 6 Batch: 48 Accuracy: 93.1204379562044%
+Scene: 6 Batch: 49 Accuracy: 93.1329690346084%
+Scene: 6 Batch: 50 Accuracy: 93.14545454545456%
+Scene: 6 Batch: 51 Accuracy: 93.13974591651544%
+Scene: 6 Batch: 52 Accuracy: 93.143115942029%
+Scene: 6 Batch: 53 Accuracy: 93.15551537070526%
+Scene: 6 Batch: 54 Accuracy: 93.15884476534298%
+Scene: 6 Batch: 55 Accuracy: 93.17117117117118%
+Scene: 6 Batch: 56 Accuracy: 93.18345323741009%
+Scene: 6 Batch: 57 Accuracy: 93.18671454219032%
+Scene: 6 Batch: 58 Accuracy: 93.19892473118281%
+Scene: 6 Batch: 59 Accuracy: 93.21109123434705%
+Scene: 6 Batch: 60 Accuracy: 93.22321428571429%
+Scene: 6 Batch: 61 Accuracy: 93.22638146167559%
+Scene: 6 Batch: 62 Accuracy: 93.23843416370107%
+Scene: 6 Batch: 63 Accuracy: 93.25044404973359%
+Scene: 6 Batch: 64 Accuracy: 93.26241134751774%
+Scene: 6 Batch: 65 Accuracy: 93.27433628318586%
+Scene: 6 Batch: 66 Accuracy: 93.2862190812721%
+Scene: 6 Batch: 67 Accuracy: 93.28924162257496%
+Scene: 6 Batch: 68 Accuracy: 93.30105633802818%
+Scene: 6 Batch: 69 Accuracy: 93.31282952548332%
+Scene: 6 Batch: 70 Accuracy: 93.32456140350878%
+Scene: 6 Batch: 71 Accuracy: 93.33625218914186%
+Scene: 6 Batch: 72 Accuracy: 93.34790209790211%
+Scene: 6 Batch: 73 Accuracy: 93.35078534031415%
+Scene: 6 Batch: 74 Accuracy: 93.3623693379791%
+Scene: 6 Batch: 75 Accuracy: 93.37391304347827%
+Scene: 6 Batch: 76 Accuracy: 93.37673611111113%
+Scene: 6 Batch: 77 Accuracy: 93.38821490467939%
+Scene: 6 Batch: 78 Accuracy: 93.39965397923878%
+Scene: 6 Batch: 79 Accuracy: 93.41105354058723%
+Scene: 6 Batch: 80 Accuracy: 93.42241379310346%
+Scene: 6 Batch: 81 Accuracy: 93.43373493975905%
+Scene: 6 Batch: 82 Accuracy: 93.4450171821306%
+Scene: 6 Batch: 83 Accuracy: 93.45626072041168%
+Scene: 6 Batch: 84 Accuracy: 93.46746575342468%
+Scene: 6 Batch: 85 Accuracy: 93.47863247863249%
+Scene: 6 Batch: 86 Accuracy: 93.48976109215018%
+Scene: 6 Batch: 87 Accuracy: 93.5008517887564%
+Scene: 6 Batch: 88 Accuracy: 93.51190476190477%
+Scene: 6 Batch: 89 Accuracy: 93.52292020373515%
+Scene: 6 Batch: 90 Accuracy: 93.53389830508476%
+Scene: 6 Batch: 91 Accuracy: 93.54483925549917%
+Scene: 6 Batch: 92 Accuracy: 93.55574324324326%
+Scene: 6 Batch: 93 Accuracy: 93.56661045531199%
+Scene: 6 Batch: 94 Accuracy: 93.5774410774411%
+Scene: 6 Batch: 95 Accuracy: 93.58823529411767%
+Scene: 6 Batch: 96 Accuracy: 93.59899328859062%
+Scene: 6 Batch: 97 Accuracy: 93.60971524288108%
+Scene: 6 Batch: 98 Accuracy: 93.62040133779266%
+Scene: 6 Batch: 99 Accuracy: 93.63105175292155%
+Scene: 6 Batch: 100 Accuracy: 93.64166666666668%
+Calculation completed.
+elapsed time: 48.327942523 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 7 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0017.bin
+
+cpu->gpu time 187 ms
+compute time 4 ms
+gpu->cpu time 151 ms
+cpu->file 2726 ms
+
+Preparation completed.
+elapsed time: 3.172714966 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.432735391 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.157259517 seconds
+
+Sending input to the network...
+Scene: 7 Batch: 1 Accuracy: 93.63560732113146%
+Scene: 7 Batch: 2 Accuracy: 93.62126245847178%
+Scene: 7 Batch: 3 Accuracy: 93.63184079601992%
+Scene: 7 Batch: 4 Accuracy: 93.63410596026492%
+Scene: 7 Batch: 5 Accuracy: 93.62809917355374%
+Scene: 7 Batch: 6 Accuracy: 93.61386138613864%
+Scene: 7 Batch: 7 Accuracy: 93.60790774299836%
+Scene: 7 Batch: 8 Accuracy: 93.5855263157895%
+Scene: 7 Batch: 9 Accuracy: 93.57142857142858%
+Scene: 7 Batch: 10 Accuracy: 93.58196721311477%
+Scene: 7 Batch: 11 Accuracy: 93.58428805237318%
+Scene: 7 Batch: 12 Accuracy: 93.59477124183007%
+Scene: 7 Batch: 13 Accuracy: 93.59706362153347%
+Scene: 7 Batch: 14 Accuracy: 93.59934853420197%
+Scene: 7 Batch: 15 Accuracy: 93.60162601626017%
+Scene: 7 Batch: 16 Accuracy: 93.57954545454547%
+Scene: 7 Batch: 17 Accuracy: 93.58995137763372%
+Scene: 7 Batch: 18 Accuracy: 93.58414239482202%
+Scene: 7 Batch: 19 Accuracy: 93.5702746365105%
+Scene: 7 Batch: 20 Accuracy: 93.58064516129033%
+Scene: 7 Batch: 21 Accuracy: 93.59098228663447%
+Scene: 7 Batch: 22 Accuracy: 93.58520900321545%
+Scene: 7 Batch: 23 Accuracy: 93.58747993579456%
+Scene: 7 Batch: 24 Accuracy: 93.59775641025642%
+Scene: 7 Batch: 25 Accuracy: 93.60800000000002%
+Scene: 7 Batch: 26 Accuracy: 93.61821086261982%
+Scene: 7 Batch: 27 Accuracy: 93.62838915470496%
+Scene: 7 Batch: 28 Accuracy: 93.62261146496816%
+Scene: 7 Batch: 29 Accuracy: 93.62480127186011%
+Scene: 7 Batch: 30 Accuracy: 93.63492063492065%
+Scene: 7 Batch: 31 Accuracy: 93.64500792393028%
+Scene: 7 Batch: 32 Accuracy: 93.65506329113926%
+Scene: 7 Batch: 33 Accuracy: 93.6571879936809%
+Scene: 7 Batch: 34 Accuracy: 93.6671924290221%
+Scene: 7 Batch: 35 Accuracy: 93.66141732283467%
+Scene: 7 Batch: 36 Accuracy: 93.67138364779876%
+Scene: 7 Batch: 37 Accuracy: 93.68131868131869%
+Scene: 7 Batch: 38 Accuracy: 93.69122257053293%
+Scene: 7 Batch: 39 Accuracy: 93.70109546165885%
+Scene: 7 Batch: 40 Accuracy: 93.71093750000001%
+Scene: 7 Batch: 41 Accuracy: 93.72074882995321%
+Scene: 7 Batch: 42 Accuracy: 93.70716510903428%
+Scene: 7 Batch: 43 Accuracy: 93.70139968895802%
+Scene: 7 Batch: 44 Accuracy: 93.71118012422362%
+Scene: 7 Batch: 45 Accuracy: 93.72093023255815%
+Scene: 7 Batch: 46 Accuracy: 93.73065015479878%
+Scene: 7 Batch: 47 Accuracy: 93.74034003091192%
+Scene: 7 Batch: 48 Accuracy: 93.75000000000001%
+Scene: 7 Batch: 49 Accuracy: 93.75963020030818%
+Scene: 7 Batch: 50 Accuracy: 93.76153846153848%
+Scene: 7 Batch: 51 Accuracy: 93.76344086021507%
+Scene: 7 Batch: 52 Accuracy: 93.77300613496934%
+Scene: 7 Batch: 53 Accuracy: 93.78254211332315%
+Scene: 7 Batch: 54 Accuracy: 93.79204892966362%
+Scene: 7 Batch: 55 Accuracy: 93.80152671755727%
+Scene: 7 Batch: 56 Accuracy: 93.81097560975611%
+Scene: 7 Batch: 57 Accuracy: 93.80517503805177%
+Scene: 7 Batch: 58 Accuracy: 93.81458966565351%
+Scene: 7 Batch: 59 Accuracy: 93.8239757207891%
+Scene: 7 Batch: 60 Accuracy: 93.82575757575758%
+Scene: 7 Batch: 61 Accuracy: 93.82753403933435%
+Scene: 7 Batch: 62 Accuracy: 93.82930513595169%
+Scene: 7 Batch: 63 Accuracy: 93.83861236802414%
+Scene: 7 Batch: 64 Accuracy: 93.83283132530123%
+Scene: 7 Batch: 65 Accuracy: 93.8421052631579%
+Scene: 7 Batch: 66 Accuracy: 93.85135135135137%
+Scene: 7 Batch: 67 Accuracy: 93.84557721139431%
+Scene: 7 Batch: 68 Accuracy: 93.85479041916169%
+Scene: 7 Batch: 69 Accuracy: 93.86397608370703%
+Scene: 7 Batch: 70 Accuracy: 93.87313432835822%
+Scene: 7 Batch: 71 Accuracy: 93.88226527570791%
+Scene: 7 Batch: 72 Accuracy: 93.89136904761907%
+Scene: 7 Batch: 73 Accuracy: 93.89301634472513%
+Scene: 7 Batch: 74 Accuracy: 93.90207715133533%
+Scene: 7 Batch: 75 Accuracy: 93.91111111111113%
+Scene: 7 Batch: 76 Accuracy: 93.92011834319528%
+Scene: 7 Batch: 77 Accuracy: 93.9290989660266%
+Scene: 7 Batch: 78 Accuracy: 93.93805309734515%
+Scene: 7 Batch: 79 Accuracy: 93.94698085419736%
+Scene: 7 Batch: 80 Accuracy: 93.95588235294119%
+Scene: 7 Batch: 81 Accuracy: 93.95741556534509%
+Scene: 7 Batch: 82 Accuracy: 93.95894428152494%
+Scene: 7 Batch: 83 Accuracy: 93.96778916544658%
+Scene: 7 Batch: 84 Accuracy: 93.97660818713452%
+Scene: 7 Batch: 85 Accuracy: 93.98540145985403%
+Scene: 7 Batch: 86 Accuracy: 93.99416909620993%
+Scene: 7 Batch: 87 Accuracy: 93.99563318777294%
+Scene: 7 Batch: 88 Accuracy: 94.00436046511629%
+Scene: 7 Batch: 89 Accuracy: 94.01306240928884%
+Scene: 7 Batch: 90 Accuracy: 94.0144927536232%
+Scene: 7 Batch: 91 Accuracy: 94.02315484804633%
+Scene: 7 Batch: 92 Accuracy: 94.03179190751446%
+Scene: 7 Batch: 93 Accuracy: 94.04040404040406%
+Scene: 7 Batch: 94 Accuracy: 94.04899135446686%
+Scene: 7 Batch: 95 Accuracy: 94.05755395683455%
+Scene: 7 Batch: 96 Accuracy: 94.066091954023%
+Scene: 7 Batch: 97 Accuracy: 94.07460545193689%
+Scene: 7 Batch: 98 Accuracy: 94.08309455587394%
+Scene: 7 Batch: 99 Accuracy: 94.09155937052934%
+Scene: 7 Batch: 100 Accuracy: 94.09285714285716%
+Calculation completed.
+elapsed time: 48.343132174 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 8 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0018.bin
+
+cpu->gpu time 191 ms
+compute time 5 ms
+gpu->cpu time 154 ms
+cpu->file 4472 ms
+
+Preparation completed.
+elapsed time: 4.927294606 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.859627683 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.278709651 seconds
+
+Sending input to the network...
+Scene: 8 Batch: 1 Accuracy: 94.10128388017121%
+Scene: 8 Batch: 2 Accuracy: 94.10968660968663%
+Scene: 8 Batch: 3 Accuracy: 94.11806543385492%
+Scene: 8 Batch: 4 Accuracy: 94.12642045454547%
+Scene: 8 Batch: 5 Accuracy: 94.13475177304966%
+Scene: 8 Batch: 6 Accuracy: 94.14305949008501%
+Scene: 8 Batch: 7 Accuracy: 94.15134370579916%
+Scene: 8 Batch: 8 Accuracy: 94.15960451977404%
+Scene: 8 Batch: 9 Accuracy: 94.16784203102964%
+Scene: 8 Batch: 10 Accuracy: 94.17605633802818%
+Scene: 8 Batch: 11 Accuracy: 94.18424753867794%
+Scene: 8 Batch: 12 Accuracy: 94.1924157303371%
+Scene: 8 Batch: 13 Accuracy: 94.20056100981769%
+Scene: 8 Batch: 14 Accuracy: 94.20868347338937%
+Scene: 8 Batch: 15 Accuracy: 94.21678321678323%
+Scene: 8 Batch: 16 Accuracy: 94.22486033519554%
+Scene: 8 Batch: 17 Accuracy: 94.23291492329152%
+Scene: 8 Batch: 18 Accuracy: 94.24094707520892%
+Scene: 8 Batch: 19 Accuracy: 94.2489568845619%
+Scene: 8 Batch: 20 Accuracy: 94.25694444444446%
+Scene: 8 Batch: 21 Accuracy: 94.26490984743413%
+Scene: 8 Batch: 22 Accuracy: 94.27285318559558%
+Scene: 8 Batch: 23 Accuracy: 94.28077455048411%
+Scene: 8 Batch: 24 Accuracy: 94.28867403314919%
+Scene: 8 Batch: 25 Accuracy: 94.29655172413794%
+Scene: 8 Batch: 26 Accuracy: 94.30440771349863%
+Scene: 8 Batch: 27 Accuracy: 94.31224209078405%
+Scene: 8 Batch: 28 Accuracy: 94.32005494505496%
+Scene: 8 Batch: 29 Accuracy: 94.32784636488341%
+Scene: 8 Batch: 30 Accuracy: 94.33561643835618%
+Scene: 8 Batch: 31 Accuracy: 94.33652530779756%
+Scene: 8 Batch: 32 Accuracy: 94.34426229508198%
+Scene: 8 Batch: 33 Accuracy: 94.35197817189633%
+Scene: 8 Batch: 34 Accuracy: 94.35967302452318%
+Scene: 8 Batch: 35 Accuracy: 94.36734693877553%
+Scene: 8 Batch: 36 Accuracy: 94.37500000000001%
+Scene: 8 Batch: 37 Accuracy: 94.38263229308006%
+Scene: 8 Batch: 38 Accuracy: 94.38346883468837%
+Scene: 8 Batch: 39 Accuracy: 94.39106901217865%
+Scene: 8 Batch: 40 Accuracy: 94.39864864864866%
+Scene: 8 Batch: 41 Accuracy: 94.40620782726047%
+Scene: 8 Batch: 42 Accuracy: 94.41374663072779%
+Scene: 8 Batch: 43 Accuracy: 94.42126514131898%
+Scene: 8 Batch: 44 Accuracy: 94.42876344086024%
+Scene: 8 Batch: 45 Accuracy: 94.43624161073826%
+Scene: 8 Batch: 46 Accuracy: 94.4436997319035%
+Scene: 8 Batch: 47 Accuracy: 94.45113788487284%
+Scene: 8 Batch: 48 Accuracy: 94.45855614973263%
+Scene: 8 Batch: 49 Accuracy: 94.46595460614154%
+Scene: 8 Batch: 50 Accuracy: 94.47333333333336%
+Scene: 8 Batch: 51 Accuracy: 94.48069241011986%
+Scene: 8 Batch: 52 Accuracy: 94.48803191489364%
+Scene: 8 Batch: 53 Accuracy: 94.49535192563083%
+Scene: 8 Batch: 54 Accuracy: 94.50265251989391%
+Scene: 8 Batch: 55 Accuracy: 94.50331125827816%
+Scene: 8 Batch: 56 Accuracy: 94.51058201058203%
+Scene: 8 Batch: 57 Accuracy: 94.51783355350068%
+Scene: 8 Batch: 58 Accuracy: 94.52506596306071%
+Scene: 8 Batch: 59 Accuracy: 94.53227931488803%
+Scene: 8 Batch: 60 Accuracy: 94.53947368421053%
+Scene: 8 Batch: 61 Accuracy: 94.54664914586073%
+Scene: 8 Batch: 62 Accuracy: 94.55380577427823%
+Scene: 8 Batch: 63 Accuracy: 94.56094364351246%
+Scene: 8 Batch: 64 Accuracy: 94.56806282722513%
+Scene: 8 Batch: 65 Accuracy: 94.57516339869284%
+Scene: 8 Batch: 66 Accuracy: 94.58224543080942%
+Scene: 8 Batch: 67 Accuracy: 94.58930899608868%
+Scene: 8 Batch: 68 Accuracy: 94.59635416666669%
+Scene: 8 Batch: 69 Accuracy: 94.6033810143043%
+Scene: 8 Batch: 70 Accuracy: 94.61038961038962%
+Scene: 8 Batch: 71 Accuracy: 94.61738002594035%
+Scene: 8 Batch: 72 Accuracy: 94.62435233160623%
+Scene: 8 Batch: 73 Accuracy: 94.63130659767143%
+Scene: 8 Batch: 74 Accuracy: 94.63824289405687%
+Scene: 8 Batch: 75 Accuracy: 94.6451612903226%
+Scene: 8 Batch: 76 Accuracy: 94.65206185567013%
+Scene: 8 Batch: 77 Accuracy: 94.65894465894468%
+Scene: 8 Batch: 78 Accuracy: 94.66580976863754%
+Scene: 8 Batch: 79 Accuracy: 94.67265725288834%
+Scene: 8 Batch: 80 Accuracy: 94.6794871794872%
+Scene: 8 Batch: 81 Accuracy: 94.6862996158771%
+Scene: 8 Batch: 82 Accuracy: 94.69309462915602%
+Scene: 8 Batch: 83 Accuracy: 94.6998722860792%
+Scene: 8 Batch: 84 Accuracy: 94.70663265306123%
+Scene: 8 Batch: 85 Accuracy: 94.71337579617835%
+Scene: 8 Batch: 86 Accuracy: 94.7201017811705%
+Scene: 8 Batch: 87 Accuracy: 94.72681067344347%
+Scene: 8 Batch: 88 Accuracy: 94.73350253807108%
+Scene: 8 Batch: 89 Accuracy: 94.74017743979722%
+Scene: 8 Batch: 90 Accuracy: 94.746835443038%
+Scene: 8 Batch: 91 Accuracy: 94.7534766118837%
+Scene: 8 Batch: 92 Accuracy: 94.76010101010102%
+Scene: 8 Batch: 93 Accuracy: 94.76670870113495%
+Scene: 8 Batch: 94 Accuracy: 94.77329974811084%
+Scene: 8 Batch: 95 Accuracy: 94.7798742138365%
+Scene: 8 Batch: 96 Accuracy: 94.78643216080404%
+Scene: 8 Batch: 97 Accuracy: 94.79297365119199%
+Scene: 8 Batch: 98 Accuracy: 94.79949874686719%
+Scene: 8 Batch: 99 Accuracy: 94.80600750938675%
+Scene: 8 Batch: 100 Accuracy: 94.81250000000001%
+Calculation completed.
+elapsed time: 48.158148773 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 9 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0021.bin
+
+cpu->gpu time 204 ms
+compute time 5 ms
+gpu->cpu time 187 ms
+cpu->file 3145 ms
+
+Preparation completed.
+elapsed time: 3.647620782 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.205987645 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.218604638 seconds
+
+Sending input to the network...
+Scene: 9 Batch: 1 Accuracy: 94.79400749063672%
+Scene: 9 Batch: 2 Accuracy: 94.78802992518705%
+Scene: 9 Batch: 3 Accuracy: 94.74470734744709%
+Scene: 9 Batch: 4 Accuracy: 94.72636815920399%
+Scene: 9 Batch: 5 Accuracy: 94.68944099378884%
+Scene: 9 Batch: 6 Accuracy: 94.68362282878414%
+Scene: 9 Batch: 7 Accuracy: 94.67781908302356%
+Scene: 9 Batch: 8 Accuracy: 94.66584158415843%
+Scene: 9 Batch: 9 Accuracy: 94.64771322620521%
+Scene: 9 Batch: 10 Accuracy: 94.6172839506173%
+Scene: 9 Batch: 11 Accuracy: 94.5992601726264%
+Scene: 9 Batch: 12 Accuracy: 94.59359605911331%
+Scene: 9 Batch: 13 Accuracy: 94.58794587945881%
+Scene: 9 Batch: 14 Accuracy: 94.5884520884521%
+Scene: 9 Batch: 15 Accuracy: 94.58895705521473%
+Scene: 9 Batch: 16 Accuracy: 94.57107843137256%
+Scene: 9 Batch: 17 Accuracy: 94.55936352509181%
+Scene: 9 Batch: 18 Accuracy: 94.5476772616137%
+Scene: 9 Batch: 19 Accuracy: 94.53601953601955%
+Scene: 9 Batch: 20 Accuracy: 94.53048780487806%
+Scene: 9 Batch: 21 Accuracy: 94.5249695493301%
+Scene: 9 Batch: 22 Accuracy: 94.51338199513384%
+Scene: 9 Batch: 23 Accuracy: 94.50182260024303%
+Scene: 9 Batch: 24 Accuracy: 94.49029126213594%
+Scene: 9 Batch: 25 Accuracy: 94.4909090909091%
+Scene: 9 Batch: 26 Accuracy: 94.49757869249396%
+Scene: 9 Batch: 27 Accuracy: 94.49214026602178%
+Scene: 9 Batch: 28 Accuracy: 94.48671497584542%
+Scene: 9 Batch: 29 Accuracy: 94.47527141133898%
+Scene: 9 Batch: 30 Accuracy: 94.47590361445785%
+Scene: 9 Batch: 31 Accuracy: 94.47653429602889%
+Scene: 9 Batch: 32 Accuracy: 94.47115384615387%
+Scene: 9 Batch: 33 Accuracy: 94.4717887154862%
+Scene: 9 Batch: 34 Accuracy: 94.4664268585132%
+Scene: 9 Batch: 35 Accuracy: 94.46107784431139%
+Scene: 9 Batch: 36 Accuracy: 94.4677033492823%
+Scene: 9 Batch: 37 Accuracy: 94.47431302270013%
+Scene: 9 Batch: 38 Accuracy: 94.47494033412889%
+Scene: 9 Batch: 39 Accuracy: 94.46364719904649%
+Scene: 9 Batch: 40 Accuracy: 94.46428571428574%
+Scene: 9 Batch: 41 Accuracy: 94.47086801426875%
+Scene: 9 Batch: 42 Accuracy: 94.47743467933493%
+Scene: 9 Batch: 43 Accuracy: 94.48398576512457%
+Scene: 9 Batch: 44 Accuracy: 94.48459715639812%
+Scene: 9 Batch: 45 Accuracy: 94.49112426035504%
+Scene: 9 Batch: 46 Accuracy: 94.49172576832153%
+Scene: 9 Batch: 47 Accuracy: 94.49822904368361%
+Scene: 9 Batch: 48 Accuracy: 94.49882075471699%
+Scene: 9 Batch: 49 Accuracy: 94.5053003533569%
+Scene: 9 Batch: 50 Accuracy: 94.5058823529412%
+Scene: 9 Batch: 51 Accuracy: 94.51233842538191%
+Scene: 9 Batch: 52 Accuracy: 94.51877934272302%
+Scene: 9 Batch: 53 Accuracy: 94.52520515826497%
+Scene: 9 Batch: 54 Accuracy: 94.53161592505856%
+Scene: 9 Batch: 55 Accuracy: 94.53801169590645%
+Scene: 9 Batch: 56 Accuracy: 94.53855140186917%
+Scene: 9 Batch: 57 Accuracy: 94.5449241540257%
+Scene: 9 Batch: 58 Accuracy: 94.53962703962706%
+Scene: 9 Batch: 59 Accuracy: 94.54598370197907%
+Scene: 9 Batch: 60 Accuracy: 94.55232558139537%
+Scene: 9 Batch: 61 Accuracy: 94.55865272938445%
+Scene: 9 Batch: 62 Accuracy: 94.56496519721578%
+Scene: 9 Batch: 63 Accuracy: 94.57126303592122%
+Scene: 9 Batch: 64 Accuracy: 94.5775462962963%
+Scene: 9 Batch: 65 Accuracy: 94.58381502890175%
+Scene: 9 Batch: 66 Accuracy: 94.59006928406468%
+Scene: 9 Batch: 67 Accuracy: 94.59630911188006%
+Scene: 9 Batch: 68 Accuracy: 94.60253456221199%
+Scene: 9 Batch: 69 Accuracy: 94.60874568469507%
+Scene: 9 Batch: 70 Accuracy: 94.61494252873564%
+Scene: 9 Batch: 71 Accuracy: 94.61538461538464%
+Scene: 9 Batch: 72 Accuracy: 94.61582568807341%
+Scene: 9 Batch: 73 Accuracy: 94.61626575028639%
+Scene: 9 Batch: 74 Accuracy: 94.62242562929065%
+Scene: 9 Batch: 75 Accuracy: 94.62857142857145%
+Scene: 9 Batch: 76 Accuracy: 94.63470319634705%
+Scene: 9 Batch: 77 Accuracy: 94.64082098061574%
+Scene: 9 Batch: 78 Accuracy: 94.6469248291572%
+Scene: 9 Batch: 79 Accuracy: 94.65301478953357%
+Scene: 9 Batch: 80 Accuracy: 94.65909090909092%
+Scene: 9 Batch: 81 Accuracy: 94.66515323496029%
+Scene: 9 Batch: 82 Accuracy: 94.67120181405897%
+Scene: 9 Batch: 83 Accuracy: 94.67723669309174%
+Scene: 9 Batch: 84 Accuracy: 94.68325791855206%
+Scene: 9 Batch: 85 Accuracy: 94.68926553672318%
+Scene: 9 Batch: 86 Accuracy: 94.69525959367947%
+Scene: 9 Batch: 87 Accuracy: 94.69560315670802%
+Scene: 9 Batch: 88 Accuracy: 94.7015765765766%
+Scene: 9 Batch: 89 Accuracy: 94.70753655793027%
+Scene: 9 Batch: 90 Accuracy: 94.71348314606743%
+Scene: 9 Batch: 91 Accuracy: 94.71941638608307%
+Scene: 9 Batch: 92 Accuracy: 94.72533632286996%
+Scene: 9 Batch: 93 Accuracy: 94.73124300111984%
+Scene: 9 Batch: 94 Accuracy: 94.7371364653244%
+Scene: 9 Batch: 95 Accuracy: 94.74301675977655%
+Scene: 9 Batch: 96 Accuracy: 94.74888392857144%
+Scene: 9 Batch: 97 Accuracy: 94.7547380156076%
+Scene: 9 Batch: 98 Accuracy: 94.76057906458799%
+Scene: 9 Batch: 99 Accuracy: 94.76640711902115%
+Scene: 9 Batch: 100 Accuracy: 94.7666666666667%
+Calculation completed.
+elapsed time: 48.296774845 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 10 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0028.bin
+
+cpu->gpu time 198 ms
+compute time 4 ms
+gpu->cpu time 152 ms
+cpu->file 3589 ms
+
+Preparation completed.
+elapsed time: 4.048952065 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.834000551 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.189967698 seconds
+
+Sending input to the network...
+Scene: 10 Batch: 1 Accuracy: 94.76137624861268%
+Scene: 10 Batch: 2 Accuracy: 94.76164079822618%
+Scene: 10 Batch: 3 Accuracy: 94.74529346622371%
+Scene: 10 Batch: 4 Accuracy: 94.74004424778762%
+Scene: 10 Batch: 5 Accuracy: 94.72928176795583%
+Scene: 10 Batch: 6 Accuracy: 94.72958057395145%
+Scene: 10 Batch: 7 Accuracy: 94.71885336273431%
+Scene: 10 Batch: 8 Accuracy: 94.71365638766521%
+Scene: 10 Batch: 9 Accuracy: 94.70847084708473%
+Scene: 10 Batch: 10 Accuracy: 94.71428571428572%
+Scene: 10 Batch: 11 Accuracy: 94.70911086717894%
+Scene: 10 Batch: 12 Accuracy: 94.71491228070177%
+Scene: 10 Batch: 13 Accuracy: 94.7042716319825%
+Scene: 10 Batch: 14 Accuracy: 94.70459518599564%
+Scene: 10 Batch: 15 Accuracy: 94.71038251366122%
+Scene: 10 Batch: 16 Accuracy: 94.69978165938866%
+Scene: 10 Batch: 17 Accuracy: 94.70010905125412%
+Scene: 10 Batch: 18 Accuracy: 94.69498910675384%
+Scene: 10 Batch: 19 Accuracy: 94.69532100108816%
+Scene: 10 Batch: 20 Accuracy: 94.69565217391306%
+Scene: 10 Batch: 21 Accuracy: 94.70141150922912%
+Scene: 10 Batch: 22 Accuracy: 94.70715835140999%
+Scene: 10 Batch: 23 Accuracy: 94.71289274106176%
+Scene: 10 Batch: 24 Accuracy: 94.70238095238098%
+Scene: 10 Batch: 25 Accuracy: 94.70270270270272%
+Scene: 10 Batch: 26 Accuracy: 94.69222462203025%
+Scene: 10 Batch: 27 Accuracy: 94.69795037756205%
+Scene: 10 Batch: 28 Accuracy: 94.69827586206898%
+Scene: 10 Batch: 29 Accuracy: 94.69321851453178%
+Scene: 10 Batch: 30 Accuracy: 94.6935483870968%
+Scene: 10 Batch: 31 Accuracy: 94.68850698174009%
+Scene: 10 Batch: 32 Accuracy: 94.69420600858372%
+Scene: 10 Batch: 33 Accuracy: 94.68917470525189%
+Scene: 10 Batch: 34 Accuracy: 94.68950749464669%
+Scene: 10 Batch: 35 Accuracy: 94.69518716577542%
+Scene: 10 Batch: 36 Accuracy: 94.69551282051285%
+Scene: 10 Batch: 37 Accuracy: 94.68516542155818%
+Scene: 10 Batch: 38 Accuracy: 94.6855010660981%
+Scene: 10 Batch: 39 Accuracy: 94.68583599574016%
+Scene: 10 Batch: 40 Accuracy: 94.68617021276597%
+Scene: 10 Batch: 41 Accuracy: 94.69181721572797%
+Scene: 10 Batch: 42 Accuracy: 94.69214437367306%
+Scene: 10 Batch: 43 Accuracy: 94.69777306468718%
+Scene: 10 Batch: 44 Accuracy: 94.698093220339%
+Scene: 10 Batch: 45 Accuracy: 94.69841269841271%
+Scene: 10 Batch: 46 Accuracy: 94.68816067653279%
+Scene: 10 Batch: 47 Accuracy: 94.68321013727564%
+Scene: 10 Batch: 48 Accuracy: 94.68354430379749%
+Scene: 10 Batch: 49 Accuracy: 94.67860906217072%
+Scene: 10 Batch: 50 Accuracy: 94.67368421052633%
+Scene: 10 Batch: 51 Accuracy: 94.67402733964249%
+Scene: 10 Batch: 52 Accuracy: 94.67962184873952%
+Scene: 10 Batch: 53 Accuracy: 94.68520461699897%
+Scene: 10 Batch: 54 Accuracy: 94.69077568134175%
+Scene: 10 Batch: 55 Accuracy: 94.69633507853405%
+Scene: 10 Batch: 56 Accuracy: 94.6966527196653%
+Scene: 10 Batch: 57 Accuracy: 94.70219435736679%
+Scene: 10 Batch: 58 Accuracy: 94.70772442588728%
+Scene: 10 Batch: 59 Accuracy: 94.70281543274245%
+Scene: 10 Batch: 60 Accuracy: 94.70833333333334%
+Scene: 10 Batch: 61 Accuracy: 94.70863683662853%
+Scene: 10 Batch: 62 Accuracy: 94.71413721413724%
+Scene: 10 Batch: 63 Accuracy: 94.71962616822432%
+Scene: 10 Batch: 64 Accuracy: 94.72510373443986%
+Scene: 10 Batch: 65 Accuracy: 94.72538860103629%
+Scene: 10 Batch: 66 Accuracy: 94.73084886128366%
+Scene: 10 Batch: 67 Accuracy: 94.73629782833508%
+Scene: 10 Batch: 68 Accuracy: 94.7365702479339%
+Scene: 10 Batch: 69 Accuracy: 94.73684210526318%
+Scene: 10 Batch: 70 Accuracy: 94.74226804123714%
+Scene: 10 Batch: 71 Accuracy: 94.74768280123587%
+Scene: 10 Batch: 72 Accuracy: 94.74279835390948%
+Scene: 10 Batch: 73 Accuracy: 94.73792394655706%
+Scene: 10 Batch: 74 Accuracy: 94.73819301848052%
+Scene: 10 Batch: 75 Accuracy: 94.74358974358977%
+Scene: 10 Batch: 76 Accuracy: 94.74385245901642%
+Scene: 10 Batch: 77 Accuracy: 94.74923234390995%
+Scene: 10 Batch: 78 Accuracy: 94.75460122699388%
+Scene: 10 Batch: 79 Accuracy: 94.75995914198162%
+Scene: 10 Batch: 80 Accuracy: 94.765306122449%
+Scene: 10 Batch: 81 Accuracy: 94.77064220183489%
+Scene: 10 Batch: 82 Accuracy: 94.77087576374747%
+Scene: 10 Batch: 83 Accuracy: 94.77110885045781%
+Scene: 10 Batch: 84 Accuracy: 94.77134146341466%
+Scene: 10 Batch: 85 Accuracy: 94.77664974619292%
+Scene: 10 Batch: 86 Accuracy: 94.78194726166332%
+Scene: 10 Batch: 87 Accuracy: 94.78723404255321%
+Scene: 10 Batch: 88 Accuracy: 94.78744939271257%
+Scene: 10 Batch: 89 Accuracy: 94.78766430738122%
+Scene: 10 Batch: 90 Accuracy: 94.79292929292932%
+Scene: 10 Batch: 91 Accuracy: 94.7981836528759%
+Scene: 10 Batch: 92 Accuracy: 94.78830645161293%
+Scene: 10 Batch: 93 Accuracy: 94.79355488418935%
+Scene: 10 Batch: 94 Accuracy: 94.79376257545275%
+Scene: 10 Batch: 95 Accuracy: 94.79396984924625%
+Scene: 10 Batch: 96 Accuracy: 94.79919678714862%
+Scene: 10 Batch: 97 Accuracy: 94.80441323971918%
+Scene: 10 Batch: 98 Accuracy: 94.80961923847697%
+Scene: 10 Batch: 99 Accuracy: 94.80980980980983%
+Scene: 10 Batch: 100 Accuracy: 94.81500000000003%
+Calculation completed.
+elapsed time: 48.588350088 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 11 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0029.bin
+
+cpu->gpu time 198 ms
+compute time 38 ms
+gpu->cpu time 214 ms
+cpu->file 2660 ms
+
+Preparation completed.
+elapsed time: 3.217313977 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 3.99222352 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.300632094 seconds
+
+Sending input to the network...
+Scene: 11 Batch: 1 Accuracy: 94.7702297702298%
+Scene: 11 Batch: 2 Accuracy: 94.72055888223555%
+Scene: 11 Batch: 3 Accuracy: 94.71086739780661%
+Scene: 11 Batch: 4 Accuracy: 94.67131474103589%
+Scene: 11 Batch: 5 Accuracy: 94.66169154228858%
+Scene: 11 Batch: 6 Accuracy: 94.64711729622269%
+Scene: 11 Batch: 7 Accuracy: 94.63753723932476%
+Scene: 11 Batch: 8 Accuracy: 94.63789682539685%
+Scene: 11 Batch: 9 Accuracy: 94.63330029732411%
+Scene: 11 Batch: 10 Accuracy: 94.61881188118815%
+Scene: 11 Batch: 11 Accuracy: 94.62413452027698%
+Scene: 11 Batch: 12 Accuracy: 94.61956521739133%
+Scene: 11 Batch: 13 Accuracy: 94.6100691016782%
+Scene: 11 Batch: 14 Accuracy: 94.60552268244578%
+Scene: 11 Batch: 15 Accuracy: 94.60591133004928%
+Scene: 11 Batch: 16 Accuracy: 94.5964566929134%
+Scene: 11 Batch: 17 Accuracy: 94.59685349065883%
+Scene: 11 Batch: 18 Accuracy: 94.5923379174853%
+Scene: 11 Batch: 19 Accuracy: 94.59273797841024%
+Scene: 11 Batch: 20 Accuracy: 94.59313725490198%
+Scene: 11 Batch: 21 Accuracy: 94.59843290891286%
+Scene: 11 Batch: 22 Accuracy: 94.60371819960864%
+Scene: 11 Batch: 23 Accuracy: 94.60410557184753%
+Scene: 11 Batch: 24 Accuracy: 94.60937500000003%
+Scene: 11 Batch: 25 Accuracy: 94.61463414634149%
+Scene: 11 Batch: 26 Accuracy: 94.61500974658873%
+Scene: 11 Batch: 27 Accuracy: 94.61538461538464%
+Scene: 11 Batch: 28 Accuracy: 94.62062256809341%
+Scene: 11 Batch: 29 Accuracy: 94.6161321671526%
+Scene: 11 Batch: 30 Accuracy: 94.621359223301%
+Scene: 11 Batch: 31 Accuracy: 94.62172647914649%
+Scene: 11 Batch: 32 Accuracy: 94.62693798449615%
+Scene: 11 Batch: 33 Accuracy: 94.63213939980642%
+Scene: 11 Batch: 34 Accuracy: 94.63733075435205%
+Scene: 11 Batch: 35 Accuracy: 94.63285024154592%
+Scene: 11 Batch: 36 Accuracy: 94.63320463320466%
+Scene: 11 Batch: 37 Accuracy: 94.63837994214082%
+Scene: 11 Batch: 38 Accuracy: 94.64354527938346%
+Scene: 11 Batch: 39 Accuracy: 94.64388835418674%
+Scene: 11 Batch: 40 Accuracy: 94.6490384615385%
+Scene: 11 Batch: 41 Accuracy: 94.65417867435161%
+Scene: 11 Batch: 42 Accuracy: 94.65930902111327%
+Scene: 11 Batch: 43 Accuracy: 94.66442953020136%
+Scene: 11 Batch: 44 Accuracy: 94.66954022988509%
+Scene: 11 Batch: 45 Accuracy: 94.67464114832539%
+Scene: 11 Batch: 46 Accuracy: 94.67973231357554%
+Scene: 11 Batch: 47 Accuracy: 94.68003820439354%
+Scene: 11 Batch: 48 Accuracy: 94.68511450381682%
+Scene: 11 Batch: 49 Accuracy: 94.69018112488087%
+Scene: 11 Batch: 50 Accuracy: 94.69523809523812%
+Scene: 11 Batch: 51 Accuracy: 94.7002854424358%
+Scene: 11 Batch: 52 Accuracy: 94.70532319391639%
+Scene: 11 Batch: 53 Accuracy: 94.71035137701807%
+Scene: 11 Batch: 54 Accuracy: 94.71537001897535%
+Scene: 11 Batch: 55 Accuracy: 94.71563981042657%
+Scene: 11 Batch: 56 Accuracy: 94.72064393939397%
+Scene: 11 Batch: 57 Accuracy: 94.72563859981081%
+Scene: 11 Batch: 58 Accuracy: 94.73062381852554%
+Scene: 11 Batch: 59 Accuracy: 94.7355996222852%
+Scene: 11 Batch: 60 Accuracy: 94.7358490566038%
+Scene: 11 Batch: 61 Accuracy: 94.73609802073518%
+Scene: 11 Batch: 62 Accuracy: 94.74105461393599%
+Scene: 11 Batch: 63 Accuracy: 94.74600188146756%
+Scene: 11 Batch: 64 Accuracy: 94.75093984962409%
+Scene: 11 Batch: 65 Accuracy: 94.75586854460096%
+Scene: 11 Batch: 66 Accuracy: 94.76078799249534%
+Scene: 11 Batch: 67 Accuracy: 94.76101218369261%
+Scene: 11 Batch: 68 Accuracy: 94.76123595505621%
+Scene: 11 Batch: 69 Accuracy: 94.7661365762395%
+Scene: 11 Batch: 70 Accuracy: 94.76635514018695%
+Scene: 11 Batch: 71 Accuracy: 94.77124183006539%
+Scene: 11 Batch: 72 Accuracy: 94.77145522388062%
+Scene: 11 Batch: 73 Accuracy: 94.77632805219015%
+Scene: 11 Batch: 74 Accuracy: 94.7811918063315%
+Scene: 11 Batch: 75 Accuracy: 94.78604651162793%
+Scene: 11 Batch: 76 Accuracy: 94.79089219330858%
+Scene: 11 Batch: 77 Accuracy: 94.79572887650885%
+Scene: 11 Batch: 78 Accuracy: 94.8005565862709%
+Scene: 11 Batch: 79 Accuracy: 94.80537534754406%
+Scene: 11 Batch: 80 Accuracy: 94.81018518518522%
+Scene: 11 Batch: 81 Accuracy: 94.81498612395932%
+Scene: 11 Batch: 82 Accuracy: 94.81977818853977%
+Scene: 11 Batch: 83 Accuracy: 94.8245614035088%
+Scene: 11 Batch: 84 Accuracy: 94.82933579335796%
+Scene: 11 Batch: 85 Accuracy: 94.83410138248851%
+Scene: 11 Batch: 86 Accuracy: 94.83885819521181%
+Scene: 11 Batch: 87 Accuracy: 94.83900643974243%
+Scene: 11 Batch: 88 Accuracy: 94.84375000000003%
+Scene: 11 Batch: 89 Accuracy: 94.84848484848487%
+Scene: 11 Batch: 90 Accuracy: 94.85321100917434%
+Scene: 11 Batch: 91 Accuracy: 94.85792850595787%
+Scene: 11 Batch: 92 Accuracy: 94.86263736263739%
+Scene: 11 Batch: 93 Accuracy: 94.86733760292775%
+Scene: 11 Batch: 94 Accuracy: 94.87202925045708%
+Scene: 11 Batch: 95 Accuracy: 94.87671232876716%
+Scene: 11 Batch: 96 Accuracy: 94.8813868613139%
+Scene: 11 Batch: 97 Accuracy: 94.88605287146767%
+Scene: 11 Batch: 98 Accuracy: 94.89071038251369%
+Scene: 11 Batch: 99 Accuracy: 94.89535941765243%
+Scene: 11 Batch: 100 Accuracy: 94.90000000000003%
+Calculation completed.
+elapsed time: 48.356122048 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 12 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0030.bin
+
+cpu->gpu time 185 ms
+compute time 44 ms
+gpu->cpu time 199 ms
+cpu->file 2557 ms
+
+Preparation completed.
+elapsed time: 3.090009936 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 3.968164463 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.216284764 seconds
+
+Sending input to the network...
+Scene: 12 Batch: 1 Accuracy: 94.8728428701181%
+Scene: 12 Batch: 2 Accuracy: 94.82758620689657%
+Scene: 12 Batch: 3 Accuracy: 94.80961015412514%
+Scene: 12 Batch: 4 Accuracy: 94.7916666666667%
+Scene: 12 Batch: 5 Accuracy: 94.77828054298645%
+Scene: 12 Batch: 6 Accuracy: 94.77396021699822%
+Scene: 12 Batch: 7 Accuracy: 94.76061427280942%
+Scene: 12 Batch: 8 Accuracy: 94.74729241877259%
+Scene: 12 Batch: 9 Accuracy: 94.74752028854827%
+Scene: 12 Batch: 10 Accuracy: 94.73873873873877%
+Scene: 12 Batch: 11 Accuracy: 94.72997299729975%
+Scene: 12 Batch: 12 Accuracy: 94.72571942446045%
+Scene: 12 Batch: 13 Accuracy: 94.73045822102428%
+Scene: 12 Batch: 14 Accuracy: 94.73070017953324%
+Scene: 12 Batch: 15 Accuracy: 94.7309417040359%
+Scene: 12 Batch: 16 Accuracy: 94.72222222222226%
+Scene: 12 Batch: 17 Accuracy: 94.71799462846914%
+Scene: 12 Batch: 18 Accuracy: 94.71377459749554%
+Scene: 12 Batch: 19 Accuracy: 94.7140303842717%
+Scene: 12 Batch: 20 Accuracy: 94.71875000000003%
+Scene: 12 Batch: 21 Accuracy: 94.72346119536131%
+Scene: 12 Batch: 22 Accuracy: 94.71925133689842%
+Scene: 12 Batch: 23 Accuracy: 94.71504897595729%
+Scene: 12 Batch: 24 Accuracy: 94.71085409252672%
+Scene: 12 Batch: 25 Accuracy: 94.71111111111114%
+Scene: 12 Batch: 26 Accuracy: 94.70692717584373%
+Scene: 12 Batch: 27 Accuracy: 94.69831410825202%
+Scene: 12 Batch: 28 Accuracy: 94.70301418439719%
+Scene: 12 Batch: 29 Accuracy: 94.7032772364925%
+Scene: 12 Batch: 30 Accuracy: 94.70353982300888%
+Scene: 12 Batch: 31 Accuracy: 94.69496021220162%
+Scene: 12 Batch: 32 Accuracy: 94.69081272084809%
+Scene: 12 Batch: 33 Accuracy: 94.68667255075025%
+Scene: 12 Batch: 34 Accuracy: 94.69135802469138%
+Scene: 12 Batch: 35 Accuracy: 94.69162995594716%
+Scene: 12 Batch: 36 Accuracy: 94.69190140845073%
+Scene: 12 Batch: 37 Accuracy: 94.69656992084435%
+Scene: 12 Batch: 38 Accuracy: 94.69244288224958%
+Scene: 12 Batch: 39 Accuracy: 94.69710272168571%
+Scene: 12 Batch: 40 Accuracy: 94.70175438596495%
+Scene: 12 Batch: 41 Accuracy: 94.70201577563545%
+Scene: 12 Batch: 42 Accuracy: 94.70665499124345%
+Scene: 12 Batch: 43 Accuracy: 94.71128608923887%
+Scene: 12 Batch: 44 Accuracy: 94.71590909090912%
+Scene: 12 Batch: 45 Accuracy: 94.71179039301313%
+Scene: 12 Batch: 46 Accuracy: 94.70767888307158%
+Scene: 12 Batch: 47 Accuracy: 94.71229293809942%
+Scene: 12 Batch: 48 Accuracy: 94.712543554007%
+Scene: 12 Batch: 49 Accuracy: 94.71714534377722%
+Scene: 12 Batch: 50 Accuracy: 94.71739130434786%
+Scene: 12 Batch: 51 Accuracy: 94.72198088618595%
+Scene: 12 Batch: 52 Accuracy: 94.71788194444447%
+Scene: 12 Batch: 53 Accuracy: 94.72246313963576%
+Scene: 12 Batch: 54 Accuracy: 94.72270363951476%
+Scene: 12 Batch: 55 Accuracy: 94.72294372294375%
+Scene: 12 Batch: 56 Accuracy: 94.72750865051906%
+Scene: 12 Batch: 57 Accuracy: 94.72774416594643%
+Scene: 12 Batch: 58 Accuracy: 94.7322970639033%
+Scene: 12 Batch: 59 Accuracy: 94.73252804141504%
+Scene: 12 Batch: 60 Accuracy: 94.72413793103452%
+Scene: 12 Batch: 61 Accuracy: 94.72006890611544%
+Scene: 12 Batch: 62 Accuracy: 94.72030981067128%
+Scene: 12 Batch: 63 Accuracy: 94.72055030094586%
+Scene: 12 Batch: 64 Accuracy: 94.71649484536086%
+Scene: 12 Batch: 65 Accuracy: 94.72103004291849%
+Scene: 12 Batch: 66 Accuracy: 94.72555746140654%
+Scene: 12 Batch: 67 Accuracy: 94.72579263067698%
+Scene: 12 Batch: 68 Accuracy: 94.72602739726031%
+Scene: 12 Batch: 69 Accuracy: 94.73053892215572%
+Scene: 12 Batch: 70 Accuracy: 94.73076923076927%
+Scene: 12 Batch: 71 Accuracy: 94.73099914602906%
+Scene: 12 Batch: 72 Accuracy: 94.7354948805461%
+Scene: 12 Batch: 73 Accuracy: 94.73998294970166%
+Scene: 12 Batch: 74 Accuracy: 94.7444633730835%
+Scene: 12 Batch: 75 Accuracy: 94.7489361702128%
+Scene: 12 Batch: 76 Accuracy: 94.75340136054425%
+Scene: 12 Batch: 77 Accuracy: 94.75785896346648%
+Scene: 12 Batch: 78 Accuracy: 94.76230899830223%
+Scene: 12 Batch: 79 Accuracy: 94.76675148430877%
+Scene: 12 Batch: 80 Accuracy: 94.7669491525424%
+Scene: 12 Batch: 81 Accuracy: 94.77138018628284%
+Scene: 12 Batch: 82 Accuracy: 94.77157360406095%
+Scene: 12 Batch: 83 Accuracy: 94.77599323753174%
+Scene: 12 Batch: 84 Accuracy: 94.77618243243246%
+Scene: 12 Batch: 85 Accuracy: 94.7805907172996%
+Scene: 12 Batch: 86 Accuracy: 94.78499156829683%
+Scene: 12 Batch: 87 Accuracy: 94.78938500421232%
+Scene: 12 Batch: 88 Accuracy: 94.78956228956233%
+Scene: 12 Batch: 89 Accuracy: 94.79394449116909%
+Scene: 12 Batch: 90 Accuracy: 94.79831932773112%
+Scene: 12 Batch: 91 Accuracy: 94.8026868178002%
+Scene: 12 Batch: 92 Accuracy: 94.8070469798658%
+Scene: 12 Batch: 93 Accuracy: 94.81139983235543%
+Scene: 12 Batch: 94 Accuracy: 94.81574539363487%
+Scene: 12 Batch: 95 Accuracy: 94.81589958158999%
+Scene: 12 Batch: 96 Accuracy: 94.8202341137124%
+Scene: 12 Batch: 97 Accuracy: 94.8245614035088%
+Scene: 12 Batch: 98 Accuracy: 94.82888146911522%
+Scene: 12 Batch: 99 Accuracy: 94.82902418682238%
+Scene: 12 Batch: 100 Accuracy: 94.83333333333336%
+Calculation completed.
+elapsed time: 47.93767265 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 13 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0031.bin
+
+cpu->gpu time 200 ms
+compute time 40 ms
+gpu->cpu time 210 ms
+cpu->file 2892 ms
+
+Preparation completed.
+elapsed time: 3.449899322 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 4.128985404 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.191422002 seconds
+
+Sending input to the network...
+Scene: 13 Batch: 1 Accuracy: 94.76686094920902%
+Scene: 13 Batch: 2 Accuracy: 94.71713810316143%
+Scene: 13 Batch: 3 Accuracy: 94.69659185369912%
+Scene: 13 Batch: 4 Accuracy: 94.64700996677745%
+Scene: 13 Batch: 5 Accuracy: 94.62240663900417%
+Scene: 13 Batch: 6 Accuracy: 94.59784411276951%
+Scene: 13 Batch: 7 Accuracy: 94.58989229494618%
+Scene: 13 Batch: 8 Accuracy: 94.56539735099341%
+Scene: 13 Batch: 9 Accuracy: 94.54507857733667%
+Scene: 13 Batch: 10 Accuracy: 94.52892561983474%
+Scene: 13 Batch: 11 Accuracy: 94.50041288191579%
+Scene: 13 Batch: 12 Accuracy: 94.49257425742577%
+Scene: 13 Batch: 13 Accuracy: 94.46413849958782%
+Scene: 13 Batch: 14 Accuracy: 94.44810543657334%
+Scene: 13 Batch: 15 Accuracy: 94.44444444444447%
+Scene: 13 Batch: 16 Accuracy: 94.42845394736845%
+Scene: 13 Batch: 17 Accuracy: 94.41659819227611%
+Scene: 13 Batch: 18 Accuracy: 94.40886699507391%
+Scene: 13 Batch: 19 Accuracy: 94.40114848236261%
+Scene: 13 Batch: 20 Accuracy: 94.40163934426232%
+Scene: 13 Batch: 21 Accuracy: 94.39393939393942%
+Scene: 13 Batch: 22 Accuracy: 94.38625204582654%
+Scene: 13 Batch: 23 Accuracy: 94.37448896156994%
+Scene: 13 Batch: 24 Accuracy: 94.36683006535951%
+Scene: 13 Batch: 25 Accuracy: 94.35510204081635%
+Scene: 13 Batch: 26 Accuracy: 94.35154975530182%
+Scene: 13 Batch: 27 Accuracy: 94.34800325998373%
+Scene: 13 Batch: 28 Accuracy: 94.33631921824107%
+Scene: 13 Batch: 29 Accuracy: 94.33279088689994%
+Scene: 13 Batch: 30 Accuracy: 94.32520325203255%
+Scene: 13 Batch: 31 Accuracy: 94.32168968318443%
+Scene: 13 Batch: 32 Accuracy: 94.32224025974028%
+Scene: 13 Batch: 33 Accuracy: 94.31467964314683%
+Scene: 13 Batch: 34 Accuracy: 94.31928687196113%
+Scene: 13 Batch: 35 Accuracy: 94.31174089068828%
+Scene: 13 Batch: 36 Accuracy: 94.31634304207122%
+Scene: 13 Batch: 37 Accuracy: 94.31285367825387%
+Scene: 13 Batch: 38 Accuracy: 94.31340872374801%
+Scene: 13 Batch: 39 Accuracy: 94.31799838579502%
+Scene: 13 Batch: 40 Accuracy: 94.30241935483875%
+Scene: 13 Batch: 41 Accuracy: 94.29895245769544%
+Scene: 13 Batch: 42 Accuracy: 94.29549114331725%
+Scene: 13 Batch: 43 Accuracy: 94.29203539823011%
+Scene: 13 Batch: 44 Accuracy: 94.28858520900324%
+Scene: 13 Batch: 45 Accuracy: 94.281124497992%
+Scene: 13 Batch: 46 Accuracy: 94.28170144462283%
+Scene: 13 Batch: 47 Accuracy: 94.27425821972737%
+Scene: 13 Batch: 48 Accuracy: 94.26682692307695%
+Scene: 13 Batch: 49 Accuracy: 94.2634107285829%
+Scene: 13 Batch: 50 Accuracy: 94.26400000000002%
+Scene: 13 Batch: 51 Accuracy: 94.25659472422066%
+Scene: 13 Batch: 52 Accuracy: 94.23722044728437%
+Scene: 13 Batch: 53 Accuracy: 94.2298483639266%
+Scene: 13 Batch: 54 Accuracy: 94.22647527910688%
+Scene: 13 Batch: 55 Accuracy: 94.22709163346616%
+Scene: 13 Batch: 56 Accuracy: 94.21974522292996%
+Scene: 13 Batch: 57 Accuracy: 94.2163882259348%
+Scene: 13 Batch: 58 Accuracy: 94.20906200317968%
+Scene: 13 Batch: 59 Accuracy: 94.21366163621924%
+Scene: 13 Batch: 60 Accuracy: 94.21031746031748%
+Scene: 13 Batch: 61 Accuracy: 94.20697858842192%
+Scene: 13 Batch: 62 Accuracy: 94.19572107765455%
+Scene: 13 Batch: 63 Accuracy: 94.19239904988126%
+Scene: 13 Batch: 64 Accuracy: 94.18908227848104%
+Scene: 13 Batch: 65 Accuracy: 94.17391304347828%
+Scene: 13 Batch: 66 Accuracy: 94.16271721958928%
+Scene: 13 Batch: 67 Accuracy: 94.15153906866617%
+Scene: 13 Batch: 68 Accuracy: 94.14826498422715%
+Scene: 13 Batch: 69 Accuracy: 94.14893617021279%
+Scene: 13 Batch: 70 Accuracy: 94.1456692913386%
+Scene: 13 Batch: 71 Accuracy: 94.14240755310782%
+Scene: 13 Batch: 72 Accuracy: 94.14308176100631%
+Scene: 13 Batch: 73 Accuracy: 94.13589945011786%
+Scene: 13 Batch: 74 Accuracy: 94.13265306122453%
+Scene: 13 Batch: 75 Accuracy: 94.13333333333337%
+Scene: 13 Batch: 76 Accuracy: 94.13009404388718%
+Scene: 13 Batch: 77 Accuracy: 94.13077525450278%
+Scene: 13 Batch: 78 Accuracy: 94.1158059467919%
+Scene: 13 Batch: 79 Accuracy: 94.11258795934326%
+Scene: 13 Batch: 80 Accuracy: 94.10156250000003%
+Scene: 13 Batch: 81 Accuracy: 94.09445745511323%
+Scene: 13 Batch: 82 Accuracy: 94.09516380655229%
+Scene: 13 Batch: 83 Accuracy: 94.09976617303198%
+Scene: 13 Batch: 84 Accuracy: 94.09657320872277%
+Scene: 13 Batch: 85 Accuracy: 94.09727626459147%
+Scene: 13 Batch: 86 Accuracy: 94.10186625194405%
+Scene: 13 Batch: 87 Accuracy: 94.10256410256413%
+Scene: 13 Batch: 88 Accuracy: 94.10714285714289%
+Scene: 13 Batch: 89 Accuracy: 94.11171450737008%
+Scene: 13 Batch: 90 Accuracy: 94.10852713178298%
+Scene: 13 Batch: 91 Accuracy: 94.11309062742063%
+Scene: 13 Batch: 92 Accuracy: 94.11377708978331%
+Scene: 13 Batch: 93 Accuracy: 94.1144624903326%
+Scene: 13 Batch: 94 Accuracy: 94.1074188562597%
+Scene: 13 Batch: 95 Accuracy: 94.10424710424714%
+Scene: 13 Batch: 96 Accuracy: 94.10879629629633%
+Scene: 13 Batch: 97 Accuracy: 94.10948342328453%
+Scene: 13 Batch: 98 Accuracy: 94.11402157164872%
+Scene: 13 Batch: 99 Accuracy: 94.11470361816785%
+Scene: 13 Batch: 100 Accuracy: 94.11538461538464%
+Calculation completed.
+elapsed time: 48.204462338 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 14 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0032.bin
+
+cpu->gpu time 210 ms
+compute time 74 ms
+gpu->cpu time 202 ms
+cpu->file 2652 ms
+
+Preparation completed.
+elapsed time: 3.246890993 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.690907393 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.513030198 seconds
+
+Sending input to the network...
+Scene: 14 Batch: 1 Accuracy: 94.06994619523446%
+Scene: 14 Batch: 2 Accuracy: 94.03225806451616%
+Scene: 14 Batch: 3 Accuracy: 94.00997697620879%
+Scene: 14 Batch: 4 Accuracy: 93.99923312883439%
+Scene: 14 Batch: 5 Accuracy: 93.98850574712647%
+Scene: 14 Batch: 6 Accuracy: 93.97396630934153%
+Scene: 14 Batch: 7 Accuracy: 93.96327467482789%
+Scene: 14 Batch: 8 Accuracy: 93.95642201834865%
+Scene: 14 Batch: 9 Accuracy: 93.94957983193281%
+Scene: 14 Batch: 10 Accuracy: 93.95419847328247%
+Scene: 14 Batch: 11 Accuracy: 93.94736842105266%
+Scene: 14 Batch: 12 Accuracy: 93.94817073170735%
+Scene: 14 Batch: 13 Accuracy: 93.94897182025898%
+Scene: 14 Batch: 14 Accuracy: 93.94977168949775%
+Scene: 14 Batch: 15 Accuracy: 93.94296577946771%
+Scene: 14 Batch: 16 Accuracy: 93.93996960486325%
+Scene: 14 Batch: 17 Accuracy: 93.94077448747156%
+Scene: 14 Batch: 18 Accuracy: 93.94537177541733%
+Scene: 14 Batch: 19 Accuracy: 93.94617134192573%
+Scene: 14 Batch: 20 Accuracy: 93.94318181818186%
+Scene: 14 Batch: 21 Accuracy: 93.9401968205905%
+Scene: 14 Batch: 22 Accuracy: 93.94478063540093%
+Scene: 14 Batch: 23 Accuracy: 93.94179894179896%
+Scene: 14 Batch: 24 Accuracy: 93.94637462235653%
+Scene: 14 Batch: 25 Accuracy: 93.94716981132079%
+Scene: 14 Batch: 26 Accuracy: 93.94796380090501%
+Scene: 14 Batch: 27 Accuracy: 93.94498869630749%
+Scene: 14 Batch: 28 Accuracy: 93.93825301204822%
+Scene: 14 Batch: 29 Accuracy: 93.93905191873593%
+Scene: 14 Batch: 30 Accuracy: 93.93609022556394%
+Scene: 14 Batch: 31 Accuracy: 93.9331329827198%
+Scene: 14 Batch: 32 Accuracy: 93.93768768768773%
+Scene: 14 Batch: 33 Accuracy: 93.93848462115533%
+Scene: 14 Batch: 34 Accuracy: 93.94302848575715%
+Scene: 14 Batch: 35 Accuracy: 93.94382022471913%
+Scene: 14 Batch: 36 Accuracy: 93.94461077844315%
+Scene: 14 Batch: 37 Accuracy: 93.94913986537027%
+Scene: 14 Batch: 38 Accuracy: 93.94992526158448%
+Scene: 14 Batch: 39 Accuracy: 93.94324122479466%
+Scene: 14 Batch: 40 Accuracy: 93.9477611940299%
+Scene: 14 Batch: 41 Accuracy: 93.95227442207312%
+Scene: 14 Batch: 42 Accuracy: 93.95678092399407%
+Scene: 14 Batch: 43 Accuracy: 93.957557706627%
+Scene: 14 Batch: 44 Accuracy: 93.96205357142861%
+Scene: 14 Batch: 45 Accuracy: 93.96282527881044%
+Scene: 14 Batch: 46 Accuracy: 93.96359583952454%
+Scene: 14 Batch: 47 Accuracy: 93.96436525612476%
+Scene: 14 Batch: 48 Accuracy: 93.96884272997036%
+Scene: 14 Batch: 49 Accuracy: 93.96960711638253%
+Scene: 14 Batch: 50 Accuracy: 93.9703703703704%
+Scene: 14 Batch: 51 Accuracy: 93.97483345669878%
+Scene: 14 Batch: 52 Accuracy: 93.97928994082844%
+Scene: 14 Batch: 53 Accuracy: 93.98004434589804%
+Scene: 14 Batch: 54 Accuracy: 93.98449039881835%
+Scene: 14 Batch: 55 Accuracy: 93.98892988929893%
+Scene: 14 Batch: 56 Accuracy: 93.98967551622422%
+Scene: 14 Batch: 57 Accuracy: 93.99042004421521%
+Scene: 14 Batch: 58 Accuracy: 93.98379970544923%
+Scene: 14 Batch: 59 Accuracy: 93.98454746136868%
+Scene: 14 Batch: 60 Accuracy: 93.98529411764709%
+Scene: 14 Batch: 61 Accuracy: 93.98603967670833%
+Scene: 14 Batch: 62 Accuracy: 93.99045521292221%
+Scene: 14 Batch: 63 Accuracy: 93.99119589141604%
+Scene: 14 Batch: 64 Accuracy: 93.99560117302056%
+Scene: 14 Batch: 65 Accuracy: 94.00000000000004%
+Scene: 14 Batch: 66 Accuracy: 93.99707174231337%
+Scene: 14 Batch: 67 Accuracy: 94.00146305779083%
+Scene: 14 Batch: 68 Accuracy: 94.00584795321642%
+Scene: 14 Batch: 69 Accuracy: 94.00292184075971%
+Scene: 14 Batch: 70 Accuracy: 94.00729927007303%
+Scene: 14 Batch: 71 Accuracy: 94.01167031363971%
+Scene: 14 Batch: 72 Accuracy: 94.01239067055397%
+Scene: 14 Batch: 73 Accuracy: 94.01675163874731%
+Scene: 14 Batch: 74 Accuracy: 94.02110625909756%
+Scene: 14 Batch: 75 Accuracy: 94.02545454545458%
+Scene: 14 Batch: 76 Accuracy: 94.02979651162794%
+Scene: 14 Batch: 77 Accuracy: 94.03413217138711%
+Scene: 14 Batch: 78 Accuracy: 94.0348330914369%
+Scene: 14 Batch: 79 Accuracy: 94.0355329949239%
+Scene: 14 Batch: 80 Accuracy: 94.03985507246381%
+Scene: 14 Batch: 81 Accuracy: 94.04417089065899%
+Scene: 14 Batch: 82 Accuracy: 94.04486251808977%
+Scene: 14 Batch: 83 Accuracy: 94.0491684743312%
+Scene: 14 Batch: 84 Accuracy: 94.05346820809253%
+Scene: 14 Batch: 85 Accuracy: 94.05776173285201%
+Scene: 14 Batch: 86 Accuracy: 94.0584415584416%
+Scene: 14 Batch: 87 Accuracy: 94.06272530641677%
+Scene: 14 Batch: 88 Accuracy: 94.06700288184442%
+Scene: 14 Batch: 89 Accuracy: 94.0712742980562%
+Scene: 14 Batch: 90 Accuracy: 94.07553956834536%
+Scene: 14 Batch: 91 Accuracy: 94.07979870596697%
+Scene: 14 Batch: 92 Accuracy: 94.08045977011497%
+Scene: 14 Batch: 93 Accuracy: 94.0847092605887%
+Scene: 14 Batch: 94 Accuracy: 94.08895265423246%
+Scene: 14 Batch: 95 Accuracy: 94.09318996415774%
+Scene: 14 Batch: 96 Accuracy: 94.09742120343843%
+Scene: 14 Batch: 97 Accuracy: 94.0980672870437%
+Scene: 14 Batch: 98 Accuracy: 94.09871244635197%
+Scene: 14 Batch: 99 Accuracy: 94.09935668334528%
+Scene: 14 Batch: 100 Accuracy: 94.10357142857147%
+Calculation completed.
+elapsed time: 48.299385439 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 15 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0033.bin
+
+cpu->gpu time 202 ms
+compute time 38 ms
+gpu->cpu time 209 ms
+cpu->file 2758 ms
+
+Preparation completed.
+elapsed time: 3.31671928 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 3.890888615 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.205786867 seconds
+
+Sending input to the network...
+Scene: 15 Batch: 1 Accuracy: 94.07922912205571%
+Scene: 15 Batch: 2 Accuracy: 94.06205420827393%
+Scene: 15 Batch: 3 Accuracy: 94.04846756949398%
+Scene: 15 Batch: 4 Accuracy: 94.03490028490033%
+Scene: 15 Batch: 5 Accuracy: 94.00711743772246%
+Scene: 15 Batch: 6 Accuracy: 93.98293029871981%
+Scene: 15 Batch: 7 Accuracy: 93.96588486140729%
+Scene: 15 Batch: 8 Accuracy: 93.94886363636368%
+Scene: 15 Batch: 9 Accuracy: 93.94606103619591%
+Scene: 15 Batch: 10 Accuracy: 93.93971631205677%
+Scene: 15 Batch: 11 Accuracy: 93.92629340892988%
+Scene: 15 Batch: 12 Accuracy: 93.91643059490089%
+Scene: 15 Batch: 13 Accuracy: 93.91012031139422%
+Scene: 15 Batch: 14 Accuracy: 93.89674681753894%
+Scene: 15 Batch: 15 Accuracy: 93.89752650176682%
+Scene: 15 Batch: 16 Accuracy: 93.88771186440682%
+Scene: 15 Batch: 17 Accuracy: 93.87791107974599%
+Scene: 15 Batch: 18 Accuracy: 93.87517630465449%
+Scene: 15 Batch: 19 Accuracy: 93.86892177589856%
+Scene: 15 Batch: 20 Accuracy: 93.86619718309863%
+Scene: 15 Batch: 21 Accuracy: 93.86347642505282%
+Scene: 15 Batch: 22 Accuracy: 93.86427566807318%
+Scene: 15 Batch: 23 Accuracy: 93.86156008432891%
+Scene: 15 Batch: 24 Accuracy: 93.85182584269667%
+Scene: 15 Batch: 25 Accuracy: 93.84561403508775%
+Scene: 15 Batch: 26 Accuracy: 93.83941093969148%
+Scene: 15 Batch: 27 Accuracy: 93.83321653819205%
+Scene: 15 Batch: 28 Accuracy: 93.83053221288519%
+Scene: 15 Batch: 29 Accuracy: 93.8313505948216%
+Scene: 15 Batch: 30 Accuracy: 93.83566433566438%
+Scene: 15 Batch: 31 Accuracy: 93.82948986722576%
+Scene: 15 Batch: 32 Accuracy: 93.83379888268159%
+Scene: 15 Batch: 33 Accuracy: 93.83112351709704%
+Scene: 15 Batch: 34 Accuracy: 93.82845188284521%
+Scene: 15 Batch: 35 Accuracy: 93.82578397212548%
+Scene: 15 Batch: 36 Accuracy: 93.82660167130923%
+Scene: 15 Batch: 37 Accuracy: 93.8274182324287%
+Scene: 15 Batch: 38 Accuracy: 93.82127955493745%
+Scene: 15 Batch: 39 Accuracy: 93.81862404447536%
+Scene: 15 Batch: 40 Accuracy: 93.81944444444447%
+Scene: 15 Batch: 41 Accuracy: 93.82026370575993%
+Scene: 15 Batch: 42 Accuracy: 93.82454923717063%
+Scene: 15 Batch: 43 Accuracy: 93.82536382536387%
+Scene: 15 Batch: 44 Accuracy: 93.82963988919671%
+Scene: 15 Batch: 45 Accuracy: 93.83044982698966%
+Scene: 15 Batch: 46 Accuracy: 93.83471645919782%
+Scene: 15 Batch: 47 Accuracy: 93.83552176917765%
+Scene: 15 Batch: 48 Accuracy: 93.83632596685086%
+Scene: 15 Batch: 49 Accuracy: 93.84057971014497%
+Scene: 15 Batch: 50 Accuracy: 93.84482758620693%
+Scene: 15 Batch: 51 Accuracy: 93.84906960716751%
+Scene: 15 Batch: 52 Accuracy: 93.85330578512401%
+Scene: 15 Batch: 53 Accuracy: 93.85753613214044%
+Scene: 15 Batch: 54 Accuracy: 93.86176066024763%
+Scene: 15 Batch: 55 Accuracy: 93.8625429553265%
+Scene: 15 Batch: 56 Accuracy: 93.86675824175828%
+Scene: 15 Batch: 57 Accuracy: 93.86410432395337%
+Scene: 15 Batch: 58 Accuracy: 93.86145404663927%
+Scene: 15 Batch: 59 Accuracy: 93.86566141192601%
+Scene: 15 Batch: 60 Accuracy: 93.86986301369868%
+Scene: 15 Batch: 61 Accuracy: 93.87063655030805%
+Scene: 15 Batch: 62 Accuracy: 93.87140902872781%
+Scene: 15 Batch: 63 Accuracy: 93.87218045112786%
+Scene: 15 Batch: 64 Accuracy: 93.87295081967217%
+Scene: 15 Batch: 65 Accuracy: 93.87713310580209%
+Scene: 15 Batch: 66 Accuracy: 93.87789904502051%
+Scene: 15 Batch: 67 Accuracy: 93.88207225630542%
+Scene: 15 Batch: 68 Accuracy: 93.88623978201639%
+Scene: 15 Batch: 69 Accuracy: 93.89040163376451%
+Scene: 15 Batch: 70 Accuracy: 93.89455782312929%
+Scene: 15 Batch: 71 Accuracy: 93.89530931339229%
+Scene: 15 Batch: 72 Accuracy: 93.89945652173917%
+Scene: 15 Batch: 73 Accuracy: 93.90359809911749%
+Scene: 15 Batch: 74 Accuracy: 93.90773405698782%
+Scene: 15 Batch: 75 Accuracy: 93.9118644067797%
+Scene: 15 Batch: 76 Accuracy: 93.91598915989164%
+Scene: 15 Batch: 77 Accuracy: 93.92010832769131%
+Scene: 15 Batch: 78 Accuracy: 93.92422192151561%
+Scene: 15 Batch: 79 Accuracy: 93.92832995267077%
+Scene: 15 Batch: 80 Accuracy: 93.93243243243248%
+Scene: 15 Batch: 81 Accuracy: 93.93652937204595%
+Scene: 15 Batch: 82 Accuracy: 93.94062078272609%
+Scene: 15 Batch: 83 Accuracy: 93.94470667565749%
+Scene: 15 Batch: 84 Accuracy: 93.94541778975746%
+Scene: 15 Batch: 85 Accuracy: 93.94949494949499%
+Scene: 15 Batch: 86 Accuracy: 93.95356662180355%
+Scene: 15 Batch: 87 Accuracy: 93.9576328177539%
+Scene: 15 Batch: 88 Accuracy: 93.95833333333337%
+Scene: 15 Batch: 89 Accuracy: 93.9623908663533%
+Scene: 15 Batch: 90 Accuracy: 93.96308724832218%
+Scene: 15 Batch: 91 Accuracy: 93.96713615023478%
+Scene: 15 Batch: 92 Accuracy: 93.97117962466493%
+Scene: 15 Batch: 93 Accuracy: 93.97521768251846%
+Scene: 15 Batch: 94 Accuracy: 93.97925033467206%
+Scene: 15 Batch: 95 Accuracy: 93.98327759197328%
+Scene: 15 Batch: 96 Accuracy: 93.98729946524068%
+Scene: 15 Batch: 97 Accuracy: 93.98463593854379%
+Scene: 15 Batch: 98 Accuracy: 93.98531375166893%
+Scene: 15 Batch: 99 Accuracy: 93.98932621747836%
+Scene: 15 Batch: 100 Accuracy: 93.99333333333337%
+Calculation completed.
+elapsed time: 48.255910791 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 16 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0034.bin
+
+cpu->gpu time 199 ms
+compute time 41 ms
+gpu->cpu time 196 ms
+cpu->file 2622 ms
+
+Preparation completed.
+elapsed time: 3.168774224 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 4.811350315 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.247001723 seconds
+
+Sending input to the network...
+Scene: 16 Batch: 1 Accuracy: 93.99733510992677%
+Scene: 16 Batch: 2 Accuracy: 93.99467376830897%
+Scene: 16 Batch: 3 Accuracy: 93.9953426480373%
+Scene: 16 Batch: 4 Accuracy: 93.98936170212771%
+Scene: 16 Batch: 5 Accuracy: 93.9900332225914%
+Scene: 16 Batch: 6 Accuracy: 93.98406374501997%
+Scene: 16 Batch: 7 Accuracy: 93.98142003981424%
+Scene: 16 Batch: 8 Accuracy: 93.98209549071622%
+Scene: 16 Batch: 9 Accuracy: 93.97945659377075%
+Scene: 16 Batch: 10 Accuracy: 93.98013245033117%
+Scene: 16 Batch: 11 Accuracy: 93.98080741230977%
+Scene: 16 Batch: 12 Accuracy: 93.98148148148152%
+Scene: 16 Batch: 13 Accuracy: 93.98545935228027%
+Scene: 16 Batch: 14 Accuracy: 93.98612945838842%
+Scene: 16 Batch: 15 Accuracy: 93.98679867986803%
+Scene: 16 Batch: 16 Accuracy: 93.990765171504%
+Scene: 16 Batch: 17 Accuracy: 93.9881344759394%
+Scene: 16 Batch: 18 Accuracy: 93.98221343873522%
+Scene: 16 Batch: 19 Accuracy: 93.9763001974984%
+Scene: 16 Batch: 20 Accuracy: 93.97039473684214%
+Scene: 16 Batch: 21 Accuracy: 93.96778435239978%
+Scene: 16 Batch: 22 Accuracy: 93.96189224704341%
+Scene: 16 Batch: 23 Accuracy: 93.96257386736708%
+Scene: 16 Batch: 24 Accuracy: 93.95997375328088%
+Scene: 16 Batch: 25 Accuracy: 93.96065573770495%
+Scene: 16 Batch: 26 Accuracy: 93.96133682830936%
+Scene: 16 Batch: 27 Accuracy: 93.95546823837594%
+Scene: 16 Batch: 28 Accuracy: 93.95942408376968%
+Scene: 16 Batch: 29 Accuracy: 93.95683453237415%
+Scene: 16 Batch: 30 Accuracy: 93.95751633986931%
+Scene: 16 Batch: 31 Accuracy: 93.9516655780536%
+Scene: 16 Batch: 32 Accuracy: 93.95561357702354%
+Scene: 16 Batch: 33 Accuracy: 93.95629484670584%
+Scene: 16 Batch: 34 Accuracy: 93.9602346805737%
+Scene: 16 Batch: 35 Accuracy: 93.96416938110754%
+Scene: 16 Batch: 36 Accuracy: 93.96484375000004%
+Scene: 16 Batch: 37 Accuracy: 93.96877033181526%
+Scene: 16 Batch: 38 Accuracy: 93.96944083224972%
+Scene: 16 Batch: 39 Accuracy: 93.96686159844059%
+Scene: 16 Batch: 40 Accuracy: 93.96753246753251%
+Scene: 16 Batch: 41 Accuracy: 93.9584685269306%
+Scene: 16 Batch: 42 Accuracy: 93.9559014267186%
+Scene: 16 Batch: 43 Accuracy: 93.95657809462091%
+Scene: 16 Batch: 44 Accuracy: 93.9540155440415%
+Scene: 16 Batch: 45 Accuracy: 93.94498381877027%
+Scene: 16 Batch: 46 Accuracy: 93.94890038809835%
+Scene: 16 Batch: 47 Accuracy: 93.94634776987722%
+Scene: 16 Batch: 48 Accuracy: 93.95025839793286%
+Scene: 16 Batch: 49 Accuracy: 93.95416397675925%
+Scene: 16 Batch: 50 Accuracy: 93.95806451612907%
+Scene: 16 Batch: 51 Accuracy: 93.95873629916187%
+Scene: 16 Batch: 52 Accuracy: 93.96262886597943%
+Scene: 16 Batch: 53 Accuracy: 93.96651641983263%
+Scene: 16 Batch: 54 Accuracy: 93.963963963964%
+Scene: 16 Batch: 55 Accuracy: 93.96784565916403%
+Scene: 16 Batch: 56 Accuracy: 93.9652956298201%
+Scene: 16 Batch: 57 Accuracy: 93.96917148362239%
+Scene: 16 Batch: 58 Accuracy: 93.96983311938388%
+Scene: 16 Batch: 59 Accuracy: 93.97049390635027%
+Scene: 16 Batch: 60 Accuracy: 93.97115384615388%
+Scene: 16 Batch: 61 Accuracy: 93.97181294042285%
+Scene: 16 Batch: 62 Accuracy: 93.97247119078109%
+Scene: 16 Batch: 63 Accuracy: 93.97632757517599%
+Scene: 16 Batch: 64 Accuracy: 93.97698209718675%
+Scene: 16 Batch: 65 Accuracy: 93.97444089456873%
+Scene: 16 Batch: 66 Accuracy: 93.97509578544066%
+Scene: 16 Batch: 67 Accuracy: 93.97894065092538%
+Scene: 16 Batch: 68 Accuracy: 93.97959183673474%
+Scene: 16 Batch: 69 Accuracy: 93.98024219247934%
+Scene: 16 Batch: 70 Accuracy: 93.98089171974526%
+Scene: 16 Batch: 71 Accuracy: 93.97835773392748%
+Scene: 16 Batch: 72 Accuracy: 93.97900763358783%
+Scene: 16 Batch: 73 Accuracy: 93.98283534647176%
+Scene: 16 Batch: 74 Accuracy: 93.98030495552736%
+Scene: 16 Batch: 75 Accuracy: 93.98412698412703%
+Scene: 16 Batch: 76 Accuracy: 93.9847715736041%
+Scene: 16 Batch: 77 Accuracy: 93.98224476854791%
+Scene: 16 Batch: 78 Accuracy: 93.98288973384035%
+Scene: 16 Batch: 79 Accuracy: 93.98353388220397%
+Scene: 16 Batch: 80 Accuracy: 93.9810126582279%
+Scene: 16 Batch: 81 Accuracy: 93.98165717900068%
+Scene: 16 Batch: 82 Accuracy: 93.9854614412137%
+Scene: 16 Batch: 83 Accuracy: 93.98610233733422%
+Scene: 16 Batch: 84 Accuracy: 93.98989898989903%
+Scene: 16 Batch: 85 Accuracy: 93.98738170347008%
+Scene: 16 Batch: 86 Accuracy: 93.99117276166461%
+Scene: 16 Batch: 87 Accuracy: 93.99495904221807%
+Scene: 16 Batch: 88 Accuracy: 93.99874055415623%
+Scene: 16 Batch: 89 Accuracy: 93.99937067337953%
+Scene: 16 Batch: 90 Accuracy: 93.996855345912%
+Scene: 16 Batch: 91 Accuracy: 93.99748585795102%
+Scene: 16 Batch: 92 Accuracy: 94.00125628140708%
+Scene: 16 Batch: 93 Accuracy: 93.99874450721913%
+Scene: 16 Batch: 94 Accuracy: 93.9993726474279%
+Scene: 16 Batch: 95 Accuracy: 94.0031347962383%
+Scene: 16 Batch: 96 Accuracy: 94.00689223057648%
+Scene: 16 Batch: 97 Accuracy: 94.01064495929874%
+Scene: 16 Batch: 98 Accuracy: 94.01126408010018%
+Scene: 16 Batch: 99 Accuracy: 94.01500938086309%
+Scene: 16 Batch: 100 Accuracy: 94.01562500000004%
+Calculation completed.
+elapsed time: 48.211356341 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 17 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0035.bin
+
+cpu->gpu time 181 ms
+compute time 39 ms
+gpu->cpu time 169 ms
+cpu->file 2782 ms
+
+Preparation completed.
+elapsed time: 3.281062808 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 4.61529771 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.233821812 seconds
+
+Sending input to the network...
+Scene: 17 Batch: 1 Accuracy: 93.98813241723929%
+Scene: 17 Batch: 2 Accuracy: 93.96379525593014%
+Scene: 17 Batch: 3 Accuracy: 93.93013100436686%
+Scene: 17 Batch: 4 Accuracy: 93.91521197007486%
+Scene: 17 Batch: 5 Accuracy: 93.89408099688478%
+Scene: 17 Batch: 6 Accuracy: 93.87608966376094%
+Scene: 17 Batch: 7 Accuracy: 93.84256378344746%
+Scene: 17 Batch: 8 Accuracy: 93.81529850746274%
+Scene: 17 Batch: 9 Accuracy: 93.79428216283411%
+Scene: 17 Batch: 10 Accuracy: 93.78571428571433%
+Scene: 17 Batch: 11 Accuracy: 93.76474239602736%
+Scene: 17 Batch: 12 Accuracy: 93.75930521091817%
+Scene: 17 Batch: 13 Accuracy: 93.753874767514%
+Scene: 17 Batch: 14 Accuracy: 93.74535315985135%
+Scene: 17 Batch: 15 Accuracy: 93.73065015479881%
+Scene: 17 Batch: 16 Accuracy: 93.71905940594064%
+Scene: 17 Batch: 17 Accuracy: 93.71057513914661%
+Scene: 17 Batch: 18 Accuracy: 93.69901112484553%
+Scene: 17 Batch: 19 Accuracy: 93.68128474366898%
+Scene: 17 Batch: 20 Accuracy: 93.67283950617289%
+Scene: 17 Batch: 21 Accuracy: 93.67674275138808%
+Scene: 17 Batch: 22 Accuracy: 93.6744759556104%
+Scene: 17 Batch: 23 Accuracy: 93.66296980899574%
+Scene: 17 Batch: 24 Accuracy: 93.65455665024636%
+Scene: 17 Batch: 25 Accuracy: 93.6461538461539%
+Scene: 17 Batch: 26 Accuracy: 93.63468634686352%
+Scene: 17 Batch: 27 Accuracy: 93.63245236631843%
+Scene: 17 Batch: 28 Accuracy: 93.61486486486491%
+Scene: 17 Batch: 29 Accuracy: 93.59729895641503%
+Scene: 17 Batch: 30 Accuracy: 93.57975460122704%
+Scene: 17 Batch: 31 Accuracy: 93.57755977927657%
+Scene: 17 Batch: 32 Accuracy: 93.56924019607848%
+Scene: 17 Batch: 33 Accuracy: 93.56093080220458%
+Scene: 17 Batch: 34 Accuracy: 93.54957160342721%
+Scene: 17 Batch: 35 Accuracy: 93.54740061162084%
+Scene: 17 Batch: 36 Accuracy: 93.5360635696822%
+Scene: 17 Batch: 37 Accuracy: 93.53695784972516%
+Scene: 17 Batch: 38 Accuracy: 93.53785103785108%
+Scene: 17 Batch: 39 Accuracy: 93.52043929225142%
+Scene: 17 Batch: 40 Accuracy: 93.51524390243907%
+Scene: 17 Batch: 41 Accuracy: 93.51310176721516%
+Scene: 17 Batch: 42 Accuracy: 93.50487210718642%
+Scene: 17 Batch: 43 Accuracy: 93.49360925136949%
+Scene: 17 Batch: 44 Accuracy: 93.49148418491488%
+Scene: 17 Batch: 45 Accuracy: 93.48328267477208%
+Scene: 17 Batch: 46 Accuracy: 93.48116646415558%
+Scene: 17 Batch: 47 Accuracy: 93.47298117789926%
+Scene: 17 Batch: 48 Accuracy: 93.47390776699034%
+Scene: 17 Batch: 49 Accuracy: 93.46270466949672%
+Scene: 17 Batch: 50 Accuracy: 93.46363636363641%
+Scene: 17 Batch: 51 Accuracy: 93.46456692913391%
+Scene: 17 Batch: 52 Accuracy: 93.46549636803879%
+Scene: 17 Batch: 53 Accuracy: 93.45735027223235%
+Scene: 17 Batch: 54 Accuracy: 93.45223700120924%
+Scene: 17 Batch: 55 Accuracy: 93.4410876132931%
+Scene: 17 Batch: 56 Accuracy: 93.4359903381643%
+Scene: 17 Batch: 57 Accuracy: 93.43089921544966%
+Scene: 17 Batch: 58 Accuracy: 93.42581423401694%
+Scene: 17 Batch: 59 Accuracy: 93.41772151898739%
+Scene: 17 Batch: 60 Accuracy: 93.41867469879523%
+Scene: 17 Batch: 61 Accuracy: 93.41962673088506%
+Scene: 17 Batch: 62 Accuracy: 93.42358604091461%
+Scene: 17 Batch: 63 Accuracy: 93.41551413108844%
+Scene: 17 Batch: 64 Accuracy: 93.40745192307696%
+Scene: 17 Batch: 65 Accuracy: 93.40840840840846%
+Scene: 17 Batch: 66 Accuracy: 93.40636254501806%
+Scene: 17 Batch: 67 Accuracy: 93.40431913617282%
+Scene: 17 Batch: 68 Accuracy: 93.40527577937655%
+Scene: 17 Batch: 69 Accuracy: 93.39724385859802%
+Scene: 17 Batch: 70 Accuracy: 93.39520958083837%
+Scene: 17 Batch: 71 Accuracy: 93.39018551765415%
+Scene: 17 Batch: 72 Accuracy: 93.3911483253589%
+Scene: 17 Batch: 73 Accuracy: 93.39210998206819%
+Scene: 17 Batch: 74 Accuracy: 93.3870967741936%
+Scene: 17 Batch: 75 Accuracy: 93.3880597014926%
+Scene: 17 Batch: 76 Accuracy: 93.39200477326975%
+Scene: 17 Batch: 77 Accuracy: 93.3899821109124%
+Scene: 17 Batch: 78 Accuracy: 93.3909415971395%
+Scene: 17 Batch: 79 Accuracy: 93.38296605122102%
+Scene: 17 Batch: 80 Accuracy: 93.38392857142863%
+Scene: 17 Batch: 81 Accuracy: 93.37894110648428%
+Scene: 17 Batch: 82 Accuracy: 93.37395957193822%
+Scene: 17 Batch: 83 Accuracy: 93.37195484254312%
+Scene: 17 Batch: 84 Accuracy: 93.37292161520195%
+Scene: 17 Batch: 85 Accuracy: 93.37091988130568%
+Scene: 17 Batch: 86 Accuracy: 93.3748517200475%
+Scene: 17 Batch: 87 Accuracy: 93.37877889745114%
+Scene: 17 Batch: 88 Accuracy: 93.382701421801%
+Scene: 17 Batch: 89 Accuracy: 93.37773830669039%
+Scene: 17 Batch: 90 Accuracy: 93.38165680473378%
+Scene: 17 Batch: 91 Accuracy: 93.38557066824369%
+Scene: 17 Batch: 92 Accuracy: 93.38652482269508%
+Scene: 17 Batch: 93 Accuracy: 93.39043118724163%
+Scene: 17 Batch: 94 Accuracy: 93.39433293978755%
+Scene: 17 Batch: 95 Accuracy: 93.39528023598825%
+Scene: 17 Batch: 96 Accuracy: 93.39917452830193%
+Scene: 17 Batch: 97 Accuracy: 93.40306423099592%
+Scene: 17 Batch: 98 Accuracy: 93.40694935217908%
+Scene: 17 Batch: 99 Accuracy: 93.41082989994119%
+Scene: 17 Batch: 100 Accuracy: 93.4117647058824%
+Calculation completed.
+elapsed time: 48.175214278 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 18 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0036.bin
+
+cpu->gpu time 155 ms
+compute time 72 ms
+gpu->cpu time 183 ms
+cpu->file 2583 ms
+
+Preparation completed.
+elapsed time: 3.102311984 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 4.200257559 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.252353691 seconds
+
+Sending input to the network...
+Scene: 18 Batch: 1 Accuracy: 93.37448559670787%
+Scene: 18 Batch: 2 Accuracy: 93.34900117508818%
+Scene: 18 Batch: 3 Accuracy: 93.33529066353499%
+Scene: 18 Batch: 4 Accuracy: 93.32746478873244%
+Scene: 18 Batch: 5 Accuracy: 93.32258064516134%
+Scene: 18 Batch: 6 Accuracy: 93.31184056271987%
+Scene: 18 Batch: 7 Accuracy: 93.29232571763332%
+Scene: 18 Batch: 8 Accuracy: 93.28454332552698%
+Scene: 18 Batch: 9 Accuracy: 93.27677004095966%
+Scene: 18 Batch: 10 Accuracy: 93.26315789473689%
+Scene: 18 Batch: 11 Accuracy: 93.23787258912921%
+Scene: 18 Batch: 12 Accuracy: 93.2330607476636%
+Scene: 18 Batch: 13 Accuracy: 93.2340922358436%
+Scene: 18 Batch: 14 Accuracy: 93.2322053675613%
+Scene: 18 Batch: 15 Accuracy: 93.23323615160355%
+Scene: 18 Batch: 16 Accuracy: 93.21969696969703%
+Scene: 18 Batch: 17 Accuracy: 93.2149097262668%
+Scene: 18 Batch: 18 Accuracy: 93.21012805587897%
+Scene: 18 Batch: 19 Accuracy: 93.20535194880749%
+Scene: 18 Batch: 20 Accuracy: 93.20930232558145%
+Scene: 18 Batch: 21 Accuracy: 93.21034282393961%
+Scene: 18 Batch: 22 Accuracy: 93.20847851335661%
+Scene: 18 Batch: 23 Accuracy: 93.20081253627399%
+Scene: 18 Batch: 24 Accuracy: 93.1960556844548%
+Scene: 18 Batch: 25 Accuracy: 93.19710144927541%
+Scene: 18 Batch: 26 Accuracy: 93.19814600231754%
+Scene: 18 Batch: 27 Accuracy: 93.20208453966421%
+Scene: 18 Batch: 28 Accuracy: 93.20312500000004%
+Scene: 18 Batch: 29 Accuracy: 93.19838056680166%
+Scene: 18 Batch: 30 Accuracy: 93.19364161849715%
+Scene: 18 Batch: 31 Accuracy: 93.18890814558063%
+Scene: 18 Batch: 32 Accuracy: 93.1870669745959%
+Scene: 18 Batch: 33 Accuracy: 93.18811309867286%
+Scene: 18 Batch: 34 Accuracy: 93.1920415224914%
+Scene: 18 Batch: 35 Accuracy: 93.18731988472628%
+Scene: 18 Batch: 36 Accuracy: 93.18836405529959%
+Scene: 18 Batch: 37 Accuracy: 93.18652849740937%
+Scene: 18 Batch: 38 Accuracy: 93.18181818181823%
+Scene: 18 Batch: 39 Accuracy: 93.17711328349631%
+Scene: 18 Batch: 40 Accuracy: 93.17528735632187%
+Scene: 18 Batch: 41 Accuracy: 93.17346352670883%
+Scene: 18 Batch: 42 Accuracy: 93.17451205510912%
+Scene: 18 Batch: 43 Accuracy: 93.1755593803787%
+Scene: 18 Batch: 44 Accuracy: 93.1766055045872%
+Scene: 18 Batch: 45 Accuracy: 93.16905444126078%
+Scene: 18 Batch: 46 Accuracy: 93.16723940435286%
+Scene: 18 Batch: 47 Accuracy: 93.1711505437894%
+Scene: 18 Batch: 48 Accuracy: 93.17219679633872%
+Scene: 18 Batch: 49 Accuracy: 93.1732418524872%
+Scene: 18 Batch: 50 Accuracy: 93.1771428571429%
+Scene: 18 Batch: 51 Accuracy: 93.17247287264425%
+Scene: 18 Batch: 52 Accuracy: 93.17636986301375%
+Scene: 18 Batch: 53 Accuracy: 93.17455790074163%
+Scene: 18 Batch: 54 Accuracy: 93.17844925883699%
+Scene: 18 Batch: 55 Accuracy: 93.18233618233623%
+Scene: 18 Batch: 56 Accuracy: 93.18337129840552%
+Scene: 18 Batch: 57 Accuracy: 93.18155947638024%
+Scene: 18 Batch: 58 Accuracy: 93.18543799772473%
+Scene: 18 Batch: 59 Accuracy: 93.18646958499151%
+Scene: 18 Batch: 60 Accuracy: 93.19034090909095%
+Scene: 18 Batch: 61 Accuracy: 93.19136854060199%
+Scene: 18 Batch: 62 Accuracy: 93.18955732122592%
+Scene: 18 Batch: 63 Accuracy: 93.18774815655138%
+Scene: 18 Batch: 64 Accuracy: 93.18594104308396%
+Scene: 18 Batch: 65 Accuracy: 93.18980169971675%
+Scene: 18 Batch: 66 Accuracy: 93.18799546998872%
+Scene: 18 Batch: 67 Accuracy: 93.18902093944543%
+Scene: 18 Batch: 68 Accuracy: 93.18721719457018%
+Scene: 18 Batch: 69 Accuracy: 93.18541548897687%
+Scene: 18 Batch: 70 Accuracy: 93.18644067796615%
+Scene: 18 Batch: 71 Accuracy: 93.19028797289673%
+Scene: 18 Batch: 72 Accuracy: 93.19413092550795%
+Scene: 18 Batch: 73 Accuracy: 93.19796954314725%
+Scene: 18 Batch: 74 Accuracy: 93.19898534385574%
+Scene: 18 Batch: 75 Accuracy: 93.20000000000005%
+Scene: 18 Batch: 76 Accuracy: 93.20382882882889%
+Scene: 18 Batch: 77 Accuracy: 93.20765334833995%
+Scene: 18 Batch: 78 Accuracy: 93.20866141732289%
+Scene: 18 Batch: 79 Accuracy: 93.20966835300736%
+Scene: 18 Batch: 80 Accuracy: 93.21348314606746%
+Scene: 18 Batch: 81 Accuracy: 93.2172936552499%
+Scene: 18 Batch: 82 Accuracy: 93.21829405162744%
+Scene: 18 Batch: 83 Accuracy: 93.21929332585535%
+Scene: 18 Batch: 84 Accuracy: 93.22309417040364%
+Scene: 18 Batch: 85 Accuracy: 93.22689075630257%
+Scene: 18 Batch: 86 Accuracy: 93.23068309070554%
+Scene: 18 Batch: 87 Accuracy: 93.23167319529944%
+Scene: 18 Batch: 88 Accuracy: 93.23545861297544%
+Scene: 18 Batch: 89 Accuracy: 93.23365008384577%
+Scene: 18 Batch: 90 Accuracy: 93.23743016759781%
+Scene: 18 Batch: 91 Accuracy: 93.2412060301508%
+Scene: 18 Batch: 92 Accuracy: 93.24497767857149%
+Scene: 18 Batch: 93 Accuracy: 93.24595649749028%
+Scene: 18 Batch: 94 Accuracy: 93.2497212931996%
+Scene: 18 Batch: 95 Accuracy: 93.25348189415047%
+Scene: 18 Batch: 96 Accuracy: 93.25445434298446%
+Scene: 18 Batch: 97 Accuracy: 93.25820812465226%
+Scene: 18 Batch: 98 Accuracy: 93.26195773081206%
+Scene: 18 Batch: 99 Accuracy: 93.26570316842695%
+Scene: 18 Batch: 100 Accuracy: 93.26388888888893%
+Calculation completed.
+elapsed time: 48.170750642 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 19 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0037.bin
+
+cpu->gpu time 191 ms
+compute time 100 ms
+gpu->cpu time 207 ms
+cpu->file 2598 ms
+
+Preparation completed.
+elapsed time: 3.209768866 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 3.92249051 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.280202743 seconds
+
+Sending input to the network...
+Scene: 19 Batch: 1 Accuracy: 93.2676290949473%
+Scene: 19 Batch: 2 Accuracy: 93.27136514983356%
+Scene: 19 Batch: 3 Accuracy: 93.27509706045485%
+Scene: 19 Batch: 4 Accuracy: 93.27882483370293%
+Scene: 19 Batch: 5 Accuracy: 93.28254847645434%
+Scene: 19 Batch: 6 Accuracy: 93.28626799557037%
+Scene: 19 Batch: 7 Accuracy: 93.28998339789712%
+Scene: 19 Batch: 8 Accuracy: 93.29369469026554%
+Scene: 19 Batch: 9 Accuracy: 93.29740187949149%
+Scene: 19 Batch: 10 Accuracy: 93.30110497237574%
+Scene: 19 Batch: 11 Accuracy: 93.30480397570409%
+Scene: 19 Batch: 12 Accuracy: 93.3084988962473%
+Scene: 19 Batch: 13 Accuracy: 93.31218974076123%
+Scene: 19 Batch: 14 Accuracy: 93.31587651598682%
+Scene: 19 Batch: 15 Accuracy: 93.31955922865018%
+Scene: 19 Batch: 16 Accuracy: 93.3232378854626%
+Scene: 19 Batch: 17 Accuracy: 93.32691249312057%
+Scene: 19 Batch: 18 Accuracy: 93.33058305830588%
+Scene: 19 Batch: 19 Accuracy: 93.33424958768559%
+Scene: 19 Batch: 20 Accuracy: 93.33791208791213%
+Scene: 19 Batch: 21 Accuracy: 93.34157056562333%
+Scene: 19 Batch: 22 Accuracy: 93.34522502744242%
+Scene: 19 Batch: 23 Accuracy: 93.3488754799781%
+Scene: 19 Batch: 24 Accuracy: 93.35252192982462%
+Scene: 19 Batch: 25 Accuracy: 93.35616438356169%
+Scene: 19 Batch: 26 Accuracy: 93.35980284775471%
+Scene: 19 Batch: 27 Accuracy: 93.36343732895462%
+Scene: 19 Batch: 28 Accuracy: 93.36706783369809%
+Scene: 19 Batch: 29 Accuracy: 93.37069436850743%
+Scene: 19 Batch: 30 Accuracy: 93.37431693989076%
+Scene: 19 Batch: 31 Accuracy: 93.37793555434195%
+Scene: 19 Batch: 32 Accuracy: 93.38155021834066%
+Scene: 19 Batch: 33 Accuracy: 93.38516093835247%
+Scene: 19 Batch: 34 Accuracy: 93.38876772082884%
+Scene: 19 Batch: 35 Accuracy: 93.39237057220713%
+Scene: 19 Batch: 36 Accuracy: 93.39596949891073%
+Scene: 19 Batch: 37 Accuracy: 93.39956450734898%
+Scene: 19 Batch: 38 Accuracy: 93.40315560391736%
+Scene: 19 Batch: 39 Accuracy: 93.40674279499733%
+Scene: 19 Batch: 40 Accuracy: 93.41032608695657%
+Scene: 19 Batch: 41 Accuracy: 93.41390548614889%
+Scene: 19 Batch: 42 Accuracy: 93.41748099891427%
+Scene: 19 Batch: 43 Accuracy: 93.42105263157899%
+Scene: 19 Batch: 44 Accuracy: 93.42462039045559%
+Scene: 19 Batch: 45 Accuracy: 93.42818428184286%
+Scene: 19 Batch: 46 Accuracy: 93.43174431202605%
+Scene: 19 Batch: 47 Accuracy: 93.43530048727672%
+Scene: 19 Batch: 48 Accuracy: 93.43885281385286%
+Scene: 19 Batch: 49 Accuracy: 93.44240129799897%
+Scene: 19 Batch: 50 Accuracy: 93.445945945946%
+Scene: 19 Batch: 51 Accuracy: 93.44948676391145%
+Scene: 19 Batch: 52 Accuracy: 93.4530237580994%
+Scene: 19 Batch: 53 Accuracy: 93.45655693470054%
+Scene: 19 Batch: 54 Accuracy: 93.46008629989217%
+Scene: 19 Batch: 55 Accuracy: 93.46361185983832%
+Scene: 19 Batch: 56 Accuracy: 93.46713362068971%
+Scene: 19 Batch: 57 Accuracy: 93.47065158858379%
+Scene: 19 Batch: 58 Accuracy: 93.47416576964483%
+Scene: 19 Batch: 59 Accuracy: 93.47767616998391%
+Scene: 19 Batch: 60 Accuracy: 93.48118279569897%
+Scene: 19 Batch: 61 Accuracy: 93.48468565287484%
+Scene: 19 Batch: 62 Accuracy: 93.48818474758329%
+Scene: 19 Batch: 63 Accuracy: 93.49168008588303%
+Scene: 19 Batch: 64 Accuracy: 93.49517167381978%
+Scene: 19 Batch: 65 Accuracy: 93.49865951742632%
+Scene: 19 Batch: 66 Accuracy: 93.50214362272244%
+Scene: 19 Batch: 67 Accuracy: 93.5056239957151%
+Scene: 19 Batch: 68 Accuracy: 93.50910064239834%
+Scene: 19 Batch: 69 Accuracy: 93.5125735687534%
+Scene: 19 Batch: 70 Accuracy: 93.5160427807487%
+Scene: 19 Batch: 71 Accuracy: 93.51950828433996%
+Scene: 19 Batch: 72 Accuracy: 93.52297008547013%
+Scene: 19 Batch: 73 Accuracy: 93.52642819006945%
+Scene: 19 Batch: 74 Accuracy: 93.52988260405554%
+Scene: 19 Batch: 75 Accuracy: 93.53333333333337%
+Scene: 19 Batch: 76 Accuracy: 93.53678038379536%
+Scene: 19 Batch: 77 Accuracy: 93.5402237613213%
+Scene: 19 Batch: 78 Accuracy: 93.54366347177854%
+Scene: 19 Batch: 79 Accuracy: 93.54709952102186%
+Scene: 19 Batch: 80 Accuracy: 93.55053191489367%
+Scene: 19 Batch: 81 Accuracy: 93.55396065922386%
+Scene: 19 Batch: 82 Accuracy: 93.55738575983001%
+Scene: 19 Batch: 83 Accuracy: 93.56080722251731%
+Scene: 19 Batch: 84 Accuracy: 93.56422505307862%
+Scene: 19 Batch: 85 Accuracy: 93.56763925729447%
+Scene: 19 Batch: 86 Accuracy: 93.57104984093324%
+Scene: 19 Batch: 87 Accuracy: 93.57445680975097%
+Scene: 19 Batch: 88 Accuracy: 93.57786016949157%
+Scene: 19 Batch: 89 Accuracy: 93.58125992588676%
+Scene: 19 Batch: 90 Accuracy: 93.58465608465613%
+Scene: 19 Batch: 91 Accuracy: 93.58804865150718%
+Scene: 19 Batch: 92 Accuracy: 93.59143763213535%
+Scene: 19 Batch: 93 Accuracy: 93.59482303222403%
+Scene: 19 Batch: 94 Accuracy: 93.59820485744461%
+Scene: 19 Batch: 95 Accuracy: 93.60158311345651%
+Scene: 19 Batch: 96 Accuracy: 93.60495780590722%
+Scene: 19 Batch: 97 Accuracy: 93.6083289404323%
+Scene: 19 Batch: 98 Accuracy: 93.61169652265548%
+Scene: 19 Batch: 99 Accuracy: 93.61506055818857%
+Scene: 19 Batch: 100 Accuracy: 93.61842105263163%
+Calculation completed.
+elapsed time: 48.153740587 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 20 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0038.bin
+
+cpu->gpu time 179 ms
+compute time 22 ms
+gpu->cpu time 134 ms
+cpu->file 2300 ms
+
+Preparation completed.
+elapsed time: 2.748649226 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 4.877911785 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.336975807 seconds
+
+Sending input to the network...
+Scene: 20 Batch: 1 Accuracy: 93.6217780115729%
+Scene: 20 Batch: 2 Accuracy: 93.6251314405889%
+Scene: 20 Batch: 3 Accuracy: 93.6284813452444%
+Scene: 20 Batch: 4 Accuracy: 93.63182773109249%
+Scene: 20 Batch: 5 Accuracy: 93.6351706036746%
+Scene: 20 Batch: 6 Accuracy: 93.63850996852051%
+Scene: 20 Batch: 7 Accuracy: 93.64184583114846%
+Scene: 20 Batch: 8 Accuracy: 93.64517819706504%
+Scene: 20 Batch: 9 Accuracy: 93.64850707176538%
+Scene: 20 Batch: 10 Accuracy: 93.65183246073303%
+Scene: 20 Batch: 11 Accuracy: 93.65515436944013%
+Scene: 20 Batch: 12 Accuracy: 93.65847280334732%
+Scene: 20 Batch: 13 Accuracy: 93.66178776790386%
+Scene: 20 Batch: 14 Accuracy: 93.66509926854759%
+Scene: 20 Batch: 15 Accuracy: 93.668407310705%
+Scene: 20 Batch: 16 Accuracy: 93.67171189979128%
+Scene: 20 Batch: 17 Accuracy: 93.67501304121028%
+Scene: 20 Batch: 18 Accuracy: 93.67831074035459%
+Scene: 20 Batch: 19 Accuracy: 93.68160500260558%
+Scene: 20 Batch: 20 Accuracy: 93.68489583333339%
+Scene: 20 Batch: 21 Accuracy: 93.68818323789696%
+Scene: 20 Batch: 22 Accuracy: 93.69146722164416%
+Scene: 20 Batch: 23 Accuracy: 93.69474778991164%
+Scene: 20 Batch: 24 Accuracy: 93.698024948025%
+Scene: 20 Batch: 25 Accuracy: 93.70129870129875%
+Scene: 20 Batch: 26 Accuracy: 93.70456905503639%
+Scene: 20 Batch: 27 Accuracy: 93.70783601453041%
+Scene: 20 Batch: 28 Accuracy: 93.71109958506229%
+Scene: 20 Batch: 29 Accuracy: 93.7143597719026%
+Scene: 20 Batch: 30 Accuracy: 93.71761658031093%
+Scene: 20 Batch: 31 Accuracy: 93.72087001553604%
+Scene: 20 Batch: 32 Accuracy: 93.72412008281579%
+Scene: 20 Batch: 33 Accuracy: 93.72736678737719%
+Scene: 20 Batch: 34 Accuracy: 93.73061013443645%
+Scene: 20 Batch: 35 Accuracy: 93.73385012919901%
+Scene: 20 Batch: 36 Accuracy: 93.73708677685954%
+Scene: 20 Batch: 37 Accuracy: 93.74032008260201%
+Scene: 20 Batch: 38 Accuracy: 93.74355005159963%
+Scene: 20 Batch: 39 Accuracy: 93.746776689015%
+Scene: 20 Batch: 40 Accuracy: 93.75000000000004%
+Scene: 20 Batch: 41 Accuracy: 93.75321998969608%
+Scene: 20 Batch: 42 Accuracy: 93.75643666323383%
+Scene: 20 Batch: 43 Accuracy: 93.75965002573345%
+Scene: 20 Batch: 44 Accuracy: 93.76286008230458%
+Scene: 20 Batch: 45 Accuracy: 93.76606683804631%
+Scene: 20 Batch: 46 Accuracy: 93.76927029804733%
+Scene: 20 Batch: 47 Accuracy: 93.77247046738577%
+Scene: 20 Batch: 48 Accuracy: 93.77566735112941%
+Scene: 20 Batch: 49 Accuracy: 93.77886095433561%
+Scene: 20 Batch: 50 Accuracy: 93.78205128205133%
+Scene: 20 Batch: 51 Accuracy: 93.78523833931321%
+Scene: 20 Batch: 52 Accuracy: 93.78842213114758%
+Scene: 20 Batch: 53 Accuracy: 93.79160266257045%
+Scene: 20 Batch: 54 Accuracy: 93.79477993858755%
+Scene: 20 Batch: 55 Accuracy: 93.79795396419442%
+Scene: 20 Batch: 56 Accuracy: 93.80112474437632%
+Scene: 20 Batch: 57 Accuracy: 93.80429228410837%
+Scene: 20 Batch: 58 Accuracy: 93.8074565883555%
+Scene: 20 Batch: 59 Accuracy: 93.81061766207253%
+Scene: 20 Batch: 60 Accuracy: 93.81377551020414%
+Scene: 20 Batch: 61 Accuracy: 93.8169301376849%
+Scene: 20 Batch: 62 Accuracy: 93.8200815494394%
+Scene: 20 Batch: 63 Accuracy: 93.82322975038211%
+Scene: 20 Batch: 64 Accuracy: 93.82637474541757%
+Scene: 20 Batch: 65 Accuracy: 93.82951653944025%
+Scene: 20 Batch: 66 Accuracy: 93.83265513733474%
+Scene: 20 Batch: 67 Accuracy: 93.83579054397563%
+Scene: 20 Batch: 68 Accuracy: 93.83892276422769%
+Scene: 20 Batch: 69 Accuracy: 93.8420518029457%
+Scene: 20 Batch: 70 Accuracy: 93.84517766497467%
+Scene: 20 Batch: 71 Accuracy: 93.84830035514972%
+Scene: 20 Batch: 72 Accuracy: 93.8514198782962%
+Scene: 20 Batch: 73 Accuracy: 93.85453623922965%
+Scene: 20 Batch: 74 Accuracy: 93.85764944275587%
+Scene: 20 Batch: 75 Accuracy: 93.86075949367093%
+Scene: 20 Batch: 76 Accuracy: 93.86386639676118%
+Scene: 20 Batch: 77 Accuracy: 93.86697015680329%
+Scene: 20 Batch: 78 Accuracy: 93.87007077856425%
+Scene: 20 Batch: 79 Accuracy: 93.87316826680147%
+Scene: 20 Batch: 80 Accuracy: 93.87626262626267%
+Scene: 20 Batch: 81 Accuracy: 93.87935386168607%
+Scene: 20 Batch: 82 Accuracy: 93.88244197780024%
+Scene: 20 Batch: 83 Accuracy: 93.88552697932431%
+Scene: 20 Batch: 84 Accuracy: 93.8886088709678%
+Scene: 20 Batch: 85 Accuracy: 93.89168765743078%
+Scene: 20 Batch: 86 Accuracy: 93.89476334340388%
+Scene: 20 Batch: 87 Accuracy: 93.89783593356825%
+Scene: 20 Batch: 88 Accuracy: 93.90090543259562%
+Scene: 20 Batch: 89 Accuracy: 93.90397184514836%
+Scene: 20 Batch: 90 Accuracy: 93.90703517587944%
+Scene: 20 Batch: 91 Accuracy: 93.91009542943249%
+Scene: 20 Batch: 92 Accuracy: 93.91315261044181%
+Scene: 20 Batch: 93 Accuracy: 93.91620672353241%
+Scene: 20 Batch: 94 Accuracy: 93.91925777332001%
+Scene: 20 Batch: 95 Accuracy: 93.92230576441108%
+Scene: 20 Batch: 96 Accuracy: 93.92535070140285%
+Scene: 20 Batch: 97 Accuracy: 93.92839258888337%
+Scene: 20 Batch: 98 Accuracy: 93.93143143143148%
+Scene: 20 Batch: 99 Accuracy: 93.93446723361686%
+Scene: 20 Batch: 100 Accuracy: 93.93750000000004%
+Calculation completed.
+elapsed time: 48.250476793 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 21 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0039.bin
+
+cpu->gpu time 185 ms
+compute time 36 ms
+gpu->cpu time 214 ms
+cpu->file 2551 ms
+
+Preparation completed.
+elapsed time: 3.099942796 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 3.365394463 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.410743651 seconds
+
+Sending input to the network...
+Scene: 21 Batch: 1 Accuracy: 93.91804097951028%
+Scene: 21 Batch: 2 Accuracy: 93.88361638361643%
+Scene: 21 Batch: 3 Accuracy: 93.85172241637548%
+Scene: 21 Batch: 4 Accuracy: 93.82485029940125%
+Scene: 21 Batch: 5 Accuracy: 93.80548628428932%
+Scene: 21 Batch: 6 Accuracy: 93.78614157527421%
+Scene: 21 Batch: 7 Accuracy: 93.75934230194325%
+Scene: 21 Batch: 8 Accuracy: 93.74003984063751%
+Scene: 21 Batch: 9 Accuracy: 93.72573419611751%
+Scene: 21 Batch: 10 Accuracy: 93.71393034825876%
+Scene: 21 Batch: 11 Accuracy: 93.7021382396818%
+Scene: 21 Batch: 12 Accuracy: 93.68290258449309%
+Scene: 21 Batch: 13 Accuracy: 93.66616989567814%
+Scene: 21 Batch: 14 Accuracy: 93.65690168818277%
+Scene: 21 Batch: 15 Accuracy: 93.64019851116629%
+Scene: 21 Batch: 16 Accuracy: 93.6383928571429%
+Scene: 21 Batch: 17 Accuracy: 93.62171541893906%
+Scene: 21 Batch: 18 Accuracy: 93.60753221010907%
+Scene: 21 Batch: 19 Accuracy: 93.59088657751367%
+Scene: 21 Batch: 20 Accuracy: 93.57178217821786%
+Scene: 21 Batch: 21 Accuracy: 93.56259277585359%
+Scene: 21 Batch: 22 Accuracy: 93.54352126607324%
+Scene: 21 Batch: 23 Accuracy: 93.52941176470593%
+Scene: 21 Batch: 24 Accuracy: 93.52272727272732%
+Scene: 21 Batch: 25 Accuracy: 93.50864197530869%
+Scene: 21 Batch: 26 Accuracy: 93.49703849950646%
+Scene: 21 Batch: 27 Accuracy: 93.4805130735077%
+Scene: 21 Batch: 28 Accuracy: 93.47140039447737%
+Scene: 21 Batch: 29 Accuracy: 93.45983242976841%
+Scene: 21 Batch: 30 Accuracy: 93.4507389162562%
+Scene: 21 Batch: 31 Accuracy: 93.43919251600201%
+Scene: 21 Batch: 32 Accuracy: 93.43750000000004%
+Scene: 21 Batch: 33 Accuracy: 93.41859321200201%
+Scene: 21 Batch: 34 Accuracy: 93.3972468043265%
+Scene: 21 Batch: 35 Accuracy: 93.39066339066345%
+Scene: 21 Batch: 36 Accuracy: 93.3816306483301%
+Scene: 21 Batch: 37 Accuracy: 93.37015218458522%
+Scene: 21 Batch: 38 Accuracy: 93.35623159960751%
+Scene: 21 Batch: 39 Accuracy: 93.35213339872492%
+Scene: 21 Batch: 40 Accuracy: 93.35049019607847%
+Scene: 21 Batch: 41 Accuracy: 93.34639882410588%
+Scene: 21 Batch: 42 Accuracy: 93.34231145935362%
+Scene: 21 Batch: 43 Accuracy: 93.33088595203137%
+Scene: 21 Batch: 44 Accuracy: 93.32191780821923%
+Scene: 21 Batch: 45 Accuracy: 93.30806845965775%
+Scene: 21 Batch: 46 Accuracy: 93.30156402737052%
+Scene: 21 Batch: 47 Accuracy: 93.28773815339527%
+Scene: 21 Batch: 48 Accuracy: 93.27392578125004%
+Scene: 21 Batch: 49 Accuracy: 93.27232796486096%
+Scene: 21 Batch: 50 Accuracy: 93.26585365853663%
+Scene: 21 Batch: 51 Accuracy: 93.25694783032672%
+Scene: 21 Batch: 52 Accuracy: 93.24317738791427%
+Scene: 21 Batch: 53 Accuracy: 93.22942036044817%
+Scene: 21 Batch: 54 Accuracy: 93.2254138266797%
+Scene: 21 Batch: 55 Accuracy: 93.22141119221415%
+Scene: 21 Batch: 56 Accuracy: 93.21498054474714%
+Scene: 21 Batch: 57 Accuracy: 93.21098687408853%
+Scene: 21 Batch: 58 Accuracy: 93.20942662779402%
+Scene: 21 Batch: 59 Accuracy: 93.21029626032059%
+Scene: 21 Batch: 60 Accuracy: 93.20388349514567%
+Scene: 21 Batch: 61 Accuracy: 93.20232896652115%
+Scene: 21 Batch: 62 Accuracy: 93.19835111542196%
+Scene: 21 Batch: 63 Accuracy: 93.19922443044115%
+Scene: 21 Batch: 64 Accuracy: 93.18798449612407%
+Scene: 21 Batch: 65 Accuracy: 93.18159806295404%
+Scene: 21 Batch: 66 Accuracy: 93.17037754114234%
+Scene: 21 Batch: 67 Accuracy: 93.17126269956462%
+Scene: 21 Batch: 68 Accuracy: 93.17214700193428%
+Scene: 21 Batch: 69 Accuracy: 93.17303044949256%
+Scene: 21 Batch: 70 Accuracy: 93.17391304347831%
+Scene: 21 Batch: 71 Accuracy: 93.16513761467894%
+Scene: 21 Batch: 72 Accuracy: 93.15878378378383%
+Scene: 21 Batch: 73 Accuracy: 93.15002411963343%
+Scene: 21 Batch: 74 Accuracy: 93.13886210221798%
+Scene: 21 Batch: 75 Accuracy: 93.13734939759041%
+Scene: 21 Batch: 76 Accuracy: 93.13102119460505%
+Scene: 21 Batch: 77 Accuracy: 93.12710640346658%
+Scene: 21 Batch: 78 Accuracy: 93.1280076997113%
+Scene: 21 Batch: 79 Accuracy: 93.12650312650317%
+Scene: 21 Batch: 80 Accuracy: 93.12740384615388%
+Scene: 21 Batch: 81 Accuracy: 93.13070639115814%
+Scene: 21 Batch: 82 Accuracy: 93.1268011527378%
+Scene: 21 Batch: 83 Accuracy: 93.12289966394627%
+Scene: 21 Batch: 84 Accuracy: 93.12140115163152%
+Scene: 21 Batch: 85 Accuracy: 93.12230215827341%
+Scene: 21 Batch: 86 Accuracy: 93.12320230105469%
+Scene: 21 Batch: 87 Accuracy: 93.11691423095357%
+Scene: 21 Batch: 88 Accuracy: 93.11542145593874%
+Scene: 21 Batch: 89 Accuracy: 93.11632359980855%
+Scene: 21 Batch: 90 Accuracy: 93.11722488038282%
+Scene: 21 Batch: 91 Accuracy: 93.11812529890008%
+Scene: 21 Batch: 92 Accuracy: 93.1190248565966%
+Scene: 21 Batch: 93 Accuracy: 93.11753463927381%
+Scene: 21 Batch: 94 Accuracy: 93.11843361986632%
+Scene: 21 Batch: 95 Accuracy: 93.11455847255374%
+Scene: 21 Batch: 96 Accuracy: 93.113072519084%
+Scene: 21 Batch: 97 Accuracy: 93.11397234144019%
+Scene: 21 Batch: 98 Accuracy: 93.11725452812206%
+Scene: 21 Batch: 99 Accuracy: 93.12053358742263%
+Scene: 21 Batch: 100 Accuracy: 93.12142857142861%
+Calculation completed.
+elapsed time: 48.050488831 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 22 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0040.bin
+
+cpu->gpu time 183 ms
+compute time 40 ms
+gpu->cpu time 206 ms
+cpu->file 2888 ms
+
+Preparation completed.
+elapsed time: 3.432700714 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 3.821991165 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.4965501 seconds
+
+Sending input to the network...
+Scene: 22 Batch: 1 Accuracy: 93.09138505473588%
+Scene: 22 Batch: 2 Accuracy: 93.07802093244533%
+Scene: 22 Batch: 3 Accuracy: 93.0551592962435%
+Scene: 22 Batch: 4 Accuracy: 93.03469581749053%
+Scene: 22 Batch: 5 Accuracy: 93.01662707838484%
+Scene: 22 Batch: 6 Accuracy: 93.01044634377972%
+Scene: 22 Batch: 7 Accuracy: 92.99240626483154%
+Scene: 22 Batch: 8 Accuracy: 92.97201138519928%
+Scene: 22 Batch: 9 Accuracy: 92.95400663821721%
+Scene: 22 Batch: 10 Accuracy: 92.93364928909956%
+Scene: 22 Batch: 11 Accuracy: 92.91567977261965%
+Scene: 22 Batch: 12 Accuracy: 92.88825757575762%
+Scene: 22 Batch: 13 Accuracy: 92.8797917652627%
+Scene: 22 Batch: 14 Accuracy: 92.86187322611168%
+Scene: 22 Batch: 15 Accuracy: 92.84869976359343%
+Scene: 22 Batch: 16 Accuracy: 92.83790170132329%
+Scene: 22 Batch: 17 Accuracy: 92.8247520075579%
+Scene: 22 Batch: 18 Accuracy: 92.8139754485364%
+Scene: 22 Batch: 19 Accuracy: 92.8032090608778%
+Scene: 22 Batch: 20 Accuracy: 92.79481132075476%
+Scene: 22 Batch: 21 Accuracy: 92.78642149929283%
+Scene: 22 Batch: 22 Accuracy: 92.7709707822809%
+Scene: 22 Batch: 23 Accuracy: 92.74846914743293%
+Scene: 22 Batch: 24 Accuracy: 92.7354048964219%
+Scene: 22 Batch: 25 Accuracy: 92.72705882352945%
+Scene: 22 Batch: 26 Accuracy: 92.7163687676388%
+Scene: 22 Batch: 27 Accuracy: 92.70098730606492%
+Scene: 22 Batch: 28 Accuracy: 92.69501879699253%
+Scene: 22 Batch: 29 Accuracy: 92.68201033348994%
+Scene: 22 Batch: 30 Accuracy: 92.66431924882633%
+Scene: 22 Batch: 31 Accuracy: 92.66072266541534%
+Scene: 22 Batch: 32 Accuracy: 92.65947467166984%
+Scene: 22 Batch: 33 Accuracy: 92.6511954992968%
+Scene: 22 Batch: 34 Accuracy: 92.64526710403003%
+Scene: 22 Batch: 35 Accuracy: 92.63700234192042%
+Scene: 22 Batch: 36 Accuracy: 92.61938202247195%
+Scene: 22 Batch: 37 Accuracy: 92.613476836687%
+Scene: 22 Batch: 38 Accuracy: 92.6145930776427%
+Scene: 22 Batch: 39 Accuracy: 92.60402057036002%
+Scene: 22 Batch: 40 Accuracy: 92.60046728971967%
+Scene: 22 Batch: 41 Accuracy: 92.5945819710416%
+Scene: 22 Batch: 42 Accuracy: 92.58403361344541%
+Scene: 22 Batch: 43 Accuracy: 92.58049463369112%
+Scene: 22 Batch: 44 Accuracy: 92.57462686567169%
+Scene: 22 Batch: 45 Accuracy: 92.5757575757576%
+Scene: 22 Batch: 46 Accuracy: 92.57222739981364%
+Scene: 22 Batch: 47 Accuracy: 92.56637168141597%
+Scene: 22 Batch: 48 Accuracy: 92.56517690875236%
+Scene: 22 Batch: 49 Accuracy: 92.56630991158683%
+Scene: 22 Batch: 50 Accuracy: 92.56279069767446%
+Scene: 22 Batch: 51 Accuracy: 92.56159925615997%
+Scene: 22 Batch: 52 Accuracy: 92.56273234200746%
+Scene: 22 Batch: 53 Accuracy: 92.56154203437067%
+Scene: 22 Batch: 54 Accuracy: 92.55803156917366%
+Scene: 22 Batch: 55 Accuracy: 92.55916473317869%
+Scene: 22 Batch: 56 Accuracy: 92.55333951762528%
+Scene: 22 Batch: 57 Accuracy: 92.55679184051928%
+Scene: 22 Batch: 58 Accuracy: 92.55792400370717%
+Scene: 22 Batch: 59 Accuracy: 92.55442334414084%
+Scene: 22 Batch: 60 Accuracy: 92.55324074074079%
+Scene: 22 Batch: 61 Accuracy: 92.55668671911155%
+Scene: 22 Batch: 62 Accuracy: 92.55087881591123%
+Scene: 22 Batch: 63 Accuracy: 92.5496994914471%
+Scene: 22 Batch: 64 Accuracy: 92.54621072088729%
+Scene: 22 Batch: 65 Accuracy: 92.54734411085454%
+Scene: 22 Batch: 66 Accuracy: 92.54616805170825%
+Scene: 22 Batch: 67 Accuracy: 92.54960775265347%
+Scene: 22 Batch: 68 Accuracy: 92.54843173431738%
+Scene: 22 Batch: 69 Accuracy: 92.54725680036887%
+Scene: 22 Batch: 70 Accuracy: 92.54377880184336%
+Scene: 22 Batch: 71 Accuracy: 92.54491017964077%
+Scene: 22 Batch: 72 Accuracy: 92.54143646408843%
+Scene: 22 Batch: 73 Accuracy: 92.5448688449149%
+Scene: 22 Batch: 74 Accuracy: 92.54369825206996%
+Scene: 22 Batch: 75 Accuracy: 92.53563218390808%
+Scene: 22 Batch: 76 Accuracy: 92.53676470588239%
+Scene: 22 Batch: 77 Accuracy: 92.54019292604505%
+Scene: 22 Batch: 78 Accuracy: 92.53902662993576%
+Scene: 22 Batch: 79 Accuracy: 92.53786140431394%
+Scene: 22 Batch: 80 Accuracy: 92.53669724770646%
+Scene: 22 Batch: 81 Accuracy: 92.53553415864286%
+Scene: 22 Batch: 82 Accuracy: 92.53666361136575%
+Scene: 22 Batch: 83 Accuracy: 92.53779202931749%
+Scene: 22 Batch: 84 Accuracy: 92.53663003663007%
+Scene: 22 Batch: 85 Accuracy: 92.53546910755152%
+Scene: 22 Batch: 86 Accuracy: 92.53202195791404%
+Scene: 22 Batch: 87 Accuracy: 92.53315043438504%
+Scene: 22 Batch: 88 Accuracy: 92.53199268738578%
+Scene: 22 Batch: 89 Accuracy: 92.5354042941983%
+Scene: 22 Batch: 90 Accuracy: 92.53881278538817%
+Scene: 22 Batch: 91 Accuracy: 92.53765403925152%
+Scene: 22 Batch: 92 Accuracy: 92.54105839416063%
+Scene: 22 Batch: 93 Accuracy: 92.54217966256275%
+Scene: 22 Batch: 94 Accuracy: 92.54329990884233%
+Scene: 22 Batch: 95 Accuracy: 92.54669703872442%
+Scene: 22 Batch: 96 Accuracy: 92.55009107468128%
+Scene: 22 Batch: 97 Accuracy: 92.54893035958128%
+Scene: 22 Batch: 98 Accuracy: 92.55004549590541%
+Scene: 22 Batch: 99 Accuracy: 92.55115961800821%
+Scene: 22 Batch: 100 Accuracy: 92.55227272727276%
+Calculation completed.
+elapsed time: 48.151016219 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 23 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0041.bin
+
+cpu->gpu time 184 ms
+compute time 37 ms
+gpu->cpu time 214 ms
+cpu->file 2456 ms
+
+Preparation completed.
+elapsed time: 3.005146532 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 3.192129079 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.602600512 seconds
+
+Sending input to the network...
+Scene: 23 Batch: 1 Accuracy: 92.52839618355296%
+Scene: 23 Batch: 2 Accuracy: 92.51135331516807%
+Scene: 23 Batch: 3 Accuracy: 92.48751702224243%
+Scene: 23 Batch: 4 Accuracy: 92.46823956442834%
+Scene: 23 Batch: 5 Accuracy: 92.4603174603175%
+Scene: 23 Batch: 6 Accuracy: 92.44786944696286%
+Scene: 23 Batch: 7 Accuracy: 92.43769823289537%
+Scene: 23 Batch: 8 Accuracy: 92.42980072463772%
+Scene: 23 Batch: 9 Accuracy: 92.42870076957902%
+Scene: 23 Batch: 10 Accuracy: 92.42533936651587%
+Scene: 23 Batch: 11 Accuracy: 92.41293532338311%
+Scene: 23 Batch: 12 Accuracy: 92.39602169981922%
+Scene: 23 Batch: 13 Accuracy: 92.39042024401269%
+Scene: 23 Batch: 14 Accuracy: 92.38030713640474%
+Scene: 23 Batch: 15 Accuracy: 92.37246049661402%
+Scene: 23 Batch: 16 Accuracy: 92.36462093862819%
+Scene: 23 Batch: 17 Accuracy: 92.35678845286427%
+Scene: 23 Batch: 18 Accuracy: 92.35121731289453%
+Scene: 23 Batch: 19 Accuracy: 92.34790446146917%
+Scene: 23 Batch: 20 Accuracy: 92.34009009009011%
+Scene: 23 Batch: 21 Accuracy: 92.32778027915357%
+Scene: 23 Batch: 22 Accuracy: 92.32223222322236%
+Scene: 23 Batch: 23 Accuracy: 92.31893837157%
+Scene: 23 Batch: 24 Accuracy: 92.31339928057558%
+Scene: 23 Batch: 25 Accuracy: 92.30561797752813%
+Scene: 23 Batch: 26 Accuracy: 92.29784366576823%
+Scene: 23 Batch: 27 Accuracy: 92.29232150875622%
+Scene: 23 Batch: 28 Accuracy: 92.29129263913828%
+Scene: 23 Batch: 29 Accuracy: 92.2835352175864%
+Scene: 23 Batch: 30 Accuracy: 92.28251121076238%
+Scene: 23 Batch: 31 Accuracy: 92.27700582698345%
+Scene: 23 Batch: 32 Accuracy: 92.2737455197133%
+Scene: 23 Batch: 33 Accuracy: 92.27048813255713%
+Scene: 23 Batch: 34 Accuracy: 92.26947179946289%
+Scene: 23 Batch: 35 Accuracy: 92.26621923937364%
+Scene: 23 Batch: 36 Accuracy: 92.26296958855103%
+Scene: 23 Batch: 37 Accuracy: 92.25972284309347%
+Scene: 23 Batch: 38 Accuracy: 92.25201072386062%
+Scene: 23 Batch: 39 Accuracy: 92.24207235372937%
+Scene: 23 Batch: 40 Accuracy: 92.23883928571432%
+Scene: 23 Batch: 41 Accuracy: 92.2423025435074%
+Scene: 23 Batch: 42 Accuracy: 92.23238180196257%
+Scene: 23 Batch: 43 Accuracy: 92.22915737851096%
+Scene: 23 Batch: 44 Accuracy: 92.21256684491982%
+Scene: 23 Batch: 45 Accuracy: 92.2115812917595%
+Scene: 23 Batch: 46 Accuracy: 92.21282279608197%
+Scene: 23 Batch: 47 Accuracy: 92.21406319537164%
+Scene: 23 Batch: 48 Accuracy: 92.21530249110323%
+Scene: 23 Batch: 49 Accuracy: 92.20987105380173%
+Scene: 23 Batch: 50 Accuracy: 92.20888888888894%
+Scene: 23 Batch: 51 Accuracy: 92.20790759662376%
+Scene: 23 Batch: 52 Accuracy: 92.20470692717588%
+Scene: 23 Batch: 53 Accuracy: 92.2037283621838%
+Scene: 23 Batch: 54 Accuracy: 92.20275066548362%
+Scene: 23 Batch: 55 Accuracy: 92.19512195121955%
+Scene: 23 Batch: 56 Accuracy: 92.19636524822698%
+Scene: 23 Batch: 57 Accuracy: 92.19760744350913%
+Scene: 23 Batch: 58 Accuracy: 92.20106288751111%
+Scene: 23 Batch: 59 Accuracy: 92.19787516600269%
+Scene: 23 Batch: 60 Accuracy: 92.19469026548676%
+Scene: 23 Batch: 61 Accuracy: 92.19371959310043%
+Scene: 23 Batch: 62 Accuracy: 92.19274977895671%
+Scene: 23 Batch: 63 Accuracy: 92.19399027839155%
+Scene: 23 Batch: 64 Accuracy: 92.18639575971734%
+Scene: 23 Batch: 65 Accuracy: 92.18763796909496%
+Scene: 23 Batch: 66 Accuracy: 92.19108561341575%
+Scene: 23 Batch: 67 Accuracy: 92.19453021614473%
+Scene: 23 Batch: 68 Accuracy: 92.19576719576723%
+Scene: 23 Batch: 69 Accuracy: 92.19700308505954%
+Scene: 23 Batch: 70 Accuracy: 92.19823788546259%
+Scene: 23 Batch: 71 Accuracy: 92.19066490532808%
+Scene: 23 Batch: 72 Accuracy: 92.18750000000003%
+Scene: 23 Batch: 73 Accuracy: 92.19093708754953%
+Scene: 23 Batch: 74 Accuracy: 92.19437115215483%
+Scene: 23 Batch: 75 Accuracy: 92.19340659340662%
+Scene: 23 Batch: 76 Accuracy: 92.19024604569424%
+Scene: 23 Batch: 77 Accuracy: 92.18928414580591%
+Scene: 23 Batch: 78 Accuracy: 92.19271290605798%
+Scene: 23 Batch: 79 Accuracy: 92.19613865730587%
+Scene: 23 Batch: 80 Accuracy: 92.1995614035088%
+Scene: 23 Batch: 81 Accuracy: 92.20298114861906%
+Scene: 23 Batch: 82 Accuracy: 92.19982471516217%
+Scene: 23 Batch: 83 Accuracy: 92.19886114761282%
+Scene: 23 Batch: 84 Accuracy: 92.20008756567428%
+Scene: 23 Batch: 85 Accuracy: 92.19912472647705%
+Scene: 23 Batch: 86 Accuracy: 92.20034995625551%
+Scene: 23 Batch: 87 Accuracy: 92.1993878443376%
+Scene: 23 Batch: 88 Accuracy: 92.20279720279724%
+Scene: 23 Batch: 89 Accuracy: 92.20183486238535%
+Scene: 23 Batch: 90 Accuracy: 92.20524017467253%
+Scene: 23 Batch: 91 Accuracy: 92.20646006110871%
+Scene: 23 Batch: 92 Accuracy: 92.20986038394419%
+Scene: 23 Batch: 93 Accuracy: 92.20889664195381%
+Scene: 23 Batch: 94 Accuracy: 92.20793374019183%
+Scene: 23 Batch: 95 Accuracy: 92.20915032679741%
+Scene: 23 Batch: 96 Accuracy: 92.21036585365857%
+Scene: 23 Batch: 97 Accuracy: 92.21375707444496%
+Scene: 23 Batch: 98 Accuracy: 92.2127937336815%
+Scene: 23 Batch: 99 Accuracy: 92.21400608960421%
+Scene: 23 Batch: 100 Accuracy: 92.2130434782609%
+Calculation completed.
+elapsed time: 47.989424303 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_test_nb2000_fb.list
+
+Scene: 24 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0042.bin
+
+cpu->gpu time 184 ms
+compute time 37 ms
+gpu->cpu time 152 ms
+cpu->file 4135 ms
+
+Preparation completed.
+elapsed time: 4.621197766 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 4.054740724 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.892735652 seconds
+
+Sending input to the network...
+Scene: 24 Batch: 1 Accuracy: 92.20121686223384%
+Scene: 24 Batch: 2 Accuracy: 92.1872284969592%
+Scene: 24 Batch: 3 Accuracy: 92.17108119843685%
+Scene: 24 Batch: 4 Accuracy: 92.16362847222226%
+Scene: 24 Batch: 5 Accuracy: 92.15618221258137%
+Scene: 24 Batch: 6 Accuracy: 92.1465741543799%
+Scene: 24 Batch: 7 Accuracy: 92.1478110099697%
+Scene: 24 Batch: 8 Accuracy: 92.14471403812828%
+Scene: 24 Batch: 9 Accuracy: 92.14161974880903%
+Scene: 24 Batch: 10 Accuracy: 92.13852813852816%
+Scene: 24 Batch: 11 Accuracy: 92.13111207269583%
+Scene: 24 Batch: 12 Accuracy: 92.13235294117649%
+Scene: 24 Batch: 13 Accuracy: 92.1292693471682%
+Scene: 24 Batch: 14 Accuracy: 92.13267070008646%
+Scene: 24 Batch: 15 Accuracy: 92.13606911447087%
+Scene: 24 Batch: 16 Accuracy: 92.13946459412784%
+Scene: 24 Batch: 17 Accuracy: 92.14285714285717%
+Scene: 24 Batch: 18 Accuracy: 92.14624676445214%
+Scene: 24 Batch: 19 Accuracy: 92.14963346269947%
+Scene: 24 Batch: 20 Accuracy: 92.15086206896555%
+Scene: 24 Batch: 21 Accuracy: 92.15424386040503%
+Scene: 24 Batch: 22 Accuracy: 92.15546942291131%
+Scene: 24 Batch: 23 Accuracy: 92.15669393026262%
+Scene: 24 Batch: 24 Accuracy: 92.16006884681588%
+Scene: 24 Batch: 25 Accuracy: 92.16344086021509%
+Scene: 24 Batch: 26 Accuracy: 92.16680997420467%
+Scene: 24 Batch: 27 Accuracy: 92.16802750322306%
+Scene: 24 Batch: 28 Accuracy: 92.16924398625433%
+Scene: 24 Batch: 29 Accuracy: 92.1704594246458%
+Scene: 24 Batch: 30 Accuracy: 92.1738197424893%
+Scene: 24 Batch: 31 Accuracy: 92.1750321750322%
