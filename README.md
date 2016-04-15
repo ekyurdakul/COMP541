@@ -5,6 +5,9 @@
 **Tested on**  
 Ubuntu 15.10  
 
+**Best Result**  
+Scene: 10 Accuracy: 94.81500000000003% Time: 1563.439785184 seconds ~26 minutes  
+
 **How to run**  
 There are 2 arguments:  
 
