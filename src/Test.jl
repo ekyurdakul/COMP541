@@ -11,23 +11,14 @@ batchsize=20;
 sumloss = 0;
 numloss = 0;
 
-
-
-
-
-
-#Test scenes, there are 654
+#There are 654 test scenes
 maxscenes = parse(Int32, ARGS[1]);
-println("Number of scenes to process is: $maxscenes\n");
-
 if maxscenes < 1
 	maxscenes = 1;
 elseif maxscenes > 654
 	maxscenes = 654
 end
-
-
-
+println("Number of scenes to be processed is: $maxscenes\n");
 
 
 @startTime("***Evaluating the test set...***\n");
