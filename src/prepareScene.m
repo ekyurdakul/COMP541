@@ -21,18 +21,18 @@ endfunction
 
 input2d = zeros(224,224,3,size(bounding, 2));
 for i=1:size(bounding, 2)
-  x=bounding(1,i)+1;
-  y=bounding(2,i)+1;
+  x=bounding(1,i);
+  y=bounding(2,i);
   w=bounding(3,i);
   h=bounding(4,i);
   
-  x=bound(x, _w);
-  y=bound(y, _h);
-  w=bound(w, _w);
-  h=bound(h, _h);
+  x=bound(y, _h);
+  y=bound(x, _w);
+  w=bound(h, _h);
+  h=bound(w, _w);
   
   %rectangle('Position', [x y w h], 'EdgeColor','r');
-  cropped = img(y:h-1, x:w-1, :);
+  cropped = img(y:h,x:w, :);
   if size(cropped,1) > 1 && size(cropped, 2) > 1
     cropped=imresize(cropped, [224 224]);
     input2d(:,:,:, i)=cropped;
@@ -56,8 +56,10 @@ clear y
 input2d1=input2d(:,:,:, 1:500);
 input2d2=input2d(:,:,:, 501:size(bounding, 2));
 
+input2d1=uint8(input2d1);
+input2d2=uint8(input2d2);
+
 clear bounding
 clear input2d
-
 
 save('../data/julia_data/temp.mat', '-v7');

@@ -1,7 +1,7 @@
 **DATA SETUP**  
 
 *Warning*  
-Total size of the data is around ~30 GB  
+Total size of the data is ~30 GB  
 
 1)Download and extract this project  
 2)Download and extract: http://rgbd.cs.princeton.edu/data/SUNRGBD.zip  

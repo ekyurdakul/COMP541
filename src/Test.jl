@@ -1,29 +1,36 @@
 include("Network.jl")
 
-using CUDArt;
-
-y_real = matread("../data/julia_data/y_real.mat");
-y_real = y_real["result"];
-
+#Load actual results from the paper
+#20x2000x654 matrix containing 1 hot vectors for all bounding boxes in all files
+#20 classes 2000 bounding boxes 654 files
+hot_vec = matread("../data/julia_data/hot.mat");
+hot_vec = hot_vec["hot"];
+#Comparing my systems output with theirs, so the final accuracy should be 100%
 #Fits to my 4GB GPU, need ~1GB additionally for TSDF
 batchsize=20;
+sumloss = 0;
+numloss = 0;
 
-#y_pClass num of classes recognized by the network
-y_pClass = zeros(20,1);
-y_real[1,1] = 0;
 
-#Custom accuracy function
-function meanAvP(predicted, actual)
-	temp = norm(predicted-actual) / norm(actual);
-	temp = abs(temp);
-	return (1-temp)*100;
+
+
+
+
+#Test scenes, there are 654
+maxscenes = parse(Int32, ARGS[1]);
+println("Number of scenes to process is: $maxscenes\n");
+
+if maxscenes < 1
+	maxscenes = 1;
+elseif maxscenes > 654
+	maxscenes = 654
 end
 
-#Test scenes
-maxscenes = 654;
+
+
+
 
 @startTime("***Evaluating the test set...***\n");
-
 for i=1:maxscenes
 	@startTime("Preparing 3D Input Data...");
 	#Compute TSDF using CUDA
@@ -37,7 +44,7 @@ for i=1:maxscenes
 
 
 	@startTime("Preparing 2D Input Data...");
-	#Execute matlab script
+	#Execute Octave script
 	run(`octave prepareScene.m $filename`);
 	tempmat=matread("../data/julia_data/temp.mat");
 	@stopTime("Preparation completed.");
@@ -49,8 +56,8 @@ for i=1:maxscenes
 	boxcount += size(tempmat["input2d2"], 4);
 
 	x2D=zeros(Float32,224,224,3,boxcount);
-	x2D[:,:,:, 1:500]=tempmat["input2d1"];
-	x2D[:,:,:, 501:boxcount]=tempmat["input2d2"];
+	x2D[:,:,:, 1:500]=convert(Array{Float32,4}, tempmat["input2d1"]);
+	x2D[:,:,:, 501:boxcount]=convert(Array{Float32,4}, tempmat["input2d2"]);
 
 	#3D Input
 	TSDFfile=open("../data/julia_data/temp.tdsf", "r");
@@ -85,20 +92,14 @@ for i=1:maxscenes
 
 		y_predict = Network(x2d, x3d);
 
-		#Update predictions classes vector
-		for p=1:size(y_predict, 2)
-			temp = zeros(20,1);
-			host_y = to_host(y_predict);
-			temp[indmax(host_y[:, p]), 1] = 1;
-			temp[1,1] = 0; #Non objects are not relevant and arent in the data files so ignore them
-			y_pClass += temp;
-		end
+		sumloss += zeroone(y_predict, hot_vec[:, sx:ex, i]);
+		numloss += 1;
+
+		loss = sumloss/numloss;
 
 		#Print accuracy at the end of each batch
-		acc=meanAvP(y_pClass,y_real);
-		println("Scene: $i Batch: $(convert(Int32,j)) Accuracy: $acc % \t# of recognized objects: $(sum(y_pClass))");
+		println("Scene: $i Batch: $(convert(Int32,j)) Accuracy: $((1-loss)*100)%");
 	end
 	@stopTime("Calculation completed.")
 end
-
 @stopTime("***Test set evaluated.***");
