@@ -5,8 +5,8 @@
 **Tested on**  
 Ubuntu 15.10  
 
-**Best Result**  
-Scene: 10 Accuracy: 94.81500000000003% Time: 1563.439785184 seconds ~26 minutes  
+**Results**  
+Scenes: 654 Accuracy: 89.89831804281107% Time: 39391.945318995 seconds  
 
 **How to install**  
 
