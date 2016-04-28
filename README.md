@@ -29,8 +29,11 @@ There are 3 arguments:
 julia Test.jl "sceneCount" "VGGNetLayerCount" 2>&1 | tee "file"  
 
 Examples:  
-julia Test.jl 2 16 2>&1 | tee ../experiments/vgg_16_layers_test_2_scenes_output.txt  
-julia Test.jl 2 19 2>&1 | tee ../experiments/vgg_19_layers_test_2_scenes_output.txt  
+julia Test.jl 2 16 2>&1 | tee ../experiments/vgg_16_layers_test_02_scenes_output.txt  
+julia Test.jl 2 19 2>&1 | tee ../experiments/vgg_19_layers_test_02_scenes_output.txt  
+
+julia Test.jl 10 16 2>&1 | tee ../experiments/vgg_16_layers_test_10_scenes_output.txt  
+julia Test.jl 10 19 2>&1 | tee ../experiments/vgg_19_layers_test_10_scenes_output.txt  
 
 julia Test.jl 654 16 2>&1 | tee ../experiments/vgg_16_layers_test_all_scenes_output.txt  
 julia Test.jl 654 19 2>&1 | tee ../experiments/vgg_19_layers_test_all_scenes_output.txt  
@@ -40,7 +43,7 @@ I chose NYU as my test set since it has less scenes compared to SUNRGBD (654 vs 
 *Note: NYU is a subset of SUNRGBD database*  
 
 **Differences**  
-The paper uses the 16 layer version of VGGNet, mine has also the 19 layer version.  
+The paper uses the 16 layer version of VGGNet, mine also has the 19 layer version.  
 The paper makes use of 7x7 Region-of-Interest (RoI) pooling, however I crop/resize inputs to 224x224 since Knet does not have RoI pooling.  
 
 *RoI Pooling*  
