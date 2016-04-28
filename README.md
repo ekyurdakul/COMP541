@@ -6,7 +6,11 @@
 Ubuntu 15.10  
 
 **Results**  
-VGGNet 19 Layers -> Scenes: 654 Accuracy: 89.89831804281107% Time: 39391.945318995 seconds  
+VGG 16 Layers -> Scene: 654 Batch: 100 Accuracy: 89.87668195718415% Time: 36315.016382632 seconds  
+VGG 19 Layers -> Scene: 654 Batch: 100 Accuracy: 89.89831804281107% Time: 39391.945318995 seconds  
+
+VGG 16 Layer results were obtained by the latest commit  
+VGG 19 Layer results were obtained by commit cf6fb3ca63150382abc65373fd30c43d9ef974ca  
 
 **How to install**  
 
