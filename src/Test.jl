@@ -30,10 +30,10 @@ end
 #Choose model according to argument, free the other version's loaded weights
 if vggtype == 16
 	f2d=compile(:VGGNet16)
-	VGGWeights19 = 0;
-elseif
+	#VGGWeights19 = 0;
+elseif vggtype == 19
 	f2d=compile(:VGGNet19)
-	VGGWeights16 = 0;
+	#VGGWeights16 = 0;
 end
 f3d=compile(:ORNFeature)
 fClass=compile(:ORNClass)
