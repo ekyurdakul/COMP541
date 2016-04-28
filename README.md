@@ -6,7 +6,7 @@
 Ubuntu 15.10  
 
 **Results**  
-Scenes: 654 Accuracy: 89.89831804281107% Time: 39391.945318995 seconds  
+VGGNet 19 Layers -> Scenes: 654 Accuracy: 89.89831804281107% Time: 39391.945318995 seconds  
 
 **How to install**  
 

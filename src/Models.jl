@@ -26,6 +26,7 @@ include("Layers.jl")
 	return dropout(y)
 end
 
+#19 Layer VGGNet
 #2D Feature Vector : Output size (1,1,4096,1)
 @knet function VGGNetFeature(x)
 	y=VGGNetConv(x; inc=3, outc=64, winit=VGGWeights["conv1_1_w"], binit=VGGWeights["conv1_1_b"])
@@ -52,6 +53,37 @@ end
 	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_2_w"], binit=VGGWeights["conv5_2_b"])
 	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_3_w"], binit=VGGWeights["conv5_3_b"])
 	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_4_w"], binit=VGGWeights["conv5_4_b"])
+	y=pool(y)
+
+	#FC to generate 4096 feature vector
+	return VGGNetConv(y; inc=512, outc=4096, winit=VGGWeights["fc6_w"], binit=VGGWeights["fc6_b"], wnd=7, pad=0)
+end
+
+#Override 19 Layer VGGNet
+#16 Layer VGGNet
+#2D Feature Vector : Output size (1,1,4096,1)
+@knet function VGGNetFeature(x)
+	y=VGGNetConv(x; inc=3, outc=64, winit=VGGWeights["conv1_1_w"], binit=VGGWeights["conv1_1_b"])
+	y=VGGNetConv(y; inc=64, outc=64, winit=VGGWeights["conv1_2_w"], binit=VGGWeights["conv1_2_b"])
+	y=pool(y)
+
+	y=VGGNetConv(y; inc=64, outc=128, winit=VGGWeights["conv2_1_w"], binit=VGGWeights["conv2_1_b"])
+	y=VGGNetConv(y; inc=128, outc=128, winit=VGGWeights["conv2_2_w"], binit=VGGWeights["conv2_2_b"])
+	y=pool(y)
+
+	y=VGGNetConv(y; inc=128, outc=256, winit=VGGWeights["conv3_1_w"], binit=VGGWeights["conv3_1_b"])
+	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights["conv3_2_w"], binit=VGGWeights["conv3_2_b"])
+	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights["conv3_3_w"], binit=VGGWeights["conv3_3_b"])
+	y=pool(y)
+
+	y=VGGNetConv(y; inc=256, outc=512, winit=VGGWeights["conv4_1_w"], binit=VGGWeights["conv4_1_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv4_2_w"], binit=VGGWeights["conv4_2_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv4_3_w"], binit=VGGWeights["conv4_3_b"])
+	y=pool(y)
+	
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_1_w"], binit=VGGWeights["conv5_1_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_2_w"], binit=VGGWeights["conv5_2_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_3_w"], binit=VGGWeights["conv5_3_b"])
 	y=pool(y)
 
 	#FC to generate 4096 feature vector
