@@ -20,22 +20,27 @@ VGGNet 19 Layers -> Scenes: 654 Accuracy: 89.89831804281107% Time: 39391.9453189
 *Read the README.md in the "data" folder to download and setup the data*  
 
 **How to run**  
-There are 2 arguments:  
+There are 3 arguments:  
 
 "sceneCount" limits the number of scenes to be processed  
+"VGGNetLayerCount" determines the type of VGGNet; either 16 or 19 layer version  
 "file" contains the output of the terminal  
 
-julia Test.jl "sceneCount" 2>&1 | tee "file"  
+julia Test.jl "sceneCount" "VGGNetLayerCount" 2>&1 | tee "file"  
 
-Example:  
-julia Test.jl 2 2>&1 | tee ../experiments/test_2_scenes_output.txt  
+Examples:  
+julia Test.jl 2 16 2>&1 | tee ../experiments/vgg_16_layers_test_2_scenes_output.txt  
+julia Test.jl 2 19 2>&1 | tee ../experiments/vgg_19_layers_test_2_scenes_output.txt  
+
+julia Test.jl 654 16 2>&1 | tee ../experiments/vgg_16_layers_test_all_scenes_output.txt  
+julia Test.jl 654 19 2>&1 | tee ../experiments/vgg_19_layers_test_all_scenes_output.txt  
 
 **Test set**  
 I chose NYU as my test set since it has less scenes compared to SUNRGBD (654 vs 5050), and each scene has a maximum of 2000 bounding boxes in it, so this way it takes less time to get results.  
 *Note: NYU is a subset of SUNRGBD database*  
 
 **Differences**  
-The paper uses the 16 layer version of VGGNet, mine has 19 layers.  
+The paper uses the 16 layer version of VGGNet, mine has also the 19 layer version.  
 The paper makes use of 7x7 Region-of-Interest (RoI) pooling, however I crop/resize inputs to 224x224 since Knet does not have RoI pooling.  
 
 *RoI Pooling*  

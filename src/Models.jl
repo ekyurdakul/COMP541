@@ -28,66 +28,65 @@ end
 
 #19 Layer VGGNet
 #2D Feature Vector : Output size (1,1,4096,1)
-@knet function VGGNetFeature(x)
-	y=VGGNetConv(x; inc=3, outc=64, winit=VGGWeights["conv1_1_w"], binit=VGGWeights["conv1_1_b"])
-	y=VGGNetConv(y; inc=64, outc=64, winit=VGGWeights["conv1_2_w"], binit=VGGWeights["conv1_2_b"])
+@knet function VGGNet19(x)
+	y=VGGNetConv(x; inc=3, outc=64, winit=VGGWeights19["conv1_1_w"], binit=VGGWeights19["conv1_1_b"])
+	y=VGGNetConv(y; inc=64, outc=64, winit=VGGWeights19["conv1_2_w"], binit=VGGWeights19["conv1_2_b"])
 	y=pool(y)
 
-	y=VGGNetConv(y; inc=64, outc=128, winit=VGGWeights["conv2_1_w"], binit=VGGWeights["conv2_1_b"])
-	y=VGGNetConv(y; inc=128, outc=128, winit=VGGWeights["conv2_2_w"], binit=VGGWeights["conv2_2_b"])
+	y=VGGNetConv(y; inc=64, outc=128, winit=VGGWeights19["conv2_1_w"], binit=VGGWeights19["conv2_1_b"])
+	y=VGGNetConv(y; inc=128, outc=128, winit=VGGWeights19["conv2_2_w"], binit=VGGWeights19["conv2_2_b"])
 	y=pool(y)
 
-	y=VGGNetConv(y; inc=128, outc=256, winit=VGGWeights["conv3_1_w"], binit=VGGWeights["conv3_1_b"])
-	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights["conv3_2_w"], binit=VGGWeights["conv3_2_b"])
-	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights["conv3_3_w"], binit=VGGWeights["conv3_3_b"])
-	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights["conv3_4_w"], binit=VGGWeights["conv3_4_b"])
+	y=VGGNetConv(y; inc=128, outc=256, winit=VGGWeights19["conv3_1_w"], binit=VGGWeights19["conv3_1_b"])
+	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights19["conv3_2_w"], binit=VGGWeights19["conv3_2_b"])
+	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights19["conv3_3_w"], binit=VGGWeights19["conv3_3_b"])
+	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights19["conv3_4_w"], binit=VGGWeights19["conv3_4_b"])
 	y=pool(y)
 
-	y=VGGNetConv(y; inc=256, outc=512, winit=VGGWeights["conv4_1_w"], binit=VGGWeights["conv4_1_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv4_2_w"], binit=VGGWeights["conv4_2_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv4_3_w"], binit=VGGWeights["conv4_3_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv4_4_w"], binit=VGGWeights["conv4_4_b"])
+	y=VGGNetConv(y; inc=256, outc=512, winit=VGGWeights19["conv4_1_w"], binit=VGGWeights19["conv4_1_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights19["conv4_2_w"], binit=VGGWeights19["conv4_2_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights19["conv4_3_w"], binit=VGGWeights19["conv4_3_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights19["conv4_4_w"], binit=VGGWeights19["conv4_4_b"])
 	y=pool(y)
 	
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_1_w"], binit=VGGWeights["conv5_1_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_2_w"], binit=VGGWeights["conv5_2_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_3_w"], binit=VGGWeights["conv5_3_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_4_w"], binit=VGGWeights["conv5_4_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights19["conv5_1_w"], binit=VGGWeights19["conv5_1_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights19["conv5_2_w"], binit=VGGWeights19["conv5_2_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights19["conv5_3_w"], binit=VGGWeights19["conv5_3_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights19["conv5_4_w"], binit=VGGWeights19["conv5_4_b"])
 	y=pool(y)
 
 	#FC to generate 4096 feature vector
-	return VGGNetConv(y; inc=512, outc=4096, winit=VGGWeights["fc6_w"], binit=VGGWeights["fc6_b"], wnd=7, pad=0)
+	return VGGNetConv(y; inc=512, outc=4096, winit=VGGWeights19["fc6_w"], binit=VGGWeights19["fc6_b"], wnd=7, pad=0)
 end
 
-#Override 19 Layer VGGNet
 #16 Layer VGGNet
 #2D Feature Vector : Output size (1,1,4096,1)
-@knet function VGGNetFeature(x)
-	y=VGGNetConv(x; inc=3, outc=64, winit=VGGWeights["conv1_1_w"], binit=VGGWeights["conv1_1_b"])
-	y=VGGNetConv(y; inc=64, outc=64, winit=VGGWeights["conv1_2_w"], binit=VGGWeights["conv1_2_b"])
+@knet function VGGNet16(x)
+	y=VGGNetConv(x; inc=3, outc=64, winit=VGGWeights16["conv1_1_w"], binit=VGGWeights16["conv1_1_b"])
+	y=VGGNetConv(y; inc=64, outc=64, winit=VGGWeights16["conv1_2_w"], binit=VGGWeights16["conv1_2_b"])
 	y=pool(y)
 
-	y=VGGNetConv(y; inc=64, outc=128, winit=VGGWeights["conv2_1_w"], binit=VGGWeights["conv2_1_b"])
-	y=VGGNetConv(y; inc=128, outc=128, winit=VGGWeights["conv2_2_w"], binit=VGGWeights["conv2_2_b"])
+	y=VGGNetConv(y; inc=64, outc=128, winit=VGGWeights16["conv2_1_w"], binit=VGGWeights16["conv2_1_b"])
+	y=VGGNetConv(y; inc=128, outc=128, winit=VGGWeights16["conv2_2_w"], binit=VGGWeights16["conv2_2_b"])
 	y=pool(y)
 
-	y=VGGNetConv(y; inc=128, outc=256, winit=VGGWeights["conv3_1_w"], binit=VGGWeights["conv3_1_b"])
-	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights["conv3_2_w"], binit=VGGWeights["conv3_2_b"])
-	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights["conv3_3_w"], binit=VGGWeights["conv3_3_b"])
+	y=VGGNetConv(y; inc=128, outc=256, winit=VGGWeights16["conv3_1_w"], binit=VGGWeights16["conv3_1_b"])
+	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights16["conv3_2_w"], binit=VGGWeights16["conv3_2_b"])
+	y=VGGNetConv(y; inc=256, outc=256, winit=VGGWeights16["conv3_3_w"], binit=VGGWeights16["conv3_3_b"])
 	y=pool(y)
 
-	y=VGGNetConv(y; inc=256, outc=512, winit=VGGWeights["conv4_1_w"], binit=VGGWeights["conv4_1_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv4_2_w"], binit=VGGWeights["conv4_2_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv4_3_w"], binit=VGGWeights["conv4_3_b"])
+	y=VGGNetConv(y; inc=256, outc=512, winit=VGGWeights16["conv4_1_w"], binit=VGGWeights16["conv4_1_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights16["conv4_2_w"], binit=VGGWeights16["conv4_2_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights16["conv4_3_w"], binit=VGGWeights16["conv4_3_b"])
 	y=pool(y)
 	
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_1_w"], binit=VGGWeights["conv5_1_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_2_w"], binit=VGGWeights["conv5_2_b"])
-	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights["conv5_3_w"], binit=VGGWeights["conv5_3_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights16["conv5_1_w"], binit=VGGWeights16["conv5_1_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights16["conv5_2_w"], binit=VGGWeights16["conv5_2_b"])
+	y=VGGNetConv(y; inc=512, outc=512, winit=VGGWeights16["conv5_3_w"], binit=VGGWeights16["conv5_3_b"])
 	y=pool(y)
 
 	#FC to generate 4096 feature vector
-	return VGGNetConv(y; inc=512, outc=4096, winit=VGGWeights["fc6_w"], binit=VGGWeights["fc6_b"], wnd=7, pad=0)
+	return VGGNetConv(y; inc=512, outc=4096, winit=VGGWeights16["fc6_w"], binit=VGGWeights16["fc6_b"], wnd=7, pad=0)
 end
 
 @knet function ORNClass(v2d, v3d)

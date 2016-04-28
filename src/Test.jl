@@ -1,4 +1,4 @@
-include("Network.jl")
+include("Models.jl")
 include("Scene.jl")
 
 #Load actual results from the paper
@@ -6,8 +6,9 @@ include("Scene.jl")
 #20 classes 2000 bounding boxes 654 files
 hot_vec = matread("../data/julia_data/hot.mat");
 hot_vec = hot_vec["hot"];
+
 #Comparing my systems output with theirs, so the final accuracy should be 100%
-#Fits to my 4GB GPU, need ~1GB additionally for TSDF
+#Fits to my 4GB GPU, need ~1GB additionally for TSDF and ~500MB for OS
 batchsize=20;
 sumloss = 0;
 numloss = 0;
@@ -18,6 +19,38 @@ if maxscenes < 1
 	maxscenes = 1;
 elseif maxscenes > 654
 	maxscenes = 654
+end
+
+#Choose VGGNet type, default to the paper's version
+vggtype = parse(Int32, ARGS[2]);
+if vggtype != 16 && vggtype != 19
+	vggtype = 16;
+end
+
+#Choose model according to argument, free the other version's loaded weights
+if vggtype == 16
+	f2d=compile(:VGGNet16)
+	VGGWeights19 = 0;
+elseif
+	f2d=compile(:VGGNet19)
+	VGGWeights16 = 0;
+end
+f3d=compile(:ORNFeature)
+fClass=compile(:ORNClass)
+
+#Entire network architecture
+function Network(x2d, x3d)
+	#Compute feature vectors
+	v2d=forw(f2d, x2d)
+	v3d=forw(f3d, x3d)
+
+	#Resize from [1,1,4096,batchsize] to [4096,batchsize]
+	v2d=reshape(v2d, size(v2d));
+
+	#Predict class
+	pClass=forw(fClass, v2d, v3d)
+
+	return pClass;
 end
 
 println("Number of scenes to be processed is: $maxscenes\n");

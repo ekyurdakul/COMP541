@@ -20,8 +20,8 @@ using MAT
 
 @startTime("Loading weights...")
 ORNWeights=matread("../data/julia_data/ORN.mat");
-VGGWeights=matread("../data/julia_data/VGG.mat");
-VGGWeights=matread("../data/julia_data/VGG16.mat");
+VGGWeights16=matread("../data/julia_data/VGG16.mat");
+VGGWeights19=matread("../data/julia_data/VGG19.mat");
 @stopTime("Loading completed.")
 
 #Dropout layer
