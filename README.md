@@ -5,7 +5,7 @@
 **Tested on**  
 Ubuntu 15.10  
 
-**Results**  
+**Test Set Results**  
 VGG 16 Layers -> Scene: 654 Batch: 100 Accuracy: 89.87668195718415% Time: 36315.016382632 seconds  
 VGG 19 Layers -> Scene: 654 Batch: 100 Accuracy: 89.89831804281107% Time: 39391.945318995 seconds  
 
