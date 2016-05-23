@@ -7,8 +7,6 @@ Ubuntu 15.10
 
 **How to Install**  
 
-*Requirements*:  
-
 [Knet](http://knet.readthedocs.org/en/dev/install.html)  
 [Julia Package "MAT"](https://github.com/simonster/MAT.jl)   
 [Julia Package "ImageMagick"](https://github.com/JuliaIO/ImageMagick.jl)  
@@ -31,11 +29,10 @@ Number of scenes in the test set (NYU:654 vs SUNRGBD:5050 scenes)
 **Results**  
 Outputs of run experiments are located in /experiments/  
 
-*Train Set Results*  
+**Train Set Results**  
 Batch size 	: 20  
 Batches 	: 100  
 Epochs		: 10  
-
 
 Scenes : 2  
 VGG 16 Layers -> Softloss: 2.9956963 Accuracy: 54.40000000000001% Time: 1220.596682183 seconds  
@@ -45,14 +42,14 @@ Scenes : 10
 VGG 16 Layers -> Softloss: 2.9955368 Accuracy: 56.74000000000012% Time: 5783.906751494 seconds  
 VGG 19 Layers -> Softloss: 2.995787 Accuracy: 55.01000000000005% Time: 6553.552235072 seconds  
 
-
 *All results were obtained by the latest commit*  
 
 
-*Test Set Results*  
+**Test Set Results**  
 Scenes 		: 654  
 Batch size 	: 20  
 Batches 	: 100  
+
 VGG 16 Layers -> Accuracy: 89.87668195718415% Time: 36315.016382632 seconds  
 VGG 19 Layers -> Accuracy: 89.89831804281107% Time: 39391.945318995 seconds  
 
