@@ -1,0 +1,2557 @@
+Importing packages...
+Import completed.
+elapsed time: 4.779550119 seconds
+
+Loading weights...
+Loading completed.
+elapsed time: 7.008744559 seconds
+
+Number of scenes to be processed is: 2
+
+***Start time: 2016-05-23T16:57:27***
+***Training for 10 epochs...***
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 173 ms
+compute time 5 ms
+gpu->cpu time 140 ms
+cpu->file 547 ms
+
+Preparation completed.
+elapsed time: 1.071824458 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.751995726 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 1.103929802 seconds
+
+Training...
+Epoch: 1 Scene: 1 Batch: 1 Softloss: 15.942386 Accuracy: 0.0%
+Epoch: 1 Scene: 1 Batch: 2 Softloss: 9.469105 Accuracy: 15.000000000000002%
+Epoch: 1 Scene: 1 Batch: 3 Softloss: 7.311218 Accuracy: 16.666666666666664%
+Epoch: 1 Scene: 1 Batch: 4 Softloss: 6.232263 Accuracy: 22.499999999999996%
+Epoch: 1 Scene: 1 Batch: 5 Softloss: 5.5849485 Accuracy: 24.0%
+Epoch: 1 Scene: 1 Batch: 6 Softloss: 5.1534257 Accuracy: 29.166666666666664%
+Epoch: 1 Scene: 1 Batch: 7 Softloss: 4.84515 Accuracy: 27.142857142857146%
+Epoch: 1 Scene: 1 Batch: 8 Softloss: 4.613964 Accuracy: 29.375000000000007%
+Epoch: 1 Scene: 1 Batch: 9 Softloss: 4.4341264 Accuracy: 27.77777777777779%
+Epoch: 1 Scene: 1 Batch: 10 Softloss: 4.2903004 Accuracy: 30.000000000000004%
+Epoch: 1 Scene: 1 Batch: 11 Softloss: 4.172616 Accuracy: 31.36363636363637%
+Epoch: 1 Scene: 1 Batch: 12 Softloss: 4.0745163 Accuracy: 33.333333333333336%
+Epoch: 1 Scene: 1 Batch: 13 Softloss: 3.9915247 Accuracy: 34.23076923076924%
+Epoch: 1 Scene: 1 Batch: 14 Softloss: 3.9203885 Accuracy: 35.0%
+Epoch: 1 Scene: 1 Batch: 15 Softloss: 3.8587344 Accuracy: 36.0%
+Epoch: 1 Scene: 1 Batch: 16 Softloss: 3.8047757 Accuracy: 36.25000000000001%
+Epoch: 1 Scene: 1 Batch: 17 Softloss: 3.7571716 Accuracy: 36.1764705882353%
+Epoch: 1 Scene: 1 Batch: 18 Softloss: 3.7148542 Accuracy: 36.38888888888889%
+Epoch: 1 Scene: 1 Batch: 19 Softloss: 3.6770115 Accuracy: 36.8421052631579%
+Epoch: 1 Scene: 1 Batch: 20 Softloss: 3.6429405 Accuracy: 36.25000000000001%
+Epoch: 1 Scene: 1 Batch: 21 Softloss: 3.6121 Accuracy: 36.42857142857143%
+Epoch: 1 Scene: 1 Batch: 22 Softloss: 3.584079 Accuracy: 37.04545454545455%
+Epoch: 1 Scene: 1 Batch: 23 Softloss: 3.5584903 Accuracy: 37.39130434782608%
+Epoch: 1 Scene: 1 Batch: 24 Softloss: 3.5350325 Accuracy: 37.916666666666664%
+Epoch: 1 Scene: 1 Batch: 25 Softloss: 3.513431 Accuracy: 38.4%
+Epoch: 1 Scene: 1 Batch: 26 Softloss: 3.4935098 Accuracy: 39.615384615384606%
+Epoch: 1 Scene: 1 Batch: 27 Softloss: 3.4750714 Accuracy: 39.99999999999999%
+Epoch: 1 Scene: 1 Batch: 28 Softloss: 3.4579432 Accuracy: 40.178571428571416%
+Epoch: 1 Scene: 1 Batch: 29 Softloss: 3.4419944 Accuracy: 40.17241379310343%
+Epoch: 1 Scene: 1 Batch: 30 Softloss: 3.4271085 Accuracy: 40.49999999999998%
+Epoch: 1 Scene: 1 Batch: 31 Softloss: 3.4131927 Accuracy: 41.290322580645146%
+Epoch: 1 Scene: 1 Batch: 32 Softloss: 3.4001331 Accuracy: 41.093749999999986%
+Epoch: 1 Scene: 1 Batch: 33 Softloss: 3.387876 Accuracy: 41.5151515151515%
+Epoch: 1 Scene: 1 Batch: 34 Softloss: 3.3763416 Accuracy: 41.76470588235293%
+Epoch: 1 Scene: 1 Batch: 35 Softloss: 3.3654456 Accuracy: 42.285714285714285%
+Epoch: 1 Scene: 1 Batch: 36 Softloss: 3.3551664 Accuracy: 43.05555555555555%
+Epoch: 1 Scene: 1 Batch: 37 Softloss: 3.3454502 Accuracy: 43.243243243243235%
+Epoch: 1 Scene: 1 Batch: 38 Softloss: 3.3362393 Accuracy: 43.55263157894736%
+Epoch: 1 Scene: 1 Batch: 39 Softloss: 3.327512 Accuracy: 43.97435897435897%
+Epoch: 1 Scene: 1 Batch: 40 Softloss: 3.3192182 Accuracy: 44.375%
+Epoch: 1 Scene: 1 Batch: 41 Softloss: 3.311317 Accuracy: 44.26829268292683%
+Epoch: 1 Scene: 1 Batch: 42 Softloss: 3.303793 Accuracy: 44.047619047619044%
+Epoch: 1 Scene: 1 Batch: 43 Softloss: 3.2966242 Accuracy: 44.30232558139535%
+Epoch: 1 Scene: 1 Batch: 44 Softloss: 3.2897787 Accuracy: 44.659090909090914%
+Epoch: 1 Scene: 1 Batch: 45 Softloss: 3.2832446 Accuracy: 45.333333333333336%
+Epoch: 1 Scene: 1 Batch: 46 Softloss: 3.276993 Accuracy: 45.54347826086958%
+Epoch: 1 Scene: 1 Batch: 47 Softloss: 3.2710044 Accuracy: 45.74468085106383%
+Epoch: 1 Scene: 1 Batch: 48 Softloss: 3.2652626 Accuracy: 46.14583333333334%
+Epoch: 1 Scene: 1 Batch: 49 Softloss: 3.2597573 Accuracy: 46.428571428571445%
+Epoch: 1 Scene: 1 Batch: 50 Softloss: 3.2544718 Accuracy: 46.60000000000001%
+Epoch: 1 Scene: 1 Batch: 51 Softloss: 3.2493968 Accuracy: 46.470588235294116%
+Epoch: 1 Scene: 1 Batch: 52 Softloss: 3.244518 Accuracy: 46.92307692307692%
+Epoch: 1 Scene: 1 Batch: 53 Softloss: 3.239818 Accuracy: 47.16981132075473%
+Epoch: 1 Scene: 1 Batch: 54 Softloss: 3.2352862 Accuracy: 47.22222222222223%
+Epoch: 1 Scene: 1 Batch: 55 Softloss: 3.2309263 Accuracy: 47.27272727272728%
+Epoch: 1 Scene: 1 Batch: 56 Softloss: 3.226723 Accuracy: 47.85714285714286%
+Epoch: 1 Scene: 1 Batch: 57 Softloss: 3.2226632 Accuracy: 48.07017543859649%
+Epoch: 1 Scene: 1 Batch: 58 Softloss: 3.2187486 Accuracy: 48.27586206896552%
+Epoch: 1 Scene: 1 Batch: 59 Softloss: 3.2149594 Accuracy: 48.55932203389831%
+Epoch: 1 Scene: 1 Batch: 60 Softloss: 3.2113025 Accuracy: 48.750000000000014%
+Epoch: 1 Scene: 1 Batch: 61 Softloss: 3.2077649 Accuracy: 49.01639344262296%
+Epoch: 1 Scene: 1 Batch: 62 Softloss: 3.2043524 Accuracy: 49.11290322580646%
+Epoch: 1 Scene: 1 Batch: 63 Softloss: 3.2010381 Accuracy: 49.36507936507938%
+Epoch: 1 Scene: 1 Batch: 64 Softloss: 3.1978245 Accuracy: 49.53125000000001%
+Epoch: 1 Scene: 1 Batch: 65 Softloss: 3.1947143 Accuracy: 49.6923076923077%
+Epoch: 1 Scene: 1 Batch: 66 Softloss: 3.1916964 Accuracy: 50.15151515151515%
+Epoch: 1 Scene: 1 Batch: 67 Softloss: 3.1887631 Accuracy: 50.074626865671654%
+Epoch: 1 Scene: 1 Batch: 68 Softloss: 3.1859188 Accuracy: 50.294117647058826%
+Epoch: 1 Scene: 1 Batch: 69 Softloss: 3.183157 Accuracy: 50.579710144927546%
+Epoch: 1 Scene: 1 Batch: 70 Softloss: 3.180477 Accuracy: 51.07142857142859%
+Epoch: 1 Scene: 1 Batch: 71 Softloss: 3.1778705 Accuracy: 50.91549295774649%
+Epoch: 1 Scene: 1 Batch: 72 Softloss: 3.175336 Accuracy: 51.04166666666667%
+Epoch: 1 Scene: 1 Batch: 73 Softloss: 3.1728718 Accuracy: 51.09589041095891%
+Epoch: 1 Scene: 1 Batch: 74 Softloss: 3.1704774 Accuracy: 51.41891891891892%
+Epoch: 1 Scene: 1 Batch: 75 Softloss: 3.1681414 Accuracy: 51.46666666666666%
+Epoch: 1 Scene: 1 Batch: 76 Softloss: 3.16587 Accuracy: 51.447368421052644%
+Epoch: 1 Scene: 1 Batch: 77 Softloss: 3.1636562 Accuracy: 51.42857142857142%
+Epoch: 1 Scene: 1 Batch: 78 Softloss: 3.161504 Accuracy: 51.730769230769226%
+Epoch: 1 Scene: 1 Batch: 79 Softloss: 3.1594076 Accuracy: 51.96202531645571%
+Epoch: 1 Scene: 1 Batch: 80 Softloss: 3.1573558 Accuracy: 52.25000000000001%
+Epoch: 1 Scene: 1 Batch: 81 Softloss: 3.1553571 Accuracy: 52.53086419753087%
+Epoch: 1 Scene: 1 Batch: 82 Softloss: 3.153407 Accuracy: 52.5609756097561%
+Epoch: 1 Scene: 1 Batch: 83 Softloss: 3.151504 Accuracy: 52.65060240963856%
+Epoch: 1 Scene: 1 Batch: 84 Softloss: 3.1496456 Accuracy: 52.73809523809525%
+Epoch: 1 Scene: 1 Batch: 85 Softloss: 3.1478333 Accuracy: 53.0%
+Epoch: 1 Scene: 1 Batch: 86 Softloss: 3.146058 Accuracy: 53.02325581395348%
+Epoch: 1 Scene: 1 Batch: 87 Softloss: 3.144326 Accuracy: 53.04597701149425%
+Epoch: 1 Scene: 1 Batch: 88 Softloss: 3.1426382 Accuracy: 53.29545454545455%
+Epoch: 1 Scene: 1 Batch: 89 Softloss: 3.140986 Accuracy: 53.426966292134836%
+Epoch: 1 Scene: 1 Batch: 90 Softloss: 3.139368 Accuracy: 53.61111111111111%
+Epoch: 1 Scene: 1 Batch: 91 Softloss: 3.1377892 Accuracy: 53.7912087912088%
+Epoch: 1 Scene: 1 Batch: 92 Softloss: 3.1362455 Accuracy: 53.967391304347835%
+Epoch: 1 Scene: 1 Batch: 93 Softloss: 3.1347337 Accuracy: 54.13978494623657%
+Epoch: 1 Scene: 1 Batch: 94 Softloss: 3.1332538 Accuracy: 54.36170212765958%
+Epoch: 1 Scene: 1 Batch: 95 Softloss: 3.1318054 Accuracy: 54.473684210526315%
+Epoch: 1 Scene: 1 Batch: 96 Softloss: 3.1303866 Accuracy: 54.73958333333333%
+Epoch: 1 Scene: 1 Batch: 97 Softloss: 3.128996 Accuracy: 55.00000000000001%
+Epoch: 1 Scene: 1 Batch: 98 Softloss: 3.1276336 Accuracy: 55.25510204081632%
+Epoch: 1 Scene: 1 Batch: 99 Softloss: 3.1263018 Accuracy: 55.40404040404041%
+Epoch: 1 Scene: 1 Batch: 100 Softloss: 3.1249948 Accuracy: 55.60000000000001%
+Calculation completed.
+elapsed time: 65.824596731 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 176 ms
+compute time 4 ms
+gpu->cpu time 143 ms
+cpu->file 536 ms
+
+Preparation completed.
+elapsed time: 0.959974832 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.092364749 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.934361446 seconds
+
+Training...
+Epoch: 1 Scene: 2 Batch: 1 Softloss: 3.123715 Accuracy: 55.3960396039604%
+Epoch: 1 Scene: 2 Batch: 2 Softloss: 3.122458 Accuracy: 55.490196078431374%
+Epoch: 1 Scene: 2 Batch: 3 Softloss: 3.1212215 Accuracy: 55.3883495145631%
+Epoch: 1 Scene: 2 Batch: 4 Softloss: 3.120012 Accuracy: 55.432692307692314%
+Epoch: 1 Scene: 2 Batch: 5 Softloss: 3.1188238 Accuracy: 55.47619047619048%
+Epoch: 1 Scene: 2 Batch: 6 Softloss: 3.1176615 Accuracy: 55.28301886792454%
+Epoch: 1 Scene: 2 Batch: 7 Softloss: 3.1165223 Accuracy: 55.280373831775705%
+Epoch: 1 Scene: 2 Batch: 8 Softloss: 3.1154025 Accuracy: 55.231481481481495%
+Epoch: 1 Scene: 2 Batch: 9 Softloss: 3.1143 Accuracy: 55.22935779816513%
+Epoch: 1 Scene: 2 Batch: 10 Softloss: 3.1132197 Accuracy: 55.22727272727273%
+Epoch: 1 Scene: 2 Batch: 11 Softloss: 3.1121597 Accuracy: 55.270270270270274%
+Epoch: 1 Scene: 2 Batch: 12 Softloss: 3.1111205 Accuracy: 55.13392857142857%
+Epoch: 1 Scene: 2 Batch: 13 Softloss: 3.1100934 Accuracy: 55.088495575221245%
+Epoch: 1 Scene: 2 Batch: 14 Softloss: 3.1090872 Accuracy: 55.13157894736842%
+Epoch: 1 Scene: 2 Batch: 15 Softloss: 3.1080978 Accuracy: 55.00000000000001%
+Epoch: 1 Scene: 2 Batch: 16 Softloss: 3.1071262 Accuracy: 55.043103448275865%
+Epoch: 1 Scene: 2 Batch: 17 Softloss: 3.1061714 Accuracy: 55.042735042735046%
+Epoch: 1 Scene: 2 Batch: 18 Softloss: 3.1052337 Accuracy: 55.1271186440678%
+Epoch: 1 Scene: 2 Batch: 19 Softloss: 3.1043103 Accuracy: 55.00000000000001%
+Epoch: 1 Scene: 2 Batch: 20 Softloss: 3.1034029 Accuracy: 54.99999999999999%
+Epoch: 1 Scene: 2 Batch: 21 Softloss: 3.1025045 Accuracy: 54.71074380165288%
+Epoch: 1 Scene: 2 Batch: 22 Softloss: 3.101627 Accuracy: 54.631147540983605%
+Epoch: 1 Scene: 2 Batch: 23 Softloss: 3.100763 Accuracy: 54.796747967479675%
+Epoch: 1 Scene: 2 Batch: 24 Softloss: 3.0999117 Accuracy: 54.83870967741935%
+Epoch: 1 Scene: 2 Batch: 25 Softloss: 3.0990782 Accuracy: 54.760000000000005%
+Epoch: 1 Scene: 2 Batch: 26 Softloss: 3.098252 Accuracy: 54.84126984126985%
+Epoch: 1 Scene: 2 Batch: 27 Softloss: 3.097442 Accuracy: 54.7244094488189%
+Epoch: 1 Scene: 2 Batch: 28 Softloss: 3.0966437 Accuracy: 54.7265625%
+Epoch: 1 Scene: 2 Batch: 29 Softloss: 3.0958579 Accuracy: 54.65116279069768%
+Epoch: 1 Scene: 2 Batch: 30 Softloss: 3.0950844 Accuracy: 54.69230769230769%
+Epoch: 1 Scene: 2 Batch: 31 Softloss: 3.0943246 Accuracy: 54.80916030534351%
+Epoch: 1 Scene: 2 Batch: 32 Softloss: 3.0935755 Accuracy: 54.84848484848486%
+Epoch: 1 Scene: 2 Batch: 33 Softloss: 3.0928369 Accuracy: 54.9624060150376%
+Epoch: 1 Scene: 2 Batch: 34 Softloss: 3.0921106 Accuracy: 54.962686567164184%
+Epoch: 1 Scene: 2 Batch: 35 Softloss: 3.0913959 Accuracy: 54.96296296296297%
+Epoch: 1 Scene: 2 Batch: 36 Softloss: 3.090693 Accuracy: 54.88970588235295%
+Epoch: 1 Scene: 2 Batch: 37 Softloss: 3.0899935 Accuracy: 54.85401459854016%
+Epoch: 1 Scene: 2 Batch: 38 Softloss: 3.0893087 Accuracy: 54.85507246376812%
+Epoch: 1 Scene: 2 Batch: 39 Softloss: 3.088635 Accuracy: 54.89208633093525%
+Epoch: 1 Scene: 2 Batch: 40 Softloss: 3.0879679 Accuracy: 54.714285714285715%
+Epoch: 1 Scene: 2 Batch: 41 Softloss: 3.0873122 Accuracy: 54.822695035461%
+Epoch: 1 Scene: 2 Batch: 42 Softloss: 3.0866628 Accuracy: 54.82394366197183%
+Epoch: 1 Scene: 2 Batch: 43 Softloss: 3.0860214 Accuracy: 54.68531468531469%
+Epoch: 1 Scene: 2 Batch: 44 Softloss: 3.085392 Accuracy: 54.861111111111114%
+Epoch: 1 Scene: 2 Batch: 45 Softloss: 3.0847735 Accuracy: 54.93103448275862%
+Epoch: 1 Scene: 2 Batch: 46 Softloss: 3.0841577 Accuracy: 54.863013698630134%
+Epoch: 1 Scene: 2 Batch: 47 Softloss: 3.083553 Accuracy: 54.82993197278911%
+Epoch: 1 Scene: 2 Batch: 48 Softloss: 3.0829551 Accuracy: 54.89864864864866%
+Epoch: 1 Scene: 2 Batch: 49 Softloss: 3.0823677 Accuracy: 55.03355704697987%
+Epoch: 1 Scene: 2 Batch: 50 Softloss: 3.0817862 Accuracy: 55.03333333333333%
+Epoch: 1 Scene: 2 Batch: 51 Softloss: 3.0812118 Accuracy: 55.06622516556292%
+Epoch: 1 Scene: 2 Batch: 52 Softloss: 3.080648 Accuracy: 55.00000000000001%
+Epoch: 1 Scene: 2 Batch: 53 Softloss: 3.0800889 Accuracy: 54.90196078431373%
+Epoch: 1 Scene: 2 Batch: 54 Softloss: 3.07954 Accuracy: 54.93506493506495%
+Epoch: 1 Scene: 2 Batch: 55 Softloss: 3.078995 Accuracy: 54.903225806451616%
+Epoch: 1 Scene: 2 Batch: 56 Softloss: 3.0784595 Accuracy: 54.807692307692314%
+Epoch: 1 Scene: 2 Batch: 57 Softloss: 3.0779283 Accuracy: 54.84076433121019%
+Epoch: 1 Scene: 2 Batch: 58 Softloss: 3.0774074 Accuracy: 54.96835443037975%
+Epoch: 1 Scene: 2 Batch: 59 Softloss: 3.076891 Accuracy: 54.968553459119505%
+Epoch: 1 Scene: 2 Batch: 60 Softloss: 3.0763803 Accuracy: 54.90625%
+Epoch: 1 Scene: 2 Batch: 61 Softloss: 3.075876 Accuracy: 54.93788819875777%
+Epoch: 1 Scene: 2 Batch: 62 Softloss: 3.0753791 Accuracy: 55.12345679012345%
+Epoch: 1 Scene: 2 Batch: 63 Softloss: 3.074889 Accuracy: 55.1840490797546%
+Epoch: 1 Scene: 2 Batch: 64 Softloss: 3.0744038 Accuracy: 55.21341463414634%
+Epoch: 1 Scene: 2 Batch: 65 Softloss: 3.073923 Accuracy: 55.242424242424235%
+Epoch: 1 Scene: 2 Batch: 66 Softloss: 3.0734499 Accuracy: 55.421686746987945%
+Epoch: 1 Scene: 2 Batch: 67 Softloss: 3.0729828 Accuracy: 55.29940119760478%
+Epoch: 1 Scene: 2 Batch: 68 Softloss: 3.0725179 Accuracy: 55.29761904761903%
+Epoch: 1 Scene: 2 Batch: 69 Softloss: 3.0720608 Accuracy: 55.325443786982234%
+Epoch: 1 Scene: 2 Batch: 70 Softloss: 3.071609 Accuracy: 55.32352941176468%
+Epoch: 1 Scene: 2 Batch: 71 Softloss: 3.071164 Accuracy: 55.35087719298244%
+Epoch: 1 Scene: 2 Batch: 72 Softloss: 3.0707223 Accuracy: 55.377906976744164%
+Epoch: 1 Scene: 2 Batch: 73 Softloss: 3.0702875 Accuracy: 55.346820809248534%
+Epoch: 1 Scene: 2 Batch: 74 Softloss: 3.0698576 Accuracy: 55.402298850574695%
+Epoch: 1 Scene: 2 Batch: 75 Softloss: 3.0694318 Accuracy: 55.51428571428569%
+Epoch: 1 Scene: 2 Batch: 76 Softloss: 3.0690126 Accuracy: 55.56818181818179%
+Epoch: 1 Scene: 2 Batch: 77 Softloss: 3.0685983 Accuracy: 55.62146892655366%
+Epoch: 1 Scene: 2 Batch: 78 Softloss: 3.0681865 Accuracy: 55.702247191011224%
+Epoch: 1 Scene: 2 Batch: 79 Softloss: 3.067779 Accuracy: 55.698324022346355%
+Epoch: 1 Scene: 2 Batch: 80 Softloss: 3.0673788 Accuracy: 55.749999999999986%
+Epoch: 1 Scene: 2 Batch: 81 Softloss: 3.0669818 Accuracy: 55.82872928176794%
+Epoch: 1 Scene: 2 Batch: 82 Softloss: 3.0665884 Accuracy: 55.82417582417582%
+Epoch: 1 Scene: 2 Batch: 83 Softloss: 3.0662005 Accuracy: 55.846994535519116%
+Epoch: 1 Scene: 2 Batch: 84 Softloss: 3.0658147 Accuracy: 55.89673913043477%
+Epoch: 1 Scene: 2 Batch: 85 Softloss: 3.0654337 Accuracy: 55.945945945945944%
+Epoch: 1 Scene: 2 Batch: 86 Softloss: 3.0650575 Accuracy: 56.1021505376344%
+Epoch: 1 Scene: 2 Batch: 87 Softloss: 3.0646849 Accuracy: 56.14973262032085%
+Epoch: 1 Scene: 2 Batch: 88 Softloss: 3.0643175 Accuracy: 56.303191489361694%
+Epoch: 1 Scene: 2 Batch: 89 Softloss: 3.0639532 Accuracy: 56.375661375661366%
+Epoch: 1 Scene: 2 Batch: 90 Softloss: 3.0635922 Accuracy: 56.49999999999999%
+Epoch: 1 Scene: 2 Batch: 91 Softloss: 3.0632355 Accuracy: 56.492146596858625%
+Epoch: 1 Scene: 2 Batch: 92 Softloss: 3.0628815 Accuracy: 56.43229166666666%
+Epoch: 1 Scene: 2 Batch: 93 Softloss: 3.0625327 Accuracy: 56.42487046632123%
+Epoch: 1 Scene: 2 Batch: 94 Softloss: 3.0621843 Accuracy: 56.49484536082473%
+Epoch: 1 Scene: 2 Batch: 95 Softloss: 3.061842 Accuracy: 56.487179487179475%
+Epoch: 1 Scene: 2 Batch: 96 Softloss: 3.061502 Accuracy: 56.45408163265304%
+Epoch: 1 Scene: 2 Batch: 97 Softloss: 3.0611668 Accuracy: 56.4467005076142%
+Epoch: 1 Scene: 2 Batch: 98 Softloss: 3.0608356 Accuracy: 56.46464646464645%
+Epoch: 1 Scene: 2 Batch: 99 Softloss: 3.060506 Accuracy: 56.43216080402009%
+Epoch: 1 Scene: 2 Batch: 100 Softloss: 3.060181 Accuracy: 56.47499999999999%
+Calculation completed.
+elapsed time: 59.805117526 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 4.799254955 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 182 ms
+compute time 5 ms
+gpu->cpu time 149 ms
+cpu->file 396 ms
+
+Preparation completed.
+elapsed time: 0.825173727 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.92604734 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 3.663831359 seconds
+
+Training...
+Epoch: 2 Scene: 1 Batch: 1 Softloss: 2.9956453 Accuracy: 9.999999999999998%
+Epoch: 2 Scene: 1 Batch: 2 Softloss: 2.995625 Accuracy: 19.999999999999996%
+Epoch: 2 Scene: 1 Batch: 3 Softloss: 2.9955127 Accuracy: 21.666666666666668%
+Epoch: 2 Scene: 1 Batch: 4 Softloss: 2.9955487 Accuracy: 25.0%
+Epoch: 2 Scene: 1 Batch: 5 Softloss: 2.9955716 Accuracy: 26.0%
+Epoch: 2 Scene: 1 Batch: 6 Softloss: 2.9955883 Accuracy: 30.833333333333325%
+Epoch: 2 Scene: 1 Batch: 7 Softloss: 2.99562 Accuracy: 28.57142857142857%
+Epoch: 2 Scene: 1 Batch: 8 Softloss: 2.9956222 Accuracy: 30.625000000000004%
+Epoch: 2 Scene: 1 Batch: 9 Softloss: 2.9956043 Accuracy: 28.888888888888896%
+Epoch: 2 Scene: 1 Batch: 10 Softloss: 2.9956045 Accuracy: 31.000000000000007%
+Epoch: 2 Scene: 1 Batch: 11 Softloss: 2.9955885 Accuracy: 32.72727272727273%
+Epoch: 2 Scene: 1 Batch: 12 Softloss: 2.9955719 Accuracy: 34.166666666666664%
+Epoch: 2 Scene: 1 Batch: 13 Softloss: 2.9955828 Accuracy: 35.00000000000001%
+Epoch: 2 Scene: 1 Batch: 14 Softloss: 2.9955907 Accuracy: 35.35714285714286%
+Epoch: 2 Scene: 1 Batch: 15 Softloss: 2.995591 Accuracy: 36.33333333333334%
+Epoch: 2 Scene: 1 Batch: 16 Softloss: 2.9955907 Accuracy: 36.25000000000001%
+Epoch: 2 Scene: 1 Batch: 17 Softloss: 2.995601 Accuracy: 36.1764705882353%
+Epoch: 2 Scene: 1 Batch: 18 Softloss: 2.995604 Accuracy: 36.38888888888889%
+Epoch: 2 Scene: 1 Batch: 19 Softloss: 2.995611 Accuracy: 36.8421052631579%
+Epoch: 2 Scene: 1 Batch: 20 Softloss: 2.9955988 Accuracy: 36.25000000000001%
+Epoch: 2 Scene: 1 Batch: 21 Softloss: 2.9955995 Accuracy: 36.42857142857143%
+Epoch: 2 Scene: 1 Batch: 22 Softloss: 2.9956026 Accuracy: 36.81818181818181%
+Epoch: 2 Scene: 1 Batch: 23 Softloss: 2.9955883 Accuracy: 37.826086956521735%
+Epoch: 2 Scene: 1 Batch: 24 Softloss: 2.9955826 Accuracy: 38.33333333333333%
+Epoch: 2 Scene: 1 Batch: 25 Softloss: 2.9955757 Accuracy: 39.0%
+Epoch: 2 Scene: 1 Batch: 26 Softloss: 2.9955738 Accuracy: 40.0%
+Epoch: 2 Scene: 1 Batch: 27 Softloss: 2.9955778 Accuracy: 40.37037037037037%
+Epoch: 2 Scene: 1 Batch: 28 Softloss: 2.9955711 Accuracy: 40.53571428571428%
+Epoch: 2 Scene: 1 Batch: 29 Softloss: 2.9955702 Accuracy: 40.68965517241379%
+Epoch: 2 Scene: 1 Batch: 30 Softloss: 2.9955683 Accuracy: 41.166666666666664%
+Epoch: 2 Scene: 1 Batch: 31 Softloss: 2.995557 Accuracy: 41.774193548387096%
+Epoch: 2 Scene: 1 Batch: 32 Softloss: 2.995562 Accuracy: 41.5625%
+Epoch: 2 Scene: 1 Batch: 33 Softloss: 2.995553 Accuracy: 42.121212121212125%
+Epoch: 2 Scene: 1 Batch: 34 Softloss: 2.9955513 Accuracy: 42.50000000000001%
+Epoch: 2 Scene: 1 Batch: 35 Softloss: 2.9955502 Accuracy: 42.85714285714287%
+Epoch: 2 Scene: 1 Batch: 36 Softloss: 2.995548 Accuracy: 43.33333333333334%
+Epoch: 2 Scene: 1 Batch: 37 Softloss: 2.995552 Accuracy: 43.37837837837839%
+Epoch: 2 Scene: 1 Batch: 38 Softloss: 2.995553 Accuracy: 43.6842105263158%
+Epoch: 2 Scene: 1 Batch: 39 Softloss: 2.995554 Accuracy: 44.10256410256412%
+Epoch: 2 Scene: 1 Batch: 40 Softloss: 2.995553 Accuracy: 44.750000000000014%
+Epoch: 2 Scene: 1 Batch: 41 Softloss: 2.9955513 Accuracy: 44.63414634146342%
+Epoch: 2 Scene: 1 Batch: 42 Softloss: 2.9955473 Accuracy: 44.52380952380953%
+Epoch: 2 Scene: 1 Batch: 43 Softloss: 2.995546 Accuracy: 44.76744186046513%
+Epoch: 2 Scene: 1 Batch: 44 Softloss: 2.9955466 Accuracy: 45.22727272727273%
+Epoch: 2 Scene: 1 Batch: 45 Softloss: 2.9955437 Accuracy: 45.88888888888889%
+Epoch: 2 Scene: 1 Batch: 46 Softloss: 2.9955409 Accuracy: 46.08695652173914%
+Epoch: 2 Scene: 1 Batch: 47 Softloss: 2.9955375 Accuracy: 46.27659574468086%
+Epoch: 2 Scene: 1 Batch: 48 Softloss: 2.995533 Accuracy: 46.666666666666664%
+Epoch: 2 Scene: 1 Batch: 49 Softloss: 2.9955308 Accuracy: 46.93877551020409%
+Epoch: 2 Scene: 1 Batch: 50 Softloss: 2.995534 Accuracy: 47.10000000000001%
+Epoch: 2 Scene: 1 Batch: 51 Softloss: 2.9955366 Accuracy: 46.9607843137255%
+Epoch: 2 Scene: 1 Batch: 52 Softloss: 2.9955373 Accuracy: 47.30769230769231%
+Epoch: 2 Scene: 1 Batch: 53 Softloss: 2.9955332 Accuracy: 47.735849056603776%
+Epoch: 2 Scene: 1 Batch: 54 Softloss: 2.995528 Accuracy: 47.59259259259259%
+Epoch: 2 Scene: 1 Batch: 55 Softloss: 2.9955292 Accuracy: 47.54545454545455%
+Epoch: 2 Scene: 1 Batch: 56 Softloss: 2.9955306 Accuracy: 48.035714285714285%
+Epoch: 2 Scene: 1 Batch: 57 Softloss: 2.995529 Accuracy: 48.070175438596486%
+Epoch: 2 Scene: 1 Batch: 58 Softloss: 2.995532 Accuracy: 48.189655172413794%
+Epoch: 2 Scene: 1 Batch: 59 Softloss: 2.9955318 Accuracy: 48.47457627118644%
+Epoch: 2 Scene: 1 Batch: 60 Softloss: 2.9955313 Accuracy: 48.66666666666667%
+Epoch: 2 Scene: 1 Batch: 61 Softloss: 2.9955366 Accuracy: 48.93442622950819%
+Epoch: 2 Scene: 1 Batch: 62 Softloss: 2.9955378 Accuracy: 49.032258064516135%
+Epoch: 2 Scene: 1 Batch: 63 Softloss: 2.9955363 Accuracy: 49.20634920634921%
+Epoch: 2 Scene: 1 Batch: 64 Softloss: 2.995536 Accuracy: 49.375%
+Epoch: 2 Scene: 1 Batch: 65 Softloss: 2.9955382 Accuracy: 49.53846153846154%
+Epoch: 2 Scene: 1 Batch: 66 Softloss: 2.9955416 Accuracy: 50.0%
+Epoch: 2 Scene: 1 Batch: 67 Softloss: 2.99554 Accuracy: 50.0%
+Epoch: 2 Scene: 1 Batch: 68 Softloss: 2.9955385 Accuracy: 50.220588235294116%
+Epoch: 2 Scene: 1 Batch: 69 Softloss: 2.9955392 Accuracy: 50.43478260869565%
+Epoch: 2 Scene: 1 Batch: 70 Softloss: 2.99554 Accuracy: 50.92857142857143%
+Epoch: 2 Scene: 1 Batch: 71 Softloss: 2.9955359 Accuracy: 50.91549295774648%
+Epoch: 2 Scene: 1 Batch: 72 Softloss: 2.9955351 Accuracy: 50.97222222222222%
+Epoch: 2 Scene: 1 Batch: 73 Softloss: 2.9955351 Accuracy: 51.0958904109589%
+Epoch: 2 Scene: 1 Batch: 74 Softloss: 2.9955363 Accuracy: 51.41891891891892%
+Epoch: 2 Scene: 1 Batch: 75 Softloss: 2.9955373 Accuracy: 51.4%
+Epoch: 2 Scene: 1 Batch: 76 Softloss: 2.9955344 Accuracy: 51.513157894736835%
+Epoch: 2 Scene: 1 Batch: 77 Softloss: 2.9955332 Accuracy: 51.42857142857142%
+Epoch: 2 Scene: 1 Batch: 78 Softloss: 2.9955382 Accuracy: 51.730769230769226%
+Epoch: 2 Scene: 1 Batch: 79 Softloss: 2.9955359 Accuracy: 51.96202531645571%
+Epoch: 2 Scene: 1 Batch: 80 Softloss: 2.995531 Accuracy: 52.25000000000001%
+Epoch: 2 Scene: 1 Batch: 81 Softloss: 2.9955306 Accuracy: 52.46913580246915%
+Epoch: 2 Scene: 1 Batch: 82 Softloss: 2.9955282 Accuracy: 52.62195121951221%
+Epoch: 2 Scene: 1 Batch: 83 Softloss: 2.9955285 Accuracy: 52.71084337349399%
+Epoch: 2 Scene: 1 Batch: 84 Softloss: 2.9955275 Accuracy: 52.85714285714287%
+Epoch: 2 Scene: 1 Batch: 85 Softloss: 2.9955277 Accuracy: 53.117647058823536%
+Epoch: 2 Scene: 1 Batch: 86 Softloss: 2.9955292 Accuracy: 53.081395348837226%
+Epoch: 2 Scene: 1 Batch: 87 Softloss: 2.995529 Accuracy: 53.103448275862064%
+Epoch: 2 Scene: 1 Batch: 88 Softloss: 2.9955301 Accuracy: 53.352272727272734%
+Epoch: 2 Scene: 1 Batch: 89 Softloss: 2.995532 Accuracy: 53.53932584269663%
+Epoch: 2 Scene: 1 Batch: 90 Softloss: 2.9955325 Accuracy: 53.66666666666667%
+Epoch: 2 Scene: 1 Batch: 91 Softloss: 2.995531 Accuracy: 53.846153846153854%
+Epoch: 2 Scene: 1 Batch: 92 Softloss: 2.9955335 Accuracy: 54.021739130434796%
+Epoch: 2 Scene: 1 Batch: 93 Softloss: 2.995533 Accuracy: 54.247311827957%
+Epoch: 2 Scene: 1 Batch: 94 Softloss: 2.9955325 Accuracy: 54.46808510638299%
+Epoch: 2 Scene: 1 Batch: 95 Softloss: 2.995534 Accuracy: 54.57894736842106%
+Epoch: 2 Scene: 1 Batch: 96 Softloss: 2.995534 Accuracy: 54.89583333333334%
+Epoch: 2 Scene: 1 Batch: 97 Softloss: 2.9955344 Accuracy: 55.154639175257735%
+Epoch: 2 Scene: 1 Batch: 98 Softloss: 2.9955363 Accuracy: 55.3061224489796%
+Epoch: 2 Scene: 1 Batch: 99 Softloss: 2.9955351 Accuracy: 55.40404040404041%
+Epoch: 2 Scene: 1 Batch: 100 Softloss: 2.9955354 Accuracy: 55.55000000000001%
+Calculation completed.
+elapsed time: 59.708796552 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 180 ms
+compute time 4 ms
+gpu->cpu time 152 ms
+cpu->file 515 ms
+
+Preparation completed.
+elapsed time: 0.952406034 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.05403681 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.93490555 seconds
+
+Training...
+Epoch: 2 Scene: 2 Batch: 1 Softloss: 2.99554 Accuracy: 55.3960396039604%
+Epoch: 2 Scene: 2 Batch: 2 Softloss: 2.9955394 Accuracy: 55.58823529411765%
+Epoch: 2 Scene: 2 Batch: 3 Softloss: 2.9955392 Accuracy: 55.38834951456312%
+Epoch: 2 Scene: 2 Batch: 4 Softloss: 2.9955373 Accuracy: 55.38461538461539%
+Epoch: 2 Scene: 2 Batch: 5 Softloss: 2.9955363 Accuracy: 55.33333333333334%
+Epoch: 2 Scene: 2 Batch: 6 Softloss: 2.9955359 Accuracy: 55.188679245283026%
+Epoch: 2 Scene: 2 Batch: 7 Softloss: 2.99554 Accuracy: 55.186915887850475%
+Epoch: 2 Scene: 2 Batch: 8 Softloss: 2.9955382 Accuracy: 55.18518518518518%
+Epoch: 2 Scene: 2 Batch: 9 Softloss: 2.9955366 Accuracy: 55.18348623853211%
+Epoch: 2 Scene: 2 Batch: 10 Softloss: 2.9955373 Accuracy: 55.136363636363626%
+Epoch: 2 Scene: 2 Batch: 11 Softloss: 2.9955373 Accuracy: 55.18018018018018%
+Epoch: 2 Scene: 2 Batch: 12 Softloss: 2.9955394 Accuracy: 55.044642857142854%
+Epoch: 2 Scene: 2 Batch: 13 Softloss: 2.995536 Accuracy: 55.00000000000001%
+Epoch: 2 Scene: 2 Batch: 14 Softloss: 2.9955363 Accuracy: 54.95614035087719%
+Epoch: 2 Scene: 2 Batch: 15 Softloss: 2.9955344 Accuracy: 54.95652173913044%
+Epoch: 2 Scene: 2 Batch: 16 Softloss: 2.995535 Accuracy: 55.00000000000001%
+Epoch: 2 Scene: 2 Batch: 17 Softloss: 2.9955359 Accuracy: 54.95726495726496%
+Epoch: 2 Scene: 2 Batch: 18 Softloss: 2.995534 Accuracy: 55.08474576271186%
+Epoch: 2 Scene: 2 Batch: 19 Softloss: 2.995532 Accuracy: 54.957983193277315%
+Epoch: 2 Scene: 2 Batch: 20 Softloss: 2.9955294 Accuracy: 55.041666666666664%
+Epoch: 2 Scene: 2 Batch: 21 Softloss: 2.9955268 Accuracy: 54.75206611570248%
+Epoch: 2 Scene: 2 Batch: 22 Softloss: 2.995526 Accuracy: 54.672131147540995%
+Epoch: 2 Scene: 2 Batch: 23 Softloss: 2.995525 Accuracy: 54.83739837398374%
+Epoch: 2 Scene: 2 Batch: 24 Softloss: 2.9955237 Accuracy: 54.87903225806452%
+Epoch: 2 Scene: 2 Batch: 25 Softloss: 2.9955232 Accuracy: 54.879999999999995%
+Epoch: 2 Scene: 2 Batch: 26 Softloss: 2.9955196 Accuracy: 54.920634920634924%
+Epoch: 2 Scene: 2 Batch: 27 Softloss: 2.9955187 Accuracy: 54.803149606299215%
+Epoch: 2 Scene: 2 Batch: 28 Softloss: 2.995517 Accuracy: 54.80468750000001%
+Epoch: 2 Scene: 2 Batch: 29 Softloss: 2.9955153 Accuracy: 54.76744186046511%
+Epoch: 2 Scene: 2 Batch: 30 Softloss: 2.9955134 Accuracy: 54.769230769230774%
+Epoch: 2 Scene: 2 Batch: 31 Softloss: 2.995513 Accuracy: 54.9236641221374%
+Epoch: 2 Scene: 2 Batch: 32 Softloss: 2.995512 Accuracy: 54.962121212121204%
+Epoch: 2 Scene: 2 Batch: 33 Softloss: 2.9955137 Accuracy: 55.0375939849624%
+Epoch: 2 Scene: 2 Batch: 34 Softloss: 2.995514 Accuracy: 55.03731343283582%
+Epoch: 2 Scene: 2 Batch: 35 Softloss: 2.9955118 Accuracy: 55.111111111111114%
+Epoch: 2 Scene: 2 Batch: 36 Softloss: 2.9955132 Accuracy: 55.03676470588235%
+Epoch: 2 Scene: 2 Batch: 37 Softloss: 2.9955099 Accuracy: 54.99999999999999%
+Epoch: 2 Scene: 2 Batch: 38 Softloss: 2.9955103 Accuracy: 55.072463768115945%
+Epoch: 2 Scene: 2 Batch: 39 Softloss: 2.9955096 Accuracy: 55.14388489208633%
+Epoch: 2 Scene: 2 Batch: 40 Softloss: 2.9955096 Accuracy: 54.96428571428571%
+Epoch: 2 Scene: 2 Batch: 41 Softloss: 2.9955094 Accuracy: 55.10638297872339%
+Epoch: 2 Scene: 2 Batch: 42 Softloss: 2.9955084 Accuracy: 55.14084507042253%
+Epoch: 2 Scene: 2 Batch: 43 Softloss: 2.9955046 Accuracy: 55.06993006993006%
+Epoch: 2 Scene: 2 Batch: 44 Softloss: 2.9955049 Accuracy: 55.24305555555554%
+Epoch: 2 Scene: 2 Batch: 45 Softloss: 2.9955063 Accuracy: 55.3103448275862%
+Epoch: 2 Scene: 2 Batch: 46 Softloss: 2.9955053 Accuracy: 55.23972602739726%
+Epoch: 2 Scene: 2 Batch: 47 Softloss: 2.9955044 Accuracy: 55.238095238095234%
+Epoch: 2 Scene: 2 Batch: 48 Softloss: 2.995502 Accuracy: 55.27027027027026%
+Epoch: 2 Scene: 2 Batch: 49 Softloss: 2.9955034 Accuracy: 55.40268456375838%
+Epoch: 2 Scene: 2 Batch: 50 Softloss: 2.995504 Accuracy: 55.36666666666665%
+Epoch: 2 Scene: 2 Batch: 51 Softloss: 2.9955032 Accuracy: 55.33112582781457%
+Epoch: 2 Scene: 2 Batch: 52 Softloss: 2.995502 Accuracy: 55.32894736842104%
+Epoch: 2 Scene: 2 Batch: 53 Softloss: 2.995501 Accuracy: 55.294117647058805%
+Epoch: 2 Scene: 2 Batch: 54 Softloss: 2.9955003 Accuracy: 55.35714285714285%
+Epoch: 2 Scene: 2 Batch: 55 Softloss: 2.995498 Accuracy: 55.35483870967741%
+Epoch: 2 Scene: 2 Batch: 56 Softloss: 2.9954982 Accuracy: 55.25641025641025%
+Epoch: 2 Scene: 2 Batch: 57 Softloss: 2.9954977 Accuracy: 55.25477707006369%
+Epoch: 2 Scene: 2 Batch: 58 Softloss: 2.9954965 Accuracy: 55.34810126582278%
+Epoch: 2 Scene: 2 Batch: 59 Softloss: 2.9954972 Accuracy: 55.34591194968552%
+Epoch: 2 Scene: 2 Batch: 60 Softloss: 2.9954944 Accuracy: 55.312499999999986%
+Epoch: 2 Scene: 2 Batch: 61 Softloss: 2.9954948 Accuracy: 55.34161490683229%
+Epoch: 2 Scene: 2 Batch: 62 Softloss: 2.9954956 Accuracy: 55.432098765432094%
+Epoch: 2 Scene: 2 Batch: 63 Softloss: 2.9954953 Accuracy: 55.49079754601226%
+Epoch: 2 Scene: 2 Batch: 64 Softloss: 2.9954944 Accuracy: 55.57926829268291%
+Epoch: 2 Scene: 2 Batch: 65 Softloss: 2.995494 Accuracy: 55.54545454545454%
+Epoch: 2 Scene: 2 Batch: 66 Softloss: 2.9954946 Accuracy: 55.722891566265055%
+Epoch: 2 Scene: 2 Batch: 67 Softloss: 2.995494 Accuracy: 55.59880239520957%
+Epoch: 2 Scene: 2 Batch: 68 Softloss: 2.995493 Accuracy: 55.56547619047618%
+Epoch: 2 Scene: 2 Batch: 69 Softloss: 2.9954934 Accuracy: 55.59171597633134%
+Epoch: 2 Scene: 2 Batch: 70 Softloss: 2.9954925 Accuracy: 55.61764705882351%
+Epoch: 2 Scene: 2 Batch: 71 Softloss: 2.9954927 Accuracy: 55.61403508771927%
+Epoch: 2 Scene: 2 Batch: 72 Softloss: 2.995492 Accuracy: 55.66860465116277%
+Epoch: 2 Scene: 2 Batch: 73 Softloss: 2.995492 Accuracy: 55.635838150289004%
+Epoch: 2 Scene: 2 Batch: 74 Softloss: 2.9954917 Accuracy: 55.68965517241378%
+Epoch: 2 Scene: 2 Batch: 75 Softloss: 2.9954934 Accuracy: 55.79999999999998%
+Epoch: 2 Scene: 2 Batch: 76 Softloss: 2.9954941 Accuracy: 55.8806818181818%
+Epoch: 2 Scene: 2 Batch: 77 Softloss: 2.9954958 Accuracy: 55.960451977401114%
+Epoch: 2 Scene: 2 Batch: 78 Softloss: 2.9954958 Accuracy: 55.983146067415724%
+Epoch: 2 Scene: 2 Batch: 79 Softloss: 2.995497 Accuracy: 56.00558659217876%
+Epoch: 2 Scene: 2 Batch: 80 Softloss: 2.995498 Accuracy: 56.05555555555555%
+Epoch: 2 Scene: 2 Batch: 81 Softloss: 2.9954987 Accuracy: 56.13259668508286%
+Epoch: 2 Scene: 2 Batch: 82 Softloss: 2.9954965 Accuracy: 56.15384615384613%
+Epoch: 2 Scene: 2 Batch: 83 Softloss: 2.9954965 Accuracy: 56.202185792349724%
+Epoch: 2 Scene: 2 Batch: 84 Softloss: 2.995496 Accuracy: 56.25%
+Epoch: 2 Scene: 2 Batch: 85 Softloss: 2.995496 Accuracy: 56.29729729729729%
+Epoch: 2 Scene: 2 Batch: 86 Softloss: 2.9954972 Accuracy: 56.39784946236559%
+Epoch: 2 Scene: 2 Batch: 87 Softloss: 2.995497 Accuracy: 56.44385026737968%
+Epoch: 2 Scene: 2 Batch: 88 Softloss: 2.9954984 Accuracy: 56.595744680851055%
+Epoch: 2 Scene: 2 Batch: 89 Softloss: 2.995497 Accuracy: 56.772486772486765%
+Epoch: 2 Scene: 2 Batch: 90 Softloss: 2.9954972 Accuracy: 56.86842105263158%
+Epoch: 2 Scene: 2 Batch: 91 Softloss: 2.9954982 Accuracy: 56.858638743455494%
+Epoch: 2 Scene: 2 Batch: 92 Softloss: 2.9954965 Accuracy: 56.84895833333332%
+Epoch: 2 Scene: 2 Batch: 93 Softloss: 2.995496 Accuracy: 56.839378238341965%
+Epoch: 2 Scene: 2 Batch: 94 Softloss: 2.9954956 Accuracy: 56.855670103092784%
+Epoch: 2 Scene: 2 Batch: 95 Softloss: 2.9954956 Accuracy: 56.84615384615383%
+Epoch: 2 Scene: 2 Batch: 96 Softloss: 2.9954956 Accuracy: 56.81122448979591%
+Epoch: 2 Scene: 2 Batch: 97 Softloss: 2.9954967 Accuracy: 56.82741116751268%
+Epoch: 2 Scene: 2 Batch: 98 Softloss: 2.995498 Accuracy: 56.86868686868686%
+Epoch: 2 Scene: 2 Batch: 99 Softloss: 2.9954977 Accuracy: 56.83417085427135%
+Epoch: 2 Scene: 2 Batch: 100 Softloss: 2.9954975 Accuracy: 56.874999999999986%
+Calculation completed.
+elapsed time: 59.817085654 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.795155123 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 186 ms
+compute time 5 ms
+gpu->cpu time 156 ms
+cpu->file 5214 ms
+
+Preparation completed.
+elapsed time: 5.663267192 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.882818228 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 5.985432373 seconds
+
+Training...
+Epoch: 3 Scene: 1 Batch: 1 Softloss: 2.9957776 Accuracy: 9.999999999999998%
+Epoch: 3 Scene: 1 Batch: 2 Softloss: 2.9958253 Accuracy: 19.999999999999996%
+Epoch: 3 Scene: 1 Batch: 3 Softloss: 2.995721 Accuracy: 19.999999999999986%
+Epoch: 3 Scene: 1 Batch: 4 Softloss: 2.9956846 Accuracy: 24.99999999999999%
+Epoch: 3 Scene: 1 Batch: 5 Softloss: 2.9956877 Accuracy: 26.0%
+Epoch: 3 Scene: 1 Batch: 6 Softloss: 2.9956782 Accuracy: 30.833333333333325%
+Epoch: 3 Scene: 1 Batch: 7 Softloss: 2.995668 Accuracy: 28.57142857142857%
+Epoch: 3 Scene: 1 Batch: 8 Softloss: 2.9956608 Accuracy: 31.25%
+Epoch: 3 Scene: 1 Batch: 9 Softloss: 2.995675 Accuracy: 29.44444444444445%
+Epoch: 3 Scene: 1 Batch: 10 Softloss: 2.9956808 Accuracy: 31.500000000000007%
+Epoch: 3 Scene: 1 Batch: 11 Softloss: 2.995684 Accuracy: 32.72727272727273%
+Epoch: 3 Scene: 1 Batch: 12 Softloss: 2.9956653 Accuracy: 33.75%
+Epoch: 3 Scene: 1 Batch: 13 Softloss: 2.995659 Accuracy: 34.61538461538461%
+Epoch: 3 Scene: 1 Batch: 14 Softloss: 2.9956622 Accuracy: 35.357142857142854%
+Epoch: 3 Scene: 1 Batch: 15 Softloss: 2.995665 Accuracy: 36.33333333333333%
+Epoch: 3 Scene: 1 Batch: 16 Softloss: 2.9956622 Accuracy: 36.24999999999999%
+Epoch: 3 Scene: 1 Batch: 17 Softloss: 2.9956589 Accuracy: 36.17647058823529%
+Epoch: 3 Scene: 1 Batch: 18 Softloss: 2.9956503 Accuracy: 36.38888888888888%
+Epoch: 3 Scene: 1 Batch: 19 Softloss: 2.9956446 Accuracy: 37.10526315789473%
+Epoch: 3 Scene: 1 Batch: 20 Softloss: 2.9956355 Accuracy: 36.5%
+Epoch: 3 Scene: 1 Batch: 21 Softloss: 2.9956236 Accuracy: 36.66666666666666%
+Epoch: 3 Scene: 1 Batch: 22 Softloss: 2.9956243 Accuracy: 37.272727272727266%
+Epoch: 3 Scene: 1 Batch: 23 Softloss: 2.9956274 Accuracy: 37.60869565217391%
+Epoch: 3 Scene: 1 Batch: 24 Softloss: 2.9956274 Accuracy: 38.125%
+Epoch: 3 Scene: 1 Batch: 25 Softloss: 2.9956207 Accuracy: 38.39999999999999%
+Epoch: 3 Scene: 1 Batch: 26 Softloss: 2.9956203 Accuracy: 39.42307692307692%
+Epoch: 3 Scene: 1 Batch: 27 Softloss: 2.9956179 Accuracy: 39.81481481481482%
+Epoch: 3 Scene: 1 Batch: 28 Softloss: 2.9956155 Accuracy: 40.0%
+Epoch: 3 Scene: 1 Batch: 29 Softloss: 2.9956071 Accuracy: 39.99999999999999%
+Epoch: 3 Scene: 1 Batch: 30 Softloss: 2.995604 Accuracy: 40.49999999999999%
+Epoch: 3 Scene: 1 Batch: 31 Softloss: 2.995606 Accuracy: 41.12903225806451%
+Epoch: 3 Scene: 1 Batch: 32 Softloss: 2.9956055 Accuracy: 40.93750000000001%
+Epoch: 3 Scene: 1 Batch: 33 Softloss: 2.995604 Accuracy: 41.51515151515153%
+Epoch: 3 Scene: 1 Batch: 34 Softloss: 2.9956026 Accuracy: 41.91176470588236%
+Epoch: 3 Scene: 1 Batch: 35 Softloss: 2.9956043 Accuracy: 42.142857142857146%
+Epoch: 3 Scene: 1 Batch: 36 Softloss: 2.995602 Accuracy: 42.77777777777778%
+Epoch: 3 Scene: 1 Batch: 37 Softloss: 2.995604 Accuracy: 42.837837837837846%
+Epoch: 3 Scene: 1 Batch: 38 Softloss: 2.995608 Accuracy: 43.15789473684211%
+Epoch: 3 Scene: 1 Batch: 39 Softloss: 2.9956012 Accuracy: 43.84615384615385%
+Epoch: 3 Scene: 1 Batch: 40 Softloss: 2.9956026 Accuracy: 44.250000000000014%
+Epoch: 3 Scene: 1 Batch: 41 Softloss: 2.995608 Accuracy: 44.14634146341464%
+Epoch: 3 Scene: 1 Batch: 42 Softloss: 2.9956048 Accuracy: 44.047619047619044%
+Epoch: 3 Scene: 1 Batch: 43 Softloss: 2.9956057 Accuracy: 44.18604651162791%
+Epoch: 3 Scene: 1 Batch: 44 Softloss: 2.9956038 Accuracy: 44.54545454545455%
+Epoch: 3 Scene: 1 Batch: 45 Softloss: 2.9956052 Accuracy: 45.22222222222223%
+Epoch: 3 Scene: 1 Batch: 46 Softloss: 2.995607 Accuracy: 45.434782608695656%
+Epoch: 3 Scene: 1 Batch: 47 Softloss: 2.9956036 Accuracy: 45.74468085106383%
+Epoch: 3 Scene: 1 Batch: 48 Softloss: 2.9956045 Accuracy: 46.04166666666668%
+Epoch: 3 Scene: 1 Batch: 49 Softloss: 2.9956043 Accuracy: 46.428571428571445%
+Epoch: 3 Scene: 1 Batch: 50 Softloss: 2.9956048 Accuracy: 46.50000000000001%
+Epoch: 3 Scene: 1 Batch: 51 Softloss: 2.9956067 Accuracy: 46.372549019607845%
+Epoch: 3 Scene: 1 Batch: 52 Softloss: 2.9956088 Accuracy: 46.73076923076923%
+Epoch: 3 Scene: 1 Batch: 53 Softloss: 2.9956067 Accuracy: 47.075471698113205%
+Epoch: 3 Scene: 1 Batch: 54 Softloss: 2.9956064 Accuracy: 47.03703703703703%
+Epoch: 3 Scene: 1 Batch: 55 Softloss: 2.995607 Accuracy: 47.0%
+Epoch: 3 Scene: 1 Batch: 56 Softloss: 2.9956074 Accuracy: 47.5%
+Epoch: 3 Scene: 1 Batch: 57 Softloss: 2.9956083 Accuracy: 47.5438596491228%
+Epoch: 3 Scene: 1 Batch: 58 Softloss: 2.9956074 Accuracy: 47.67241379310344%
+Epoch: 3 Scene: 1 Batch: 59 Softloss: 2.9956038 Accuracy: 47.96610169491525%
+Epoch: 3 Scene: 1 Batch: 60 Softloss: 2.9956038 Accuracy: 48.16666666666667%
+Epoch: 3 Scene: 1 Batch: 61 Softloss: 2.995602 Accuracy: 48.52459016393442%
+Epoch: 3 Scene: 1 Batch: 62 Softloss: 2.9956024 Accuracy: 48.629032258064505%
+Epoch: 3 Scene: 1 Batch: 63 Softloss: 2.995604 Accuracy: 48.80952380952381%
+Epoch: 3 Scene: 1 Batch: 64 Softloss: 2.9956017 Accuracy: 48.90624999999999%
+Epoch: 3 Scene: 1 Batch: 65 Softloss: 2.9956028 Accuracy: 49.07692307692307%
+Epoch: 3 Scene: 1 Batch: 66 Softloss: 2.9956045 Accuracy: 49.54545454545454%
+Epoch: 3 Scene: 1 Batch: 67 Softloss: 2.9956038 Accuracy: 49.4776119402985%
+Epoch: 3 Scene: 1 Batch: 68 Softloss: 2.9956045 Accuracy: 49.63235294117647%
+Epoch: 3 Scene: 1 Batch: 69 Softloss: 2.995604 Accuracy: 49.85507246376811%
+Epoch: 3 Scene: 1 Batch: 70 Softloss: 2.9956062 Accuracy: 50.357142857142854%
+Epoch: 3 Scene: 1 Batch: 71 Softloss: 2.9956043 Accuracy: 50.28169014084507%
+Epoch: 3 Scene: 1 Batch: 72 Softloss: 2.995605 Accuracy: 50.34722222222222%
+Epoch: 3 Scene: 1 Batch: 73 Softloss: 2.9956064 Accuracy: 50.34246575342466%
+Epoch: 3 Scene: 1 Batch: 74 Softloss: 2.9956074 Accuracy: 50.67567567567568%
+Epoch: 3 Scene: 1 Batch: 75 Softloss: 2.9956079 Accuracy: 50.73333333333333%
+Epoch: 3 Scene: 1 Batch: 76 Softloss: 2.9956055 Accuracy: 50.92105263157893%
+Epoch: 3 Scene: 1 Batch: 77 Softloss: 2.9956043 Accuracy: 50.84415584415585%
+Epoch: 3 Scene: 1 Batch: 78 Softloss: 2.9956052 Accuracy: 51.153846153846146%
+Epoch: 3 Scene: 1 Batch: 79 Softloss: 2.995608 Accuracy: 51.39240506329115%
+Epoch: 3 Scene: 1 Batch: 80 Softloss: 2.995607 Accuracy: 51.5625%
+Epoch: 3 Scene: 1 Batch: 81 Softloss: 2.9956076 Accuracy: 51.79012345679013%
+Epoch: 3 Scene: 1 Batch: 82 Softloss: 2.995606 Accuracy: 51.89024390243904%
+Epoch: 3 Scene: 1 Batch: 83 Softloss: 2.995606 Accuracy: 51.987951807228924%
+Epoch: 3 Scene: 1 Batch: 84 Softloss: 2.9956067 Accuracy: 52.08333333333335%
+Epoch: 3 Scene: 1 Batch: 85 Softloss: 2.9956057 Accuracy: 52.411764705882355%
+Epoch: 3 Scene: 1 Batch: 86 Softloss: 2.9956055 Accuracy: 52.383720930232556%
+Epoch: 3 Scene: 1 Batch: 87 Softloss: 2.9956057 Accuracy: 52.41379310344827%
+Epoch: 3 Scene: 1 Batch: 88 Softloss: 2.9956064 Accuracy: 52.67045454545455%
+Epoch: 3 Scene: 1 Batch: 89 Softloss: 2.9956076 Accuracy: 52.80898876404494%
+Epoch: 3 Scene: 1 Batch: 90 Softloss: 2.995608 Accuracy: 52.944444444444436%
+Epoch: 3 Scene: 1 Batch: 91 Softloss: 2.9956086 Accuracy: 53.18681318681319%
+Epoch: 3 Scene: 1 Batch: 92 Softloss: 2.9956086 Accuracy: 53.36956521739131%
+Epoch: 3 Scene: 1 Batch: 93 Softloss: 2.995609 Accuracy: 53.5483870967742%
+Epoch: 3 Scene: 1 Batch: 94 Softloss: 2.9956093 Accuracy: 53.82978723404255%
+Epoch: 3 Scene: 1 Batch: 95 Softloss: 2.9956093 Accuracy: 54.0%
+Epoch: 3 Scene: 1 Batch: 96 Softloss: 2.995609 Accuracy: 54.322916666666664%
+Epoch: 3 Scene: 1 Batch: 97 Softloss: 2.9956095 Accuracy: 54.58762886597939%
+Epoch: 3 Scene: 1 Batch: 98 Softloss: 2.9956098 Accuracy: 54.79591836734694%
+Epoch: 3 Scene: 1 Batch: 99 Softloss: 2.9956105 Accuracy: 54.84848484848486%
+Epoch: 3 Scene: 1 Batch: 100 Softloss: 2.9956102 Accuracy: 55.099999999999994%
+Calculation completed.
+elapsed time: 59.680669646 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 179 ms
+compute time 5 ms
+gpu->cpu time 191 ms
+cpu->file 603 ms
+
+Preparation completed.
+elapsed time: 1.081011195 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.055531071 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.937127735 seconds
+
+Training...
+Epoch: 3 Scene: 2 Batch: 1 Softloss: 2.9956126 Accuracy: 54.95049504950495%
+Epoch: 3 Scene: 2 Batch: 2 Softloss: 2.9956138 Accuracy: 55.09803921568628%
+Epoch: 3 Scene: 2 Batch: 3 Softloss: 2.9956148 Accuracy: 54.85436893203883%
+Epoch: 3 Scene: 2 Batch: 4 Softloss: 2.9956143 Accuracy: 54.95192307692307%
+Epoch: 3 Scene: 2 Batch: 5 Softloss: 2.9956152 Accuracy: 54.85714285714286%
+Epoch: 3 Scene: 2 Batch: 6 Softloss: 2.995615 Accuracy: 54.76415094339623%
+Epoch: 3 Scene: 2 Batch: 7 Softloss: 2.9956152 Accuracy: 54.859813084112155%
+Epoch: 3 Scene: 2 Batch: 8 Softloss: 2.9956145 Accuracy: 54.81481481481482%
+Epoch: 3 Scene: 2 Batch: 9 Softloss: 2.9956136 Accuracy: 54.86238532110092%
+Epoch: 3 Scene: 2 Batch: 10 Softloss: 2.9956126 Accuracy: 54.90909090909091%
+Epoch: 3 Scene: 2 Batch: 11 Softloss: 2.9956138 Accuracy: 54.95495495495496%
+Epoch: 3 Scene: 2 Batch: 12 Softloss: 2.9956124 Accuracy: 54.95535714285715%
+Epoch: 3 Scene: 2 Batch: 13 Softloss: 2.9956112 Accuracy: 54.86725663716815%
+Epoch: 3 Scene: 2 Batch: 14 Softloss: 2.99561 Accuracy: 54.824561403508774%
+Epoch: 3 Scene: 2 Batch: 15 Softloss: 2.9956095 Accuracy: 54.73913043478262%
+Epoch: 3 Scene: 2 Batch: 16 Softloss: 2.9956088 Accuracy: 54.82758620689656%
+Epoch: 3 Scene: 2 Batch: 17 Softloss: 2.9956093 Accuracy: 54.78632478632479%
+Epoch: 3 Scene: 2 Batch: 18 Softloss: 2.995609 Accuracy: 54.915254237288146%
+Epoch: 3 Scene: 2 Batch: 19 Softloss: 2.9956102 Accuracy: 54.74789915966387%
+Epoch: 3 Scene: 2 Batch: 20 Softloss: 2.9956098 Accuracy: 54.75000000000001%
+Epoch: 3 Scene: 2 Batch: 21 Softloss: 2.9956093 Accuracy: 54.545454545454554%
+Epoch: 3 Scene: 2 Batch: 22 Softloss: 2.9956083 Accuracy: 54.508196721311485%
+Epoch: 3 Scene: 2 Batch: 23 Softloss: 2.9956093 Accuracy: 54.63414634146342%
+Epoch: 3 Scene: 2 Batch: 24 Softloss: 2.995608 Accuracy: 54.63709677419355%
+Epoch: 3 Scene: 2 Batch: 25 Softloss: 2.9956079 Accuracy: 54.68000000000001%
+Epoch: 3 Scene: 2 Batch: 26 Softloss: 2.9956067 Accuracy: 54.68253968253969%
+Epoch: 3 Scene: 2 Batch: 27 Softloss: 2.995606 Accuracy: 54.60629921259843%
+Epoch: 3 Scene: 2 Batch: 28 Softloss: 2.9956067 Accuracy: 54.57031250000001%
+Epoch: 3 Scene: 2 Batch: 29 Softloss: 2.9956057 Accuracy: 54.45736434108528%
+Epoch: 3 Scene: 2 Batch: 30 Softloss: 2.995605 Accuracy: 54.50000000000001%
+Epoch: 3 Scene: 2 Batch: 31 Softloss: 2.995606 Accuracy: 54.580152671755734%
+Epoch: 3 Scene: 2 Batch: 32 Softloss: 2.9956062 Accuracy: 54.545454545454554%
+Epoch: 3 Scene: 2 Batch: 33 Softloss: 2.9956052 Accuracy: 54.69924812030076%
+Epoch: 3 Scene: 2 Batch: 34 Softloss: 2.9956045 Accuracy: 54.77611940298508%
+Epoch: 3 Scene: 2 Batch: 35 Softloss: 2.995604 Accuracy: 54.814814814814824%
+Epoch: 3 Scene: 2 Batch: 36 Softloss: 2.9956048 Accuracy: 54.742647058823536%
+Epoch: 3 Scene: 2 Batch: 37 Softloss: 2.9956036 Accuracy: 54.7080291970803%
+Epoch: 3 Scene: 2 Batch: 38 Softloss: 2.9956038 Accuracy: 54.74637681159421%
+Epoch: 3 Scene: 2 Batch: 39 Softloss: 2.995603 Accuracy: 54.784172661870514%
+Epoch: 3 Scene: 2 Batch: 40 Softloss: 2.995603 Accuracy: 54.571428571428584%
+Epoch: 3 Scene: 2 Batch: 41 Softloss: 2.9956038 Accuracy: 54.680851063829806%
+Epoch: 3 Scene: 2 Batch: 42 Softloss: 2.9956033 Accuracy: 54.68309859154932%
+Epoch: 3 Scene: 2 Batch: 43 Softloss: 2.9956017 Accuracy: 54.54545454545456%
+Epoch: 3 Scene: 2 Batch: 44 Softloss: 2.9956021 Accuracy: 54.687500000000014%
+Epoch: 3 Scene: 2 Batch: 45 Softloss: 2.9956036 Accuracy: 54.72413793103449%
+Epoch: 3 Scene: 2 Batch: 46 Softloss: 2.9956021 Accuracy: 54.65753424657536%
+Epoch: 3 Scene: 2 Batch: 47 Softloss: 2.9956021 Accuracy: 54.62585034013606%
+Epoch: 3 Scene: 2 Batch: 48 Softloss: 2.9956017 Accuracy: 54.628378378378386%
+Epoch: 3 Scene: 2 Batch: 49 Softloss: 2.9956021 Accuracy: 54.76510067114094%
+Epoch: 3 Scene: 2 Batch: 50 Softloss: 2.995602 Accuracy: 54.73333333333335%
+Epoch: 3 Scene: 2 Batch: 51 Softloss: 2.9956021 Accuracy: 54.70198675496689%
+Epoch: 3 Scene: 2 Batch: 52 Softloss: 2.9956021 Accuracy: 54.63815789473685%
+Epoch: 3 Scene: 2 Batch: 53 Softloss: 2.9956021 Accuracy: 54.640522875817%
+Epoch: 3 Scene: 2 Batch: 54 Softloss: 2.9956014 Accuracy: 54.675324675324674%
+Epoch: 3 Scene: 2 Batch: 55 Softloss: 2.9956002 Accuracy: 54.64516129032258%
+Epoch: 3 Scene: 2 Batch: 56 Softloss: 2.9956002 Accuracy: 54.61538461538462%
+Epoch: 3 Scene: 2 Batch: 57 Softloss: 2.9955997 Accuracy: 54.5859872611465%
+Epoch: 3 Scene: 2 Batch: 58 Softloss: 2.9955997 Accuracy: 54.77848101265823%
+Epoch: 3 Scene: 2 Batch: 59 Softloss: 2.9955993 Accuracy: 54.8427672955975%
+Epoch: 3 Scene: 2 Batch: 60 Softloss: 2.9955993 Accuracy: 54.75000000000001%
+Epoch: 3 Scene: 2 Batch: 61 Softloss: 2.9955993 Accuracy: 54.813664596273306%
+Epoch: 3 Scene: 2 Batch: 62 Softloss: 2.9955993 Accuracy: 54.90740740740742%
+Epoch: 3 Scene: 2 Batch: 63 Softloss: 2.9955997 Accuracy: 54.93865030674847%
+Epoch: 3 Scene: 2 Batch: 64 Softloss: 2.9956 Accuracy: 54.969512195121965%
+Epoch: 3 Scene: 2 Batch: 65 Softloss: 2.995599 Accuracy: 55.03030303030303%
+Epoch: 3 Scene: 2 Batch: 66 Softloss: 2.9955993 Accuracy: 55.21084337349398%
+Epoch: 3 Scene: 2 Batch: 67 Softloss: 2.9955995 Accuracy: 55.08982035928144%
+Epoch: 3 Scene: 2 Batch: 68 Softloss: 2.9955983 Accuracy: 55.08928571428571%
+Epoch: 3 Scene: 2 Batch: 69 Softloss: 2.9955978 Accuracy: 55.11834319526627%
+Epoch: 3 Scene: 2 Batch: 70 Softloss: 2.9955971 Accuracy: 55.205882352941174%
+Epoch: 3 Scene: 2 Batch: 71 Softloss: 2.9955974 Accuracy: 55.2046783625731%
+Epoch: 3 Scene: 2 Batch: 72 Softloss: 2.995597 Accuracy: 55.29069767441861%
+Epoch: 3 Scene: 2 Batch: 73 Softloss: 2.9955966 Accuracy: 55.346820809248555%
+Epoch: 3 Scene: 2 Batch: 74 Softloss: 2.9955971 Accuracy: 55.40229885057472%
+Epoch: 3 Scene: 2 Batch: 75 Softloss: 2.9955971 Accuracy: 55.485714285714295%
+Epoch: 3 Scene: 2 Batch: 76 Softloss: 2.9955971 Accuracy: 55.53977272727273%
+Epoch: 3 Scene: 2 Batch: 77 Softloss: 2.9955976 Accuracy: 55.59322033898306%
+Epoch: 3 Scene: 2 Batch: 78 Softloss: 2.9955976 Accuracy: 55.6179775280899%
+Epoch: 3 Scene: 2 Batch: 79 Softloss: 2.9955976 Accuracy: 55.614525139664806%
+Epoch: 3 Scene: 2 Batch: 80 Softloss: 2.9955976 Accuracy: 55.69444444444444%
+Epoch: 3 Scene: 2 Batch: 81 Softloss: 2.995598 Accuracy: 55.77348066298343%
+Epoch: 3 Scene: 2 Batch: 82 Softloss: 2.995598 Accuracy: 55.74175824175824%
+Epoch: 3 Scene: 2 Batch: 83 Softloss: 2.9955988 Accuracy: 55.79234972677597%
+Epoch: 3 Scene: 2 Batch: 84 Softloss: 2.9955988 Accuracy: 55.81521739130435%
+Epoch: 3 Scene: 2 Batch: 85 Softloss: 2.9955988 Accuracy: 55.864864864864884%
+Epoch: 3 Scene: 2 Batch: 86 Softloss: 2.9955988 Accuracy: 55.99462365591399%
+Epoch: 3 Scene: 2 Batch: 87 Softloss: 2.9955993 Accuracy: 56.01604278074868%
+Epoch: 3 Scene: 2 Batch: 88 Softloss: 2.9956 Accuracy: 56.17021276595745%
+Epoch: 3 Scene: 2 Batch: 89 Softloss: 2.9956 Accuracy: 56.243386243386254%
+Epoch: 3 Scene: 2 Batch: 90 Softloss: 2.9956007 Accuracy: 56.368421052631575%
+Epoch: 3 Scene: 2 Batch: 91 Softloss: 2.995601 Accuracy: 56.361256544502616%
+Epoch: 3 Scene: 2 Batch: 92 Softloss: 2.9956017 Accuracy: 56.276041666666664%
+Epoch: 3 Scene: 2 Batch: 93 Softloss: 2.995602 Accuracy: 56.29533678756478%
+Epoch: 3 Scene: 2 Batch: 94 Softloss: 2.995602 Accuracy: 56.31443298969072%
+Epoch: 3 Scene: 2 Batch: 95 Softloss: 2.9956024 Accuracy: 56.30769230769231%
+Epoch: 3 Scene: 2 Batch: 96 Softloss: 2.9956026 Accuracy: 56.275510204081634%
+Epoch: 3 Scene: 2 Batch: 97 Softloss: 2.9956033 Accuracy: 56.26903553299491%
+Epoch: 3 Scene: 2 Batch: 98 Softloss: 2.9956033 Accuracy: 56.338383838383834%
+Epoch: 3 Scene: 2 Batch: 99 Softloss: 2.9956033 Accuracy: 56.33165829145727%
+Epoch: 3 Scene: 2 Batch: 100 Softloss: 2.9956036 Accuracy: 56.325%
+Calculation completed.
+elapsed time: 59.808777512 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.745387355 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 180 ms
+compute time 5 ms
+gpu->cpu time 158 ms
+cpu->file 2897 ms
+
+Preparation completed.
+elapsed time: 3.341246228 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.833322257 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 3.090466639 seconds
+
+Training...
+Epoch: 4 Scene: 1 Batch: 1 Softloss: 2.9956868 Accuracy: 15.000000000000002%
+Epoch: 4 Scene: 1 Batch: 2 Softloss: 2.9957085 Accuracy: 22.500000000000007%
+Epoch: 4 Scene: 1 Batch: 3 Softloss: 2.9956882 Accuracy: 21.66666666666668%
+Epoch: 4 Scene: 1 Batch: 4 Softloss: 2.9957016 Accuracy: 25.00000000000001%
+Epoch: 4 Scene: 1 Batch: 5 Softloss: 2.9957013 Accuracy: 27.000000000000014%
+Epoch: 4 Scene: 1 Batch: 6 Softloss: 2.9957125 Accuracy: 31.666666666666675%
+Epoch: 4 Scene: 1 Batch: 7 Softloss: 2.9957092 Accuracy: 30.000000000000004%
+Epoch: 4 Scene: 1 Batch: 8 Softloss: 2.9957078 Accuracy: 31.875000000000007%
+Epoch: 4 Scene: 1 Batch: 9 Softloss: 2.9957058 Accuracy: 30.000000000000014%
+Epoch: 4 Scene: 1 Batch: 10 Softloss: 2.9957078 Accuracy: 32.00000000000001%
+Epoch: 4 Scene: 1 Batch: 11 Softloss: 2.9957085 Accuracy: 33.18181818181819%
+Epoch: 4 Scene: 1 Batch: 12 Softloss: 2.995705 Accuracy: 34.16666666666668%
+Epoch: 4 Scene: 1 Batch: 13 Softloss: 2.9957008 Accuracy: 35.00000000000001%
+Epoch: 4 Scene: 1 Batch: 14 Softloss: 2.9956975 Accuracy: 35.35714285714286%
+Epoch: 4 Scene: 1 Batch: 15 Softloss: 2.9956994 Accuracy: 36.33333333333334%
+Epoch: 4 Scene: 1 Batch: 16 Softloss: 2.9957013 Accuracy: 36.25000000000001%
+Epoch: 4 Scene: 1 Batch: 17 Softloss: 2.995699 Accuracy: 36.1764705882353%
+Epoch: 4 Scene: 1 Batch: 18 Softloss: 2.9957 Accuracy: 36.38888888888889%
+Epoch: 4 Scene: 1 Batch: 19 Softloss: 2.9957016 Accuracy: 36.8421052631579%
+Epoch: 4 Scene: 1 Batch: 20 Softloss: 2.9957004 Accuracy: 36.25000000000001%
+Epoch: 4 Scene: 1 Batch: 21 Softloss: 2.9956975 Accuracy: 36.66666666666666%
+Epoch: 4 Scene: 1 Batch: 22 Softloss: 2.9956985 Accuracy: 37.04545454545454%
+Epoch: 4 Scene: 1 Batch: 23 Softloss: 2.9956994 Accuracy: 37.39130434782608%
+Epoch: 4 Scene: 1 Batch: 24 Softloss: 2.9956992 Accuracy: 37.91666666666666%
+Epoch: 4 Scene: 1 Batch: 25 Softloss: 2.9956963 Accuracy: 38.39999999999999%
+Epoch: 4 Scene: 1 Batch: 26 Softloss: 2.9956942 Accuracy: 39.8076923076923%
+Epoch: 4 Scene: 1 Batch: 27 Softloss: 2.9956965 Accuracy: 40.185185185185176%
+Epoch: 4 Scene: 1 Batch: 28 Softloss: 2.9956975 Accuracy: 40.35714285714285%
+Epoch: 4 Scene: 1 Batch: 29 Softloss: 2.9956965 Accuracy: 40.344827586206875%
+Epoch: 4 Scene: 1 Batch: 30 Softloss: 2.9956965 Accuracy: 40.66666666666665%
+Epoch: 4 Scene: 1 Batch: 31 Softloss: 2.9956965 Accuracy: 41.29032258064515%
+Epoch: 4 Scene: 1 Batch: 32 Softloss: 2.9956977 Accuracy: 41.09374999999999%
+Epoch: 4 Scene: 1 Batch: 33 Softloss: 2.995697 Accuracy: 41.515151515151516%
+Epoch: 4 Scene: 1 Batch: 34 Softloss: 2.9956982 Accuracy: 41.91176470588235%
+Epoch: 4 Scene: 1 Batch: 35 Softloss: 2.9956975 Accuracy: 42.14285714285714%
+Epoch: 4 Scene: 1 Batch: 36 Softloss: 2.995698 Accuracy: 42.63888888888889%
+Epoch: 4 Scene: 1 Batch: 37 Softloss: 2.9956977 Accuracy: 42.7027027027027%
+Epoch: 4 Scene: 1 Batch: 38 Softloss: 2.9956985 Accuracy: 43.02631578947369%
+Epoch: 4 Scene: 1 Batch: 39 Softloss: 2.995699 Accuracy: 43.58974358974359%
+Epoch: 4 Scene: 1 Batch: 40 Softloss: 2.9956996 Accuracy: 44.00000000000001%
+Epoch: 4 Scene: 1 Batch: 41 Softloss: 2.9956985 Accuracy: 44.024390243902445%
+Epoch: 4 Scene: 1 Batch: 42 Softloss: 2.9956987 Accuracy: 43.92857142857143%
+Epoch: 4 Scene: 1 Batch: 43 Softloss: 2.9956987 Accuracy: 44.06976744186046%
+Epoch: 4 Scene: 1 Batch: 44 Softloss: 2.9956987 Accuracy: 44.43181818181819%
+Epoch: 4 Scene: 1 Batch: 45 Softloss: 2.9956987 Accuracy: 45.111111111111114%
+Epoch: 4 Scene: 1 Batch: 46 Softloss: 2.9956994 Accuracy: 45.326086956521735%
+Epoch: 4 Scene: 1 Batch: 47 Softloss: 2.995699 Accuracy: 45.63829787234043%
+Epoch: 4 Scene: 1 Batch: 48 Softloss: 2.9956996 Accuracy: 45.93750000000001%
+Epoch: 4 Scene: 1 Batch: 49 Softloss: 2.9957 Accuracy: 46.326530612244895%
+Epoch: 4 Scene: 1 Batch: 50 Softloss: 2.9957001 Accuracy: 46.400000000000006%
+Epoch: 4 Scene: 1 Batch: 51 Softloss: 2.9957001 Accuracy: 46.27450980392157%
+Epoch: 4 Scene: 1 Batch: 52 Softloss: 2.9957006 Accuracy: 46.63461538461539%
+Epoch: 4 Scene: 1 Batch: 53 Softloss: 2.9957008 Accuracy: 46.88679245283019%
+Epoch: 4 Scene: 1 Batch: 54 Softloss: 2.9957006 Accuracy: 46.94444444444444%
+Epoch: 4 Scene: 1 Batch: 55 Softloss: 2.995701 Accuracy: 47.0%
+Epoch: 4 Scene: 1 Batch: 56 Softloss: 2.9957013 Accuracy: 47.58928571428572%
+Epoch: 4 Scene: 1 Batch: 57 Softloss: 2.9957018 Accuracy: 47.631578947368425%
+Epoch: 4 Scene: 1 Batch: 58 Softloss: 2.9957018 Accuracy: 47.758620689655174%
+Epoch: 4 Scene: 1 Batch: 59 Softloss: 2.995702 Accuracy: 47.96610169491527%
+Epoch: 4 Scene: 1 Batch: 60 Softloss: 2.9957023 Accuracy: 48.33333333333334%
+Epoch: 4 Scene: 1 Batch: 61 Softloss: 2.9957025 Accuracy: 48.606557377049185%
+Epoch: 4 Scene: 1 Batch: 62 Softloss: 2.995703 Accuracy: 48.70967741935485%
+Epoch: 4 Scene: 1 Batch: 63 Softloss: 2.9957025 Accuracy: 48.968253968253975%
+Epoch: 4 Scene: 1 Batch: 64 Softloss: 2.995703 Accuracy: 49.0625%
+Epoch: 4 Scene: 1 Batch: 65 Softloss: 2.9957035 Accuracy: 49.23076923076923%
+Epoch: 4 Scene: 1 Batch: 66 Softloss: 2.995704 Accuracy: 49.696969696969695%
+Epoch: 4 Scene: 1 Batch: 67 Softloss: 2.9957037 Accuracy: 49.77611940298507%
+Epoch: 4 Scene: 1 Batch: 68 Softloss: 2.9957035 Accuracy: 49.92647058823528%
+Epoch: 4 Scene: 1 Batch: 69 Softloss: 2.9957037 Accuracy: 50.144927536231876%
+Epoch: 4 Scene: 1 Batch: 70 Softloss: 2.995704 Accuracy: 50.642857142857146%
+Epoch: 4 Scene: 1 Batch: 71 Softloss: 2.995704 Accuracy: 50.633802816901394%
+Epoch: 4 Scene: 1 Batch: 72 Softloss: 2.9957042 Accuracy: 50.69444444444444%
+Epoch: 4 Scene: 1 Batch: 73 Softloss: 2.9957047 Accuracy: 50.75342465753423%
+Epoch: 4 Scene: 1 Batch: 74 Softloss: 2.995705 Accuracy: 51.08108108108107%
+Epoch: 4 Scene: 1 Batch: 75 Softloss: 2.995705 Accuracy: 51.06666666666666%
+Epoch: 4 Scene: 1 Batch: 76 Softloss: 2.9957051 Accuracy: 51.11842105263156%
+Epoch: 4 Scene: 1 Batch: 77 Softloss: 2.995705 Accuracy: 51.168831168831154%
+Epoch: 4 Scene: 1 Batch: 78 Softloss: 2.9957051 Accuracy: 51.47435897435895%
+Epoch: 4 Scene: 1 Batch: 79 Softloss: 2.9957056 Accuracy: 51.70886075949366%
+Epoch: 4 Scene: 1 Batch: 80 Softloss: 2.9957058 Accuracy: 51.874999999999986%
+Epoch: 4 Scene: 1 Batch: 81 Softloss: 2.995706 Accuracy: 52.098765432098745%
+Epoch: 4 Scene: 1 Batch: 82 Softloss: 2.995706 Accuracy: 52.19512195121949%
+Epoch: 4 Scene: 1 Batch: 83 Softloss: 2.9957063 Accuracy: 52.349397590361434%
+Epoch: 4 Scene: 1 Batch: 84 Softloss: 2.9957066 Accuracy: 52.49999999999999%
+Epoch: 4 Scene: 1 Batch: 85 Softloss: 2.9957068 Accuracy: 52.76470588235293%
+Epoch: 4 Scene: 1 Batch: 86 Softloss: 2.9957073 Accuracy: 52.79069767441859%
+Epoch: 4 Scene: 1 Batch: 87 Softloss: 2.9957075 Accuracy: 52.75862068965515%
+Epoch: 4 Scene: 1 Batch: 88 Softloss: 2.9957078 Accuracy: 53.068181818181806%
+Epoch: 4 Scene: 1 Batch: 89 Softloss: 2.995708 Accuracy: 53.25842696629211%
+Epoch: 4 Scene: 1 Batch: 90 Softloss: 2.9957082 Accuracy: 53.33333333333332%
+Epoch: 4 Scene: 1 Batch: 91 Softloss: 2.9957085 Accuracy: 53.516483516483504%
+Epoch: 4 Scene: 1 Batch: 92 Softloss: 2.9957087 Accuracy: 53.80434782608694%
+Epoch: 4 Scene: 1 Batch: 93 Softloss: 2.995709 Accuracy: 53.978494623655905%
+Epoch: 4 Scene: 1 Batch: 94 Softloss: 2.995709 Accuracy: 54.20212765957446%
+Epoch: 4 Scene: 1 Batch: 95 Softloss: 2.9957092 Accuracy: 54.3157894736842%
+Epoch: 4 Scene: 1 Batch: 96 Softloss: 2.9957094 Accuracy: 54.583333333333314%
+Epoch: 4 Scene: 1 Batch: 97 Softloss: 2.9957097 Accuracy: 54.84536082474225%
+Epoch: 4 Scene: 1 Batch: 98 Softloss: 2.99571 Accuracy: 55.051020408163254%
+Epoch: 4 Scene: 1 Batch: 99 Softloss: 2.99571 Accuracy: 55.10101010101008%
+Epoch: 4 Scene: 1 Batch: 100 Softloss: 2.9957101 Accuracy: 55.249999999999986%
+Calculation completed.
+elapsed time: 59.69416533 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 187 ms
+compute time 4 ms
+gpu->cpu time 155 ms
+cpu->file 3402 ms
+
+Preparation completed.
+elapsed time: 3.850786176 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.07999261 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.934581482 seconds
+
+Training...
+Epoch: 4 Scene: 2 Batch: 1 Softloss: 2.9957104 Accuracy: 55.049504950495034%
+Epoch: 4 Scene: 2 Batch: 2 Softloss: 2.9957104 Accuracy: 55.19607843137254%
+Epoch: 4 Scene: 2 Batch: 3 Softloss: 2.9957106 Accuracy: 54.99999999999999%
+Epoch: 4 Scene: 2 Batch: 4 Softloss: 2.9957108 Accuracy: 54.999999999999986%
+Epoch: 4 Scene: 2 Batch: 5 Softloss: 2.995711 Accuracy: 54.9047619047619%
+Epoch: 4 Scene: 2 Batch: 6 Softloss: 2.995711 Accuracy: 54.71698113207546%
+Epoch: 4 Scene: 2 Batch: 7 Softloss: 2.9957113 Accuracy: 54.71962616822429%
+Epoch: 4 Scene: 2 Batch: 8 Softloss: 2.9957113 Accuracy: 54.67592592592592%
+Epoch: 4 Scene: 2 Batch: 9 Softloss: 2.9957116 Accuracy: 54.58715596330275%
+Epoch: 4 Scene: 2 Batch: 10 Softloss: 2.9957118 Accuracy: 54.54545454545454%
+Epoch: 4 Scene: 2 Batch: 11 Softloss: 2.9957118 Accuracy: 54.59459459459459%
+Epoch: 4 Scene: 2 Batch: 12 Softloss: 2.995712 Accuracy: 54.46428571428571%
+Epoch: 4 Scene: 2 Batch: 13 Softloss: 2.995712 Accuracy: 54.38053097345132%
+Epoch: 4 Scene: 2 Batch: 14 Softloss: 2.9957123 Accuracy: 54.29824561403509%
+Epoch: 4 Scene: 2 Batch: 15 Softloss: 2.9957125 Accuracy: 54.17391304347825%
+Epoch: 4 Scene: 2 Batch: 16 Softloss: 2.9957125 Accuracy: 54.22413793103449%
+Epoch: 4 Scene: 2 Batch: 17 Softloss: 2.995713 Accuracy: 54.145299145299155%
+Epoch: 4 Scene: 2 Batch: 18 Softloss: 2.9957132 Accuracy: 54.194915254237294%
+Epoch: 4 Scene: 2 Batch: 19 Softloss: 2.9957137 Accuracy: 54.03361344537816%
+Epoch: 4 Scene: 2 Batch: 20 Softloss: 2.995714 Accuracy: 54.0%
+Epoch: 4 Scene: 2 Batch: 21 Softloss: 2.9957142 Accuracy: 53.71900826446281%
+Epoch: 4 Scene: 2 Batch: 22 Softloss: 2.9957144 Accuracy: 53.64754098360657%
+Epoch: 4 Scene: 2 Batch: 23 Softloss: 2.9957147 Accuracy: 53.78048780487805%
+Epoch: 4 Scene: 2 Batch: 24 Softloss: 2.995715 Accuracy: 53.75000000000001%
+Epoch: 4 Scene: 2 Batch: 25 Softloss: 2.9957151 Accuracy: 53.680000000000014%
+Epoch: 4 Scene: 2 Batch: 26 Softloss: 2.9957151 Accuracy: 53.65079365079366%
+Epoch: 4 Scene: 2 Batch: 27 Softloss: 2.9957156 Accuracy: 53.503937007874036%
+Epoch: 4 Scene: 2 Batch: 28 Softloss: 2.9957156 Accuracy: 53.476562500000014%
+Epoch: 4 Scene: 2 Batch: 29 Softloss: 2.9957159 Accuracy: 53.37209302325583%
+Epoch: 4 Scene: 2 Batch: 30 Softloss: 2.9957163 Accuracy: 53.34615384615387%
+Epoch: 4 Scene: 2 Batch: 31 Softloss: 2.9957166 Accuracy: 53.435114503816806%
+Epoch: 4 Scene: 2 Batch: 32 Softloss: 2.9957168 Accuracy: 53.40909090909092%
+Epoch: 4 Scene: 2 Batch: 33 Softloss: 2.9957173 Accuracy: 53.49624060150377%
+Epoch: 4 Scene: 2 Batch: 34 Softloss: 2.9957173 Accuracy: 53.507462686567166%
+Epoch: 4 Scene: 2 Batch: 35 Softloss: 2.9957173 Accuracy: 53.48148148148149%
+Epoch: 4 Scene: 2 Batch: 36 Softloss: 2.9957175 Accuracy: 53.41911764705883%
+Epoch: 4 Scene: 2 Batch: 37 Softloss: 2.9957178 Accuracy: 53.321167883211686%
+Epoch: 4 Scene: 2 Batch: 38 Softloss: 2.995718 Accuracy: 53.33333333333334%
+Epoch: 4 Scene: 2 Batch: 39 Softloss: 2.9957182 Accuracy: 53.38129496402878%
+Epoch: 4 Scene: 2 Batch: 40 Softloss: 2.9957187 Accuracy: 53.17857142857143%
+Epoch: 4 Scene: 2 Batch: 41 Softloss: 2.9957192 Accuracy: 53.262411347517734%
+Epoch: 4 Scene: 2 Batch: 42 Softloss: 2.9957197 Accuracy: 53.23943661971832%
+Epoch: 4 Scene: 2 Batch: 43 Softloss: 2.9957201 Accuracy: 53.00699300699301%
+Epoch: 4 Scene: 2 Batch: 44 Softloss: 2.9957204 Accuracy: 53.15972222222223%
+Epoch: 4 Scene: 2 Batch: 45 Softloss: 2.9957206 Accuracy: 53.20689655172415%
+Epoch: 4 Scene: 2 Batch: 46 Softloss: 2.9957206 Accuracy: 53.04794520547945%
+Epoch: 4 Scene: 2 Batch: 47 Softloss: 2.9957209 Accuracy: 52.993197278911566%
+Epoch: 4 Scene: 2 Batch: 48 Softloss: 2.9957209 Accuracy: 53.00675675675676%
+Epoch: 4 Scene: 2 Batch: 49 Softloss: 2.995721 Accuracy: 53.15436241610738%
+Epoch: 4 Scene: 2 Batch: 50 Softloss: 2.995721 Accuracy: 53.13333333333334%
+Epoch: 4 Scene: 2 Batch: 51 Softloss: 2.9957216 Accuracy: 53.112582781456965%
+Epoch: 4 Scene: 2 Batch: 52 Softloss: 2.9957218 Accuracy: 53.059210526315795%
+Epoch: 4 Scene: 2 Batch: 53 Softloss: 2.995722 Accuracy: 53.00653594771243%
+Epoch: 4 Scene: 2 Batch: 54 Softloss: 2.9957218 Accuracy: 53.08441558441559%
+Epoch: 4 Scene: 2 Batch: 55 Softloss: 2.9957223 Accuracy: 53.03225806451615%
+Epoch: 4 Scene: 2 Batch: 56 Softloss: 2.9957228 Accuracy: 52.94871794871796%
+Epoch: 4 Scene: 2 Batch: 57 Softloss: 2.9957228 Accuracy: 52.929936305732504%
+Epoch: 4 Scene: 2 Batch: 58 Softloss: 2.9957228 Accuracy: 53.03797468354432%
+Epoch: 4 Scene: 2 Batch: 59 Softloss: 2.9957228 Accuracy: 53.05031446540882%
+Epoch: 4 Scene: 2 Batch: 60 Softloss: 2.9957232 Accuracy: 52.96875000000002%
+Epoch: 4 Scene: 2 Batch: 61 Softloss: 2.9957235 Accuracy: 52.981366459627345%
+Epoch: 4 Scene: 2 Batch: 62 Softloss: 2.9957237 Accuracy: 53.08641975308643%
+Epoch: 4 Scene: 2 Batch: 63 Softloss: 2.995724 Accuracy: 53.12883435582824%
+Epoch: 4 Scene: 2 Batch: 64 Softloss: 2.9957244 Accuracy: 53.14024390243903%
+Epoch: 4 Scene: 2 Batch: 65 Softloss: 2.9957247 Accuracy: 53.12121212121214%
+Epoch: 4 Scene: 2 Batch: 66 Softloss: 2.995725 Accuracy: 53.28313253012049%
+Epoch: 4 Scene: 2 Batch: 67 Softloss: 2.995725 Accuracy: 53.17365269461079%
+Epoch: 4 Scene: 2 Batch: 68 Softloss: 2.9957252 Accuracy: 53.125000000000014%
+Epoch: 4 Scene: 2 Batch: 69 Softloss: 2.9957256 Accuracy: 53.13609467455622%
+Epoch: 4 Scene: 2 Batch: 70 Softloss: 2.9957256 Accuracy: 53.117647058823536%
+Epoch: 4 Scene: 2 Batch: 71 Softloss: 2.995726 Accuracy: 53.12865497076024%
+Epoch: 4 Scene: 2 Batch: 72 Softloss: 2.995726 Accuracy: 53.168604651162795%
+Epoch: 4 Scene: 2 Batch: 73 Softloss: 2.9957266 Accuracy: 53.150289017341045%
+Epoch: 4 Scene: 2 Batch: 74 Softloss: 2.9957266 Accuracy: 53.2183908045977%
+Epoch: 4 Scene: 2 Batch: 75 Softloss: 2.9957268 Accuracy: 53.28571428571429%
+Epoch: 4 Scene: 2 Batch: 76 Softloss: 2.9957268 Accuracy: 53.35227272727274%
+Epoch: 4 Scene: 2 Batch: 77 Softloss: 2.9957273 Accuracy: 53.41807909604521%
+Epoch: 4 Scene: 2 Batch: 78 Softloss: 2.9957275 Accuracy: 53.45505617977528%
+Epoch: 4 Scene: 2 Batch: 79 Softloss: 2.9957275 Accuracy: 53.491620111731855%
+Epoch: 4 Scene: 2 Batch: 80 Softloss: 2.9957278 Accuracy: 53.555555555555564%
+Epoch: 4 Scene: 2 Batch: 81 Softloss: 2.9957278 Accuracy: 53.64640883977903%
+Epoch: 4 Scene: 2 Batch: 82 Softloss: 2.9957278 Accuracy: 53.59890109890111%
+Epoch: 4 Scene: 2 Batch: 83 Softloss: 2.9957283 Accuracy: 53.63387978142078%
+Epoch: 4 Scene: 2 Batch: 84 Softloss: 2.9957283 Accuracy: 53.66847826086958%
+Epoch: 4 Scene: 2 Batch: 85 Softloss: 2.9957283 Accuracy: 53.70270270270271%
+Epoch: 4 Scene: 2 Batch: 86 Softloss: 2.9957283 Accuracy: 53.844086021505376%
+Epoch: 4 Scene: 2 Batch: 87 Softloss: 2.9957278 Accuracy: 53.903743315508024%
+Epoch: 4 Scene: 2 Batch: 88 Softloss: 2.9957278 Accuracy: 54.06914893617021%
+Epoch: 4 Scene: 2 Batch: 89 Softloss: 2.9957278 Accuracy: 54.126984126984134%
+Epoch: 4 Scene: 2 Batch: 90 Softloss: 2.9957278 Accuracy: 54.21052631578949%
+Epoch: 4 Scene: 2 Batch: 91 Softloss: 2.9957278 Accuracy: 54.24083769633508%
+Epoch: 4 Scene: 2 Batch: 92 Softloss: 2.9957283 Accuracy: 54.14062500000001%
+Epoch: 4 Scene: 2 Batch: 93 Softloss: 2.9957278 Accuracy: 54.14507772020725%
+Epoch: 4 Scene: 2 Batch: 94 Softloss: 2.9957283 Accuracy: 54.12371134020619%
+Epoch: 4 Scene: 2 Batch: 95 Softloss: 2.9957278 Accuracy: 54.10256410256411%
+Epoch: 4 Scene: 2 Batch: 96 Softloss: 2.9957275 Accuracy: 54.08163265306123%
+Epoch: 4 Scene: 2 Batch: 97 Softloss: 2.9957273 Accuracy: 54.08629441624365%
+Epoch: 4 Scene: 2 Batch: 98 Softloss: 2.9957268 Accuracy: 54.14141414141413%
+Epoch: 4 Scene: 2 Batch: 99 Softloss: 2.9957273 Accuracy: 54.145728643216074%
+Epoch: 4 Scene: 2 Batch: 100 Softloss: 2.9957275 Accuracy: 54.15%
+Calculation completed.
+elapsed time: 59.834298287 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.744829934 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 179 ms
+compute time 5 ms
+gpu->cpu time 153 ms
+cpu->file 4578 ms
+
+Preparation completed.
+elapsed time: 5.017137538 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.826358715 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.934817861 seconds
+
+Training...
+Epoch: 5 Scene: 1 Batch: 1 Softloss: 2.9957795 Accuracy: 9.999999999999998%
+Epoch: 5 Scene: 1 Batch: 2 Softloss: 2.9957619 Accuracy: 19.999999999999996%
+Epoch: 5 Scene: 1 Batch: 3 Softloss: 2.9957647 Accuracy: 19.999999999999986%
+Epoch: 5 Scene: 1 Batch: 4 Softloss: 2.9957557 Accuracy: 23.749999999999993%
+Epoch: 5 Scene: 1 Batch: 5 Softloss: 2.995753 Accuracy: 25.0%
+Epoch: 5 Scene: 1 Batch: 6 Softloss: 2.995741 Accuracy: 29.999999999999993%
+Epoch: 5 Scene: 1 Batch: 7 Softloss: 2.995737 Accuracy: 28.57142857142857%
+Epoch: 5 Scene: 1 Batch: 8 Softloss: 2.995737 Accuracy: 30.625000000000004%
+Epoch: 5 Scene: 1 Batch: 9 Softloss: 2.995739 Accuracy: 28.888888888888896%
+Epoch: 5 Scene: 1 Batch: 10 Softloss: 2.9957376 Accuracy: 31.000000000000007%
+Epoch: 5 Scene: 1 Batch: 11 Softloss: 2.9957278 Accuracy: 32.27272727272727%
+Epoch: 5 Scene: 1 Batch: 12 Softloss: 2.9957354 Accuracy: 33.333333333333336%
+Epoch: 5 Scene: 1 Batch: 13 Softloss: 2.9957364 Accuracy: 34.61538461538461%
+Epoch: 5 Scene: 1 Batch: 14 Softloss: 2.9957309 Accuracy: 35.357142857142854%
+Epoch: 5 Scene: 1 Batch: 15 Softloss: 2.995731 Accuracy: 36.33333333333333%
+Epoch: 5 Scene: 1 Batch: 16 Softloss: 2.9957294 Accuracy: 36.5625%
+Epoch: 5 Scene: 1 Batch: 17 Softloss: 2.9957314 Accuracy: 36.47058823529411%
+Epoch: 5 Scene: 1 Batch: 18 Softloss: 2.9957318 Accuracy: 36.944444444444436%
+Epoch: 5 Scene: 1 Batch: 19 Softloss: 2.9957309 Accuracy: 37.368421052631575%
+Epoch: 5 Scene: 1 Batch: 20 Softloss: 2.995731 Accuracy: 36.74999999999999%
+Epoch: 5 Scene: 1 Batch: 21 Softloss: 2.9957314 Accuracy: 36.9047619047619%
+Epoch: 5 Scene: 1 Batch: 22 Softloss: 2.9957275 Accuracy: 37.27272727272726%
+Epoch: 5 Scene: 1 Batch: 23 Softloss: 2.995735 Accuracy: 37.60869565217389%
+Epoch: 5 Scene: 1 Batch: 24 Softloss: 2.995732 Accuracy: 38.124999999999986%
+Epoch: 5 Scene: 1 Batch: 25 Softloss: 2.9957309 Accuracy: 38.39999999999999%
+Epoch: 5 Scene: 1 Batch: 26 Softloss: 2.9957316 Accuracy: 39.423076923076906%
+Epoch: 5 Scene: 1 Batch: 27 Softloss: 2.995732 Accuracy: 39.8148148148148%
+Epoch: 5 Scene: 1 Batch: 28 Softloss: 2.9957297 Accuracy: 39.99999999999998%
+Epoch: 5 Scene: 1 Batch: 29 Softloss: 2.995729 Accuracy: 40.17241379310343%
+Epoch: 5 Scene: 1 Batch: 30 Softloss: 2.995728 Accuracy: 40.33333333333331%
+Epoch: 5 Scene: 1 Batch: 31 Softloss: 2.9957292 Accuracy: 40.96774193548386%
+Epoch: 5 Scene: 1 Batch: 32 Softloss: 2.9957314 Accuracy: 40.78124999999999%
+Epoch: 5 Scene: 1 Batch: 33 Softloss: 2.9957304 Accuracy: 41.21212121212121%
+Epoch: 5 Scene: 1 Batch: 34 Softloss: 2.99573 Accuracy: 41.61764705882353%
+Epoch: 5 Scene: 1 Batch: 35 Softloss: 2.9957273 Accuracy: 41.7142857142857%
+Epoch: 5 Scene: 1 Batch: 36 Softloss: 2.9957266 Accuracy: 42.36111111111111%
+Epoch: 5 Scene: 1 Batch: 37 Softloss: 2.995726 Accuracy: 42.43243243243242%
+Epoch: 5 Scene: 1 Batch: 38 Softloss: 2.9957256 Accuracy: 42.763157894736835%
+Epoch: 5 Scene: 1 Batch: 39 Softloss: 2.9957273 Accuracy: 43.2051282051282%
+Epoch: 5 Scene: 1 Batch: 40 Softloss: 2.9957292 Accuracy: 43.625%
+Epoch: 5 Scene: 1 Batch: 41 Softloss: 2.9957304 Accuracy: 43.536585365853654%
+Epoch: 5 Scene: 1 Batch: 42 Softloss: 2.9957309 Accuracy: 43.333333333333336%
+Epoch: 5 Scene: 1 Batch: 43 Softloss: 2.9957318 Accuracy: 43.48837209302325%
+Epoch: 5 Scene: 1 Batch: 44 Softloss: 2.9957306 Accuracy: 43.86363636363636%
+Epoch: 5 Scene: 1 Batch: 45 Softloss: 2.9957309 Accuracy: 44.55555555555556%
+Epoch: 5 Scene: 1 Batch: 46 Softloss: 2.9957294 Accuracy: 44.78260869565218%
+Epoch: 5 Scene: 1 Batch: 47 Softloss: 2.9957268 Accuracy: 45.00000000000001%
+Epoch: 5 Scene: 1 Batch: 48 Softloss: 2.9957263 Accuracy: 45.312500000000014%
+Epoch: 5 Scene: 1 Batch: 49 Softloss: 2.9957263 Accuracy: 45.6122448979592%
+Epoch: 5 Scene: 1 Batch: 50 Softloss: 2.9957268 Accuracy: 45.70000000000001%
+Epoch: 5 Scene: 1 Batch: 51 Softloss: 2.9957273 Accuracy: 45.68627450980392%
+Epoch: 5 Scene: 1 Batch: 52 Softloss: 2.995726 Accuracy: 46.057692307692314%
+Epoch: 5 Scene: 1 Batch: 53 Softloss: 2.995727 Accuracy: 46.32075471698114%
+Epoch: 5 Scene: 1 Batch: 54 Softloss: 2.9957256 Accuracy: 46.20370370370372%
+Epoch: 5 Scene: 1 Batch: 55 Softloss: 2.9957247 Accuracy: 46.18181818181819%
+Epoch: 5 Scene: 1 Batch: 56 Softloss: 2.995725 Accuracy: 46.69642857142857%
+Epoch: 5 Scene: 1 Batch: 57 Softloss: 2.9957273 Accuracy: 46.75438596491228%
+Epoch: 5 Scene: 1 Batch: 58 Softloss: 2.9957275 Accuracy: 46.896551724137936%
+Epoch: 5 Scene: 1 Batch: 59 Softloss: 2.9957283 Accuracy: 47.11864406779662%
+Epoch: 5 Scene: 1 Batch: 60 Softloss: 2.995728 Accuracy: 47.333333333333336%
+Epoch: 5 Scene: 1 Batch: 61 Softloss: 2.995729 Accuracy: 47.62295081967214%
+Epoch: 5 Scene: 1 Batch: 62 Softloss: 2.995728 Accuracy: 47.74193548387097%
+Epoch: 5 Scene: 1 Batch: 63 Softloss: 2.9957285 Accuracy: 47.936507936507944%
+Epoch: 5 Scene: 1 Batch: 64 Softloss: 2.9957318 Accuracy: 48.046875%
+Epoch: 5 Scene: 1 Batch: 65 Softloss: 2.9957304 Accuracy: 48.23076923076923%
+Epoch: 5 Scene: 1 Batch: 66 Softloss: 2.99573 Accuracy: 48.712121212121204%
+Epoch: 5 Scene: 1 Batch: 67 Softloss: 2.99573 Accuracy: 48.65671641791045%
+Epoch: 5 Scene: 1 Batch: 68 Softloss: 2.9957287 Accuracy: 48.82352941176471%
+Epoch: 5 Scene: 1 Batch: 69 Softloss: 2.9957283 Accuracy: 49.05797101449275%
+Epoch: 5 Scene: 1 Batch: 70 Softloss: 2.995728 Accuracy: 49.57142857142858%
+Epoch: 5 Scene: 1 Batch: 71 Softloss: 2.9957275 Accuracy: 49.436619718309856%
+Epoch: 5 Scene: 1 Batch: 72 Softloss: 2.9957283 Accuracy: 49.51388888888889%
+Epoch: 5 Scene: 1 Batch: 73 Softloss: 2.9957287 Accuracy: 49.52054794520547%
+Epoch: 5 Scene: 1 Batch: 74 Softloss: 2.9957287 Accuracy: 49.86486486486486%
+Epoch: 5 Scene: 1 Batch: 75 Softloss: 2.9957309 Accuracy: 49.86666666666667%
+Epoch: 5 Scene: 1 Batch: 76 Softloss: 2.9957297 Accuracy: 49.868421052631575%
+Epoch: 5 Scene: 1 Batch: 77 Softloss: 2.9957314 Accuracy: 49.870129870129865%
+Epoch: 5 Scene: 1 Batch: 78 Softloss: 2.9957302 Accuracy: 50.19230769230769%
+Epoch: 5 Scene: 1 Batch: 79 Softloss: 2.995731 Accuracy: 50.44303797468355%
+Epoch: 5 Scene: 1 Batch: 80 Softloss: 2.9957304 Accuracy: 50.625%
+Epoch: 5 Scene: 1 Batch: 81 Softloss: 2.9957314 Accuracy: 50.864197530864196%
+Epoch: 5 Scene: 1 Batch: 82 Softloss: 2.995732 Accuracy: 50.91463414634146%
+Epoch: 5 Scene: 1 Batch: 83 Softloss: 2.995732 Accuracy: 51.02409638554217%
+Epoch: 5 Scene: 1 Batch: 84 Softloss: 2.9957323 Accuracy: 51.13095238095238%
+Epoch: 5 Scene: 1 Batch: 85 Softloss: 2.9957318 Accuracy: 51.411764705882355%
+Epoch: 5 Scene: 1 Batch: 86 Softloss: 2.995734 Accuracy: 51.39534883720931%
+Epoch: 5 Scene: 1 Batch: 87 Softloss: 2.9957345 Accuracy: 51.37931034482759%
+Epoch: 5 Scene: 1 Batch: 88 Softloss: 2.9957345 Accuracy: 51.70454545454546%
+Epoch: 5 Scene: 1 Batch: 89 Softloss: 2.995734 Accuracy: 51.85393258426967%
+Epoch: 5 Scene: 1 Batch: 90 Softloss: 2.995734 Accuracy: 51.944444444444436%
+Epoch: 5 Scene: 1 Batch: 91 Softloss: 2.9957333 Accuracy: 52.142857142857146%
+Epoch: 5 Scene: 1 Batch: 92 Softloss: 2.9957335 Accuracy: 52.33695652173913%
+Epoch: 5 Scene: 1 Batch: 93 Softloss: 2.995732 Accuracy: 52.52688172043012%
+Epoch: 5 Scene: 1 Batch: 94 Softloss: 2.995732 Accuracy: 52.76595744680852%
+Epoch: 5 Scene: 1 Batch: 95 Softloss: 2.9957318 Accuracy: 52.894736842105274%
+Epoch: 5 Scene: 1 Batch: 96 Softloss: 2.995732 Accuracy: 53.17708333333333%
+Epoch: 5 Scene: 1 Batch: 97 Softloss: 2.9957318 Accuracy: 53.45360824742268%
+Epoch: 5 Scene: 1 Batch: 98 Softloss: 2.9957318 Accuracy: 53.622448979591844%
+Epoch: 5 Scene: 1 Batch: 99 Softloss: 2.9957318 Accuracy: 53.68686868686869%
+Epoch: 5 Scene: 1 Batch: 100 Softloss: 2.9957318 Accuracy: 53.85000000000001%
+Calculation completed.
+elapsed time: 59.702614324 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 187 ms
+compute time 4 ms
+gpu->cpu time 157 ms
+cpu->file 549 ms
+
+Preparation completed.
+elapsed time: 0.998306464 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.093794342 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.934786544 seconds
+
+Training...
+Epoch: 5 Scene: 2 Batch: 1 Softloss: 2.9957342 Accuracy: 53.663366336633665%
+Epoch: 5 Scene: 2 Batch: 2 Softloss: 2.9957345 Accuracy: 53.72549019607844%
+Epoch: 5 Scene: 2 Batch: 3 Softloss: 2.9957356 Accuracy: 53.49514563106796%
+Epoch: 5 Scene: 2 Batch: 4 Softloss: 2.9957364 Accuracy: 53.50961538461539%
+Epoch: 5 Scene: 2 Batch: 5 Softloss: 2.9957366 Accuracy: 53.42857142857144%
+Epoch: 5 Scene: 2 Batch: 6 Softloss: 2.9957378 Accuracy: 53.25471698113209%
+Epoch: 5 Scene: 2 Batch: 7 Softloss: 2.995739 Accuracy: 53.27102803738318%
+Epoch: 5 Scene: 2 Batch: 8 Softloss: 2.995741 Accuracy: 53.24074074074075%
+Epoch: 5 Scene: 2 Batch: 9 Softloss: 2.9957407 Accuracy: 53.16513761467891%
+Epoch: 5 Scene: 2 Batch: 10 Softloss: 2.995742 Accuracy: 53.13636363636365%
+Epoch: 5 Scene: 2 Batch: 11 Softloss: 2.995742 Accuracy: 53.19819819819821%
+Epoch: 5 Scene: 2 Batch: 12 Softloss: 2.9957423 Accuracy: 53.125000000000014%
+Epoch: 5 Scene: 2 Batch: 13 Softloss: 2.9957435 Accuracy: 53.05309734513276%
+Epoch: 5 Scene: 2 Batch: 14 Softloss: 2.9957438 Accuracy: 52.982456140350884%
+Epoch: 5 Scene: 2 Batch: 15 Softloss: 2.995746 Accuracy: 52.869565217391326%
+Epoch: 5 Scene: 2 Batch: 16 Softloss: 2.995747 Accuracy: 52.93103448275864%
+Epoch: 5 Scene: 2 Batch: 17 Softloss: 2.9957495 Accuracy: 52.86324786324788%
+Epoch: 5 Scene: 2 Batch: 18 Softloss: 2.9957485 Accuracy: 52.923728813559336%
+Epoch: 5 Scene: 2 Batch: 19 Softloss: 2.9957488 Accuracy: 52.773109243697505%
+Epoch: 5 Scene: 2 Batch: 20 Softloss: 2.99575 Accuracy: 52.75000000000002%
+Epoch: 5 Scene: 2 Batch: 21 Softloss: 2.9957511 Accuracy: 52.47933884297523%
+Epoch: 5 Scene: 2 Batch: 22 Softloss: 2.995751 Accuracy: 52.459016393442646%
+Epoch: 5 Scene: 2 Batch: 23 Softloss: 2.9957519 Accuracy: 52.6016260162602%
+Epoch: 5 Scene: 2 Batch: 24 Softloss: 2.995752 Accuracy: 52.58064516129035%
+Epoch: 5 Scene: 2 Batch: 25 Softloss: 2.9957523 Accuracy: 52.52000000000003%
+Epoch: 5 Scene: 2 Batch: 26 Softloss: 2.9957542 Accuracy: 52.50000000000002%
+Epoch: 5 Scene: 2 Batch: 27 Softloss: 2.9957557 Accuracy: 52.36220472440948%
+Epoch: 5 Scene: 2 Batch: 28 Softloss: 2.9957561 Accuracy: 52.38281250000003%
+Epoch: 5 Scene: 2 Batch: 29 Softloss: 2.9957569 Accuracy: 52.28682170542638%
+Epoch: 5 Scene: 2 Batch: 30 Softloss: 2.9957578 Accuracy: 52.2692307692308%
+Epoch: 5 Scene: 2 Batch: 31 Softloss: 2.9957588 Accuracy: 52.366412213740475%
+Epoch: 5 Scene: 2 Batch: 32 Softloss: 2.9957588 Accuracy: 52.348484848484865%
+Epoch: 5 Scene: 2 Batch: 33 Softloss: 2.995759 Accuracy: 52.443609022556416%
+Epoch: 5 Scene: 2 Batch: 34 Softloss: 2.9957602 Accuracy: 52.4626865671642%
+Epoch: 5 Scene: 2 Batch: 35 Softloss: 2.9957602 Accuracy: 52.481481481481495%
+Epoch: 5 Scene: 2 Batch: 36 Softloss: 2.9957602 Accuracy: 52.426470588235304%
+Epoch: 5 Scene: 2 Batch: 37 Softloss: 2.9957614 Accuracy: 52.33576642335769%
+Epoch: 5 Scene: 2 Batch: 38 Softloss: 2.995763 Accuracy: 52.35507246376814%
+Epoch: 5 Scene: 2 Batch: 39 Softloss: 2.995763 Accuracy: 52.41007194244606%
+Epoch: 5 Scene: 2 Batch: 40 Softloss: 2.995765 Accuracy: 52.21428571428572%
+Epoch: 5 Scene: 2 Batch: 41 Softloss: 2.9957657 Accuracy: 52.304964539007116%
+Epoch: 5 Scene: 2 Batch: 42 Softloss: 2.9957666 Accuracy: 52.28873239436622%
+Epoch: 5 Scene: 2 Batch: 43 Softloss: 2.995767 Accuracy: 52.06293706293709%
+Epoch: 5 Scene: 2 Batch: 44 Softloss: 2.9957678 Accuracy: 52.222222222222236%
+Epoch: 5 Scene: 2 Batch: 45 Softloss: 2.9957678 Accuracy: 52.27586206896553%
+Epoch: 5 Scene: 2 Batch: 46 Softloss: 2.995769 Accuracy: 52.12328767123289%
+Epoch: 5 Scene: 2 Batch: 47 Softloss: 2.9957712 Accuracy: 52.07482993197281%
+Epoch: 5 Scene: 2 Batch: 48 Softloss: 2.9957733 Accuracy: 52.09459459459461%
+Epoch: 5 Scene: 2 Batch: 49 Softloss: 2.9957728 Accuracy: 52.248322147651024%
+Epoch: 5 Scene: 2 Batch: 50 Softloss: 2.995773 Accuracy: 52.200000000000024%
+Epoch: 5 Scene: 2 Batch: 51 Softloss: 2.9957733 Accuracy: 52.185430463576175%
+Epoch: 5 Scene: 2 Batch: 52 Softloss: 2.9957728 Accuracy: 52.13815789473686%
+Epoch: 5 Scene: 2 Batch: 53 Softloss: 2.9957745 Accuracy: 52.05882352941178%
+Epoch: 5 Scene: 2 Batch: 54 Softloss: 2.995773 Accuracy: 52.14285714285717%
+Epoch: 5 Scene: 2 Batch: 55 Softloss: 2.995775 Accuracy: 52.09677419354841%
+Epoch: 5 Scene: 2 Batch: 56 Softloss: 2.9957771 Accuracy: 52.01923076923081%
+Epoch: 5 Scene: 2 Batch: 57 Softloss: 2.9957786 Accuracy: 52.00636942675163%
+Epoch: 5 Scene: 2 Batch: 58 Softloss: 2.9957776 Accuracy: 52.120253164557%
+Epoch: 5 Scene: 2 Batch: 59 Softloss: 2.9957788 Accuracy: 52.138364779874244%
+Epoch: 5 Scene: 2 Batch: 60 Softloss: 2.9957805 Accuracy: 52.062500000000036%
+Epoch: 5 Scene: 2 Batch: 61 Softloss: 2.9957802 Accuracy: 52.08074534161493%
+Epoch: 5 Scene: 2 Batch: 62 Softloss: 2.99578 Accuracy: 52.19135802469139%
+Epoch: 5 Scene: 2 Batch: 63 Softloss: 2.9957802 Accuracy: 52.23926380368101%
+Epoch: 5 Scene: 2 Batch: 64 Softloss: 2.995781 Accuracy: 52.25609756097565%
+Epoch: 5 Scene: 2 Batch: 65 Softloss: 2.995782 Accuracy: 52.24242424242427%
+Epoch: 5 Scene: 2 Batch: 66 Softloss: 2.9957817 Accuracy: 52.4096385542169%
+Epoch: 5 Scene: 2 Batch: 67 Softloss: 2.9957821 Accuracy: 52.275449101796426%
+Epoch: 5 Scene: 2 Batch: 68 Softloss: 2.995783 Accuracy: 52.23214285714288%
+Epoch: 5 Scene: 2 Batch: 69 Softloss: 2.995784 Accuracy: 52.278106508875766%
+Epoch: 5 Scene: 2 Batch: 70 Softloss: 2.9957843 Accuracy: 52.26470588235297%
+Epoch: 5 Scene: 2 Batch: 71 Softloss: 2.9957848 Accuracy: 52.28070175438598%
+Epoch: 5 Scene: 2 Batch: 72 Softloss: 2.995785 Accuracy: 52.325581395348856%
+Epoch: 5 Scene: 2 Batch: 73 Softloss: 2.9957843 Accuracy: 52.31213872832372%
+Epoch: 5 Scene: 2 Batch: 74 Softloss: 2.995784 Accuracy: 52.35632183908048%
+Epoch: 5 Scene: 2 Batch: 75 Softloss: 2.9957843 Accuracy: 52.428571428571445%
+Epoch: 5 Scene: 2 Batch: 76 Softloss: 2.9957848 Accuracy: 52.5284090909091%
+Epoch: 5 Scene: 2 Batch: 77 Softloss: 2.9957848 Accuracy: 52.59887005649719%
+Epoch: 5 Scene: 2 Batch: 78 Softloss: 2.9957857 Accuracy: 52.64044943820226%
+Epoch: 5 Scene: 2 Batch: 79 Softloss: 2.995786 Accuracy: 52.65363128491622%
+Epoch: 5 Scene: 2 Batch: 80 Softloss: 2.9957879 Accuracy: 52.72222222222225%
+Epoch: 5 Scene: 2 Batch: 81 Softloss: 2.9957876 Accuracy: 52.84530386740334%
+Epoch: 5 Scene: 2 Batch: 82 Softloss: 2.9957867 Accuracy: 52.82967032967034%
+Epoch: 5 Scene: 2 Batch: 83 Softloss: 2.9957867 Accuracy: 52.8688524590164%
+Epoch: 5 Scene: 2 Batch: 84 Softloss: 2.995786 Accuracy: 52.93478260869566%
+Epoch: 5 Scene: 2 Batch: 85 Softloss: 2.9957852 Accuracy: 52.97297297297299%
+Epoch: 5 Scene: 2 Batch: 86 Softloss: 2.9957852 Accuracy: 53.11827956989248%
+Epoch: 5 Scene: 2 Batch: 87 Softloss: 2.9957857 Accuracy: 53.15508021390376%
+Epoch: 5 Scene: 2 Batch: 88 Softloss: 2.9957852 Accuracy: 53.32446808510639%
+Epoch: 5 Scene: 2 Batch: 89 Softloss: 2.9957852 Accuracy: 53.38624338624341%
+Epoch: 5 Scene: 2 Batch: 90 Softloss: 2.9957857 Accuracy: 53.47368421052633%
+Epoch: 5 Scene: 2 Batch: 91 Softloss: 2.9957864 Accuracy: 53.48167539267017%
+Epoch: 5 Scene: 2 Batch: 92 Softloss: 2.995787 Accuracy: 53.38541666666667%
+Epoch: 5 Scene: 2 Batch: 93 Softloss: 2.9957867 Accuracy: 53.41968911917099%
+Epoch: 5 Scene: 2 Batch: 94 Softloss: 2.995787 Accuracy: 53.40206185567011%
+Epoch: 5 Scene: 2 Batch: 95 Softloss: 2.9957848 Accuracy: 53.41025641025641%
+Epoch: 5 Scene: 2 Batch: 96 Softloss: 2.9957843 Accuracy: 53.39285714285715%
+Epoch: 5 Scene: 2 Batch: 97 Softloss: 2.995784 Accuracy: 53.401015228426395%
+Epoch: 5 Scene: 2 Batch: 98 Softloss: 2.9957836 Accuracy: 53.43434343434343%
+Epoch: 5 Scene: 2 Batch: 99 Softloss: 2.995785 Accuracy: 53.41708542713568%
+Epoch: 5 Scene: 2 Batch: 100 Softloss: 2.9957855 Accuracy: 53.42499999999999%
+Calculation completed.
+elapsed time: 59.827804639 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.749415521 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 184 ms
+compute time 5 ms
+gpu->cpu time 155 ms
+cpu->file 2949 ms
+
+Preparation completed.
+elapsed time: 3.395073522 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.875112029 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 3.050231548 seconds
+
+Training...
+Epoch: 6 Scene: 1 Batch: 1 Softloss: 2.9957829 Accuracy: 9.999999999999998%
+Epoch: 6 Scene: 1 Batch: 2 Softloss: 2.9957674 Accuracy: 19.999999999999996%
+Epoch: 6 Scene: 1 Batch: 3 Softloss: 2.9957578 Accuracy: 19.999999999999986%
+Epoch: 6 Scene: 1 Batch: 4 Softloss: 2.9957657 Accuracy: 23.749999999999993%
+Epoch: 6 Scene: 1 Batch: 5 Softloss: 2.9957337 Accuracy: 25.0%
+Epoch: 6 Scene: 1 Batch: 6 Softloss: 2.995756 Accuracy: 29.999999999999993%
+Epoch: 6 Scene: 1 Batch: 7 Softloss: 2.995766 Accuracy: 27.857142857142858%
+Epoch: 6 Scene: 1 Batch: 8 Softloss: 2.9957385 Accuracy: 30.000000000000004%
+Epoch: 6 Scene: 1 Batch: 9 Softloss: 2.995733 Accuracy: 28.333333333333343%
+Epoch: 6 Scene: 1 Batch: 10 Softloss: 2.9957385 Accuracy: 30.500000000000004%
+Epoch: 6 Scene: 1 Batch: 11 Softloss: 2.9957273 Accuracy: 31.818181818181824%
+Epoch: 6 Scene: 1 Batch: 12 Softloss: 2.9957323 Accuracy: 32.91666666666667%
+Epoch: 6 Scene: 1 Batch: 13 Softloss: 2.99573 Accuracy: 33.84615384615385%
+Epoch: 6 Scene: 1 Batch: 14 Softloss: 2.9957237 Accuracy: 34.285714285714285%
+Epoch: 6 Scene: 1 Batch: 15 Softloss: 2.995722 Accuracy: 35.333333333333336%
+Epoch: 6 Scene: 1 Batch: 16 Softloss: 2.995726 Accuracy: 35.3125%
+Epoch: 6 Scene: 1 Batch: 17 Softloss: 2.995727 Accuracy: 35.29411764705882%
+Epoch: 6 Scene: 1 Batch: 18 Softloss: 2.9957309 Accuracy: 35.555555555555564%
+Epoch: 6 Scene: 1 Batch: 19 Softloss: 2.995742 Accuracy: 36.05263157894737%
+Epoch: 6 Scene: 1 Batch: 20 Softloss: 2.9957426 Accuracy: 35.5%
+Epoch: 6 Scene: 1 Batch: 21 Softloss: 2.9957402 Accuracy: 35.71428571428571%
+Epoch: 6 Scene: 1 Batch: 22 Softloss: 2.995739 Accuracy: 36.13636363636363%
+Epoch: 6 Scene: 1 Batch: 23 Softloss: 2.9957442 Accuracy: 36.521739130434774%
+Epoch: 6 Scene: 1 Batch: 24 Softloss: 2.9957411 Accuracy: 37.08333333333332%
+Epoch: 6 Scene: 1 Batch: 25 Softloss: 2.995734 Accuracy: 37.39999999999999%
+Epoch: 6 Scene: 1 Batch: 26 Softloss: 2.9957404 Accuracy: 38.461538461538446%
+Epoch: 6 Scene: 1 Batch: 27 Softloss: 2.9957457 Accuracy: 38.88888888888887%
+Epoch: 6 Scene: 1 Batch: 28 Softloss: 2.9957428 Accuracy: 39.10714285714284%
+Epoch: 6 Scene: 1 Batch: 29 Softloss: 2.9957497 Accuracy: 39.13793103448274%
+Epoch: 6 Scene: 1 Batch: 30 Softloss: 2.9957478 Accuracy: 39.33333333333331%
+Epoch: 6 Scene: 1 Batch: 31 Softloss: 2.9957483 Accuracy: 39.99999999999998%
+Epoch: 6 Scene: 1 Batch: 32 Softloss: 2.9957495 Accuracy: 39.99999999999998%
+Epoch: 6 Scene: 1 Batch: 33 Softloss: 2.995749 Accuracy: 40.45454545454543%
+Epoch: 6 Scene: 1 Batch: 34 Softloss: 2.995754 Accuracy: 40.735294117647044%
+Epoch: 6 Scene: 1 Batch: 35 Softloss: 2.9957478 Accuracy: 40.85714285714283%
+Epoch: 6 Scene: 1 Batch: 36 Softloss: 2.9957478 Accuracy: 41.38888888888887%
+Epoch: 6 Scene: 1 Batch: 37 Softloss: 2.9957511 Accuracy: 41.48648648648647%
+Epoch: 6 Scene: 1 Batch: 38 Softloss: 2.995753 Accuracy: 41.84210526315788%
+Epoch: 6 Scene: 1 Batch: 39 Softloss: 2.99575 Accuracy: 42.3076923076923%
+Epoch: 6 Scene: 1 Batch: 40 Softloss: 2.9957535 Accuracy: 42.75%
+Epoch: 6 Scene: 1 Batch: 41 Softloss: 2.995753 Accuracy: 42.80487804878048%
+Epoch: 6 Scene: 1 Batch: 42 Softloss: 2.995753 Accuracy: 42.738095238095234%
+Epoch: 6 Scene: 1 Batch: 43 Softloss: 2.9957542 Accuracy: 42.90697674418603%
+Epoch: 6 Scene: 1 Batch: 44 Softloss: 2.9957557 Accuracy: 43.29545454545454%
+Epoch: 6 Scene: 1 Batch: 45 Softloss: 2.9957533 Accuracy: 44.1111111111111%
+Epoch: 6 Scene: 1 Batch: 46 Softloss: 2.9957523 Accuracy: 44.34782608695652%
+Epoch: 6 Scene: 1 Batch: 47 Softloss: 2.9957516 Accuracy: 44.574468085106375%
+Epoch: 6 Scene: 1 Batch: 48 Softloss: 2.9957497 Accuracy: 44.895833333333336%
+Epoch: 6 Scene: 1 Batch: 49 Softloss: 2.9957507 Accuracy: 45.20408163265307%
+Epoch: 6 Scene: 1 Batch: 50 Softloss: 2.9957504 Accuracy: 45.300000000000004%
+Epoch: 6 Scene: 1 Batch: 51 Softloss: 2.9957454 Accuracy: 45.294117647058826%
+Epoch: 6 Scene: 1 Batch: 52 Softloss: 2.9957414 Accuracy: 45.67307692307693%
+Epoch: 6 Scene: 1 Batch: 53 Softloss: 2.9957387 Accuracy: 45.9433962264151%
+Epoch: 6 Scene: 1 Batch: 54 Softloss: 2.9957395 Accuracy: 45.833333333333336%
+Epoch: 6 Scene: 1 Batch: 55 Softloss: 2.9957366 Accuracy: 45.81818181818181%
+Epoch: 6 Scene: 1 Batch: 56 Softloss: 2.995737 Accuracy: 46.339285714285715%
+Epoch: 6 Scene: 1 Batch: 57 Softloss: 2.995742 Accuracy: 46.40350877192982%
+Epoch: 6 Scene: 1 Batch: 58 Softloss: 2.9957387 Accuracy: 46.55172413793104%
+Epoch: 6 Scene: 1 Batch: 59 Softloss: 2.9957376 Accuracy: 46.86440677966102%
+Epoch: 6 Scene: 1 Batch: 60 Softloss: 2.9957347 Accuracy: 47.083333333333336%
+Epoch: 6 Scene: 1 Batch: 61 Softloss: 2.995733 Accuracy: 47.377049180327866%
+Epoch: 6 Scene: 1 Batch: 62 Softloss: 2.9957309 Accuracy: 47.5%
+Epoch: 6 Scene: 1 Batch: 63 Softloss: 2.9957302 Accuracy: 47.698412698412696%
+Epoch: 6 Scene: 1 Batch: 64 Softloss: 2.99573 Accuracy: 47.81249999999999%
+Epoch: 6 Scene: 1 Batch: 65 Softloss: 2.99573 Accuracy: 48.0%
+Epoch: 6 Scene: 1 Batch: 66 Softloss: 2.9957285 Accuracy: 48.48484848484848%
+Epoch: 6 Scene: 1 Batch: 67 Softloss: 2.9957256 Accuracy: 48.43283582089551%
+Epoch: 6 Scene: 1 Batch: 68 Softloss: 2.9957275 Accuracy: 48.60294117647058%
+Epoch: 6 Scene: 1 Batch: 69 Softloss: 2.995728 Accuracy: 48.84057971014493%
+Epoch: 6 Scene: 1 Batch: 70 Softloss: 2.9957275 Accuracy: 49.357142857142854%
+Epoch: 6 Scene: 1 Batch: 71 Softloss: 2.9957225 Accuracy: 49.29577464788733%
+Epoch: 6 Scene: 1 Batch: 72 Softloss: 2.9957209 Accuracy: 49.37499999999999%
+Epoch: 6 Scene: 1 Batch: 73 Softloss: 2.9957213 Accuracy: 49.38356164383562%
+Epoch: 6 Scene: 1 Batch: 74 Softloss: 2.9957206 Accuracy: 49.72972972972972%
+Epoch: 6 Scene: 1 Batch: 75 Softloss: 2.9957252 Accuracy: 49.73333333333333%
+Epoch: 6 Scene: 1 Batch: 76 Softloss: 2.9957268 Accuracy: 49.73684210526316%
+Epoch: 6 Scene: 1 Batch: 77 Softloss: 2.995728 Accuracy: 49.675324675324674%
+Epoch: 6 Scene: 1 Batch: 78 Softloss: 2.9957266 Accuracy: 50.0%
+Epoch: 6 Scene: 1 Batch: 79 Softloss: 2.995726 Accuracy: 50.31645569620253%
+Epoch: 6 Scene: 1 Batch: 80 Softloss: 2.9957266 Accuracy: 50.5%
+Epoch: 6 Scene: 1 Batch: 81 Softloss: 2.9957266 Accuracy: 50.74074074074074%
+Epoch: 6 Scene: 1 Batch: 82 Softloss: 2.9957237 Accuracy: 50.79268292682927%
+Epoch: 6 Scene: 1 Batch: 83 Softloss: 2.9957237 Accuracy: 50.903614457831324%
+Epoch: 6 Scene: 1 Batch: 84 Softloss: 2.9957254 Accuracy: 51.01190476190476%
+Epoch: 6 Scene: 1 Batch: 85 Softloss: 2.9957256 Accuracy: 51.294117647058826%
+Epoch: 6 Scene: 1 Batch: 86 Softloss: 2.9957247 Accuracy: 51.279069767441854%
+Epoch: 6 Scene: 1 Batch: 87 Softloss: 2.9957237 Accuracy: 51.26436781609196%
+Epoch: 6 Scene: 1 Batch: 88 Softloss: 2.9957252 Accuracy: 51.534090909090914%
+Epoch: 6 Scene: 1 Batch: 89 Softloss: 2.9957237 Accuracy: 51.685393258426956%
+Epoch: 6 Scene: 1 Batch: 90 Softloss: 2.995725 Accuracy: 51.77777777777778%
+Epoch: 6 Scene: 1 Batch: 91 Softloss: 2.9957252 Accuracy: 51.978021978021985%
+Epoch: 6 Scene: 1 Batch: 92 Softloss: 2.9957266 Accuracy: 52.17391304347827%
+Epoch: 6 Scene: 1 Batch: 93 Softloss: 2.9957242 Accuracy: 52.36559139784948%
+Epoch: 6 Scene: 1 Batch: 94 Softloss: 2.9957252 Accuracy: 52.60638297872342%
+Epoch: 6 Scene: 1 Batch: 95 Softloss: 2.9957273 Accuracy: 52.73684210526317%
+Epoch: 6 Scene: 1 Batch: 96 Softloss: 2.9957275 Accuracy: 53.02083333333334%
+Epoch: 6 Scene: 1 Batch: 97 Softloss: 2.9957259 Accuracy: 53.29896907216496%
+Epoch: 6 Scene: 1 Batch: 98 Softloss: 2.9957263 Accuracy: 53.46938775510205%
+Epoch: 6 Scene: 1 Batch: 99 Softloss: 2.9957254 Accuracy: 53.53535353535355%
+Epoch: 6 Scene: 1 Batch: 100 Softloss: 2.9957268 Accuracy: 53.70000000000002%
+Calculation completed.
+elapsed time: 59.726069315 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 180 ms
+compute time 4 ms
+gpu->cpu time 142 ms
+cpu->file 584 ms
+
+Preparation completed.
+elapsed time: 1.006520045 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.061260814 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 2.893474113 seconds
+
+Training...
+Epoch: 6 Scene: 2 Batch: 1 Softloss: 2.9957278 Accuracy: 53.51485148514852%
+Epoch: 6 Scene: 2 Batch: 2 Softloss: 2.9957275 Accuracy: 53.578431372549026%
+Epoch: 6 Scene: 2 Batch: 3 Softloss: 2.9957292 Accuracy: 53.3495145631068%
+Epoch: 6 Scene: 2 Batch: 4 Softloss: 2.9957316 Accuracy: 53.36538461538463%
+Epoch: 6 Scene: 2 Batch: 5 Softloss: 2.9957347 Accuracy: 53.28571428571429%
+Epoch: 6 Scene: 2 Batch: 6 Softloss: 2.9957347 Accuracy: 53.113207547169814%
+Epoch: 6 Scene: 2 Batch: 7 Softloss: 2.9957368 Accuracy: 53.13084112149533%
+Epoch: 6 Scene: 2 Batch: 8 Softloss: 2.995741 Accuracy: 53.101851851851855%
+Epoch: 6 Scene: 2 Batch: 9 Softloss: 2.995743 Accuracy: 53.02752293577983%
+Epoch: 6 Scene: 2 Batch: 10 Softloss: 2.995744 Accuracy: 53.0%
+Epoch: 6 Scene: 2 Batch: 11 Softloss: 2.995745 Accuracy: 53.063063063063076%
+Epoch: 6 Scene: 2 Batch: 12 Softloss: 2.995746 Accuracy: 52.991071428571445%
+Epoch: 6 Scene: 2 Batch: 13 Softloss: 2.9957473 Accuracy: 52.9203539823009%
+Epoch: 6 Scene: 2 Batch: 14 Softloss: 2.9957497 Accuracy: 52.85087719298247%
+Epoch: 6 Scene: 2 Batch: 15 Softloss: 2.9957528 Accuracy: 52.73913043478262%
+Epoch: 6 Scene: 2 Batch: 16 Softloss: 2.9957533 Accuracy: 52.801724137931046%
+Epoch: 6 Scene: 2 Batch: 17 Softloss: 2.995757 Accuracy: 52.73504273504275%
+Epoch: 6 Scene: 2 Batch: 18 Softloss: 2.9957576 Accuracy: 52.79661016949155%
+Epoch: 6 Scene: 2 Batch: 19 Softloss: 2.9957578 Accuracy: 52.647058823529434%
+Epoch: 6 Scene: 2 Batch: 20 Softloss: 2.9957583 Accuracy: 52.62500000000002%
+Epoch: 6 Scene: 2 Batch: 21 Softloss: 2.9957583 Accuracy: 52.39669421487605%
+Epoch: 6 Scene: 2 Batch: 22 Softloss: 2.9957612 Accuracy: 52.33606557377052%
+Epoch: 6 Scene: 2 Batch: 23 Softloss: 2.9957628 Accuracy: 52.479674796748%
+Epoch: 6 Scene: 2 Batch: 24 Softloss: 2.9957638 Accuracy: 52.45967741935487%
+Epoch: 6 Scene: 2 Batch: 25 Softloss: 2.9957628 Accuracy: 52.40000000000003%
+Epoch: 6 Scene: 2 Batch: 26 Softloss: 2.9957654 Accuracy: 52.380952380952415%
+Epoch: 6 Scene: 2 Batch: 27 Softloss: 2.9957669 Accuracy: 52.244094488189006%
+Epoch: 6 Scene: 2 Batch: 28 Softloss: 2.9957707 Accuracy: 52.22656250000003%
+Epoch: 6 Scene: 2 Batch: 29 Softloss: 2.9957726 Accuracy: 52.13178294573646%
+Epoch: 6 Scene: 2 Batch: 30 Softloss: 2.9957752 Accuracy: 52.11538461538464%
+Epoch: 6 Scene: 2 Batch: 31 Softloss: 2.9957755 Accuracy: 52.2137404580153%
+Epoch: 6 Scene: 2 Batch: 32 Softloss: 2.9957767 Accuracy: 52.19696969696972%
+Epoch: 6 Scene: 2 Batch: 33 Softloss: 2.9957783 Accuracy: 52.29323308270679%
+Epoch: 6 Scene: 2 Batch: 34 Softloss: 2.9957783 Accuracy: 52.31343283582092%
+Epoch: 6 Scene: 2 Batch: 35 Softloss: 2.9957788 Accuracy: 52.296296296296305%
+Epoch: 6 Scene: 2 Batch: 36 Softloss: 2.9957805 Accuracy: 52.24264705882356%
+Epoch: 6 Scene: 2 Batch: 37 Softloss: 2.9957824 Accuracy: 52.15328467153286%
+Epoch: 6 Scene: 2 Batch: 38 Softloss: 2.9957829 Accuracy: 52.17391304347828%
+Epoch: 6 Scene: 2 Batch: 39 Softloss: 2.9957864 Accuracy: 52.23021582733814%
+Epoch: 6 Scene: 2 Batch: 40 Softloss: 2.995787 Accuracy: 52.0357142857143%
+Epoch: 6 Scene: 2 Batch: 41 Softloss: 2.9957871 Accuracy: 52.1276595744681%
+Epoch: 6 Scene: 2 Batch: 42 Softloss: 2.9957888 Accuracy: 52.112676056338046%
+Epoch: 6 Scene: 2 Batch: 43 Softloss: 2.995791 Accuracy: 51.88811188811191%
+Epoch: 6 Scene: 2 Batch: 44 Softloss: 2.995792 Accuracy: 52.04861111111113%
+Epoch: 6 Scene: 2 Batch: 45 Softloss: 2.995792 Accuracy: 52.103448275862085%
+Epoch: 6 Scene: 2 Batch: 46 Softloss: 2.995795 Accuracy: 51.98630136986302%
+Epoch: 6 Scene: 2 Batch: 47 Softloss: 2.9957957 Accuracy: 51.938775510204096%
+Epoch: 6 Scene: 2 Batch: 48 Softloss: 2.9957967 Accuracy: 51.95945945945948%
+Epoch: 6 Scene: 2 Batch: 49 Softloss: 2.9957964 Accuracy: 52.114093959731555%
+Epoch: 6 Scene: 2 Batch: 50 Softloss: 2.9957955 Accuracy: 52.066666666666684%
+Epoch: 6 Scene: 2 Batch: 51 Softloss: 2.995796 Accuracy: 52.052980132450344%
+Epoch: 6 Scene: 2 Batch: 52 Softloss: 2.995797 Accuracy: 52.00657894736844%
+Epoch: 6 Scene: 2 Batch: 53 Softloss: 2.9957993 Accuracy: 51.92810457516342%
+Epoch: 6 Scene: 2 Batch: 54 Softloss: 2.9957986 Accuracy: 51.98051948051949%
+Epoch: 6 Scene: 2 Batch: 55 Softloss: 2.9958 Accuracy: 51.93548387096776%
+Epoch: 6 Scene: 2 Batch: 56 Softloss: 2.9958007 Accuracy: 51.85897435897437%
+Epoch: 6 Scene: 2 Batch: 57 Softloss: 2.995803 Accuracy: 51.84713375796181%
+Epoch: 6 Scene: 2 Batch: 58 Softloss: 2.995802 Accuracy: 51.99367088607597%
+Epoch: 6 Scene: 2 Batch: 59 Softloss: 2.9958029 Accuracy: 52.01257861635222%
+Epoch: 6 Scene: 2 Batch: 60 Softloss: 2.9958062 Accuracy: 51.93750000000003%
+Epoch: 6 Scene: 2 Batch: 61 Softloss: 2.9958053 Accuracy: 51.98757763975157%
+Epoch: 6 Scene: 2 Batch: 62 Softloss: 2.9958055 Accuracy: 52.098765432098794%
+Epoch: 6 Scene: 2 Batch: 63 Softloss: 2.9958053 Accuracy: 52.17791411042947%
+Epoch: 6 Scene: 2 Batch: 64 Softloss: 2.9958057 Accuracy: 52.195121951219534%
+Epoch: 6 Scene: 2 Batch: 65 Softloss: 2.9958053 Accuracy: 52.18181818181821%
+Epoch: 6 Scene: 2 Batch: 66 Softloss: 2.995806 Accuracy: 52.34939759036147%
+Epoch: 6 Scene: 2 Batch: 67 Softloss: 2.9958053 Accuracy: 52.215568862275475%
+Epoch: 6 Scene: 2 Batch: 68 Softloss: 2.9958074 Accuracy: 52.20238095238096%
+Epoch: 6 Scene: 2 Batch: 69 Softloss: 2.9958076 Accuracy: 52.21893491124262%
+Epoch: 6 Scene: 2 Batch: 70 Softloss: 2.995809 Accuracy: 52.20588235294119%
+Epoch: 6 Scene: 2 Batch: 71 Softloss: 2.99581 Accuracy: 52.222222222222236%
+Epoch: 6 Scene: 2 Batch: 72 Softloss: 2.9958103 Accuracy: 52.296511627906995%
+Epoch: 6 Scene: 2 Batch: 73 Softloss: 2.995809 Accuracy: 52.28323699421967%
+Epoch: 6 Scene: 2 Batch: 74 Softloss: 2.9958081 Accuracy: 52.32758620689657%
+Epoch: 6 Scene: 2 Batch: 75 Softloss: 2.9958067 Accuracy: 52.428571428571445%
+Epoch: 6 Scene: 2 Batch: 76 Softloss: 2.995807 Accuracy: 52.5284090909091%
+Epoch: 6 Scene: 2 Batch: 77 Softloss: 2.9958081 Accuracy: 52.59887005649719%
+Epoch: 6 Scene: 2 Batch: 78 Softloss: 2.9958084 Accuracy: 52.66853932584272%
+Epoch: 6 Scene: 2 Batch: 79 Softloss: 2.9958105 Accuracy: 52.68156424581007%
+Epoch: 6 Scene: 2 Batch: 80 Softloss: 2.9958124 Accuracy: 52.75000000000003%
+Epoch: 6 Scene: 2 Batch: 81 Softloss: 2.995812 Accuracy: 52.84530386740334%
+Epoch: 6 Scene: 2 Batch: 82 Softloss: 2.9958117 Accuracy: 52.829670329670364%
+Epoch: 6 Scene: 2 Batch: 83 Softloss: 2.9958112 Accuracy: 52.86885245901642%
+Epoch: 6 Scene: 2 Batch: 84 Softloss: 2.9958117 Accuracy: 52.907608695652186%
+Epoch: 6 Scene: 2 Batch: 85 Softloss: 2.9958112 Accuracy: 52.94594594594596%
+Epoch: 6 Scene: 2 Batch: 86 Softloss: 2.9958122 Accuracy: 53.06451612903227%
+Epoch: 6 Scene: 2 Batch: 87 Softloss: 2.9958117 Accuracy: 53.10160427807489%
+Epoch: 6 Scene: 2 Batch: 88 Softloss: 2.9958117 Accuracy: 53.27127659574469%
+Epoch: 6 Scene: 2 Batch: 89 Softloss: 2.995812 Accuracy: 53.33333333333334%
+Epoch: 6 Scene: 2 Batch: 90 Softloss: 2.9958117 Accuracy: 53.421052631578966%
+Epoch: 6 Scene: 2 Batch: 91 Softloss: 2.995812 Accuracy: 53.42931937172777%
+Epoch: 6 Scene: 2 Batch: 92 Softloss: 2.9958134 Accuracy: 53.35937500000001%
+Epoch: 6 Scene: 2 Batch: 93 Softloss: 2.995814 Accuracy: 53.367875647668406%
+Epoch: 6 Scene: 2 Batch: 94 Softloss: 2.995815 Accuracy: 53.35051546391754%
+Epoch: 6 Scene: 2 Batch: 95 Softloss: 2.9958117 Accuracy: 53.358974358974365%
+Epoch: 6 Scene: 2 Batch: 96 Softloss: 2.9958096 Accuracy: 53.31632653061226%
+Epoch: 6 Scene: 2 Batch: 97 Softloss: 2.9958084 Accuracy: 53.375634517766514%
+Epoch: 6 Scene: 2 Batch: 98 Softloss: 2.9958093 Accuracy: 53.434343434343454%
+Epoch: 6 Scene: 2 Batch: 99 Softloss: 2.9958107 Accuracy: 53.4170854271357%
+Epoch: 6 Scene: 2 Batch: 100 Softloss: 2.9958107 Accuracy: 53.42500000000001%
+Calculation completed.
+elapsed time: 59.852833918 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.74653322 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 178 ms
+compute time 5 ms
+gpu->cpu time 144 ms
+cpu->file 3060 ms
+
+Preparation completed.
+elapsed time: 3.485930943 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.872277163 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.93256038 seconds
+
+Training...
+Epoch: 7 Scene: 1 Batch: 1 Softloss: 2.9956489 Accuracy: 9.999999999999998%
+Epoch: 7 Scene: 1 Batch: 2 Softloss: 2.995747 Accuracy: 19.999999999999996%
+Epoch: 7 Scene: 1 Batch: 3 Softloss: 2.995796 Accuracy: 19.999999999999986%
+Epoch: 7 Scene: 1 Batch: 4 Softloss: 2.9957614 Accuracy: 23.749999999999993%
+Epoch: 7 Scene: 1 Batch: 5 Softloss: 2.995748 Accuracy: 25.0%
+Epoch: 7 Scene: 1 Batch: 6 Softloss: 2.9957352 Accuracy: 29.999999999999993%
+Epoch: 7 Scene: 1 Batch: 7 Softloss: 2.9957466 Accuracy: 27.857142857142858%
+Epoch: 7 Scene: 1 Batch: 8 Softloss: 2.9957795 Accuracy: 30.000000000000004%
+Epoch: 7 Scene: 1 Batch: 9 Softloss: 2.9958153 Accuracy: 28.333333333333343%
+Epoch: 7 Scene: 1 Batch: 10 Softloss: 2.9958177 Accuracy: 30.500000000000004%
+Epoch: 7 Scene: 1 Batch: 11 Softloss: 2.9958062 Accuracy: 31.818181818181824%
+Epoch: 7 Scene: 1 Batch: 12 Softloss: 2.995806 Accuracy: 32.91666666666667%
+Epoch: 7 Scene: 1 Batch: 13 Softloss: 2.9958029 Accuracy: 33.84615384615385%
+Epoch: 7 Scene: 1 Batch: 14 Softloss: 2.9957979 Accuracy: 34.285714285714285%
+Epoch: 7 Scene: 1 Batch: 15 Softloss: 2.9957933 Accuracy: 35.333333333333336%
+Epoch: 7 Scene: 1 Batch: 16 Softloss: 2.9957747 Accuracy: 35.62500000000001%
+Epoch: 7 Scene: 1 Batch: 17 Softloss: 2.9957678 Accuracy: 35.88235294117648%
+Epoch: 7 Scene: 1 Batch: 18 Softloss: 2.9957595 Accuracy: 36.111111111111114%
+Epoch: 7 Scene: 1 Batch: 19 Softloss: 2.9957588 Accuracy: 36.578947368421055%
+Epoch: 7 Scene: 1 Batch: 20 Softloss: 2.9957492 Accuracy: 36.00000000000001%
+Epoch: 7 Scene: 1 Batch: 21 Softloss: 2.995749 Accuracy: 36.1904761904762%
+Epoch: 7 Scene: 1 Batch: 22 Softloss: 2.995739 Accuracy: 36.59090909090909%
+Epoch: 7 Scene: 1 Batch: 23 Softloss: 2.9957402 Accuracy: 36.95652173913043%
+Epoch: 7 Scene: 1 Batch: 24 Softloss: 2.9957316 Accuracy: 37.5%
+Epoch: 7 Scene: 1 Batch: 25 Softloss: 2.9957256 Accuracy: 37.8%
+Epoch: 7 Scene: 1 Batch: 26 Softloss: 2.995721 Accuracy: 38.84615384615384%
+Epoch: 7 Scene: 1 Batch: 27 Softloss: 2.9957123 Accuracy: 39.25925925925926%
+Epoch: 7 Scene: 1 Batch: 28 Softloss: 2.9957192 Accuracy: 39.464285714285715%
+Epoch: 7 Scene: 1 Batch: 29 Softloss: 2.9957192 Accuracy: 39.48275862068965%
+Epoch: 7 Scene: 1 Batch: 30 Softloss: 2.9957166 Accuracy: 39.666666666666664%
+Epoch: 7 Scene: 1 Batch: 31 Softloss: 2.9957128 Accuracy: 40.48387096774193%
+Epoch: 7 Scene: 1 Batch: 32 Softloss: 2.9957237 Accuracy: 40.31249999999999%
+Epoch: 7 Scene: 1 Batch: 33 Softloss: 2.9957228 Accuracy: 40.90909090909091%
+Epoch: 7 Scene: 1 Batch: 34 Softloss: 2.9957209 Accuracy: 41.17647058823529%
+Epoch: 7 Scene: 1 Batch: 35 Softloss: 2.9957259 Accuracy: 41.28571428571428%
+Epoch: 7 Scene: 1 Batch: 36 Softloss: 2.9957335 Accuracy: 41.805555555555564%
+Epoch: 7 Scene: 1 Batch: 37 Softloss: 2.9957345 Accuracy: 41.891891891891895%
+Epoch: 7 Scene: 1 Batch: 38 Softloss: 2.9957304 Accuracy: 42.236842105263165%
+Epoch: 7 Scene: 1 Batch: 39 Softloss: 2.9957273 Accuracy: 42.69230769230769%
+Epoch: 7 Scene: 1 Batch: 40 Softloss: 2.9957333 Accuracy: 43.125000000000014%
+Epoch: 7 Scene: 1 Batch: 41 Softloss: 2.9957356 Accuracy: 43.04878048780488%
+Epoch: 7 Scene: 1 Batch: 42 Softloss: 2.995743 Accuracy: 42.97619047619048%
+Epoch: 7 Scene: 1 Batch: 43 Softloss: 2.995743 Accuracy: 43.25581395348838%
+Epoch: 7 Scene: 1 Batch: 44 Softloss: 2.9957452 Accuracy: 43.63636363636364%
+Epoch: 7 Scene: 1 Batch: 45 Softloss: 2.995743 Accuracy: 44.333333333333336%
+Epoch: 7 Scene: 1 Batch: 46 Softloss: 2.9957385 Accuracy: 44.56521739130436%
+Epoch: 7 Scene: 1 Batch: 47 Softloss: 2.995734 Accuracy: 44.7872340425532%
+Epoch: 7 Scene: 1 Batch: 48 Softloss: 2.9957323 Accuracy: 45.10416666666668%
+Epoch: 7 Scene: 1 Batch: 49 Softloss: 2.9957333 Accuracy: 45.408163265306136%
+Epoch: 7 Scene: 1 Batch: 50 Softloss: 2.9957354 Accuracy: 45.50000000000002%
+Epoch: 7 Scene: 1 Batch: 51 Softloss: 2.9957325 Accuracy: 45.39215686274511%
+Epoch: 7 Scene: 1 Batch: 52 Softloss: 2.9957292 Accuracy: 45.769230769230774%
+Epoch: 7 Scene: 1 Batch: 53 Softloss: 2.995726 Accuracy: 46.13207547169812%
+Epoch: 7 Scene: 1 Batch: 54 Softloss: 2.9957213 Accuracy: 46.018518518518526%
+Epoch: 7 Scene: 1 Batch: 55 Softloss: 2.9957194 Accuracy: 46.0%
+Epoch: 7 Scene: 1 Batch: 56 Softloss: 2.9957182 Accuracy: 46.517857142857146%
+Epoch: 7 Scene: 1 Batch: 57 Softloss: 2.9957197 Accuracy: 46.578947368421055%
+Epoch: 7 Scene: 1 Batch: 58 Softloss: 2.9957244 Accuracy: 46.724137931034484%
+Epoch: 7 Scene: 1 Batch: 59 Softloss: 2.9957201 Accuracy: 47.03389830508474%
+Epoch: 7 Scene: 1 Batch: 60 Softloss: 2.9957228 Accuracy: 47.25%
+Epoch: 7 Scene: 1 Batch: 61 Softloss: 2.9957178 Accuracy: 47.540983606557376%
+Epoch: 7 Scene: 1 Batch: 62 Softloss: 2.9957151 Accuracy: 47.66129032258064%
+Epoch: 7 Scene: 1 Batch: 63 Softloss: 2.9957094 Accuracy: 47.93650793650793%
+Epoch: 7 Scene: 1 Batch: 64 Softloss: 2.9957068 Accuracy: 48.046874999999986%
+Epoch: 7 Scene: 1 Batch: 65 Softloss: 2.995707 Accuracy: 48.30769230769229%
+Epoch: 7 Scene: 1 Batch: 66 Softloss: 2.9957047 Accuracy: 48.78787878787877%
+Epoch: 7 Scene: 1 Batch: 67 Softloss: 2.9957054 Accuracy: 48.73134328358207%
+Epoch: 7 Scene: 1 Batch: 68 Softloss: 2.9957066 Accuracy: 48.897058823529406%
+Epoch: 7 Scene: 1 Batch: 69 Softloss: 2.995705 Accuracy: 49.13043478260868%
+Epoch: 7 Scene: 1 Batch: 70 Softloss: 2.9957044 Accuracy: 49.64285714285713%
+Epoch: 7 Scene: 1 Batch: 71 Softloss: 2.9957056 Accuracy: 49.507042253521114%
+Epoch: 7 Scene: 1 Batch: 72 Softloss: 2.9957092 Accuracy: 49.583333333333314%
+Epoch: 7 Scene: 1 Batch: 73 Softloss: 2.9957163 Accuracy: 49.65753424657532%
+Epoch: 7 Scene: 1 Batch: 74 Softloss: 2.995716 Accuracy: 49.99999999999998%
+Epoch: 7 Scene: 1 Batch: 75 Softloss: 2.9957194 Accuracy: 49.99999999999998%
+Epoch: 7 Scene: 1 Batch: 76 Softloss: 2.9957135 Accuracy: 50.1315789473684%
+Epoch: 7 Scene: 1 Batch: 77 Softloss: 2.9957151 Accuracy: 50.06493506493506%
+Epoch: 7 Scene: 1 Batch: 78 Softloss: 2.9957147 Accuracy: 50.38461538461537%
+Epoch: 7 Scene: 1 Batch: 79 Softloss: 2.995711 Accuracy: 50.632911392405056%
+Epoch: 7 Scene: 1 Batch: 80 Softloss: 2.9957142 Accuracy: 50.81249999999999%
+Epoch: 7 Scene: 1 Batch: 81 Softloss: 2.9957135 Accuracy: 51.04938271604937%
+Epoch: 7 Scene: 1 Batch: 82 Softloss: 2.9957135 Accuracy: 51.097560975609746%
+Epoch: 7 Scene: 1 Batch: 83 Softloss: 2.9957166 Accuracy: 51.20481927710843%
+Epoch: 7 Scene: 1 Batch: 84 Softloss: 2.9957166 Accuracy: 51.3095238095238%
+Epoch: 7 Scene: 1 Batch: 85 Softloss: 2.995716 Accuracy: 51.588235294117645%
+Epoch: 7 Scene: 1 Batch: 86 Softloss: 2.995718 Accuracy: 51.569767441860456%
+Epoch: 7 Scene: 1 Batch: 87 Softloss: 2.9957185 Accuracy: 51.55172413793103%
+Epoch: 7 Scene: 1 Batch: 88 Softloss: 2.9957163 Accuracy: 51.818181818181806%
+Epoch: 7 Scene: 1 Batch: 89 Softloss: 2.9957166 Accuracy: 51.96629213483146%
+Epoch: 7 Scene: 1 Batch: 90 Softloss: 2.995715 Accuracy: 52.05555555555554%
+Epoch: 7 Scene: 1 Batch: 91 Softloss: 2.9957113 Accuracy: 52.3076923076923%
+Epoch: 7 Scene: 1 Batch: 92 Softloss: 2.995713 Accuracy: 52.49999999999999%
+Epoch: 7 Scene: 1 Batch: 93 Softloss: 2.9957128 Accuracy: 52.68817204301075%
+Epoch: 7 Scene: 1 Batch: 94 Softloss: 2.9957123 Accuracy: 52.92553191489362%
+Epoch: 7 Scene: 1 Batch: 95 Softloss: 2.9957128 Accuracy: 53.10526315789475%
+Epoch: 7 Scene: 1 Batch: 96 Softloss: 2.9957135 Accuracy: 53.38541666666667%
+Epoch: 7 Scene: 1 Batch: 97 Softloss: 2.9957137 Accuracy: 53.65979381443299%
+Epoch: 7 Scene: 1 Batch: 98 Softloss: 2.995714 Accuracy: 53.826530612244895%
+Epoch: 7 Scene: 1 Batch: 99 Softloss: 2.9957147 Accuracy: 53.8888888888889%
+Epoch: 7 Scene: 1 Batch: 100 Softloss: 2.995718 Accuracy: 54.05%
+Calculation completed.
+elapsed time: 59.723933307 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 186 ms
+compute time 4 ms
+gpu->cpu time 157 ms
+cpu->file 522 ms
+
+Preparation completed.
+elapsed time: 0.970597876 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.05741946 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.933059213 seconds
+
+Training...
+Epoch: 7 Scene: 2 Batch: 1 Softloss: 2.9957175 Accuracy: 53.910891089108915%
+Epoch: 7 Scene: 2 Batch: 2 Softloss: 2.995719 Accuracy: 54.019607843137265%
+Epoch: 7 Scene: 2 Batch: 3 Softloss: 2.995724 Accuracy: 53.78640776699029%
+Epoch: 7 Scene: 2 Batch: 4 Softloss: 2.9957235 Accuracy: 53.79807692307692%
+Epoch: 7 Scene: 2 Batch: 5 Softloss: 2.9957278 Accuracy: 53.714285714285715%
+Epoch: 7 Scene: 2 Batch: 6 Softloss: 2.9957294 Accuracy: 53.53773584905661%
+Epoch: 7 Scene: 2 Batch: 7 Softloss: 2.995733 Accuracy: 53.55140186915888%
+Epoch: 7 Scene: 2 Batch: 8 Softloss: 2.9957356 Accuracy: 53.51851851851852%
+Epoch: 7 Scene: 2 Batch: 9 Softloss: 2.995737 Accuracy: 53.44036697247707%
+Epoch: 7 Scene: 2 Batch: 10 Softloss: 2.99574 Accuracy: 53.40909090909092%
+Epoch: 7 Scene: 2 Batch: 11 Softloss: 2.9957404 Accuracy: 53.468468468468465%
+Epoch: 7 Scene: 2 Batch: 12 Softloss: 2.9957416 Accuracy: 53.39285714285715%
+Epoch: 7 Scene: 2 Batch: 13 Softloss: 2.9957442 Accuracy: 53.31858407079646%
+Epoch: 7 Scene: 2 Batch: 14 Softloss: 2.9957469 Accuracy: 53.245614035087726%
+Epoch: 7 Scene: 2 Batch: 15 Softloss: 2.9957485 Accuracy: 53.1304347826087%
+Epoch: 7 Scene: 2 Batch: 16 Softloss: 2.9957497 Accuracy: 53.18965517241381%
+Epoch: 7 Scene: 2 Batch: 17 Softloss: 2.9957547 Accuracy: 53.11965811965813%
+Epoch: 7 Scene: 2 Batch: 18 Softloss: 2.9957564 Accuracy: 53.17796610169493%
+Epoch: 7 Scene: 2 Batch: 19 Softloss: 2.995758 Accuracy: 53.025210084033624%
+Epoch: 7 Scene: 2 Batch: 20 Softloss: 2.9957595 Accuracy: 53.000000000000014%
+Epoch: 7 Scene: 2 Batch: 21 Softloss: 2.995765 Accuracy: 52.72727272727275%
+Epoch: 7 Scene: 2 Batch: 22 Softloss: 2.995765 Accuracy: 52.66393442622952%
+Epoch: 7 Scene: 2 Batch: 23 Softloss: 2.9957676 Accuracy: 52.80487804878051%
+Epoch: 7 Scene: 2 Batch: 24 Softloss: 2.9957712 Accuracy: 52.78225806451615%
+Epoch: 7 Scene: 2 Batch: 25 Softloss: 2.9957716 Accuracy: 52.72000000000002%
+Epoch: 7 Scene: 2 Batch: 26 Softloss: 2.9957738 Accuracy: 52.698412698412724%
+Epoch: 7 Scene: 2 Batch: 27 Softloss: 2.9957757 Accuracy: 52.55905511811025%
+Epoch: 7 Scene: 2 Batch: 28 Softloss: 2.9957764 Accuracy: 52.53906250000002%
+Epoch: 7 Scene: 2 Batch: 29 Softloss: 2.9957783 Accuracy: 52.4418604651163%
+Epoch: 7 Scene: 2 Batch: 30 Softloss: 2.9957817 Accuracy: 52.42307692307695%
+Epoch: 7 Scene: 2 Batch: 31 Softloss: 2.9957836 Accuracy: 52.519083969465676%
+Epoch: 7 Scene: 2 Batch: 32 Softloss: 2.9957836 Accuracy: 52.53787878787881%
+Epoch: 7 Scene: 2 Batch: 33 Softloss: 2.995786 Accuracy: 52.63157894736843%
+Epoch: 7 Scene: 2 Batch: 34 Softloss: 2.9957883 Accuracy: 52.64925373134331%
+Epoch: 7 Scene: 2 Batch: 35 Softloss: 2.9957879 Accuracy: 52.62962962962965%
+Epoch: 7 Scene: 2 Batch: 36 Softloss: 2.9957871 Accuracy: 52.57352941176472%
+Epoch: 7 Scene: 2 Batch: 37 Softloss: 2.9957914 Accuracy: 52.481751824817536%
+Epoch: 7 Scene: 2 Batch: 38 Softloss: 2.9957943 Accuracy: 52.500000000000014%
+Epoch: 7 Scene: 2 Batch: 39 Softloss: 2.9957952 Accuracy: 52.553956834532386%
+Epoch: 7 Scene: 2 Batch: 40 Softloss: 2.9957974 Accuracy: 52.35714285714286%
+Epoch: 7 Scene: 2 Batch: 41 Softloss: 2.9957967 Accuracy: 52.44680851063831%
+Epoch: 7 Scene: 2 Batch: 42 Softloss: 2.9957988 Accuracy: 52.42957746478874%
+Epoch: 7 Scene: 2 Batch: 43 Softloss: 2.9958007 Accuracy: 52.202797202797214%
+Epoch: 7 Scene: 2 Batch: 44 Softloss: 2.995802 Accuracy: 52.36111111111113%
+Epoch: 7 Scene: 2 Batch: 45 Softloss: 2.9958012 Accuracy: 52.41379310344829%
+Epoch: 7 Scene: 2 Batch: 46 Softloss: 2.9958045 Accuracy: 52.260273972602754%
+Epoch: 7 Scene: 2 Batch: 47 Softloss: 2.9958067 Accuracy: 52.210884353741505%
+Epoch: 7 Scene: 2 Batch: 48 Softloss: 2.995808 Accuracy: 52.22972972972973%
+Epoch: 7 Scene: 2 Batch: 49 Softloss: 2.9958081 Accuracy: 52.38255033557048%
+Epoch: 7 Scene: 2 Batch: 50 Softloss: 2.9958081 Accuracy: 52.33333333333334%
+Epoch: 7 Scene: 2 Batch: 51 Softloss: 2.9958107 Accuracy: 52.317880794702%
+Epoch: 7 Scene: 2 Batch: 52 Softloss: 2.9958124 Accuracy: 52.269736842105274%
+Epoch: 7 Scene: 2 Batch: 53 Softloss: 2.9958124 Accuracy: 52.18954248366015%
+Epoch: 7 Scene: 2 Batch: 54 Softloss: 2.9958105 Accuracy: 52.272727272727295%
+Epoch: 7 Scene: 2 Batch: 55 Softloss: 2.995812 Accuracy: 52.225806451612925%
+Epoch: 7 Scene: 2 Batch: 56 Softloss: 2.9958131 Accuracy: 52.1794871794872%
+Epoch: 7 Scene: 2 Batch: 57 Softloss: 2.9958167 Accuracy: 52.16560509554142%
+Epoch: 7 Scene: 2 Batch: 58 Softloss: 2.9958174 Accuracy: 52.278481012658254%
+Epoch: 7 Scene: 2 Batch: 59 Softloss: 2.995817 Accuracy: 52.29559748427675%
+Epoch: 7 Scene: 2 Batch: 60 Softloss: 2.995819 Accuracy: 52.21875000000003%
+Epoch: 7 Scene: 2 Batch: 61 Softloss: 2.9958189 Accuracy: 52.23602484472052%
+Epoch: 7 Scene: 2 Batch: 62 Softloss: 2.9958196 Accuracy: 52.345679012345705%
+Epoch: 7 Scene: 2 Batch: 63 Softloss: 2.9958184 Accuracy: 52.423312883435614%
+Epoch: 7 Scene: 2 Batch: 64 Softloss: 2.9958203 Accuracy: 52.43902439024393%
+Epoch: 7 Scene: 2 Batch: 65 Softloss: 2.995822 Accuracy: 52.42424242424245%
+Epoch: 7 Scene: 2 Batch: 66 Softloss: 2.995822 Accuracy: 52.59036144578315%
+Epoch: 7 Scene: 2 Batch: 67 Softloss: 2.9958227 Accuracy: 52.455089820359305%
+Epoch: 7 Scene: 2 Batch: 68 Softloss: 2.995824 Accuracy: 52.41071428571431%
+Epoch: 7 Scene: 2 Batch: 69 Softloss: 2.995826 Accuracy: 52.4260355029586%
+Epoch: 7 Scene: 2 Batch: 70 Softloss: 2.9958267 Accuracy: 52.411764705882376%
+Epoch: 7 Scene: 2 Batch: 71 Softloss: 2.9958272 Accuracy: 52.42690058479534%
+Epoch: 7 Scene: 2 Batch: 72 Softloss: 2.9958286 Accuracy: 52.47093023255815%
+Epoch: 7 Scene: 2 Batch: 73 Softloss: 2.995829 Accuracy: 52.48554913294798%
+Epoch: 7 Scene: 2 Batch: 74 Softloss: 2.9958296 Accuracy: 52.528735632183924%
+Epoch: 7 Scene: 2 Batch: 75 Softloss: 2.9958293 Accuracy: 52.600000000000016%
+Epoch: 7 Scene: 2 Batch: 76 Softloss: 2.9958298 Accuracy: 52.67045454545456%
+Epoch: 7 Scene: 2 Batch: 77 Softloss: 2.99583 Accuracy: 52.740112994350305%
+Epoch: 7 Scene: 2 Batch: 78 Softloss: 2.9958315 Accuracy: 52.780898876404514%
+Epoch: 7 Scene: 2 Batch: 79 Softloss: 2.9958315 Accuracy: 52.82122905027935%
+Epoch: 7 Scene: 2 Batch: 80 Softloss: 2.995834 Accuracy: 52.88888888888891%
+Epoch: 7 Scene: 2 Batch: 81 Softloss: 2.9958339 Accuracy: 52.98342541436466%
+Epoch: 7 Scene: 2 Batch: 82 Softloss: 2.9958332 Accuracy: 52.93956043956046%
+Epoch: 7 Scene: 2 Batch: 83 Softloss: 2.9958322 Accuracy: 52.978142076502756%
+Epoch: 7 Scene: 2 Batch: 84 Softloss: 2.995833 Accuracy: 53.01630434782609%
+Epoch: 7 Scene: 2 Batch: 85 Softloss: 2.9958334 Accuracy: 53.05405405405407%
+Epoch: 7 Scene: 2 Batch: 86 Softloss: 2.9958324 Accuracy: 53.1720430107527%
+Epoch: 7 Scene: 2 Batch: 87 Softloss: 2.9958308 Accuracy: 53.23529411764707%
+Epoch: 7 Scene: 2 Batch: 88 Softloss: 2.99583 Accuracy: 53.404255319148945%
+Epoch: 7 Scene: 2 Batch: 89 Softloss: 2.9958303 Accuracy: 53.46560846560848%
+Epoch: 7 Scene: 2 Batch: 90 Softloss: 2.9958293 Accuracy: 53.57894736842106%
+Epoch: 7 Scene: 2 Batch: 91 Softloss: 2.9958289 Accuracy: 53.58638743455499%
+Epoch: 7 Scene: 2 Batch: 92 Softloss: 2.9958313 Accuracy: 53.489583333333336%
+Epoch: 7 Scene: 2 Batch: 93 Softloss: 2.9958324 Accuracy: 53.497409326424886%
+Epoch: 7 Scene: 2 Batch: 94 Softloss: 2.995833 Accuracy: 53.479381443298976%
+Epoch: 7 Scene: 2 Batch: 95 Softloss: 2.9958313 Accuracy: 53.461538461538474%
+Epoch: 7 Scene: 2 Batch: 96 Softloss: 2.995831 Accuracy: 53.39285714285715%
+Epoch: 7 Scene: 2 Batch: 97 Softloss: 2.995831 Accuracy: 53.40101522842641%
+Epoch: 7 Scene: 2 Batch: 98 Softloss: 2.9958289 Accuracy: 53.43434343434343%
+Epoch: 7 Scene: 2 Batch: 99 Softloss: 2.9958289 Accuracy: 53.41708542713568%
+Epoch: 7 Scene: 2 Batch: 100 Softloss: 2.99583 Accuracy: 53.42500000000001%
+Calculation completed.
+elapsed time: 59.871267728 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.748214035 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 183 ms
+compute time 5 ms
+gpu->cpu time 149 ms
+cpu->file 4581 ms
+
+Preparation completed.
+elapsed time: 5.022153565 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.867817445 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.933017552 seconds
+
+Training...
+Epoch: 8 Scene: 1 Batch: 1 Softloss: 2.995607 Accuracy: 9.999999999999998%
+Epoch: 8 Scene: 1 Batch: 2 Softloss: 2.9956691 Accuracy: 19.999999999999996%
+Epoch: 8 Scene: 1 Batch: 3 Softloss: 2.995705 Accuracy: 19.999999999999986%
+Epoch: 8 Scene: 1 Batch: 4 Softloss: 2.9957318 Accuracy: 23.749999999999993%
+Epoch: 8 Scene: 1 Batch: 5 Softloss: 2.9957423 Accuracy: 25.0%
+Epoch: 8 Scene: 1 Batch: 6 Softloss: 2.9957316 Accuracy: 29.999999999999993%
+Epoch: 8 Scene: 1 Batch: 7 Softloss: 2.9957535 Accuracy: 27.857142857142858%
+Epoch: 8 Scene: 1 Batch: 8 Softloss: 2.9957418 Accuracy: 30.000000000000004%
+Epoch: 8 Scene: 1 Batch: 9 Softloss: 2.9957645 Accuracy: 28.333333333333343%
+Epoch: 8 Scene: 1 Batch: 10 Softloss: 2.9957662 Accuracy: 30.500000000000004%
+Epoch: 8 Scene: 1 Batch: 11 Softloss: 2.9957373 Accuracy: 31.818181818181824%
+Epoch: 8 Scene: 1 Batch: 12 Softloss: 2.995756 Accuracy: 32.91666666666667%
+Epoch: 8 Scene: 1 Batch: 13 Softloss: 2.995739 Accuracy: 33.84615384615385%
+Epoch: 8 Scene: 1 Batch: 14 Softloss: 2.995726 Accuracy: 34.285714285714285%
+Epoch: 8 Scene: 1 Batch: 15 Softloss: 2.995729 Accuracy: 35.333333333333336%
+Epoch: 8 Scene: 1 Batch: 16 Softloss: 2.9957252 Accuracy: 35.3125%
+Epoch: 8 Scene: 1 Batch: 17 Softloss: 2.9957244 Accuracy: 35.29411764705882%
+Epoch: 8 Scene: 1 Batch: 18 Softloss: 2.995722 Accuracy: 35.555555555555564%
+Epoch: 8 Scene: 1 Batch: 19 Softloss: 2.995725 Accuracy: 36.05263157894737%
+Epoch: 8 Scene: 1 Batch: 20 Softloss: 2.9957373 Accuracy: 35.5%
+Epoch: 8 Scene: 1 Batch: 21 Softloss: 2.995731 Accuracy: 35.71428571428571%
+Epoch: 8 Scene: 1 Batch: 22 Softloss: 2.99573 Accuracy: 36.13636363636363%
+Epoch: 8 Scene: 1 Batch: 23 Softloss: 2.9957361 Accuracy: 36.521739130434774%
+Epoch: 8 Scene: 1 Batch: 24 Softloss: 2.9957263 Accuracy: 37.08333333333332%
+Epoch: 8 Scene: 1 Batch: 25 Softloss: 2.9957232 Accuracy: 37.39999999999999%
+Epoch: 8 Scene: 1 Batch: 26 Softloss: 2.9957216 Accuracy: 38.461538461538446%
+Epoch: 8 Scene: 1 Batch: 27 Softloss: 2.99572 Accuracy: 38.88888888888887%
+Epoch: 8 Scene: 1 Batch: 28 Softloss: 2.9957216 Accuracy: 39.10714285714284%
+Epoch: 8 Scene: 1 Batch: 29 Softloss: 2.9957225 Accuracy: 39.13793103448274%
+Epoch: 8 Scene: 1 Batch: 30 Softloss: 2.9957247 Accuracy: 39.33333333333331%
+Epoch: 8 Scene: 1 Batch: 31 Softloss: 2.995723 Accuracy: 39.99999999999998%
+Epoch: 8 Scene: 1 Batch: 32 Softloss: 2.9957318 Accuracy: 39.843749999999986%
+Epoch: 8 Scene: 1 Batch: 33 Softloss: 2.9957314 Accuracy: 40.3030303030303%
+Epoch: 8 Scene: 1 Batch: 34 Softloss: 2.99573 Accuracy: 40.58823529411764%
+Epoch: 8 Scene: 1 Batch: 35 Softloss: 2.995727 Accuracy: 40.7142857142857%
+Epoch: 8 Scene: 1 Batch: 36 Softloss: 2.9957266 Accuracy: 41.25%
+Epoch: 8 Scene: 1 Batch: 37 Softloss: 2.9957268 Accuracy: 41.35135135135134%
+Epoch: 8 Scene: 1 Batch: 38 Softloss: 2.9957302 Accuracy: 41.710526315789465%
+Epoch: 8 Scene: 1 Batch: 39 Softloss: 2.9957354 Accuracy: 42.3076923076923%
+Epoch: 8 Scene: 1 Batch: 40 Softloss: 2.9957364 Accuracy: 42.874999999999986%
+Epoch: 8 Scene: 1 Batch: 41 Softloss: 2.9957366 Accuracy: 42.80487804878047%
+Epoch: 8 Scene: 1 Batch: 42 Softloss: 2.9957414 Accuracy: 42.61904761904761%
+Epoch: 8 Scene: 1 Batch: 43 Softloss: 2.9957464 Accuracy: 42.790697674418595%
+Epoch: 8 Scene: 1 Batch: 44 Softloss: 2.9957397 Accuracy: 43.18181818181818%
+Epoch: 8 Scene: 1 Batch: 45 Softloss: 2.9957442 Accuracy: 43.88888888888888%
+Epoch: 8 Scene: 1 Batch: 46 Softloss: 2.9957428 Accuracy: 44.13043478260869%
+Epoch: 8 Scene: 1 Batch: 47 Softloss: 2.995738 Accuracy: 44.361702127659576%
+Epoch: 8 Scene: 1 Batch: 48 Softloss: 2.9957352 Accuracy: 44.6875%
+Epoch: 8 Scene: 1 Batch: 49 Softloss: 2.9957366 Accuracy: 45.10204081632653%
+Epoch: 8 Scene: 1 Batch: 50 Softloss: 2.9957354 Accuracy: 45.199999999999996%
+Epoch: 8 Scene: 1 Batch: 51 Softloss: 2.995739 Accuracy: 45.09803921568627%
+Epoch: 8 Scene: 1 Batch: 52 Softloss: 2.9957385 Accuracy: 45.480769230769226%
+Epoch: 8 Scene: 1 Batch: 53 Softloss: 2.9957418 Accuracy: 45.75471698113207%
+Epoch: 8 Scene: 1 Batch: 54 Softloss: 2.9957356 Accuracy: 45.64814814814814%
+Epoch: 8 Scene: 1 Batch: 55 Softloss: 2.9957309 Accuracy: 45.63636363636363%
+Epoch: 8 Scene: 1 Batch: 56 Softloss: 2.9957297 Accuracy: 46.16071428571428%
+Epoch: 8 Scene: 1 Batch: 57 Softloss: 2.9957294 Accuracy: 46.22807017543858%
+Epoch: 8 Scene: 1 Batch: 58 Softloss: 2.995728 Accuracy: 46.37931034482757%
+Epoch: 8 Scene: 1 Batch: 59 Softloss: 2.9957278 Accuracy: 46.61016949152542%
+Epoch: 8 Scene: 1 Batch: 60 Softloss: 2.9957292 Accuracy: 46.83333333333333%
+Epoch: 8 Scene: 1 Batch: 61 Softloss: 2.995728 Accuracy: 47.13114754098361%
+Epoch: 8 Scene: 1 Batch: 62 Softloss: 2.9957283 Accuracy: 47.258064516129025%
+Epoch: 8 Scene: 1 Batch: 63 Softloss: 2.9957278 Accuracy: 47.460317460317455%
+Epoch: 8 Scene: 1 Batch: 64 Softloss: 2.9957278 Accuracy: 47.57812499999999%
+Epoch: 8 Scene: 1 Batch: 65 Softloss: 2.9957244 Accuracy: 47.76923076923077%
+Epoch: 8 Scene: 1 Batch: 66 Softloss: 2.9957242 Accuracy: 48.257575757575744%
+Epoch: 8 Scene: 1 Batch: 67 Softloss: 2.9957259 Accuracy: 48.20895522388059%
+Epoch: 8 Scene: 1 Batch: 68 Softloss: 2.9957223 Accuracy: 48.382352941176464%
+Epoch: 8 Scene: 1 Batch: 69 Softloss: 2.9957197 Accuracy: 48.6231884057971%
+Epoch: 8 Scene: 1 Batch: 70 Softloss: 2.9957213 Accuracy: 49.142857142857146%
+Epoch: 8 Scene: 1 Batch: 71 Softloss: 2.9957206 Accuracy: 49.014084507042256%
+Epoch: 8 Scene: 1 Batch: 72 Softloss: 2.995721 Accuracy: 49.097222222222214%
+Epoch: 8 Scene: 1 Batch: 73 Softloss: 2.9957263 Accuracy: 49.10958904109588%
+Epoch: 8 Scene: 1 Batch: 74 Softloss: 2.9957278 Accuracy: 49.45945945945945%
+Epoch: 8 Scene: 1 Batch: 75 Softloss: 2.9957337 Accuracy: 49.46666666666666%
+Epoch: 8 Scene: 1 Batch: 76 Softloss: 2.9957333 Accuracy: 49.4736842105263%
+Epoch: 8 Scene: 1 Batch: 77 Softloss: 2.9957376 Accuracy: 49.41558441558441%
+Epoch: 8 Scene: 1 Batch: 78 Softloss: 2.9957383 Accuracy: 49.743589743589745%
+Epoch: 8 Scene: 1 Batch: 79 Softloss: 2.9957397 Accuracy: 50.0%
+Epoch: 8 Scene: 1 Batch: 80 Softloss: 2.9957411 Accuracy: 50.18749999999999%
+Epoch: 8 Scene: 1 Batch: 81 Softloss: 2.9957407 Accuracy: 50.4320987654321%
+Epoch: 8 Scene: 1 Batch: 82 Softloss: 2.9957426 Accuracy: 50.54878048780489%
+Epoch: 8 Scene: 1 Batch: 83 Softloss: 2.995748 Accuracy: 50.66265060240964%
+Epoch: 8 Scene: 1 Batch: 84 Softloss: 2.995751 Accuracy: 50.77380952380953%
+Epoch: 8 Scene: 1 Batch: 85 Softloss: 2.995749 Accuracy: 51.05882352941178%
+Epoch: 8 Scene: 1 Batch: 86 Softloss: 2.995746 Accuracy: 51.04651162790699%
+Epoch: 8 Scene: 1 Batch: 87 Softloss: 2.995747 Accuracy: 51.034482758620705%
+Epoch: 8 Scene: 1 Batch: 88 Softloss: 2.995746 Accuracy: 51.306818181818194%
+Epoch: 8 Scene: 1 Batch: 89 Softloss: 2.995748 Accuracy: 51.46067415730337%
+Epoch: 8 Scene: 1 Batch: 90 Softloss: 2.9957485 Accuracy: 51.55555555555556%
+Epoch: 8 Scene: 1 Batch: 91 Softloss: 2.995746 Accuracy: 51.81318681318682%
+Epoch: 8 Scene: 1 Batch: 92 Softloss: 2.9957454 Accuracy: 52.0108695652174%
+Epoch: 8 Scene: 1 Batch: 93 Softloss: 2.9957447 Accuracy: 52.20430107526883%
+Epoch: 8 Scene: 1 Batch: 94 Softloss: 2.9957454 Accuracy: 52.44680851063831%
+Epoch: 8 Scene: 1 Batch: 95 Softloss: 2.9957426 Accuracy: 52.578947368421055%
+Epoch: 8 Scene: 1 Batch: 96 Softloss: 2.9957445 Accuracy: 52.86458333333335%
+Epoch: 8 Scene: 1 Batch: 97 Softloss: 2.995746 Accuracy: 53.14432989690723%
+Epoch: 8 Scene: 1 Batch: 98 Softloss: 2.9957461 Accuracy: 53.316326530612244%
+Epoch: 8 Scene: 1 Batch: 99 Softloss: 2.9957464 Accuracy: 53.3838383838384%
+Epoch: 8 Scene: 1 Batch: 100 Softloss: 2.995748 Accuracy: 53.55000000000001%
+Calculation completed.
+elapsed time: 59.71508204 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 183 ms
+compute time 5 ms
+gpu->cpu time 192 ms
+cpu->file 528 ms
+
+Preparation completed.
+elapsed time: 1.011929307 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.023448653 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 2.968500001 seconds
+
+Training...
+Epoch: 8 Scene: 2 Batch: 1 Softloss: 2.9957502 Accuracy: 53.41584158415842%
+Epoch: 8 Scene: 2 Batch: 2 Softloss: 2.995751 Accuracy: 53.480392156862756%
+Epoch: 8 Scene: 2 Batch: 3 Softloss: 2.9957557 Accuracy: 53.252427184466036%
+Epoch: 8 Scene: 2 Batch: 4 Softloss: 2.9957576 Accuracy: 53.26923076923078%
+Epoch: 8 Scene: 2 Batch: 5 Softloss: 2.9957569 Accuracy: 53.1904761904762%
+Epoch: 8 Scene: 2 Batch: 6 Softloss: 2.9957583 Accuracy: 53.018867924528315%
+Epoch: 8 Scene: 2 Batch: 7 Softloss: 2.9957597 Accuracy: 53.0373831775701%
+Epoch: 8 Scene: 2 Batch: 8 Softloss: 2.995763 Accuracy: 53.00925925925927%
+Epoch: 8 Scene: 2 Batch: 9 Softloss: 2.995766 Accuracy: 52.93577981651377%
+Epoch: 8 Scene: 2 Batch: 10 Softloss: 2.9957695 Accuracy: 52.909090909090914%
+Epoch: 8 Scene: 2 Batch: 11 Softloss: 2.9957716 Accuracy: 52.97297297297299%
+Epoch: 8 Scene: 2 Batch: 12 Softloss: 2.9957738 Accuracy: 52.85714285714287%
+Epoch: 8 Scene: 2 Batch: 13 Softloss: 2.9957757 Accuracy: 52.787610619469035%
+Epoch: 8 Scene: 2 Batch: 14 Softloss: 2.995777 Accuracy: 52.719298245614056%
+Epoch: 8 Scene: 2 Batch: 15 Softloss: 2.9957795 Accuracy: 52.60869565217392%
+Epoch: 8 Scene: 2 Batch: 16 Softloss: 2.9957805 Accuracy: 52.67241379310346%
+Epoch: 8 Scene: 2 Batch: 17 Softloss: 2.9957852 Accuracy: 52.60683760683762%
+Epoch: 8 Scene: 2 Batch: 18 Softloss: 2.9957874 Accuracy: 52.66949152542375%
+Epoch: 8 Scene: 2 Batch: 19 Softloss: 2.99579 Accuracy: 52.52100840336136%
+Epoch: 8 Scene: 2 Batch: 20 Softloss: 2.9957912 Accuracy: 52.500000000000014%
+Epoch: 8 Scene: 2 Batch: 21 Softloss: 2.9957936 Accuracy: 52.23140495867771%
+Epoch: 8 Scene: 2 Batch: 22 Softloss: 2.9957938 Accuracy: 52.172131147541%
+Epoch: 8 Scene: 2 Batch: 23 Softloss: 2.9957952 Accuracy: 52.31707317073173%
+Epoch: 8 Scene: 2 Batch: 24 Softloss: 2.9957967 Accuracy: 52.29838709677421%
+Epoch: 8 Scene: 2 Batch: 25 Softloss: 2.995797 Accuracy: 52.24000000000002%
+Epoch: 8 Scene: 2 Batch: 26 Softloss: 2.9958003 Accuracy: 52.22222222222225%
+Epoch: 8 Scene: 2 Batch: 27 Softloss: 2.9958043 Accuracy: 52.08661417322838%
+Epoch: 8 Scene: 2 Batch: 28 Softloss: 2.9958088 Accuracy: 52.07031250000003%
+Epoch: 8 Scene: 2 Batch: 29 Softloss: 2.9958105 Accuracy: 51.976744186046545%
+Epoch: 8 Scene: 2 Batch: 30 Softloss: 2.995813 Accuracy: 51.96153846153848%
+Epoch: 8 Scene: 2 Batch: 31 Softloss: 2.9958138 Accuracy: 52.0610687022901%
+Epoch: 8 Scene: 2 Batch: 32 Softloss: 2.9958146 Accuracy: 52.045454545454575%
+Epoch: 8 Scene: 2 Batch: 33 Softloss: 2.9958158 Accuracy: 52.14285714285716%
+Epoch: 8 Scene: 2 Batch: 34 Softloss: 2.9958155 Accuracy: 52.16417910447764%
+Epoch: 8 Scene: 2 Batch: 35 Softloss: 2.9958136 Accuracy: 52.185185185185205%
+Epoch: 8 Scene: 2 Batch: 36 Softloss: 2.995814 Accuracy: 52.1323529411765%
+Epoch: 8 Scene: 2 Batch: 37 Softloss: 2.9958174 Accuracy: 52.04379562043798%
+Epoch: 8 Scene: 2 Batch: 38 Softloss: 2.9958196 Accuracy: 52.06521739130437%
+Epoch: 8 Scene: 2 Batch: 39 Softloss: 2.9958215 Accuracy: 52.122302158273406%
+Epoch: 8 Scene: 2 Batch: 40 Softloss: 2.9958255 Accuracy: 51.92857142857146%
+Epoch: 8 Scene: 2 Batch: 41 Softloss: 2.9958262 Accuracy: 52.021276595744716%
+Epoch: 8 Scene: 2 Batch: 42 Softloss: 2.9958308 Accuracy: 52.00704225352115%
+Epoch: 8 Scene: 2 Batch: 43 Softloss: 2.9958336 Accuracy: 51.783216783216815%
+Epoch: 8 Scene: 2 Batch: 44 Softloss: 2.9958332 Accuracy: 51.94444444444447%
+Epoch: 8 Scene: 2 Batch: 45 Softloss: 2.9958332 Accuracy: 52.00000000000002%
+Epoch: 8 Scene: 2 Batch: 46 Softloss: 2.9958363 Accuracy: 51.88356164383563%
+Epoch: 8 Scene: 2 Batch: 47 Softloss: 2.9958394 Accuracy: 51.836734693877574%
+Epoch: 8 Scene: 2 Batch: 48 Softloss: 2.9958389 Accuracy: 51.85810810810813%
+Epoch: 8 Scene: 2 Batch: 49 Softloss: 2.9958398 Accuracy: 52.013422818791966%
+Epoch: 8 Scene: 2 Batch: 50 Softloss: 2.9958389 Accuracy: 51.9666666666667%
+Epoch: 8 Scene: 2 Batch: 51 Softloss: 2.9958384 Accuracy: 51.95364238410598%
+Epoch: 8 Scene: 2 Batch: 52 Softloss: 2.9958389 Accuracy: 51.90789473684212%
+Epoch: 8 Scene: 2 Batch: 53 Softloss: 2.9958408 Accuracy: 51.86274509803924%
+Epoch: 8 Scene: 2 Batch: 54 Softloss: 2.9958408 Accuracy: 51.948051948051976%
+Epoch: 8 Scene: 2 Batch: 55 Softloss: 2.995842 Accuracy: 51.90322580645164%
+Epoch: 8 Scene: 2 Batch: 56 Softloss: 2.995844 Accuracy: 51.85897435897439%
+Epoch: 8 Scene: 2 Batch: 57 Softloss: 2.995847 Accuracy: 51.847133757961814%
+Epoch: 8 Scene: 2 Batch: 58 Softloss: 2.9958472 Accuracy: 51.96202531645573%
+Epoch: 8 Scene: 2 Batch: 59 Softloss: 2.9958463 Accuracy: 52.01257861635222%
+Epoch: 8 Scene: 2 Batch: 60 Softloss: 2.9958487 Accuracy: 51.937500000000036%
+Epoch: 8 Scene: 2 Batch: 61 Softloss: 2.9958482 Accuracy: 51.95652173913046%
+Epoch: 8 Scene: 2 Batch: 62 Softloss: 2.9958477 Accuracy: 52.06790123456793%
+Epoch: 8 Scene: 2 Batch: 63 Softloss: 2.995849 Accuracy: 52.11656441717793%
+Epoch: 8 Scene: 2 Batch: 64 Softloss: 2.9958506 Accuracy: 52.13414634146344%
+Epoch: 8 Scene: 2 Batch: 65 Softloss: 2.9958508 Accuracy: 52.121212121212146%
+Epoch: 8 Scene: 2 Batch: 66 Softloss: 2.9958515 Accuracy: 52.28915662650605%
+Epoch: 8 Scene: 2 Batch: 67 Softloss: 2.9958515 Accuracy: 52.15568862275452%
+Epoch: 8 Scene: 2 Batch: 68 Softloss: 2.9958503 Accuracy: 52.11309523809526%
+Epoch: 8 Scene: 2 Batch: 69 Softloss: 2.9958515 Accuracy: 52.13017751479292%
+Epoch: 8 Scene: 2 Batch: 70 Softloss: 2.995853 Accuracy: 52.11764705882356%
+Epoch: 8 Scene: 2 Batch: 71 Softloss: 2.995854 Accuracy: 52.13450292397663%
+Epoch: 8 Scene: 2 Batch: 72 Softloss: 2.9958541 Accuracy: 52.18023255813955%
+Epoch: 8 Scene: 2 Batch: 73 Softloss: 2.9958532 Accuracy: 52.167630057803485%
+Epoch: 8 Scene: 2 Batch: 74 Softloss: 2.9958532 Accuracy: 52.21264367816093%
+Epoch: 8 Scene: 2 Batch: 75 Softloss: 2.9958518 Accuracy: 52.31428571428574%
+Epoch: 8 Scene: 2 Batch: 76 Softloss: 2.995852 Accuracy: 52.386363636363654%
+Epoch: 8 Scene: 2 Batch: 77 Softloss: 2.9958541 Accuracy: 52.45762711864409%
+Epoch: 8 Scene: 2 Batch: 78 Softloss: 2.9958544 Accuracy: 52.500000000000014%
+Epoch: 8 Scene: 2 Batch: 79 Softloss: 2.995855 Accuracy: 52.51396648044695%
+Epoch: 8 Scene: 2 Batch: 80 Softloss: 2.9958563 Accuracy: 52.58333333333336%
+Epoch: 8 Scene: 2 Batch: 81 Softloss: 2.9958553 Accuracy: 52.67955801104974%
+Epoch: 8 Scene: 2 Batch: 82 Softloss: 2.995855 Accuracy: 52.63736263736266%
+Epoch: 8 Scene: 2 Batch: 83 Softloss: 2.9958544 Accuracy: 52.67759562841532%
+Epoch: 8 Scene: 2 Batch: 84 Softloss: 2.9958553 Accuracy: 52.71739130434785%
+Epoch: 8 Scene: 2 Batch: 85 Softloss: 2.9958549 Accuracy: 52.75675675675677%
+Epoch: 8 Scene: 2 Batch: 86 Softloss: 2.9958549 Accuracy: 52.87634408602151%
+Epoch: 8 Scene: 2 Batch: 87 Softloss: 2.9958541 Accuracy: 52.91443850267381%
+Epoch: 8 Scene: 2 Batch: 88 Softloss: 2.9958534 Accuracy: 53.08510638297873%
+Epoch: 8 Scene: 2 Batch: 89 Softloss: 2.9958541 Accuracy: 53.14814814814815%
+Epoch: 8 Scene: 2 Batch: 90 Softloss: 2.9958534 Accuracy: 53.23684210526316%
+Epoch: 8 Scene: 2 Batch: 91 Softloss: 2.9958544 Accuracy: 53.21989528795812%
+Epoch: 8 Scene: 2 Batch: 92 Softloss: 2.9958556 Accuracy: 53.125%
+Epoch: 8 Scene: 2 Batch: 93 Softloss: 2.9958546 Accuracy: 53.160621761658035%
+Epoch: 8 Scene: 2 Batch: 94 Softloss: 2.9958563 Accuracy: 53.14432989690723%
+Epoch: 8 Scene: 2 Batch: 95 Softloss: 2.9958537 Accuracy: 53.10256410256411%
+Epoch: 8 Scene: 2 Batch: 96 Softloss: 2.9958527 Accuracy: 53.0357142857143%
+Epoch: 8 Scene: 2 Batch: 97 Softloss: 2.9958525 Accuracy: 53.04568527918783%
+Epoch: 8 Scene: 2 Batch: 98 Softloss: 2.9958525 Accuracy: 53.08080808080808%
+Epoch: 8 Scene: 2 Batch: 99 Softloss: 2.995852 Accuracy: 53.06532663316583%
+Epoch: 8 Scene: 2 Batch: 100 Softloss: 2.9958503 Accuracy: 53.125%
+Calculation completed.
+elapsed time: 59.780474731 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.746901824 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 183 ms
+compute time 5 ms
+gpu->cpu time 150 ms
+cpu->file 3296 ms
+
+Preparation completed.
+elapsed time: 3.733915042 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.747848765 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 3.244250059 seconds
+
+Training...
+Epoch: 9 Scene: 1 Batch: 1 Softloss: 2.995614 Accuracy: 9.999999999999998%
+Epoch: 9 Scene: 1 Batch: 2 Softloss: 2.9957812 Accuracy: 19.999999999999996%
+Epoch: 9 Scene: 1 Batch: 3 Softloss: 2.9958346 Accuracy: 19.999999999999986%
+Epoch: 9 Scene: 1 Batch: 4 Softloss: 2.9957914 Accuracy: 23.749999999999993%
+Epoch: 9 Scene: 1 Batch: 5 Softloss: 2.9957635 Accuracy: 25.0%
+Epoch: 9 Scene: 1 Batch: 6 Softloss: 2.99576 Accuracy: 29.999999999999993%
+Epoch: 9 Scene: 1 Batch: 7 Softloss: 2.9957843 Accuracy: 27.857142857142858%
+Epoch: 9 Scene: 1 Batch: 8 Softloss: 2.9957733 Accuracy: 30.000000000000004%
+Epoch: 9 Scene: 1 Batch: 9 Softloss: 2.9957914 Accuracy: 28.333333333333343%
+Epoch: 9 Scene: 1 Batch: 10 Softloss: 2.995787 Accuracy: 30.500000000000004%
+Epoch: 9 Scene: 1 Batch: 11 Softloss: 2.995794 Accuracy: 31.818181818181824%
+Epoch: 9 Scene: 1 Batch: 12 Softloss: 2.995796 Accuracy: 32.91666666666667%
+Epoch: 9 Scene: 1 Batch: 13 Softloss: 2.9958026 Accuracy: 33.84615384615385%
+Epoch: 9 Scene: 1 Batch: 14 Softloss: 2.9958112 Accuracy: 34.285714285714285%
+Epoch: 9 Scene: 1 Batch: 15 Softloss: 2.9958038 Accuracy: 35.333333333333336%
+Epoch: 9 Scene: 1 Batch: 16 Softloss: 2.9957933 Accuracy: 35.3125%
+Epoch: 9 Scene: 1 Batch: 17 Softloss: 2.995785 Accuracy: 35.29411764705882%
+Epoch: 9 Scene: 1 Batch: 18 Softloss: 2.9957743 Accuracy: 35.555555555555564%
+Epoch: 9 Scene: 1 Batch: 19 Softloss: 2.9957638 Accuracy: 36.31578947368421%
+Epoch: 9 Scene: 1 Batch: 20 Softloss: 2.9957712 Accuracy: 35.75000000000001%
+Epoch: 9 Scene: 1 Batch: 21 Softloss: 2.9957561 Accuracy: 36.19047619047618%
+Epoch: 9 Scene: 1 Batch: 22 Softloss: 2.9957597 Accuracy: 36.590909090909086%
+Epoch: 9 Scene: 1 Batch: 23 Softloss: 2.995767 Accuracy: 36.95652173913043%
+Epoch: 9 Scene: 1 Batch: 24 Softloss: 2.995762 Accuracy: 37.499999999999986%
+Epoch: 9 Scene: 1 Batch: 25 Softloss: 2.9957535 Accuracy: 37.79999999999999%
+Epoch: 9 Scene: 1 Batch: 26 Softloss: 2.9957592 Accuracy: 38.84615384615384%
+Epoch: 9 Scene: 1 Batch: 27 Softloss: 2.9957547 Accuracy: 39.25925925925925%
+Epoch: 9 Scene: 1 Batch: 28 Softloss: 2.99576 Accuracy: 39.46428571428571%
+Epoch: 9 Scene: 1 Batch: 29 Softloss: 2.9957602 Accuracy: 39.48275862068964%
+Epoch: 9 Scene: 1 Batch: 30 Softloss: 2.9957607 Accuracy: 39.66666666666665%
+Epoch: 9 Scene: 1 Batch: 31 Softloss: 2.995758 Accuracy: 40.322580645161274%
+Epoch: 9 Scene: 1 Batch: 32 Softloss: 2.9957604 Accuracy: 40.15624999999999%
+Epoch: 9 Scene: 1 Batch: 33 Softloss: 2.995755 Accuracy: 40.6060606060606%
+Epoch: 9 Scene: 1 Batch: 34 Softloss: 2.995756 Accuracy: 40.88235294117647%
+Epoch: 9 Scene: 1 Batch: 35 Softloss: 2.9957511 Accuracy: 40.99999999999999%
+Epoch: 9 Scene: 1 Batch: 36 Softloss: 2.9957583 Accuracy: 41.52777777777777%
+Epoch: 9 Scene: 1 Batch: 37 Softloss: 2.99575 Accuracy: 41.62162162162162%
+Epoch: 9 Scene: 1 Batch: 38 Softloss: 2.9957523 Accuracy: 41.973684210526315%
+Epoch: 9 Scene: 1 Batch: 39 Softloss: 2.9957542 Accuracy: 42.43589743589744%
+Epoch: 9 Scene: 1 Batch: 40 Softloss: 2.9957478 Accuracy: 42.87500000000001%
+Epoch: 9 Scene: 1 Batch: 41 Softloss: 2.9957542 Accuracy: 42.804878048780495%
+Epoch: 9 Scene: 1 Batch: 42 Softloss: 2.9957588 Accuracy: 42.61904761904762%
+Epoch: 9 Scene: 1 Batch: 43 Softloss: 2.9957564 Accuracy: 42.79069767441861%
+Epoch: 9 Scene: 1 Batch: 44 Softloss: 2.9957602 Accuracy: 43.18181818181819%
+Epoch: 9 Scene: 1 Batch: 45 Softloss: 2.9957588 Accuracy: 43.8888888888889%
+Epoch: 9 Scene: 1 Batch: 46 Softloss: 2.99576 Accuracy: 44.13043478260871%
+Epoch: 9 Scene: 1 Batch: 47 Softloss: 2.9957569 Accuracy: 44.36170212765958%
+Epoch: 9 Scene: 1 Batch: 48 Softloss: 2.9957564 Accuracy: 44.687500000000014%
+Epoch: 9 Scene: 1 Batch: 49 Softloss: 2.9957552 Accuracy: 45.000000000000014%
+Epoch: 9 Scene: 1 Batch: 50 Softloss: 2.9957538 Accuracy: 45.100000000000016%
+Epoch: 9 Scene: 1 Batch: 51 Softloss: 2.9957561 Accuracy: 45.000000000000014%
+Epoch: 9 Scene: 1 Batch: 52 Softloss: 2.9957526 Accuracy: 45.38461538461539%
+Epoch: 9 Scene: 1 Batch: 53 Softloss: 2.9957547 Accuracy: 45.66037735849058%
+Epoch: 9 Scene: 1 Batch: 54 Softloss: 2.9957533 Accuracy: 45.55555555555556%
+Epoch: 9 Scene: 1 Batch: 55 Softloss: 2.995753 Accuracy: 45.63636363636364%
+Epoch: 9 Scene: 1 Batch: 56 Softloss: 2.995753 Accuracy: 46.1607142857143%
+Epoch: 9 Scene: 1 Batch: 57 Softloss: 2.9957545 Accuracy: 46.22807017543861%
+Epoch: 9 Scene: 1 Batch: 58 Softloss: 2.9957502 Accuracy: 46.379310344827594%
+Epoch: 9 Scene: 1 Batch: 59 Softloss: 2.995749 Accuracy: 46.61016949152543%
+Epoch: 9 Scene: 1 Batch: 60 Softloss: 2.9957488 Accuracy: 46.83333333333335%
+Epoch: 9 Scene: 1 Batch: 61 Softloss: 2.9957492 Accuracy: 47.13114754098362%
+Epoch: 9 Scene: 1 Batch: 62 Softloss: 2.9957473 Accuracy: 47.25806451612904%
+Epoch: 9 Scene: 1 Batch: 63 Softloss: 2.9957476 Accuracy: 47.46031746031747%
+Epoch: 9 Scene: 1 Batch: 64 Softloss: 2.9957445 Accuracy: 47.656250000000014%
+Epoch: 9 Scene: 1 Batch: 65 Softloss: 2.995743 Accuracy: 47.84615384615386%
+Epoch: 9 Scene: 1 Batch: 66 Softloss: 2.9957418 Accuracy: 48.33333333333334%
+Epoch: 9 Scene: 1 Batch: 67 Softloss: 2.9957411 Accuracy: 48.28358208955225%
+Epoch: 9 Scene: 1 Batch: 68 Softloss: 2.995741 Accuracy: 48.455882352941195%
+Epoch: 9 Scene: 1 Batch: 69 Softloss: 2.99574 Accuracy: 48.695652173913054%
+Epoch: 9 Scene: 1 Batch: 70 Softloss: 2.9957392 Accuracy: 49.21428571428573%
+Epoch: 9 Scene: 1 Batch: 71 Softloss: 2.9957397 Accuracy: 49.084507042253534%
+Epoch: 9 Scene: 1 Batch: 72 Softloss: 2.995738 Accuracy: 49.16666666666667%
+Epoch: 9 Scene: 1 Batch: 73 Softloss: 2.9957383 Accuracy: 49.178082191780824%
+Epoch: 9 Scene: 1 Batch: 74 Softloss: 2.9957361 Accuracy: 49.52702702702704%
+Epoch: 9 Scene: 1 Batch: 75 Softloss: 2.99574 Accuracy: 49.53333333333334%
+Epoch: 9 Scene: 1 Batch: 76 Softloss: 2.9957373 Accuracy: 49.60526315789474%
+Epoch: 9 Scene: 1 Batch: 77 Softloss: 2.9957387 Accuracy: 49.61038961038962%
+Epoch: 9 Scene: 1 Batch: 78 Softloss: 2.995739 Accuracy: 49.93589743589744%
+Epoch: 9 Scene: 1 Batch: 79 Softloss: 2.9957376 Accuracy: 50.18987341772152%
+Epoch: 9 Scene: 1 Batch: 80 Softloss: 2.9957366 Accuracy: 50.375%
+Epoch: 9 Scene: 1 Batch: 81 Softloss: 2.995738 Accuracy: 50.617283950617285%
+Epoch: 9 Scene: 1 Batch: 82 Softloss: 2.995735 Accuracy: 50.73170731707318%
+Epoch: 9 Scene: 1 Batch: 83 Softloss: 2.9957376 Accuracy: 50.84337349397592%
+Epoch: 9 Scene: 1 Batch: 84 Softloss: 2.9957368 Accuracy: 51.011904761904766%
+Epoch: 9 Scene: 1 Batch: 85 Softloss: 2.9957395 Accuracy: 51.29411764705883%
+Epoch: 9 Scene: 1 Batch: 86 Softloss: 2.9957411 Accuracy: 51.279069767441875%
+Epoch: 9 Scene: 1 Batch: 87 Softloss: 2.9957416 Accuracy: 51.26436781609196%
+Epoch: 9 Scene: 1 Batch: 88 Softloss: 2.995742 Accuracy: 51.534090909090914%
+Epoch: 9 Scene: 1 Batch: 89 Softloss: 2.9957418 Accuracy: 51.685393258426984%
+Epoch: 9 Scene: 1 Batch: 90 Softloss: 2.9957466 Accuracy: 51.777777777777786%
+Epoch: 9 Scene: 1 Batch: 91 Softloss: 2.995748 Accuracy: 51.97802197802199%
+Epoch: 9 Scene: 1 Batch: 92 Softloss: 2.995747 Accuracy: 52.17391304347827%
+Epoch: 9 Scene: 1 Batch: 93 Softloss: 2.9957447 Accuracy: 52.365591397849485%
+Epoch: 9 Scene: 1 Batch: 94 Softloss: 2.9957457 Accuracy: 52.60638297872342%
+Epoch: 9 Scene: 1 Batch: 95 Softloss: 2.9957452 Accuracy: 52.73684210526317%
+Epoch: 9 Scene: 1 Batch: 96 Softloss: 2.9957469 Accuracy: 53.02083333333334%
+Epoch: 9 Scene: 1 Batch: 97 Softloss: 2.9957464 Accuracy: 53.29896907216496%
+Epoch: 9 Scene: 1 Batch: 98 Softloss: 2.9957476 Accuracy: 53.46938775510206%
+Epoch: 9 Scene: 1 Batch: 99 Softloss: 2.9957497 Accuracy: 53.53535353535355%
+Epoch: 9 Scene: 1 Batch: 100 Softloss: 2.9957483 Accuracy: 53.70000000000002%
+Calculation completed.
+elapsed time: 59.715367475 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 173 ms
+compute time 4 ms
+gpu->cpu time 134 ms
+cpu->file 490 ms
+
+Preparation completed.
+elapsed time: 0.896974574 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 2.028556915 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 2.892190246 seconds
+
+Training...
+Epoch: 9 Scene: 2 Batch: 1 Softloss: 2.9957476 Accuracy: 53.56435643564358%
+Epoch: 9 Scene: 2 Batch: 2 Softloss: 2.995749 Accuracy: 53.62745098039217%
+Epoch: 9 Scene: 2 Batch: 3 Softloss: 2.995751 Accuracy: 53.398058252427205%
+Epoch: 9 Scene: 2 Batch: 4 Softloss: 2.9957507 Accuracy: 53.41346153846155%
+Epoch: 9 Scene: 2 Batch: 5 Softloss: 2.9957519 Accuracy: 53.33333333333334%
+Epoch: 9 Scene: 2 Batch: 6 Softloss: 2.9957547 Accuracy: 53.16037735849057%
+Epoch: 9 Scene: 2 Batch: 7 Softloss: 2.995757 Accuracy: 53.17757009345796%
+Epoch: 9 Scene: 2 Batch: 8 Softloss: 2.99576 Accuracy: 53.14814814814817%
+Epoch: 9 Scene: 2 Batch: 9 Softloss: 2.9957626 Accuracy: 53.07339449541286%
+Epoch: 9 Scene: 2 Batch: 10 Softloss: 2.9957643 Accuracy: 53.04545454545456%
+Epoch: 9 Scene: 2 Batch: 11 Softloss: 2.9957645 Accuracy: 53.10810810810812%
+Epoch: 9 Scene: 2 Batch: 12 Softloss: 2.9957664 Accuracy: 52.991071428571445%
+Epoch: 9 Scene: 2 Batch: 13 Softloss: 2.9957674 Accuracy: 52.9203539823009%
+Epoch: 9 Scene: 2 Batch: 14 Softloss: 2.9957693 Accuracy: 52.85087719298247%
+Epoch: 9 Scene: 2 Batch: 15 Softloss: 2.9957726 Accuracy: 52.73913043478262%
+Epoch: 9 Scene: 2 Batch: 16 Softloss: 2.995772 Accuracy: 52.801724137931046%
+Epoch: 9 Scene: 2 Batch: 17 Softloss: 2.9957757 Accuracy: 52.73504273504275%
+Epoch: 9 Scene: 2 Batch: 18 Softloss: 2.9957767 Accuracy: 52.79661016949155%
+Epoch: 9 Scene: 2 Batch: 19 Softloss: 2.9957783 Accuracy: 52.647058823529434%
+Epoch: 9 Scene: 2 Batch: 20 Softloss: 2.9957798 Accuracy: 52.62500000000002%
+Epoch: 9 Scene: 2 Batch: 21 Softloss: 2.9957798 Accuracy: 52.35537190082646%
+Epoch: 9 Scene: 2 Batch: 22 Softloss: 2.9957798 Accuracy: 52.29508196721314%
+Epoch: 9 Scene: 2 Batch: 23 Softloss: 2.9957802 Accuracy: 52.43902439024393%
+Epoch: 9 Scene: 2 Batch: 24 Softloss: 2.995782 Accuracy: 52.41935483870971%
+Epoch: 9 Scene: 2 Batch: 25 Softloss: 2.9957824 Accuracy: 52.36000000000003%
+Epoch: 9 Scene: 2 Batch: 26 Softloss: 2.9957852 Accuracy: 52.34126984126988%
+Epoch: 9 Scene: 2 Batch: 27 Softloss: 2.9957876 Accuracy: 52.244094488189006%
+Epoch: 9 Scene: 2 Batch: 28 Softloss: 2.9957898 Accuracy: 52.22656250000003%
+Epoch: 9 Scene: 2 Batch: 29 Softloss: 2.9957917 Accuracy: 52.13178294573646%
+Epoch: 9 Scene: 2 Batch: 30 Softloss: 2.995793 Accuracy: 52.11538461538464%
+Epoch: 9 Scene: 2 Batch: 31 Softloss: 2.9957929 Accuracy: 52.2137404580153%
+Epoch: 9 Scene: 2 Batch: 32 Softloss: 2.9957933 Accuracy: 52.19696969696972%
+Epoch: 9 Scene: 2 Batch: 33 Softloss: 2.9957926 Accuracy: 52.29323308270679%
+Epoch: 9 Scene: 2 Batch: 34 Softloss: 2.9957929 Accuracy: 52.31343283582092%
+Epoch: 9 Scene: 2 Batch: 35 Softloss: 2.9957936 Accuracy: 52.333333333333364%
+Epoch: 9 Scene: 2 Batch: 36 Softloss: 2.9957926 Accuracy: 52.279411764705905%
+Epoch: 9 Scene: 2 Batch: 37 Softloss: 2.995796 Accuracy: 52.18978102189784%
+Epoch: 9 Scene: 2 Batch: 38 Softloss: 2.9957974 Accuracy: 52.21014492753626%
+Epoch: 9 Scene: 2 Batch: 39 Softloss: 2.995798 Accuracy: 52.26618705035973%
+Epoch: 9 Scene: 2 Batch: 40 Softloss: 2.9957988 Accuracy: 52.07142857142859%
+Epoch: 9 Scene: 2 Batch: 41 Softloss: 2.9958 Accuracy: 52.16312056737591%
+Epoch: 9 Scene: 2 Batch: 42 Softloss: 2.995801 Accuracy: 52.147887323943685%
+Epoch: 9 Scene: 2 Batch: 43 Softloss: 2.9958043 Accuracy: 51.92307692307696%
+Epoch: 9 Scene: 2 Batch: 44 Softloss: 2.9958043 Accuracy: 52.08333333333337%
+Epoch: 9 Scene: 2 Batch: 45 Softloss: 2.995804 Accuracy: 52.13793103448279%
+Epoch: 9 Scene: 2 Batch: 46 Softloss: 2.9958053 Accuracy: 51.98630136986304%
+Epoch: 9 Scene: 2 Batch: 47 Softloss: 2.9958057 Accuracy: 51.97278911564629%
+Epoch: 9 Scene: 2 Batch: 48 Softloss: 2.9958057 Accuracy: 51.993243243243256%
+Epoch: 9 Scene: 2 Batch: 49 Softloss: 2.9958081 Accuracy: 52.147651006711435%
+Epoch: 9 Scene: 2 Batch: 50 Softloss: 2.995809 Accuracy: 52.10000000000002%
+Epoch: 9 Scene: 2 Batch: 51 Softloss: 2.995809 Accuracy: 52.086092715231814%
+Epoch: 9 Scene: 2 Batch: 52 Softloss: 2.9958096 Accuracy: 52.039473684210556%
+Epoch: 9 Scene: 2 Batch: 53 Softloss: 2.9958112 Accuracy: 51.96078431372552%
+Epoch: 9 Scene: 2 Batch: 54 Softloss: 2.9958107 Accuracy: 52.01298701298705%
+Epoch: 9 Scene: 2 Batch: 55 Softloss: 2.995812 Accuracy: 52.00000000000002%
+Epoch: 9 Scene: 2 Batch: 56 Softloss: 2.995812 Accuracy: 51.92307692307695%
+Epoch: 9 Scene: 2 Batch: 57 Softloss: 2.9958131 Accuracy: 51.91082802547773%
+Epoch: 9 Scene: 2 Batch: 58 Softloss: 2.9958131 Accuracy: 52.025316455696235%
+Epoch: 9 Scene: 2 Batch: 59 Softloss: 2.9958127 Accuracy: 52.04402515723273%
+Epoch: 9 Scene: 2 Batch: 60 Softloss: 2.9958138 Accuracy: 51.96875000000003%
+Epoch: 9 Scene: 2 Batch: 61 Softloss: 2.995815 Accuracy: 51.98757763975158%
+Epoch: 9 Scene: 2 Batch: 62 Softloss: 2.9958158 Accuracy: 52.098765432098794%
+Epoch: 9 Scene: 2 Batch: 63 Softloss: 2.9958165 Accuracy: 52.17791411042948%
+Epoch: 9 Scene: 2 Batch: 64 Softloss: 2.9958177 Accuracy: 52.195121951219534%
+Epoch: 9 Scene: 2 Batch: 65 Softloss: 2.9958174 Accuracy: 52.21212121212125%
+Epoch: 9 Scene: 2 Batch: 66 Softloss: 2.9958172 Accuracy: 52.37951807228918%
+Epoch: 9 Scene: 2 Batch: 67 Softloss: 2.995815 Accuracy: 52.30538922155692%
+Epoch: 9 Scene: 2 Batch: 68 Softloss: 2.9958165 Accuracy: 52.2619047619048%
+Epoch: 9 Scene: 2 Batch: 69 Softloss: 2.9958167 Accuracy: 52.278106508875766%
+Epoch: 9 Scene: 2 Batch: 70 Softloss: 2.9958172 Accuracy: 52.29411764705885%
+Epoch: 9 Scene: 2 Batch: 71 Softloss: 2.9958167 Accuracy: 52.30994152046786%
+Epoch: 9 Scene: 2 Batch: 72 Softloss: 2.995817 Accuracy: 52.354651162790724%
+Epoch: 9 Scene: 2 Batch: 73 Softloss: 2.9958174 Accuracy: 52.34104046242777%
+Epoch: 9 Scene: 2 Batch: 74 Softloss: 2.9958181 Accuracy: 52.38505747126438%
+Epoch: 9 Scene: 2 Batch: 75 Softloss: 2.995818 Accuracy: 52.45714285714288%
+Epoch: 9 Scene: 2 Batch: 76 Softloss: 2.9958181 Accuracy: 52.52840909090912%
+Epoch: 9 Scene: 2 Batch: 77 Softloss: 2.9958189 Accuracy: 52.627118644067814%
+Epoch: 9 Scene: 2 Batch: 78 Softloss: 2.995819 Accuracy: 52.66853932584272%
+Epoch: 9 Scene: 2 Batch: 79 Softloss: 2.9958193 Accuracy: 52.68156424581007%
+Epoch: 9 Scene: 2 Batch: 80 Softloss: 2.9958205 Accuracy: 52.75000000000003%
+Epoch: 9 Scene: 2 Batch: 81 Softloss: 2.9958205 Accuracy: 52.84530386740334%
+Epoch: 9 Scene: 2 Batch: 82 Softloss: 2.9958193 Accuracy: 52.80219780219784%
+Epoch: 9 Scene: 2 Batch: 83 Softloss: 2.9958196 Accuracy: 52.841530054644835%
+Epoch: 9 Scene: 2 Batch: 84 Softloss: 2.9958198 Accuracy: 52.88043478260871%
+Epoch: 9 Scene: 2 Batch: 85 Softloss: 2.9958193 Accuracy: 52.91891891891893%
+Epoch: 9 Scene: 2 Batch: 86 Softloss: 2.9958184 Accuracy: 53.037634408602166%
+Epoch: 9 Scene: 2 Batch: 87 Softloss: 2.9958184 Accuracy: 53.07486631016045%
+Epoch: 9 Scene: 2 Batch: 88 Softloss: 2.9958172 Accuracy: 53.24468085106384%
+Epoch: 9 Scene: 2 Batch: 89 Softloss: 2.9958174 Accuracy: 53.306878306878325%
+Epoch: 9 Scene: 2 Batch: 90 Softloss: 2.995818 Accuracy: 53.394736842105274%
+Epoch: 9 Scene: 2 Batch: 91 Softloss: 2.9958177 Accuracy: 53.37696335078535%
+Epoch: 9 Scene: 2 Batch: 92 Softloss: 2.995818 Accuracy: 53.281250000000014%
+Epoch: 9 Scene: 2 Batch: 93 Softloss: 2.9958174 Accuracy: 53.29015544041452%
+Epoch: 9 Scene: 2 Batch: 94 Softloss: 2.995818 Accuracy: 53.27319587628867%
+Epoch: 9 Scene: 2 Batch: 95 Softloss: 2.9958165 Accuracy: 53.25641025641027%
+Epoch: 9 Scene: 2 Batch: 96 Softloss: 2.9958158 Accuracy: 53.18877551020409%
+Epoch: 9 Scene: 2 Batch: 97 Softloss: 2.9958165 Accuracy: 53.19796954314722%
+Epoch: 9 Scene: 2 Batch: 98 Softloss: 2.995816 Accuracy: 53.23232323232324%
+Epoch: 9 Scene: 2 Batch: 99 Softloss: 2.9958167 Accuracy: 53.21608040201006%
+Epoch: 9 Scene: 2 Batch: 100 Softloss: 2.9958172 Accuracy: 53.22500000000001%
+Calculation completed.
+elapsed time: 59.819497361 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.744135689 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 1 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0003.bin
+
+cpu->gpu time 189 ms
+compute time 5 ms
+gpu->cpu time 158 ms
+cpu->file 4515 ms
+
+Preparation completed.
+elapsed time: 4.972071597 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.869250801 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.934601305 seconds
+
+Training...
+Epoch: 10 Scene: 1 Batch: 1 Softloss: 2.9958591 Accuracy: 9.999999999999998%
+Epoch: 10 Scene: 1 Batch: 2 Softloss: 2.9958196 Accuracy: 19.999999999999996%
+Epoch: 10 Scene: 1 Batch: 3 Softloss: 2.9958432 Accuracy: 19.999999999999986%
+Epoch: 10 Scene: 1 Batch: 4 Softloss: 2.9958017 Accuracy: 23.749999999999993%
+Epoch: 10 Scene: 1 Batch: 5 Softloss: 2.9957862 Accuracy: 25.0%
+Epoch: 10 Scene: 1 Batch: 6 Softloss: 2.9957657 Accuracy: 29.999999999999993%
+Epoch: 10 Scene: 1 Batch: 7 Softloss: 2.9957626 Accuracy: 27.857142857142858%
+Epoch: 10 Scene: 1 Batch: 8 Softloss: 2.9957683 Accuracy: 30.000000000000004%
+Epoch: 10 Scene: 1 Batch: 9 Softloss: 2.995766 Accuracy: 28.333333333333343%
+Epoch: 10 Scene: 1 Batch: 10 Softloss: 2.995771 Accuracy: 30.500000000000004%
+Epoch: 10 Scene: 1 Batch: 11 Softloss: 2.9957747 Accuracy: 31.818181818181824%
+Epoch: 10 Scene: 1 Batch: 12 Softloss: 2.9957702 Accuracy: 32.91666666666667%
+Epoch: 10 Scene: 1 Batch: 13 Softloss: 2.9957645 Accuracy: 33.84615384615385%
+Epoch: 10 Scene: 1 Batch: 14 Softloss: 2.9957561 Accuracy: 34.285714285714285%
+Epoch: 10 Scene: 1 Batch: 15 Softloss: 2.9957492 Accuracy: 35.333333333333336%
+Epoch: 10 Scene: 1 Batch: 16 Softloss: 2.9957485 Accuracy: 35.3125%
+Epoch: 10 Scene: 1 Batch: 17 Softloss: 2.9957485 Accuracy: 35.29411764705882%
+Epoch: 10 Scene: 1 Batch: 18 Softloss: 2.9957535 Accuracy: 35.555555555555564%
+Epoch: 10 Scene: 1 Batch: 19 Softloss: 2.9957495 Accuracy: 36.05263157894737%
+Epoch: 10 Scene: 1 Batch: 20 Softloss: 2.995744 Accuracy: 35.5%
+Epoch: 10 Scene: 1 Batch: 21 Softloss: 2.9957488 Accuracy: 35.71428571428571%
+Epoch: 10 Scene: 1 Batch: 22 Softloss: 2.9957407 Accuracy: 36.13636363636363%
+Epoch: 10 Scene: 1 Batch: 23 Softloss: 2.995746 Accuracy: 36.521739130434774%
+Epoch: 10 Scene: 1 Batch: 24 Softloss: 2.9957445 Accuracy: 37.08333333333332%
+Epoch: 10 Scene: 1 Batch: 25 Softloss: 2.9957457 Accuracy: 37.39999999999999%
+Epoch: 10 Scene: 1 Batch: 26 Softloss: 2.9957488 Accuracy: 38.461538461538446%
+Epoch: 10 Scene: 1 Batch: 27 Softloss: 2.9957469 Accuracy: 38.88888888888887%
+Epoch: 10 Scene: 1 Batch: 28 Softloss: 2.9957478 Accuracy: 39.10714285714284%
+Epoch: 10 Scene: 1 Batch: 29 Softloss: 2.995748 Accuracy: 39.13793103448274%
+Epoch: 10 Scene: 1 Batch: 30 Softloss: 2.9957507 Accuracy: 39.33333333333331%
+Epoch: 10 Scene: 1 Batch: 31 Softloss: 2.9957461 Accuracy: 39.99999999999998%
+Epoch: 10 Scene: 1 Batch: 32 Softloss: 2.9957426 Accuracy: 39.843749999999986%
+Epoch: 10 Scene: 1 Batch: 33 Softloss: 2.9957457 Accuracy: 40.3030303030303%
+Epoch: 10 Scene: 1 Batch: 34 Softloss: 2.9957483 Accuracy: 40.58823529411764%
+Epoch: 10 Scene: 1 Batch: 35 Softloss: 2.9957428 Accuracy: 40.7142857142857%
+Epoch: 10 Scene: 1 Batch: 36 Softloss: 2.9957438 Accuracy: 41.25%
+Epoch: 10 Scene: 1 Batch: 37 Softloss: 2.9957433 Accuracy: 41.35135135135134%
+Epoch: 10 Scene: 1 Batch: 38 Softloss: 2.9957392 Accuracy: 41.710526315789465%
+Epoch: 10 Scene: 1 Batch: 39 Softloss: 2.9957378 Accuracy: 42.179487179487175%
+Epoch: 10 Scene: 1 Batch: 40 Softloss: 2.9957385 Accuracy: 42.625%
+Epoch: 10 Scene: 1 Batch: 41 Softloss: 2.9957373 Accuracy: 42.6829268292683%
+Epoch: 10 Scene: 1 Batch: 42 Softloss: 2.9957364 Accuracy: 42.50000000000001%
+Epoch: 10 Scene: 1 Batch: 43 Softloss: 2.9957385 Accuracy: 42.674418604651166%
+Epoch: 10 Scene: 1 Batch: 44 Softloss: 2.9957383 Accuracy: 43.06818181818183%
+Epoch: 10 Scene: 1 Batch: 45 Softloss: 2.9957387 Accuracy: 43.777777777777786%
+Epoch: 10 Scene: 1 Batch: 46 Softloss: 2.9957404 Accuracy: 44.02173913043479%
+Epoch: 10 Scene: 1 Batch: 47 Softloss: 2.9957318 Accuracy: 44.25531914893618%
+Epoch: 10 Scene: 1 Batch: 48 Softloss: 2.9957297 Accuracy: 44.58333333333334%
+Epoch: 10 Scene: 1 Batch: 49 Softloss: 2.9957316 Accuracy: 44.897959183673485%
+Epoch: 10 Scene: 1 Batch: 50 Softloss: 2.9957333 Accuracy: 45.000000000000014%
+Epoch: 10 Scene: 1 Batch: 51 Softloss: 2.9957314 Accuracy: 45.000000000000014%
+Epoch: 10 Scene: 1 Batch: 52 Softloss: 2.995727 Accuracy: 45.38461538461539%
+Epoch: 10 Scene: 1 Batch: 53 Softloss: 2.9957244 Accuracy: 45.66037735849058%
+Epoch: 10 Scene: 1 Batch: 54 Softloss: 2.995724 Accuracy: 45.55555555555556%
+Epoch: 10 Scene: 1 Batch: 55 Softloss: 2.995722 Accuracy: 45.545454545454554%
+Epoch: 10 Scene: 1 Batch: 56 Softloss: 2.9957192 Accuracy: 46.250000000000014%
+Epoch: 10 Scene: 1 Batch: 57 Softloss: 2.995719 Accuracy: 46.31578947368422%
+Epoch: 10 Scene: 1 Batch: 58 Softloss: 2.995718 Accuracy: 46.46551724137932%
+Epoch: 10 Scene: 1 Batch: 59 Softloss: 2.9957187 Accuracy: 46.6949152542373%
+Epoch: 10 Scene: 1 Batch: 60 Softloss: 2.9957154 Accuracy: 46.916666666666686%
+Epoch: 10 Scene: 1 Batch: 61 Softloss: 2.9957154 Accuracy: 47.213114754098385%
+Epoch: 10 Scene: 1 Batch: 62 Softloss: 2.9957163 Accuracy: 47.33870967741937%
+Epoch: 10 Scene: 1 Batch: 63 Softloss: 2.9957194 Accuracy: 47.53968253968256%
+Epoch: 10 Scene: 1 Batch: 64 Softloss: 2.9957201 Accuracy: 47.656250000000014%
+Epoch: 10 Scene: 1 Batch: 65 Softloss: 2.99572 Accuracy: 47.84615384615386%
+Epoch: 10 Scene: 1 Batch: 66 Softloss: 2.9957197 Accuracy: 48.40909090909092%
+Epoch: 10 Scene: 1 Batch: 67 Softloss: 2.99572 Accuracy: 48.3582089552239%
+Epoch: 10 Scene: 1 Batch: 68 Softloss: 2.995718 Accuracy: 48.5294117647059%
+Epoch: 10 Scene: 1 Batch: 69 Softloss: 2.9957173 Accuracy: 48.768115942029%
+Epoch: 10 Scene: 1 Batch: 70 Softloss: 2.9957187 Accuracy: 49.28571428571431%
+Epoch: 10 Scene: 1 Batch: 71 Softloss: 2.9957147 Accuracy: 49.22535211267608%
+Epoch: 10 Scene: 1 Batch: 72 Softloss: 2.9957113 Accuracy: 49.30555555555558%
+Epoch: 10 Scene: 1 Batch: 73 Softloss: 2.9957135 Accuracy: 49.315068493150704%
+Epoch: 10 Scene: 1 Batch: 74 Softloss: 2.9957147 Accuracy: 49.66216216216218%
+Epoch: 10 Scene: 1 Batch: 75 Softloss: 2.9957142 Accuracy: 49.66666666666668%
+Epoch: 10 Scene: 1 Batch: 76 Softloss: 2.9957137 Accuracy: 49.736842105263165%
+Epoch: 10 Scene: 1 Batch: 77 Softloss: 2.9957151 Accuracy: 49.675324675324696%
+Epoch: 10 Scene: 1 Batch: 78 Softloss: 2.9957144 Accuracy: 50.00000000000002%
+Epoch: 10 Scene: 1 Batch: 79 Softloss: 2.9957132 Accuracy: 50.25316455696205%
+Epoch: 10 Scene: 1 Batch: 80 Softloss: 2.9957137 Accuracy: 50.50000000000002%
+Epoch: 10 Scene: 1 Batch: 81 Softloss: 2.995714 Accuracy: 50.740740740740776%
+Epoch: 10 Scene: 1 Batch: 82 Softloss: 2.995714 Accuracy: 50.79268292682929%
+Epoch: 10 Scene: 1 Batch: 83 Softloss: 2.9957156 Accuracy: 50.90361445783136%
+Epoch: 10 Scene: 1 Batch: 84 Softloss: 2.995716 Accuracy: 51.011904761904795%
+Epoch: 10 Scene: 1 Batch: 85 Softloss: 2.9957159 Accuracy: 51.29411764705885%
+Epoch: 10 Scene: 1 Batch: 86 Softloss: 2.995718 Accuracy: 51.27906976744189%
+Epoch: 10 Scene: 1 Batch: 87 Softloss: 2.9957166 Accuracy: 51.26436781609198%
+Epoch: 10 Scene: 1 Batch: 88 Softloss: 2.9957178 Accuracy: 51.534090909090935%
+Epoch: 10 Scene: 1 Batch: 89 Softloss: 2.9957175 Accuracy: 51.68539325842699%
+Epoch: 10 Scene: 1 Batch: 90 Softloss: 2.995717 Accuracy: 51.7777777777778%
+Epoch: 10 Scene: 1 Batch: 91 Softloss: 2.9957175 Accuracy: 51.97802197802201%
+Epoch: 10 Scene: 1 Batch: 92 Softloss: 2.995719 Accuracy: 52.173913043478294%
+Epoch: 10 Scene: 1 Batch: 93 Softloss: 2.9957194 Accuracy: 52.3655913978495%
+Epoch: 10 Scene: 1 Batch: 94 Softloss: 2.9957194 Accuracy: 52.606382978723445%
+Epoch: 10 Scene: 1 Batch: 95 Softloss: 2.9957194 Accuracy: 52.73684210526319%
+Epoch: 10 Scene: 1 Batch: 96 Softloss: 2.9957206 Accuracy: 53.020833333333364%
+Epoch: 10 Scene: 1 Batch: 97 Softloss: 2.9957213 Accuracy: 53.29896907216498%
+Epoch: 10 Scene: 1 Batch: 98 Softloss: 2.9957223 Accuracy: 53.46938775510206%
+Epoch: 10 Scene: 1 Batch: 99 Softloss: 2.9957225 Accuracy: 53.53535353535357%
+Epoch: 10 Scene: 1 Batch: 100 Softloss: 2.9957235 Accuracy: 53.70000000000004%
+Calculation completed.
+elapsed time: 59.718842729 seconds
+
+Preparing 3D Input Data...
+Loading file: ..//data//boxes_NYU_po_train_diff_nb2000_fb.list
+
+Scene: 2 Boxes: 2000 Bin: ..//data//SUNRGBD/kv1/NYUdata/NYU0004.bin
+
+cpu->gpu time 179 ms
+compute time 4 ms
+gpu->cpu time 142 ms
+cpu->file 532 ms
+
+Preparation completed.
+elapsed time: 0.958102334 seconds
+
+Preparing 2D Input Data...
+Preparation completed.
+elapsed time: 1.935760049 seconds
+
+Loading input data...
+Loaded input data.
+elapsed time: 0.935015893 seconds
+
+Training...
+Epoch: 10 Scene: 2 Batch: 1 Softloss: 2.9957237 Accuracy: 53.51485148514854%
+Epoch: 10 Scene: 2 Batch: 2 Softloss: 2.995723 Accuracy: 53.57843137254905%
+Epoch: 10 Scene: 2 Batch: 3 Softloss: 2.995724 Accuracy: 53.34951456310682%
+Epoch: 10 Scene: 2 Batch: 4 Softloss: 2.9957252 Accuracy: 53.36538461538465%
+Epoch: 10 Scene: 2 Batch: 5 Softloss: 2.9957266 Accuracy: 53.28571428571431%
+Epoch: 10 Scene: 2 Batch: 6 Softloss: 2.9957266 Accuracy: 53.113207547169836%
+Epoch: 10 Scene: 2 Batch: 7 Softloss: 2.9957275 Accuracy: 53.13084112149535%
+Epoch: 10 Scene: 2 Batch: 8 Softloss: 2.9957294 Accuracy: 53.101851851851876%
+Epoch: 10 Scene: 2 Batch: 9 Softloss: 2.9957302 Accuracy: 53.02752293577985%
+Epoch: 10 Scene: 2 Batch: 10 Softloss: 2.9957314 Accuracy: 53.00000000000003%
+Epoch: 10 Scene: 2 Batch: 11 Softloss: 2.9957314 Accuracy: 53.0630630630631%
+Epoch: 10 Scene: 2 Batch: 12 Softloss: 2.9957328 Accuracy: 52.9464285714286%
+Epoch: 10 Scene: 2 Batch: 13 Softloss: 2.9957318 Accuracy: 52.876106194690294%
+Epoch: 10 Scene: 2 Batch: 14 Softloss: 2.9957325 Accuracy: 52.80701754385968%
+Epoch: 10 Scene: 2 Batch: 15 Softloss: 2.9957347 Accuracy: 52.695652173913075%
+Epoch: 10 Scene: 2 Batch: 16 Softloss: 2.9957337 Accuracy: 52.7586206896552%
+Epoch: 10 Scene: 2 Batch: 17 Softloss: 2.9957352 Accuracy: 52.69230769230773%
+Epoch: 10 Scene: 2 Batch: 18 Softloss: 2.9957354 Accuracy: 52.75423728813563%
+Epoch: 10 Scene: 2 Batch: 19 Softloss: 2.995737 Accuracy: 52.605042016806756%
+Epoch: 10 Scene: 2 Batch: 20 Softloss: 2.9957378 Accuracy: 52.58333333333337%
+Epoch: 10 Scene: 2 Batch: 21 Softloss: 2.99574 Accuracy: 52.3140495867769%
+Epoch: 10 Scene: 2 Batch: 22 Softloss: 2.99574 Accuracy: 52.254098360655775%
+Epoch: 10 Scene: 2 Batch: 23 Softloss: 2.9957407 Accuracy: 52.39837398373987%
+Epoch: 10 Scene: 2 Batch: 24 Softloss: 2.995742 Accuracy: 52.37903225806455%
+Epoch: 10 Scene: 2 Batch: 25 Softloss: 2.9957426 Accuracy: 52.32000000000004%
+Epoch: 10 Scene: 2 Batch: 26 Softloss: 2.9957442 Accuracy: 52.30158730158734%
+Epoch: 10 Scene: 2 Batch: 27 Softloss: 2.9957435 Accuracy: 52.1653543307087%
+Epoch: 10 Scene: 2 Batch: 28 Softloss: 2.9957438 Accuracy: 52.14843750000004%
+Epoch: 10 Scene: 2 Batch: 29 Softloss: 2.9957452 Accuracy: 52.05426356589151%
+Epoch: 10 Scene: 2 Batch: 30 Softloss: 2.9957461 Accuracy: 52.03846153846159%
+Epoch: 10 Scene: 2 Batch: 31 Softloss: 2.9957461 Accuracy: 52.13740458015271%
+Epoch: 10 Scene: 2 Batch: 32 Softloss: 2.9957469 Accuracy: 52.12121212121217%
+Epoch: 10 Scene: 2 Batch: 33 Softloss: 2.9957473 Accuracy: 52.218045112781994%
+Epoch: 10 Scene: 2 Batch: 34 Softloss: 2.9957478 Accuracy: 52.23880597014929%
+Epoch: 10 Scene: 2 Batch: 35 Softloss: 2.9957473 Accuracy: 52.22222222222226%
+Epoch: 10 Scene: 2 Batch: 36 Softloss: 2.9957478 Accuracy: 52.16911764705887%
+Epoch: 10 Scene: 2 Batch: 37 Softloss: 2.9957488 Accuracy: 52.080291970802975%
+Epoch: 10 Scene: 2 Batch: 38 Softloss: 2.9957485 Accuracy: 52.10144927536236%
+Epoch: 10 Scene: 2 Batch: 39 Softloss: 2.9957492 Accuracy: 52.158273381295004%
+Epoch: 10 Scene: 2 Batch: 40 Softloss: 2.9957497 Accuracy: 51.96428571428575%
+Epoch: 10 Scene: 2 Batch: 41 Softloss: 2.99575 Accuracy: 52.056737588652524%
+Epoch: 10 Scene: 2 Batch: 42 Softloss: 2.995752 Accuracy: 52.0422535211268%
+Epoch: 10 Scene: 2 Batch: 43 Softloss: 2.9957526 Accuracy: 51.81818181818186%
+Epoch: 10 Scene: 2 Batch: 44 Softloss: 2.9957523 Accuracy: 51.97916666666671%
+Epoch: 10 Scene: 2 Batch: 45 Softloss: 2.9957526 Accuracy: 52.06896551724143%
+Epoch: 10 Scene: 2 Batch: 46 Softloss: 2.9957538 Accuracy: 51.91780821917813%
+Epoch: 10 Scene: 2 Batch: 47 Softloss: 2.9957535 Accuracy: 51.904761904761955%
+Epoch: 10 Scene: 2 Batch: 48 Softloss: 2.9957554 Accuracy: 51.92567567567572%
+Epoch: 10 Scene: 2 Batch: 49 Softloss: 2.9957557 Accuracy: 52.08053691275172%
+Epoch: 10 Scene: 2 Batch: 50 Softloss: 2.995756 Accuracy: 52.033333333333374%
+Epoch: 10 Scene: 2 Batch: 51 Softloss: 2.9957561 Accuracy: 52.019867549668916%
+Epoch: 10 Scene: 2 Batch: 52 Softloss: 2.9957557 Accuracy: 51.97368421052636%
+Epoch: 10 Scene: 2 Batch: 53 Softloss: 2.995756 Accuracy: 51.928104575163445%
+Epoch: 10 Scene: 2 Batch: 54 Softloss: 2.9957554 Accuracy: 52.01298701298707%
+Epoch: 10 Scene: 2 Batch: 55 Softloss: 2.9957564 Accuracy: 51.96774193548392%
+Epoch: 10 Scene: 2 Batch: 56 Softloss: 2.9957564 Accuracy: 51.95512820512826%
+Epoch: 10 Scene: 2 Batch: 57 Softloss: 2.9957569 Accuracy: 51.94267515923572%
+Epoch: 10 Scene: 2 Batch: 58 Softloss: 2.9957576 Accuracy: 52.05696202531651%
+Epoch: 10 Scene: 2 Batch: 59 Softloss: 2.9957576 Accuracy: 52.07547169811326%
+Epoch: 10 Scene: 2 Batch: 60 Softloss: 2.9957585 Accuracy: 52.00000000000006%
+Epoch: 10 Scene: 2 Batch: 61 Softloss: 2.995758 Accuracy: 52.04968944099384%
+Epoch: 10 Scene: 2 Batch: 62 Softloss: 2.995758 Accuracy: 52.16049382716055%
+Epoch: 10 Scene: 2 Batch: 63 Softloss: 2.9957588 Accuracy: 52.20858895705527%
+Epoch: 10 Scene: 2 Batch: 64 Softloss: 2.9957592 Accuracy: 52.225609756097604%
+Epoch: 10 Scene: 2 Batch: 65 Softloss: 2.9957588 Accuracy: 52.21212121212127%
+Epoch: 10 Scene: 2 Batch: 66 Softloss: 2.9957585 Accuracy: 52.3795180722892%
+Epoch: 10 Scene: 2 Batch: 67 Softloss: 2.995758 Accuracy: 52.27544910179645%
+Epoch: 10 Scene: 2 Batch: 68 Softloss: 2.9957583 Accuracy: 52.232142857142904%
+Epoch: 10 Scene: 2 Batch: 69 Softloss: 2.9957592 Accuracy: 52.24852071005921%
+Epoch: 10 Scene: 2 Batch: 70 Softloss: 2.9957592 Accuracy: 52.23529411764709%
+Epoch: 10 Scene: 2 Batch: 71 Softloss: 2.9957592 Accuracy: 52.25146198830413%
+Epoch: 10 Scene: 2 Batch: 72 Softloss: 2.9957597 Accuracy: 52.29651162790701%
+Epoch: 10 Scene: 2 Batch: 73 Softloss: 2.9957597 Accuracy: 52.283236994219685%
+Epoch: 10 Scene: 2 Batch: 74 Softloss: 2.9957595 Accuracy: 52.327586206896584%
+Epoch: 10 Scene: 2 Batch: 75 Softloss: 2.9957597 Accuracy: 52.400000000000034%
+Epoch: 10 Scene: 2 Batch: 76 Softloss: 2.9957597 Accuracy: 52.47159090909095%
+Epoch: 10 Scene: 2 Batch: 77 Softloss: 2.99576 Accuracy: 52.54237288135597%
+Epoch: 10 Scene: 2 Batch: 78 Softloss: 2.9957602 Accuracy: 52.58426966292138%
+Epoch: 10 Scene: 2 Batch: 79 Softloss: 2.9957602 Accuracy: 52.597765363128524%
+Epoch: 10 Scene: 2 Batch: 80 Softloss: 2.9957607 Accuracy: 52.66666666666671%
+Epoch: 10 Scene: 2 Batch: 81 Softloss: 2.9957602 Accuracy: 52.79005524861881%
+Epoch: 10 Scene: 2 Batch: 82 Softloss: 2.99576 Accuracy: 52.77472527472531%
+Epoch: 10 Scene: 2 Batch: 83 Softloss: 2.99576 Accuracy: 52.81420765027326%
+Epoch: 10 Scene: 2 Batch: 84 Softloss: 2.9957595 Accuracy: 52.853260869565254%
+Epoch: 10 Scene: 2 Batch: 85 Softloss: 2.9957592 Accuracy: 52.918918918918955%
+Epoch: 10 Scene: 2 Batch: 86 Softloss: 2.995759 Accuracy: 53.06451612903229%
+Epoch: 10 Scene: 2 Batch: 87 Softloss: 2.9957588 Accuracy: 53.10160427807489%
+Epoch: 10 Scene: 2 Batch: 88 Softloss: 2.9957588 Accuracy: 53.27127659574471%
+Epoch: 10 Scene: 2 Batch: 89 Softloss: 2.9957592 Accuracy: 53.333333333333364%
+Epoch: 10 Scene: 2 Batch: 90 Softloss: 2.995759 Accuracy: 53.421052631578966%
+Epoch: 10 Scene: 2 Batch: 91 Softloss: 2.9957585 Accuracy: 53.45549738219898%
+Epoch: 10 Scene: 2 Batch: 92 Softloss: 2.995759 Accuracy: 53.35937500000003%
+Epoch: 10 Scene: 2 Batch: 93 Softloss: 2.9957588 Accuracy: 53.36787564766842%
+Epoch: 10 Scene: 2 Batch: 94 Softloss: 2.9957592 Accuracy: 53.350515463917546%
+Epoch: 10 Scene: 2 Batch: 95 Softloss: 2.9957583 Accuracy: 53.33333333333336%
+Epoch: 10 Scene: 2 Batch: 96 Softloss: 2.9957578 Accuracy: 53.265306122449%
+Epoch: 10 Scene: 2 Batch: 97 Softloss: 2.9957578 Accuracy: 53.274111675126925%
+Epoch: 10 Scene: 2 Batch: 98 Softloss: 2.9957573 Accuracy: 53.333333333333364%
+Epoch: 10 Scene: 2 Batch: 99 Softloss: 2.9957573 Accuracy: 53.34170854271358%
+Epoch: 10 Scene: 2 Batch: 100 Softloss: 2.995757 Accuracy: 53.35000000000003%
+Calculation completed.
+elapsed time: 59.810569404 seconds
+
+Saving computed weights...
+Saving completed.
+elapsed time: 0.749316331 seconds
+
+***Training completed.***
+elapsed time: 1342.271687935 seconds
+
+***End time: 2016-05-23T17:19:49***

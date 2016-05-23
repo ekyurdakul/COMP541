@@ -184,9 +184,6 @@ hot_vec = convert(Array{Float32,3}, hot_vec);
 
 
 batchsize=20;
-sumloss = 0;
-sloss = 0;
-numloss = 0;
 
 maxscenes = parse(Int32, ARGS[1]);
 if maxscenes < 1
@@ -204,6 +201,10 @@ println("Number of scenes to be processed is: $maxscenes\n");
 println("***Start time: $(now())***");
 @startTime("***Training for $epochs epochs...***\n");
 for epoch=1:epochs
+	#Reset losses
+	sumloss = 0;
+	sloss = 0;
+	numloss = 0;
 
 	if epoch == 5000
 		setp(network; lr = 0.001);
