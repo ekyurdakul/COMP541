@@ -1,9 +1,6 @@
 COMP 541 - Machine Learning Term Project
 ========================================
 
-Paper Implementation
-####################
-
 Implementation of the Object Recognition Network (ORN) in [1]_.
 
 Index
